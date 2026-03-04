@@ -1,0 +1,1256 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202409GESP Python五级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "1887426498381795330",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">在升序数组 nums 中寻找目标值 target，下列程序可以填入的是（ ）</span></p><p><span style=\"color: rgb(119, 0, 136);\">class </span><span style=\"color: rgb(0, 0, 255);\">Search</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(51, 0, 170);\">object</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;def </span><span style=\"color: rgb(0, 0, 255);\">search</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">nums</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">target</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;left</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">right </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(51, 0, 170);\">len</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">nums</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;while </span><span style=\"color: rgb(0, 0, 0);\">left </span><span style=\"color: rgb(152, 26, 26);\">&lt;= </span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;________________________________________ </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">nums</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">mid</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(0, 0, 0);\">target</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return </span><span style=\"color: rgb(0, 0, 0);\">mid </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;elif </span><span style=\"color: rgb(0, 0, 0);\">nums</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">mid</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">&gt; </span><span style=\"color: rgb(0, 0, 0);\">target</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;right </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;else</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;left </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;return </span><span style=\"color: rgb(152, 26, 26);\">-</span><span style=\"color: rgb(17, 102, 68);\">1</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:01:59",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887426498381795330",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (right + left) // 2 + left</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887426498381795330",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (right - left) // 2 + left</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887426498381795330",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (right - left) // 2 -right</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887426498381795330",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (right + left) // 2 - left</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887426498381795330",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887426587922178049",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">500个病毒样本中，已知有一个是病毒检测呈阳性，用试纸测试阳性病毒以后，试纸在3天以后会变色，用试纸测试时间不计，三天以后要出结果，请问最少用多少个试纸能够找出哪一个病毒样本有毒（）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:02:20",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887426587922178049",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>499</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887426587922178049",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>250</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887426587922178049",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>9</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887426587922178049",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>125</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887426587922178049",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                },
+                {
+                    "questionId": "1887426587922178049",
+                    "knowledgePointId": "318",
+                    "knowledgePoint": "二分答案算法(二分枚举法)"
+                },
+                {
+                    "questionId": "1887426587922178049",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887427178144256002",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p>一名收银员，给顾客找零，找零的目标是给出确定金额的同时，使用尽可能少的硬币。有不同面额的硬币：1分，5分，10分，25分.如果需要给顾客准确的零钱77分，同时使用最少的硬币下列程序中横线应该填写（ ）。</p><p><br></p><p>def coin_change(amount, coins): </p><p> &nbsp; &nbsp;result = [] </p><p> &nbsp; &nbsp;for coin in sorted(coins, reverse=True): </p><p> &nbsp; &nbsp; &nbsp; &nbsp;while amount &gt;= coin: </p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;___________________ </p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;result.append(coin) </p><p> &nbsp; &nbsp; &nbsp; &nbsp;return result </p><p><br></p><p>coins = [1, 5, 10, 25] </p><p>amount = 63</p><p><br></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:04:41",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887427178144256002",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>amount -= coin</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887427178144256002",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>amount &lt;= coin</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887427178144256002",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>amount &gt;= coin</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887427178144256002",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>amount += coin</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887427178144256002",
+                    "knowledgePointId": "325",
+                    "knowledgePoint": "贪心算法概念"
+                },
+                {
+                    "questionId": "1887427178144256002",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1887427178144256002",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887427387683295234",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列程序是素数筛的程序，横线处应该填上（ ）。</span></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">sieve</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;return</span><span style=\"color: rgb(51, 51, 51);\"> [] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;prime </span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(51, 51, 51);\"> [</span><span style=\"color: rgb(119, 0, 136);\">True</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">*</span><span style=\"color: rgb(51, 51, 51);\"> (</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(152, 26, 26);\">+</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(119, 0, 136);\">False </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(51, 0, 170);\">int</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">math</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">sqrt</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">)) </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_______________________ </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">j</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(119, 0, 136);\">False </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;return</span><span style=\"color: rgb(51, 51, 51);\"> [</span><span style=\"color: rgb(0, 0, 0);\">p </span><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">p </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(152, 26, 26);\">+</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(0, 0, 0);\">prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">]] </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">prime </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(0, 0, 0);\">sieve_of_eratosthenes</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">100</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(51, 0, 170);\"> &nbsp; &nbsp;print</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">prime</span><span style=\"color: rgb(51, 51, 51);\">)</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:05:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887427387683295234",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for j in range(i, n+1, i):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887427387683295234",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for j in range(i*i, 1, n):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887427387683295234",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for j in range(i*i, n+1, i):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887427387683295234",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for j in range(i, n, i):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887427387683295234",
+                    "knowledgePointId": "313",
+                    "knowledgePoint": "埃氏筛法"
+                },
+                {
+                    "questionId": "1887427387683295234",
+                    "knowledgePointId": "305",
+                    "knowledgePoint": "素数与合数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887427553159729154",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面程序是埃氏筛的一个实现，横线处应该填写（ ）。</span></p><p><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(152, 26, 26);\">**</span><span style=\"color: rgb(17, 102, 68);\">8 </span></p><p><span style=\"color: rgb(0, 0, 0);\">s </span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(51, 51, 51);\"> [</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">]</span><span style=\"color: rgb(152, 26, 26);\">*</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(152, 26, 26);\">+</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\">k</span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(17, 102, 68);\">0 </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">,</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(152, 26, 26);\">+</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">s</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]</span><span style=\"color: rgb(152, 26, 26);\">==</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;k</span><span style=\"color: rgb(152, 26, 26);\">+=</span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;___________________________ </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;s</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">j</span><span style=\"color: rgb(51, 51, 51);\">]</span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(17, 102, 68);\">1</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:06:10",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887427553159729154",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for i in range(i*i,n+1,i):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887427553159729154",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for j in range(i*i,n,j):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887427553159729154",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for j in range(i*i,n+1,i):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887427553159729154",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">for j in range(j*j,n+1,i):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887427553159729154",
+                    "knowledgePointId": "313",
+                    "knowledgePoint": "埃氏筛法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887427756084350977",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列程序中，使用了二分查找算法，横线处应该填写的是（）。</span></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">search</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">x</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;low </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0 </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;high </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">len</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;while </span><span style=\"color: rgb(0, 0, 0);\">low </span><span style=\"color: rgb(152, 26, 26);\">&lt;= </span><span style=\"color: rgb(0, 0, 0);\">high</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;__________________ </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">mid</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(0, 0, 0);\">x</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return </span><span style=\"color: rgb(0, 0, 0);\">mid </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;elif </span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">mid</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">&gt; </span><span style=\"color: rgb(0, 0, 0);\">x</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;high </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;else</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;low </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;return </span><span style=\"color: rgb(152, 26, 26);\">-</span><span style=\"color: rgb(17, 102, 68);\">1</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:06:58",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887427756084350977",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (low - high) // 2</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887427756084350977",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (low + high) // 2</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887427756084350977",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (low + high) / 2</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887427756084350977",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">mid = (low - high) / 2</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887427756084350977",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887427831894024194",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">正整数1024的所有约数的和为多少( )。</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:07:16",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887427831894024194",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">2050</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887427831894024194",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>2059</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887427831894024194",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>2047</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887427831894024194",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>2044</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887427831894024194",
+                    "knowledgePointId": "308",
+                    "knowledgePoint": "约数与倍数"
+                },
+                {
+                    "questionId": "1887427831894024194",
+                    "knowledgePointId": "309",
+                    "knowledgePoint": "质因数分解"
+                },
+                {
+                    "questionId": "1887427831894024194",
+                    "knowledgePointId": "312",
+                    "knowledgePoint": "唯一分解定理"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887428061366767617",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面程序是对n！进行唯一分解，横线处应该填入的是（ ）。</span></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">unique_fac</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(51, 0, 170);\"> &nbsp; &nbsp;print</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(170, 17, 17);\">'='</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">end</span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(170, 17, 17);\">''</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;_____________________________ </span></p><p><span style=\"color: rgb(51, 0, 170);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">' {}*'</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">format</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">), </span><span style=\"color: rgb(0, 0, 0);\">end</span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(170, 17, 17);\">''</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;n </span><span style=\"color: rgb(152, 26, 26);\">//= </span><span style=\"color: rgb(0, 0, 0);\">i </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0 </span><span style=\"color: rgb(119, 0, 136);\">and </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(51, 0, 170);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">' {}'</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">format</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">), </span><span style=\"color: rgb(0, 0, 0);\">end</span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(170, 17, 17);\">''</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break </span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">unique_fac</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">math</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">factorial</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">5</span><span style=\"color: rgb(51, 51, 51);\">))</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:08:11",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887428061366767617",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while n % i != 0 and i != n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887428061366767617",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while n % i == 0 and i == n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887428061366767617",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while n % i == 0 and i != n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887428061366767617",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while n % i != 0 and i == n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887428061366767617",
+                    "knowledgePointId": "312",
+                    "knowledgePoint": "唯一分解定理"
+                },
+                {
+                    "questionId": "1887428061366767617",
+                    "knowledgePointId": "309",
+                    "knowledgePoint": "质因数分解"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887429201521201153",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">假设有⼀些物品，每个物品都有⾃⼰的重量，我们需要将这些物品装⼊箱⼦中，每个箱⼦也有⾃⼰的重量限制。贪⼼算法每次都选择重量最轻的物品放⼊当前最轻的箱⼦中，如果箱⼦可以装下，就放⼊；如果箱⼦不能装下，就尝试下⼀个箱⼦，直到找到可以放⼊的箱⼦。下列贪⼼算法程序中，横线处应该填⼊的是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-06-17-08-37/8575769184846438400.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:12:43",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887429201521201153",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">if not taken[i] and box[0] &gt;= items[i]:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887429201521201153",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">if not taken[0] and box[0] &gt;= items[i]:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887429201521201153",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">if not taken[i] and box[i] &gt;= items[0]:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887429201521201153",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">if not taken[0] and box[0] &gt;= items[i]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887429201521201153",
+                    "knowledgePointId": "325",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887429530565791745",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列归并算法程序中，横线处应该填入的是（ ）。</span></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">merge_sort</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 0, 170);\">len</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">&lt;= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;return </span><span style=\"color: rgb(0, 0, 0);\">arr </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;mid </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">len</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">// </span><span style=\"color: rgb(17, 102, 68);\">2 </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;left </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">[:</span><span style=\"color: rgb(0, 0, 0);\">mid</span><span style=\"color: rgb(51, 51, 51);\">] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;right </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">mid</span><span style=\"color: rgb(51, 51, 51);\">:] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;merge_sort</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;merge_sort</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;return </span><span style=\"color: rgb(0, 0, 0);\">merge</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><br></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">merge</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;result </span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(51, 51, 51);\"> [] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;i</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">j </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(17, 102, 68);\">0 </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;——————————————————————————————— </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">j</span><span style=\"color: rgb(51, 51, 51);\">]: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;result</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">append</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;i </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;else</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;result</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">append</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">j</span><span style=\"color: rgb(51, 51, 51);\">]) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;j </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;result </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">:] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;result </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">j</span><span style=\"color: rgb(51, 51, 51);\">:] </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;return </span><span style=\"color: rgb(0, 0, 0);\">result</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:14:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887429530565791745",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while i &gt; len(left) and j &lt; len(right):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887429530565791745",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while i &lt; len(left) and j &gt; len(right):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887429530565791745",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while i &gt; len(left) and j &gt; len(right):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887429530565791745",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while i &lt; len(left) and j &lt; len(right):</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887429530565791745",
+                    "knowledgePointId": "323",
+                    "knowledgePoint": "归并排序算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887429673566392321",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列快速排序算法中，横线处应该填入的是（ ）。</span></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">quick</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 0, 170);\">len</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">arr</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">&lt;= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;return </span><span style=\"color: rgb(0, 0, 0);\">arr </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;____________________ </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;left </span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(51, 51, 51);\"> [</span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(0, 0, 0);\">arr </span><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;middle </span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(51, 51, 51);\"> [</span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(0, 0, 0);\">arr </span><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;right </span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(51, 51, 51);\"> [</span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(0, 0, 0);\">arr </span><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">&gt; </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">] </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;return </span><span style=\"color: rgb(0, 0, 0);\">quick</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">middle </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">quick</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">)</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:14:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887429673566392321",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">p = arr[len() // 2]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887429673566392321",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">p = arr[len(arr)+1 // 2]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887429673566392321",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">p = arr[len(arr)-1 // 2]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887429673566392321",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">p = arr[len(arr) // 2]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887429673566392321",
+                    "knowledgePointId": "324",
+                    "knowledgePoint": "快速排序算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887430274475937794",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p>下列二分枚举算法中，{ }处应该填入的程序是（{}不算做程序的一部分）（ ）。</p><p>def binary_search(arr, x): </p><p> &nbsp; &nbsp;low = 0 </p><p> &nbsp; &nbsp;high = len(arr) - 1 </p><p> &nbsp; &nbsp;while low &lt;= high: </p><p> &nbsp; &nbsp;{ </p><p> &nbsp; &nbsp; } </p><p> &nbsp; &nbsp;return -1</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:16:59",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887430274475937794",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><p>mid = (low + high) // 2 </p><p> &nbsp; &nbsp; if arr[mid] == x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp; return mid </p><p> &nbsp; &nbsp; elif arr[mid+1] &gt; x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp; high = mid - 1 </p><p> &nbsp; &nbsp; else: </p><p> &nbsp; &nbsp; &nbsp; &nbsp; low = mid + 1</p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887430274475937794",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><p>mid = (low + high) // 2 </p><p> &nbsp; &nbsp; if arr[mid] != x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp; return mid </p><p> &nbsp; &nbsp; elif arr[mid+1] &gt; x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp; high = mid - 1 </p><p> &nbsp; &nbsp; else: </p><p> &nbsp; &nbsp; &nbsp; &nbsp; low = mid + 1</p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887430274475937794",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><p>mid = (low + high) // 2 </p><p> &nbsp; &nbsp;if arr[mid] == x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp;return mid </p><p> &nbsp; &nbsp;elif arr[mid] &gt; x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp;high = mid - 1 </p><p> &nbsp; &nbsp;else: </p><p> &nbsp; &nbsp; &nbsp; &nbsp;low = mid + 1</p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887430274475937794",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><p>mid = (low + high) // 2 </p><p> &nbsp; &nbsp;if arr[mid] ！= x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp;return mid </p><p> &nbsp; &nbsp;elif arr[mid] &gt; x: </p><p> &nbsp; &nbsp; &nbsp; &nbsp;high = mid - 1 </p><p> &nbsp; &nbsp;else: </p><p> &nbsp; &nbsp; &nbsp; &nbsp;low = mid + 1</p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887430274475937794",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887431913844822018",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p>下面代码是寻找水仙花数的程序，横线处应该填写的代码是（ ）。【是指一个n位数（n≥3），其每位数字的n次幂之和等于它本身】</p><p>def is_narcissistic_num(num): </p><p> &nbsp; &nbsp;str_num = str(num) </p><p> &nbsp; &nbsp;num_digits = len(str_num) </p><p> &nbsp; &nbsp;———————————————————————————— </p><p> &nbsp; &nbsp;return num == sum_of_powers </p><p><br></p><p>for i in range(100, 10000): </p><p> &nbsp; &nbsp;if is_narcissistic_num(i): </p><p> &nbsp; &nbsp;print(i, \"是水仙花数\")</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:23:30",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887431913844822018",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>sum_of_powers = sum(int(digit) ** num_digits for digit in num)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887431913844822018",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>sum_of_powers = sum(int(digit) ** num for digit in str_num)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887431913844822018",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><p>sum_of_powers = sum(int(num) ** num_digits for digit in str_num)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887431913844822018",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><p>sum_of_powers = sum(int(digit) ** num_digits for digit in str_num)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887431913844822018",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1887431913844822018",
+                    "knowledgePointId": "320",
+                    "knowledgePoint": "递归时间复杂度分析"
+                },
+                {
+                    "questionId": "1887431913844822018",
+                    "knowledgePointId": "321",
+                    "knowledgePoint": "递归空间复杂度分析"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887431985800859649",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">对于正整数n，欧拉函数f(n),表示小于或等于n的正整数中与n互质的数的数目，例如f(8)=4。f(100)=（ ）。</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:23:47",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887431985800859649",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>50</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887431985800859649",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>55</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887431985800859649",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>45</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887431985800859649",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>40</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887431985800859649",
+                    "knowledgePointId": "307",
+                    "knowledgePoint": "欧拉函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432133584789506",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列程序输出的是( )。</span></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">reverse</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">string</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 0, 170);\">len</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">string</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;return </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;temp </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">string</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">] </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;reverse</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">string</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">:]) </span></p><p><span style=\"color: rgb(51, 0, 170);\"> &nbsp; &nbsp;print</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">temp</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">end</span><span style=\"color: rgb(152, 26, 26);\">=</span><span style=\"color: rgb(170, 17, 17);\">''</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\">string </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(170, 17, 17);\">\"chen a dai\" </span></p><p><span style=\"color: rgb(0, 0, 0);\">reverse</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">string</span><span style=\"color: rgb(51, 51, 51);\">)</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:24:22",
+            "questionsOptionList": [
+                {
+                    "questionId": "1887432133584789506",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">chen a dai</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1887432133584789506",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">dai a chen</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1887432133584789506",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">iad a nehc</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1887432133584789506",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">chenadai</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432133584789506",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1887432133584789506",
+                    "knowledgePointId": "320",
+                    "knowledgePoint": "递归时间复杂度分析"
+                },
+                {
+                    "questionId": "1887432133584789506",
+                    "knowledgePointId": "321",
+                    "knowledgePoint": "递归空间复杂度分析"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432167927750657",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">(-1) mod 127和126 mod 127 的结果是一样的</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:24:30",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432167927750657",
+                    "knowledgePointId": "307",
+                    "knowledgePoint": "同余与模运算"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432191095263234",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">一个数的反码，实际上是这个数对于一个模的同余数</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:24:36",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432191095263234",
+                    "knowledgePointId": "307",
+                    "knowledgePoint": "同余与模运算"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432215616987138",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p>1997和615用欧几里得算法计算最大公约数的过程如下：</p><p><br></p><p>1997/615=3(余152) </p><p>615/152=4(余7) </p><p>152/7=21(余5) </p><p>7/5=1(余2) </p><p>5/2=2(余1) </p><p>2/1=2(余0) </p><p>得出最大公约是是1</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:24:42",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432215616987138",
+                    "knowledgePointId": "311",
+                    "knowledgePoint": "欧几里得算法"
+                },
+                {
+                    "questionId": "1887432215616987138",
+                    "knowledgePointId": "306",
+                    "knowledgePoint": "最大公约数与最小公倍数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432307161485313",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">欧几里得算法适用于实数</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:25:03",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432307161485313",
+                    "knowledgePointId": "311",
+                    "knowledgePoint": "欧几里得算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432331285680130",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">每个大于1的整数可以唯一地写成质数的乘积的形式</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:25:09",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432331285680130",
+                    "knowledgePointId": "312",
+                    "knowledgePoint": "唯一分解定理"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432356486500354",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">贪婪算法的复杂度通常是线性的，即O(n)，其中n是输入的大小</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:25:15",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432356486500354",
+                    "knowledgePointId": "325",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432376380465153",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">归并排序的时间复杂度为O(n log n)</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:25:20",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432376380465153",
+                    "knowledgePointId": "323",
+                    "knowledgePoint": "归并排序算法"
+                },
+                {
+                    "questionId": "1887432376380465153",
+                    "knowledgePointId": "316",
+                    "knowledgePoint": "对数复杂度"
+                },
+                {
+                    "questionId": "1887432376380465153",
+                    "knowledgePointId": "315",
+                    "knowledgePoint": "多项式复杂度"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432396406444034",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">根据同余计算，可以推导出(a∗b)%m=(a%m∗b%m)%m</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:25:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432396406444034",
+                    "knowledgePointId": "307",
+                    "knowledgePoint": "同余与模运算"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432430474022914",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">二分查找算法的复杂度通常表示为O(log n)，其中n是数组的长度</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:25:33",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1887432430474022914",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                },
+                {
+                    "questionId": "1887432430474022914",
+                    "knowledgePointId": "316",
+                    "knowledgePoint": "对数复杂度"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887432460626874370",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">def(十六进制) = 103231(五进制)</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-06 17:25:40",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1887694072399056898",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 4,
+            "title": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-07-10-44-19/8576034863365447680.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-07-10-44-25/8576034887147151360.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-07-10-44-30/8576034908395495424.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><br></p><p><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">100010 </span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">a </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">N </span></p><p><span style=\"color: rgb(0, 0, 0);\">c </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">N </span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">m </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">map</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(51, 0, 170);\">int</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(51, 0, 170);\">input</span><span style=\"color: rgb(51, 51, 51);\">().</span><span style=\"color: rgb(0, 0, 0);\">split</span><span style=\"color: rgb(51, 51, 51);\">())</span></p><p><span style=\"color: rgb(0, 0, 0);\">mx </span><span style=\"color: rgb(152, 26, 26);\">= -</span><span style=\"color: rgb(17, 102, 68);\">10000 </span></p><p><span style=\"color: rgb(0, 0, 0);\">s </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">input</span><span style=\"color: rgb(51, 51, 51);\">().</span><span style=\"color: rgb(0, 0, 0);\">split</span><span style=\"color: rgb(51, 51, 51);\">() </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;c</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">int</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">s</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">-</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">]) </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;mx </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">max</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">mx</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">c</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]) </span></p><p><span style=\"color: rgb(0, 0, 0);\">s </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">input</span><span style=\"color: rgb(51, 51, 51);\">().</span><span style=\"color: rgb(0, 0, 0);\">split</span><span style=\"color: rgb(51, 51, 51);\">() </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">m </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;a</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">int</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">s</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">-</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">]) </span></p><p><br></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">m </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">1 </span><span style=\"color: rgb(119, 0, 136);\">or </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">&gt; </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mx </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span></p><p><br></p><p><span style=\"color: rgb(51, 0, 170);\">print</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">mx</span><span style=\"color: rgb(51, 51, 51);\">)</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-07 10:45:13",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>2 2</p><p>9 9</p><p>1 -1</p>",
+                        "testCaseOutput": "<p>10</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1887694983740182530",
+            "examinationPaperTitle": "202409GESP Python五级试卷",
+            "type": 4,
+            "title": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-07-10-45-18/8576035110930046976.png\" alt=\"44.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-07-10-45-24/8576035135097651200.png\" alt=\"55.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-07-10-45-30/8576035158707388416.png\" alt=\"66.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0);\">prime </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 51, 51);\">[] </span></p><p><span style=\"color: rgb(0, 0, 0);\">is_prime </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(119, 0, 136);\">False</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(17, 102, 68);\">100010 </span></p><p><br></p><p><span style=\"color: rgb(119, 0, 136);\">def </span><span style=\"color: rgb(0, 0, 255);\">Eratosthenes</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;is_prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">is_prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(119, 0, 136);\">False </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: rgb(0, 0, 0);\">is_prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(119, 0, 136);\">True </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;for </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">is_prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]: </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: rgb(0, 0, 0);\">prime</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">append</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&gt; </span><span style=\"color: rgb(0, 0, 0);\">n</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for </span><span style=\"color: rgb(0, 0, 0);\">j </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">n </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: rgb(0, 0, 0);\">is_prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">j</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(119, 0, 136);\">False</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">Eratosthenes</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(17, 102, 68);\">100000</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">t </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">int</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(51, 0, 170);\">input</span><span style=\"color: rgb(51, 51, 51);\">()) </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(0, 0, 0);\">_ </span><span style=\"color: rgb(119, 0, 136);\">in </span><span style=\"color: rgb(51, 0, 170);\">range</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">t</span><span style=\"color: rgb(51, 51, 51);\">): </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 0, 170);\">int</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(51, 0, 170);\">input</span><span style=\"color: rgb(51, 51, 51);\">()) </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ans </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0 </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: rgb(119, 0, 136);\"> while True</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">is_prime</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">x</span><span style=\"color: rgb(51, 51, 51);\">]: </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ans </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x </span><span style=\"color: rgb(152, 26, 26);\">-= </span><span style=\"color: rgb(0, 0, 0);\">tmp </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ans </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">&lt;= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">: </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ans </span><span style=\"color: rgb(152, 26, 26);\">= -</span><span style=\"color: rgb(17, 102, 68);\">1 </span></p><p><span style=\"color: rgb(119, 0, 136);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break </span></p><p><span style=\"color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp </span><span style=\"color: rgb(152, 26, 26);\">*= </span><span style=\"color: rgb(17, 102, 68);\">2 </span></p><p><span style=\"color: rgb(51, 0, 170);\">&nbsp;&nbsp;print</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">ans</span><span style=\"color: rgb(51, 51, 51);\">)</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881231979559165954",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-02-07 10:48:50",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>3</p><p>6</p><p>188</p><p>9999</p>",
+                        "testCaseOutput": "<p>2</p><p>4</p><p>-1</p>"
+                    }
+                ]
+            }
+        }
+    ]
+}

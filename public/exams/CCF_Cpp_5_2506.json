@@ -1,0 +1,1350 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202506GESPC++五级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "1952965830455095297",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">与数组相比，链表在（ ）操作上通常具有更高的效率。</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>链表通过节点间的指针链接组织数据，每个节点包含数据域和指向下一节点的指针域。插入或删除操作仅需修改相关节点的指针，不涉及整体数据移动。在已知位置进行操作时，无需像数组那样移动后续元素以保持连续性。访问元素时需从头节点开始逐个遍历指针，无法直接计算内存地址。查找指定元素依赖遍历过程，效率受节点分布影响。遍历所有元素需依次访问每个节点的指针直至结束。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:31:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952965830455095297",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">随机访问元素</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952965830455095297",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">查找指定元素</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952965830455095297",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">在已知位置插入或删除节点</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952965830455095297",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">遍历所有元素</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952965830455095297",
+                    "knowledgePointId": "130",
+                    "knowledgePoint": "单链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952967833738571777",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面C++代码实现双向链表。函数 is_empty() 判断链表是否为空，如链表为空返回 true ，否则返回 false 。横线处不能填写（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641308740261453824.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:39:51",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952967833738571777",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">return head == nullptr;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952967833738571777",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">return tail == nullptr;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952967833738571777",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">return head.data == 0;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952967833738571777",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">return size == 0;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952967833738571777",
+                    "knowledgePointId": "131",
+                    "knowledgePoint": "双链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952968002433478657",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">基于上题代码正确的前提下，填入相应代码完善 append() ，用于在双向链表尾部增加新节点，横线上应填写（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641308895870132224.png\" alt=\"3.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641308895870132224.png\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:40:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952968002433478657",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952968002433478657",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">prev </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">tail </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952968002433478657",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">tail </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">prev </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952968002433478657",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">prev </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">tail </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">newNode</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952968002433478657",
+                    "knowledgePointId": "131",
+                    "knowledgePoint": "双链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952968207316840449",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列C++代码用循环链表解决约瑟夫问题，即假设 n 个人围成一圈，从第一个人开始数，每次数到第 k 个的人就出圈，输出最后留下的那个人的编号。横线上应填写（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309084240519168.png\" alt=\"41.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309084240519168.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309105958625280.png\" alt=\"42.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309105958625280.png\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:41:20",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952968207316840449",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">delete </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">p </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952968207316840449",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(119, 0, 136);\">delete </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">p </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952968207316840449",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(119, 0, 136);\">delete </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">p </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952968207316840449",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">p </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">prev</span><span style=\"color: rgb(152, 26, 26);\">-&gt;</span><span style=\"color: rgb(0, 0, 0);\">next</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">delete </span><span style=\"color: rgb(0, 0, 0);\">p</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952968207316840449",
+                    "knowledgePointId": "132",
+                    "knowledgePoint": "循环链表"
+                },
+                {
+                    "questionId": "1952968207316840449",
+                    "knowledgePointId": "119",
+                    "knowledgePoint": "约数与倍数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952968501807312898",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列C++代码判断一个正整数是否是质数，说法正确的是( )。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309335336722432.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309352990547968.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:42:30",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952968501807312898",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">代码存在错误，比如5是质数，但因为 5 % 5 余数是0返回了 false</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">finish_number 的值应该是 n / 2 ，当前写法将导致错误</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">当前 while 循环正确的前提是：所有大于3的质数都符合 6k±1 形式</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while 循环修改如下，其执行效果和执行时间相同。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309488646922240.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952968501807312898",
+                    "knowledgePointId": "116",
+                    "knowledgePoint": "素数与合数"
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "knowledgePointId": "120",
+                    "knowledgePoint": "质因数分解"
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "knowledgePointId": "122",
+                    "knowledgePoint": "欧几里得算法"
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "knowledgePointId": "123",
+                    "knowledgePoint": "唯一分解定理"
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "knowledgePointId": "124",
+                    "knowledgePoint": "埃氏筛法"
+                },
+                {
+                    "questionId": "1952968501807312898",
+                    "knowledgePointId": "125",
+                    "knowledgePoint": "线性筛法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952968915567013890",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下列C++代码用两种方式求解两个正整数的最大公约数，说法错误的是( )。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309567051046912.png\" alt=\"6.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309567051046912.png\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:44:09",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952968915567013890",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">gcd0() 函数的时间复杂度为</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309784102084608.png\" alt=\"1.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309784102084608.png\" style=\"\"/></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952968915567013890",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">gcd1() 函数的时间复杂度为</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309818029809664.png\" alt=\"2.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309818029809664.png\" style=\"\"/></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952968915567013890",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">一般说来， gcd0() 的效率高于 gcd1()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952968915567013890",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">gcd1() 中的代码 for (int i = small; i &gt;= 1; --i) 应该修改为for (int i = small; i &gt; 1; --i)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952968915567013890",
+                    "knowledgePointId": "117",
+                    "knowledgePoint": "最大公约数与最小公倍数"
+                },
+                {
+                    "questionId": "1952968915567013890",
+                    "knowledgePointId": "122",
+                    "knowledgePoint": "欧几里得算法"
+                },
+                {
+                    "questionId": "1952968915567013890",
+                    "knowledgePointId": "138",
+                    "knowledgePoint": "递归时间复杂度分析"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969102330982401",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的代码用于判断整数 是否是质数，错误的说法是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309974762561536.png\" alt=\"7.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641309974762561536.png\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:44:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969102330982401",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">埃氏筛算法相对于上面的代码效率更高</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969102330982401",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">线性筛算法相对于上面的代码效率更高</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969102330982401",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">上面的代码有很多重复计算，因为不是判断单个数是否为质数，故而导致筛选出连续数中质数的效率不高</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969102330982401",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">相对而言，埃氏筛算法比上面代码以及线性筛算法效率都高</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952969102330982401",
+                    "knowledgePointId": "124",
+                    "knowledgePoint": "埃氏筛法"
+                },
+                {
+                    "questionId": "1952969102330982401",
+                    "knowledgePointId": "125",
+                    "knowledgePoint": "线性筛法"
+                },
+                {
+                    "questionId": "1952969102330982401",
+                    "knowledgePointId": "116",
+                    "knowledgePoint": "素数与合数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969201878593538",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">唯一分解定理描述了关于正整数的什么性质？</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:45:17",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969201878593538",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">任何正整数都可以表示为两个素数的和。</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969201878593538",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">任何大于1的合数都可以唯一分解为有限个质数的乘积。</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969201878593538",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">两个正整数的最大公约数总是等于它们的最小公倍数除以它们的乘积。</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969201878593538",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">所有素数都是奇数。</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952969201878593538",
+                    "knowledgePointId": "123",
+                    "knowledgePoint": "唯一分解定理"
+                },
+                {
+                    "questionId": "1952969201878593538",
+                    "knowledgePointId": "120",
+                    "knowledgePoint": "质因数分解"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969256442294274",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码执行后，其输出是( &nbsp;)。</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">y </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">20</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">y</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">y </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(0, 0, 0);\">y</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(0, 0, 0);\">y</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(170, 17, 17);\">' ' </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">y</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:45:30",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969256442294274",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">10 20</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969256442294274",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">20 10</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969256442294274",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">10 10</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969256442294274",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">20 20</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969326973710338",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">定义整型变量 int a=16 ，则执行 ++a += 3 之后，a的值会是（ ）。</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:45:47",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969326973710338",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969326973710338",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>17</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969326973710338",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>19</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969326973710338",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969522277281793",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码，用于求一系列数据中的最大值。有关其算法说法错误的是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310402988417024.png\" alt=\"10.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310402988417024.png\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:46:33",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969522277281793",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">本题 find_max() 函数采用的是迭代算法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969522277281793",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">本题 find_max() 函数的时间复杂度为O(n)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969522277281793",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">和上一题的 find_max() 相比，因为没有递归，所以没有栈的创建和销毁开销</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969522277281793",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">本题 find_max() 函数和上一题的 find_max() 时间复杂度相同</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952969522277281793",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1952969522277281793",
+                    "knowledgePointId": "138",
+                    "knowledgePoint": "递归时间复杂度分析"
+                },
+                {
+                    "questionId": "1952969522277281793",
+                    "knowledgePointId": "139",
+                    "knowledgePoint": "递归空间复杂度分析"
+                },
+                {
+                    "questionId": "1952969522277281793",
+                    "knowledgePointId": "133",
+                    "knowledgePoint": "多项式复杂度"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969696907128834",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的 C++ 代码用于在升序数组 lst 中查找目标值 target 最后一次出现的位置。相关说法，正确的是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310581808373760.png\" alt=\"11.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310581808373760.png\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:47:15",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969696907128834",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">当 lst 中存在重复的 target 时，该函数总能返回最后一个target 的位置，即便 lst 全由相同元素组成</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969696907128834",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">当 target 小于 lst 中所有元素时，该函数会返回 0</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969696907128834",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">循环条件改为 while (low &lt;= high) 程序执行效果相同，且能提高准确性</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969696907128834",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">将代码中 (low + high + 1) / 2 修改为 (low + high) / 2 效果相同</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952969696907128834",
+                    "knowledgePointId": "135",
+                    "knowledgePoint": "二分查找"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969891162124289",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">有关下面C++代码的说法，错误的是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310748808781824.png\" alt=\"12.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310748808781824.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310769734164480.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310789678080000.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:48:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969891162124289",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">“阶段1”的目标是寻找正整数 n 可能的正完全平方根</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969891162124289",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">“阶段2”的目标是如果正整数 n 没有正完全平方根，则在可能产生完全平方根附近寻找带小数点的平方根</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969891162124289",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">代码 check_int = (long long)(result + 0.5) 是检查因浮点误差是否为正完全平方根</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969891162124289",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">阶段2的二分法中 high_d - low_d &gt;= epsilon 不能用于浮点数比较，会进入死循环</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952969891162124289",
+                    "knowledgePointId": "135",
+                    "knowledgePoint": "二分查找"
+                },
+                {
+                    "questionId": "1952969891162124289",
+                    "knowledgePointId": "126",
+                    "knowledgePoint": "高精度加法"
+                },
+                {
+                    "questionId": "1952969891162124289",
+                    "knowledgePointId": "127",
+                    "knowledgePoint": "高精度减法"
+                },
+                {
+                    "questionId": "1952969891162124289",
+                    "knowledgePointId": "128",
+                    "knowledgePoint": "高精度乘法"
+                },
+                {
+                    "questionId": "1952969891162124289",
+                    "knowledgePointId": "129",
+                    "knowledgePoint": "高精度除法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952970383711825921",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">关于下述C++代码的快速排序算法，说法错误的是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311177869303808.png\" alt=\"14.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311177869303808.png\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:49:59",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952970383711825921",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">在 randomPartition 函数中，变量 i 的作用是记录大于基准值的元素的边界</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952970383711825921",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">randomPartition 函数随机选择基准值，可以避免输入数据特定模式导致的最坏情况下时间复杂度</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311280919158784.png\" alt=\"1.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311280919158784.png\" style=\"\"/></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952970383711825921",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">快速排序平均时间复杂度是</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311358165655552.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952970383711825921",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">快速排序是稳定排序算法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952970383711825921",
+                    "knowledgePointId": "142",
+                    "knowledgePoint": "快速排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952970622195757058",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">小杨编写了一个如下的高精度除法函数，则横线上应填写的代码为（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311485961904128.png\" alt=\"151.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311485961904128.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311512578957312.png\" alt=\"152.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311512578957312.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311532887777280.png\" alt=\"153.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641311532887777280.png\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:50:55",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952970622195757058",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]; </span></p><p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">len</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952970622195757058",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]; </span></p><p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">len</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952970622195757058",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]; </span></p><p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">len </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952970622195757058",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">d</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">]; </span></p><p><span style=\"color: rgb(0, 0, 0);\">r</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">len </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952970622195757058",
+                    "knowledgePointId": "129",
+                    "knowledgePoint": "高精度除法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952969332707323906",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码，用于求一系列数据中的最大值。有关其算法说法错误的是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641310255084675072.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-10-14 16:51:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952969332707323906",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">该算法采用分治算法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952969332707323906",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">该算法是递归实现</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952969332707323906",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">该算法采用贪心算法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952969332707323906",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">该算法不是递推算法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952969332707323906",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1952969332707323906",
+                    "knowledgePointId": "143",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971231498104834",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面C++代码是用欧几里得算法（辗转相除法）求两个正整数的最大公约数， a 大于 b 还是小于 b 都适用。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312230476029952.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:53:21",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971231498104834",
+                    "knowledgePointId": "122",
+                    "knowledgePoint": "欧几里得算法"
+                },
+                {
+                    "questionId": "1952971231498104834",
+                    "knowledgePointId": "117",
+                    "knowledgePoint": "最大公约数与最小公倍数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971279787126786",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">假设函数 gcd() 函数能正确求两个正整数的最大公约数，则下面的 lcm() 函数能求相应两数的最小公倍数。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312288709746688.png\" alt=\"2.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312288709746688.png\" style=\"\"/></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:53:32",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971279787126786",
+                    "knowledgePointId": "117",
+                    "knowledgePoint": "最大公约数与最小公倍数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971339509821442",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码用于输出每个数对应的质因数列表，输出形如： {5: [5], 6: [2, 3], 7: [7], 8: [2, 2, 2]} 。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312347606163456.png\" alt=\"3.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312347606163456.png\" style=\"\"/></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:53:46",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971339509821442",
+                    "knowledgePointId": "120",
+                    "knowledgePoint": "质因数分解"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971443742470146",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码实现归并排序。代码在执行时，将输出一次 HERE 字符串，因为merge()函数仅被调用一次。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312405290426368.png\" alt=\"4.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312405290426368.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312444339396608.png\" alt=\"41.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312444339396608.png\" style=\"\"/></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:54:11",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971443742470146",
+                    "knowledgePointId": "141",
+                    "knowledgePoint": "归并排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971524411518978",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">归并排序的最好、最坏和平均时间复杂度均为</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312525893443584.png\" alt=\"5.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312525893443584.png\" style=\"\"/></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:54:31",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971524411518978",
+                    "knowledgePointId": "141",
+                    "knowledgePoint": "归并排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971598512287745",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">查字典这个小学生必备技能，可以把字典视为一个已排序的数组。假设小杨要查找一个音首字母为 g 的单词，他首先翻到字典约一半的页数，发现该页的首字母是 m ，由于字母表中 g 位于 m 之前，所以排除字典后半部分，查找范围缩小到前半部分；不断重复上述步骤，直至找到首字母为 g 的页码。这种查字典的一系列操作可看作二分查找。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:54:48",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971598512287745",
+                    "knowledgePointId": "135",
+                    "knowledgePoint": "二分查找"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971663402364929",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">求解下图中A点到D点最短路径，其中A到B之间的12可以理解为距离。求解这样的问题常用Dijkstra算法，其思路是通过逐步选择当前距离起点最近的节点来求解非负权重图（如距离不能为负值）单源最短路径的算法。从该算法的描述可以看出，Dijkstra算法是贪心算法。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312670726955008.png\" alt=\"7.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312670726955008.png\" style=\"\"/></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:55:04",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971663402364929",
+                    "knowledgePointId": "143",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971710760251393",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">分治算法将原问题可以分解成规模更小的子问题，使得求解问题的难度降低。但由于分治算法需要将问题进行分解，并且需要将多个子问题的解合并为原问题的解，所以分治算法的效率通常比直接求解原问题的效率低。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:55:15",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971755807076354",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">函数 puzzle 定义如下，则调用 puzzle(7) 程序会无限递归。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312764981354496.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:55:26",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971755807076354",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1952971755807076354",
+                    "knowledgePointId": "138",
+                    "knowledgePoint": "递归时间复杂度分析"
+                },
+                {
+                    "questionId": "1952971755807076354",
+                    "knowledgePointId": "139",
+                    "knowledgePoint": "递归空间复杂度分析"
+                },
+                {
+                    "questionId": "1952971755807076354",
+                    "knowledgePointId": "140",
+                    "knowledgePoint": "递归优化策略"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952971864636682241",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 3,
+            "title": "<p>如下为线性筛法，用于高效生成素数表，其核心思想是每个合数只被它的最小质因数筛掉一次，时间复杂度为 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312860833783808.png\" alt=\"1.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312860833783808.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312976273612800.png\" alt=\"10.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312976273612800.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312993726111744.png\" alt=\"101.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641312993726111744.png\" style=\"\"/></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 13:55:52",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952971864636682241",
+                    "knowledgePointId": "125",
+                    "knowledgePoint": "线性筛法"
+                },
+                {
+                    "questionId": "1952971864636682241",
+                    "knowledgePointId": "116",
+                    "knowledgePoint": "素数与合数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952973300149809153",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 4,
+            "title": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314146488623104.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314164163420160.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314178902204416.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314292270047232.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314310481715200.png\"></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 14:01:34",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>8 8</p><p>2 1</p>",
+                        "testCaseOutput": "<p>5</p>"
+                    },
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>314159 2653589</p><p>27 1828</p><p><br></p>",
+                        "testCaseOutput": "<p>1599</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1952973719798312961",
+            "examinationPaperTitle": "202506GESPC++五级试卷",
+            "type": 4,
+            "title": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314535736811520.png\" alt=\"11.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314588266274816.png\" alt=\"12.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314613566316544.png\" alt=\"13.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314702649139200.png\" alt=\"21.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-06/8641314729111003136.png\" alt=\"22.png\"></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952964803899191298",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 14:03:14",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>5 3</p><p>6 9 12 18 30</p>",
+                        "testCaseOutput": "<p>1</p><p>1</p><p>3</p>"
+                    },
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>3 5</p><p>31 47 59</p>",
+                        "testCaseOutput": "<p>4</p><p>1</p><p>2</p><p>1</p><p>4</p>"
+                    }
+                ]
+            }
+        }
+    ]
+}

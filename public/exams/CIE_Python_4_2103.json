@@ -1,0 +1,2317 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202103Python四级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "3609",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">运行以下代码，正确的打印结果是？</span></p><p>def f():</p><p>c=0</p><p>for i in range(4,51,4):</p><p>if i%6==0:</p><p>c=c+1</p><p>return c</p><p>print(f())</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">函数</span>f()的作用是求4-50间4和6的公倍数个数，即12的倍数个数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "3609",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3609",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3609",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3609",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3609",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3609",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3609",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3609",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3609",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3610",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>10个人站一列，分苹果，问第10个人分到多少个苹果，他说比前面一个人多分到2个，依次往前，都说比前面一个人多分到2个，最后问第一个人，他说分到10个苹果。用以下函数求第10个人分到的苹果数，则应补充选项为？（ ）</p><p>def &nbsp;apple(n):</p><p>if n == 1:</p><p>return 10</p><p>else:</p><p>return <u> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</u></p><p>print(apple(10))</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>def &nbsp;apple(n):</p><p>if n == 1:</p><p>return 10</p><p>else:</p><p> return &nbsp;apple(n-1)+2 </p><p>print(apple(10))</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "3610",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>apple(n)+2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3610",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>n+2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3610",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>apple(n-1)+2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3610",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>apple(n+1)-2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3610",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "函数的递归"
+                },
+                {
+                    "questionId": "3610",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3610",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3611",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">观察程序段，以下说法错误的是？</span></p><p>def fib(n):</p><p>if n==1 or n==2:</p><p>s=1</p><p>else:</p><p>s=fib(n-1)+fib(n-2)</p><p>return s</p><p>m=int(input(\"请输入m的值（m&gt;2）:\"))</p><p>print(fib(m))</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>定义函数时的语法如下：</p><p>def 函数名（参数集合）：</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;函数体&gt;</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[return 函数值]</p><p><span style=\"font-family: 宋体;\">本题中的自定义函数</span>fib(m)需要返回值，所以“return 函数值”语句不能少，定义时“函数名&lt;参数集合&gt;”中的参数为形参，调用时“函数名&lt;参数集合&gt;” 中的参数为实参。如果输入m的值为8，打印的结果为21。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "3611",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">如果输入</span>m的值为8，打印的结果为20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3611",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>该程序段用了递归来实现</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3611",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">如果缺少语句</span>“return s”，程序会报错</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3611",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">语句</span>“def fib(n):”中的n为形参</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3611",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3611",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3611",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3611",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3611",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3611",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3612",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">关于</span>python函数参数的说法正确的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>函数的形参作用域为本函数，在函数被调用时获得初始值</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "3612",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>函数一定要有参数和返回值</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3612",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>在调用一个函数时，若函数中修改了形参变量的值，则对应的实参变量的值也被修改</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3612",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>参数的值是否会改变，与函数中对变量的操作有关，与参数类型无关</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3612",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>函数的形参在函数被调用时获得初始值</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3612",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3612",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3613",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>\t关于递归与递推方法的比较，错误的观点是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>D.递归的运行开销大。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "3613",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>递归是将复杂问题降解成若干个子问题，依次降解，求出低阶规模的解，代入高阶问题中，直至求出原问题的解；</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3613",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>递推是构造低阶的问题，并求出解，依次推导出高阶的问题以及解，直至求出问题的解；</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3613",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>数学上的递推关系可以通过递归的方法来实现；</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3613",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>递归算法代码简洁，运行速度比递推快，因此应该尽量采用递归的方法；</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3613",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3613",
+                    "knowledgePointId": "701",
+                    "knowledgePoint": "基本算法中由递归变递推的方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3608",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">不超过</span>100个元素的有序数列，使用二分查找能找到指定的元素，可能的查找次数不包括？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">按照二分查找法的规律，</span>100个元素的有序列表，不管是否找到，至多查找7次。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "3608",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1次</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3608",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>6次</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3608",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>7次</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3608",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>8次</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3608",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3608",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3630",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>\t下列关于递归的描述不正确的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>递归算法一般代码简洁，易于理解，但执行效率较低，空间复杂度高。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3630",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>递归函数一定包含条件控制语句</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3630",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>递归函数一定包含调用自身的语句</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3630",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>在调用自身函数时需要明确的边界终止条件</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3630",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>递归算法一般代码简洁，执行效率高，空间复杂度低</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3630",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3630",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3631",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">下列哪个不是</span>Python第三方库的pip安装方法？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>第三方库安装</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3631",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">使用</span>pip命令</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3631",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">使用</span>wheel命令</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3631",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>集成安装方法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3631",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>文件安装方法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3631",
+                    "knowledgePointId": "703",
+                    "knowledgePoint": "第三方库（模块）的功能、获取、安装、调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3632",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">对于下列递归式子，当</span>n=4时，F的值是？</p><p>F(n)=F(n-1)+3 &nbsp; &nbsp;F(1)=2</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>用递归式子推导得出。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3632",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3632",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3632",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>11</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3632",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>14</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3632",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3632",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3629",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>关于函数的定义语句，以下几项中正确的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">顺序实参必须要放在关键字实参之前，位置参数</span>*args必须要在关键字参数**kwargs前，否则会程序报错。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3629",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>def f(c=2,a,b):</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3629",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>def f(a,b=2,c):</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3629",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>def f(*c,**d,a,b):</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3629",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>def f(a,b,*c,**d):</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3629",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3629",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3629",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3629",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3628",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">下列哪个不是</span>Python中的内建函数？</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>Python中没有asc(x)这个内建函数，ord(x)函数的作用是返回x对应的ASCII值，chr(x)函数的作用是返回x对应的字符，abs(x)函数的作用是返回x的绝对值。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3628",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>asc(x)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3628",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>ord(x)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3628",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>chr(x)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3628",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>abs(x)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3628",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3628",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3628",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3628",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3628",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3627",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>下列哪个语句段的时间复杂度最低？</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>时间复杂度按数量级递增顺序为：常数阶、对数阶、线性阶、线性对数阶、平方阶</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3627",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>if n%2==0:</p><p> &nbsp; &nbsp;x=x*2</p><p>else:</p><p> &nbsp; &nbsp;x=x+2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3627",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>n=1</p><p>while n&lt;=100:</p><p> &nbsp; &nbsp;x=x+2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3627",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>for i in range(100):</p><p> &nbsp; &nbsp;for j in range(10):</p><p> &nbsp; &nbsp; &nbsp; &nbsp;x=x+2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3627",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>for i in range(100):</p><p> &nbsp; &nbsp;for j in range(i):</p><p> &nbsp; &nbsp; &nbsp; &nbsp;x=x+2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3627",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3627",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3626",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">在</span>Python程序中，设已定义函数op，它有一个整型传值参数，一个字符串型传值参数。设x,y为整型变量，z为字符串型变量，则下列能调用该函数的正确语句是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">在调用自定函数时需要用到</span>“函数名&lt;参数表&gt;”的方法，且自定义函数op共有两个参数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3626",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>op</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3626",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>op(x,y,z)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3626",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>op x,y</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3626",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>op(x+y,z)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3626",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3626",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3626",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3625",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">如果需要在某函数内部调用上一层的局部变量，则可以使用（</span> <span style=\"font-family: 宋体;\">）关键字</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">仅</span>B可以调用上一层的局部变量</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3625",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>Local</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3625",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>nonlocal</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3625",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>global</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3625",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>nonglobal</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3625",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3624",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>\t运行下列程序，输出结果正确的是？</p><p>def fun(x,y=5):</p><p> &nbsp; &nbsp;return x*y</p><p>a=fun(10,10)</p><p>print(a)</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>参数的默认值被替换。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3624",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>100</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3624",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>50</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3624",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3624",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>运行出错</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3624",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3624",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3624",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3624",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3624",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3623",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">下列程序段的正确运行结果是？</span></p><p>def fun(m,n):</p><p> &nbsp; &nbsp;while m!=n:</p><p> &nbsp; &nbsp; &nbsp; &nbsp;if m&gt;n:</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;m=m-n</p><p> &nbsp; &nbsp; &nbsp; &nbsp;else:</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;n=n-m</p><p> &nbsp; &nbsp;return m</p><p>print(fun(24,16))</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">自定义函数</span>fun(m,n)的作用是求m,n两个整数的最大公约数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3623",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3623",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3623",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>-8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3623",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                },
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3623",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3622",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>用匿名函数方式求两个数中较大的数，下列定义语句格式正确的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">匿名函数的定义语法：</span>lambda 参数：表达式语法。先写lambda关键字，然后依次写匿名函数的参数，多个参数中间用逗号连接，然后是一个冒号，冒号后面写返回的表达式。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3622",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>result = lambda 'x,y': y if x&gt; y else x</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3622",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>result= lambda x,y: y if x&gt; y else x</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3622",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>result= lambda 'x,y': x if x&gt; y else y</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3622",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>result= lambda x,y: x if x&gt; y else y</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3622",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3622",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3622",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3622",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3621",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">某程序代码设计如下，若输入整数</span>5，则最终输出的结果为？</p><p>def fact(x):</p><p>if x==1:</p><p> s=1</p><p>else:</p><p>s=fact(x-1)*x</p><p>return s</p><p>n=int(input(\"请输入一个大于1的整数：\"))</p><p>print(fact(n)+fact(n-1))</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">由于</span>fact(5)=fact(4)*5, fact(4)=fact(3)*4, fact(3)=fact(2)*3, fact(2)=fact(1)*2, fact(1)=1,所以fact(5)+fact(4)=120+24=144。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3621",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>120</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3621",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>24120</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3621",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>144</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3621",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>12024</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3621",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3621",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3621",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3621",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3621",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3621",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3620",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知有</span>n本按照书名拼音排序好的图书，使用对分查找法搜索其中任何一本书，最多查找次数为6次，则n的值可能为？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">对规模为</span>n的数据进行对分查找时，无论是否查找到，至多进行 |log<sub>2</sub>n|+1次（|log<sub>2</sub>n|表示小于等于log<sub>2</sub>n的最大整数），因此2<sup>5</sup>≤n＜2<sup>6</sup><span style=\"font-family: 宋体;\">，即</span>32≤n＜64。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3620",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3620",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>50</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3620",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>80</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3620",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>100</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3620",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3620",
+                    "knowledgePointId": "701",
+                    "knowledgePoint": "基本算法中由递归变递推的方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3619",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">调用以下函数时，语句</span>“s=s+i”被执行的次数是？</p><p>def f():</p><p> &nbsp; &nbsp;s=0</p><p> &nbsp; &nbsp;i=1</p><p> &nbsp; &nbsp;while i&lt;10:</p><p> &nbsp; &nbsp; &nbsp; &nbsp;if i%3==0 or s%2==1:</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;s=s+i</p><p> &nbsp; &nbsp; &nbsp; &nbsp;i=i+1</p><p> &nbsp; &nbsp;print(s)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><img src=\"data:image/png;base64,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\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3619",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3619",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3619",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3619",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3619",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3619",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3619",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3619",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3619",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3619",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3618",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p>下列关于函数的描述正确的是？</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3618",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>函数是可重复使用的，用来实现单一，或相关联功能的代码段</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3618",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">函数中必须</span>return语句</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3618",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>函数好处是模块性，但不能提高代码的利用率</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3618",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>函数内容以冒号起始，可以不缩进</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3618",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3617",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">运行以下代码，正确的打印结果是？</span></p><p>def f(s):</p><p>t=0</p><p>max=0</p><p>for i in s:</p><p>if i&gt;=\"0\" and i&lt;=\"9\":</p><p>t=t+1</p><p>else:</p><p>if t&gt;max:</p><p>max=t</p><p>t=0</p><p>print(max)</p><p>list=\"123ab45cd6d\"</p><p>f(list)</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">本段代码中，函数</span>f()的作用是求最长的连续数字字符串的长度。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3617",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3617",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3617",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3617",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3617",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3617",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3617",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3617",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3617",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3617",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3616",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">有</span>100枚金币，其中有1枚轻1克的假金币，现在要找出这枚假金币，但身边只有1个没有刻度的天秤。小明先是将金币分成50枚一堆，共两堆称重，在轻的那一堆中又分成两堆，接着在轻的25枚中分成12,12,1三堆称重，若两堆12枚的重量相同，则假币为单独剩下的那一枚，否则在轻的那一堆中继续按照之前的办法称下去，直到找到假金币。请问小明采用的办法与哪个算法有着相似之处？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">分治算法就是对一个问题采取各个击破的方法，将一个规模为</span>N的问题分解为K个规模较小的子问题，这些子问题相互独立且与原问题性质相同。只要求出子问题的解，就可得到原问题的解。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3616",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>递归</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3616",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>分治</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3616",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>枚举</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3616",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>贪心</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3616",
+                    "knowledgePointId": "702",
+                    "knowledgePoint": "基本算法中的分治算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3615",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">关于</span>Turtle库的表述中，错误的是？</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>turtle.circle( )是turtle中的常用命令，基本语法是circle(radius,e)，即画一个指定半径为r，角度e的圆或弧</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3615",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>Turtle库是Python语言中一个很流行的绘制图像的函数库。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3615",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">画布就是</span>turtle为我们展开用于绘图区域，我们可以设置它的大小和初始位置。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3615",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>turtle.circle( )是只能画一个指定半径为r的圆。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3615",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>turtle.speed(speed)：设置画笔移动速度，画笔绘制的速度范围[0,10]整数，数字越大越快</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3615",
+                    "knowledgePointId": "703",
+                    "knowledgePoint": "第三方库（模块）的功能、获取、安装、调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3614",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">运行以下代码，输出结果正确的是？</span></p><p>a=1</p><p>b=c=[]</p><p>def fun(a,c):</p><p>a=2</p><p>c.append(a)</p><p>fun(a,c)</p><p>print(a,b,c)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">函数体内变量</span>a的值为2，添加到了列表c中，b和c指向同一个列表地址，因此列表b也随之改变</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "3614",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>2 [2] [2]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3614",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>1 [] [2]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3614",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>1 [2] [2]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3614",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>2 [] [2]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3614",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3614",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3614",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3614",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3614",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3614",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3633",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p>def add(a, b, c=0):</p><p>return a+b+c</p><p>print(add(1, 2, 4))</p><p><span style=\"font-family: 宋体;\">这段程序的运行结果为</span>3。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">在调用函数时给函数提供了实参时，</span>Python将使用指定的实参值</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3633",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3633",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3633",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3633",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3634",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p>算法复杂度分析的目的是分析算法的效率，以求改进。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3634",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3634",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3635",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p>sum=0</p><p>for i in range(5):</p><p>sum=sum+i</p><p>print(sum)</p><p><span style=\"font-family: 宋体;\">运行以上程序，输出结果是</span>15。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3635",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3635",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3635",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3635",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3635",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3635",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3636",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">已有函数</span>def demo(*p):return sum(p)，表达式 demo(1, 2, 3, 4) 的值为10。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3636",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3636",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3636",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3636",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3636",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3637",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">使用</span>python -m pip install --upgrade pip命令能够升级pip。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3637",
+                    "knowledgePointId": "703",
+                    "knowledgePoint": "第三方库（模块）的功能、获取、安装、调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3638",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">在</span>python函数中，局部变量不能与全局变量重名。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>当全局变量和局部变量同名时，首先会找程序内部有没有局部变量，如果有，则调用，如果没有，才会去调用全局变量</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3638",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3639",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">下列程序段返回的值为</span>“Hello!Python”。</p><p>lst=\"Hello!Python\"</p><p>def f():</p><p> &nbsp; &nbsp;global lst</p><p> &nbsp; &nbsp;lst=\"Hello!\"</p><p> &nbsp; &nbsp;return lst</p><p>f()</p><p>print(lst)</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>lst=\"Hello!Python\" &nbsp;#定义全局变量</p><p>def f():</p><p> &nbsp; &nbsp;global lst &nbsp; &nbsp; #global关键字的作用是通过局部变量修改全局变量</p><p> &nbsp; &nbsp;lst=\"Hello!\"</p><p> &nbsp; &nbsp;return lst</p><p>f()</p><p>print(lst) &nbsp; #打印全局变量中lst的值</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3639",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3639",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3639",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3640",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p>使用分治算法求解，子问题不能重复</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>分治算法的子问题之间不可以包含公共的子问题</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3640",
+                    "knowledgePointId": "702",
+                    "knowledgePoint": "基本算法中的分治算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3641",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">设计一个程序来求</span>x<sup>n</sup><span style=\"font-family: 宋体;\">（</span>x的几次方）的值，算法思想是：把x<sup>n</sup><span style=\"font-family: 宋体;\">转换为</span>x*x<sup>n-1</sup><span style=\"font-family: 宋体;\">，而</span>x<sup>n-1</sup><span style=\"font-family: 宋体;\">又可以转换为</span>x*x<sup>n-2</sup><span style=\"font-family: 宋体;\">，如此重复下去，直到</span>x*x<sup>0</sup><span style=\"font-family: 宋体;\">，而</span>x<sup>0</sup>=1，从而求出了x<sup>n</sup>的值。这个程序可以用递归来实现。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">递归体现了</span>“大事化小，小事化了”的思想，把大问题转换成小问题来解决，且有终止条件，即算法中的到x<sup>0</sup>=1为止。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3641",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3641",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3642",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 3,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">下列程序段能正确打印</span>1。</p><p>def f(a,b):</p><p> &nbsp; &nbsp;a=a+b</p><p> &nbsp; &nbsp;b=a-b</p><p> &nbsp; &nbsp;a=a-b</p><p> &nbsp; &nbsp;return b</p><p>print(F(1,4))</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>Python中字母区分大小写，所以自定义函数创建和调用时，函数名要一致，否则调用不成功。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3642",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3642",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3642",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3642",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3642",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3642",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3645",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span><font face=\"宋体\">设计一个算法，将一个正整数分解质因数。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">程序分析：对</font>n<font face=\"宋体\">进行分解质因数，应先找到一个最小的质数</font><font face=\"Calibri\">k</font><font face=\"宋体\">，然后按下述步骤完成：</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1)<font face=\"宋体\">如果这个质数恰等于</font><font face=\"Calibri\">n</font><font face=\"宋体\">，则说明分解质因数的过程已经结束，输出即可。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (2)<font face=\"宋体\">如果</font><font face=\"Calibri\">n&gt;k</font><font face=\"宋体\">，但</font><font face=\"Calibri\">n</font><font face=\"宋体\">能被</font><font face=\"Calibri\">k</font><font face=\"宋体\">整除，则应打印出</font><font face=\"Calibri\">k</font><font face=\"宋体\">的值，并用</font><font face=\"Calibri\">n</font><font face=\"宋体\">除以</font><font face=\"Calibri\">k</font><font face=\"宋体\">的商</font><font face=\"Calibri\">,</font><font face=\"宋体\">作为新的正整数</font><font face=\"Calibri\">n</font><font face=\"宋体\">，重复执行第一步。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (3)<font face=\"宋体\">如果</font><font face=\"Calibri\">n</font><font face=\"宋体\">不能被</font><font face=\"Calibri\">k</font><font face=\"宋体\">整除，则用</font><font face=\"Calibri\">k+1</font><font face=\"宋体\">作为</font><font face=\"Calibri\">k</font><font face=\"宋体\">的值，重复执行第一步。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">根据上述算法思想，补全下列代码。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">输入输出示例：当</font>n=105<font face=\"宋体\">，输出：</font><font face=\"Calibri\">105= 3*5*7</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face=\"宋体\">当</font><font face=\"Calibri\">n=60</font><font face=\"宋体\">，输出：</font><font face=\"Calibri\">60= 2*2*3*5</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>def fun(n):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;print('%d='%n,end=' ')</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;for i in&nbsp;</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>①</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span>:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while n!=i:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n&gt;i and</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>②</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span>:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i,end='*')</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>③</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>④</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>if __name__ == \"__main__\":</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;while True:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num=input(\"<font face=\"宋体\">输入一个正整数：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if not num.isdigit():</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fun(int(num))</span><span><o:p></o:p></span></p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><b><span class=\"15\"><font face=\"宋体\">参考程序：</font></span></b><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>def fun(n):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;print('%d='%n,end=' ')</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;for i in range(2,n+1):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while n!=i:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n&gt;i and n%i==0:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i,end='*')</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n=n//i</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(n)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>if __name__ == \"__main__\":</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;while True:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num=input(\"<font face=\"宋体\">输入一个正整数：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if not num.isdigit():</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fun(int(num))</span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"MsoNormal\"><b><span class=\"15\"><font face=\"宋体\">评分标准：</font></span></b><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>① range(2,n+1)&nbsp;<font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>② n%i==0&nbsp;<font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>③ n=n//i&nbsp;<font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>④&nbsp;print(n)&nbsp;<font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3645",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3645",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                },
+                {
+                    "questionId": "3645",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3645",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3645",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3645",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3645",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3643",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span>\t</span><span><font face=\"宋体\">利用分治思想，给定一个顺序表，编写一个求出其最大值的程序。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">根据上述算法思想，补全下列代码。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">输入输出示例：当顺序表是</font>&nbsp;[22,13,34,4,68,15,5,58,36]<font face=\"宋体\">，输出：</font><font face=\"Calibri\">68</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span>def fun_max(num=list):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;return max(num)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>def fun(num):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;n =&nbsp;</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>①</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;if n &lt;= 2:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>②</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;l_list, r_list = num[:n//2], num[n//2:]</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;l_max, r_max =&nbsp;</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>③</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;return fun_max(</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>④</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span>)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>if __name__ == \"__main__\":</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;alist = [22,13,34,4,68,15,5,58,36]</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;print(fun(alist))</span><span><o:p></o:p></span></p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><b><span class=\"15\"><font face=\"宋体\">参考程序：</font></span></b><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>def fun_max(num=list):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;return max(num)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>def fun(num):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;n = len(num)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;if n &lt;= 2:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return fun_max(num)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;l_list, r_list = num[:n//2], num[n//2:]</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;l_max, r_max = fun(l_list), fun(r_list)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;return fun_max([l_max, r_max])</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>if __name__ == \"__main__\":</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;alist = [22,13,34,4,68,15,5,58,36]</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;print(fun(alist))</span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"MsoNormal\"><b><span class=\"15\"><font face=\"宋体\">评分标准：</font></span></b><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>① len(num)&nbsp;<font face=\"宋体\">或等效答案；</font><font face=\"Calibri\">&nbsp;</font><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>② fun_max(num)&nbsp;<font face=\"宋体\">或等效答案；</font><font face=\"Calibri\">&nbsp;</font><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>③ fun(l_list), fun(r_list)&nbsp;<font face=\"宋体\">或等效答案；</font><font face=\"Calibri\">&nbsp;&nbsp;</font><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>④ [l_max, r_max]&nbsp;<font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "701",
+                    "knowledgePoint": "基本算法中由递归变递推的方法"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "702",
+                    "knowledgePoint": "基本算法中的分治算法"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                },
+                {
+                    "questionId": "3643",
+                    "knowledgePointId": "707",
+                    "knowledgePoint": "用分治算法实现简单的Python程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3644",
+            "examinationPaperTitle": "202103Python四级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span><font face=\"宋体\">现有</font>n<font face=\"宋体\">个人依次围成一圈玩游戏，从第</font><font face=\"Calibri\">1</font><font face=\"宋体\">个人开始报数，数到第</font><font face=\"Calibri\">m</font><font face=\"宋体\">个人出局，然后从出局的下一个人开始报数，数到第</font><font face=\"Calibri\">m</font><font face=\"宋体\">个人又出局，</font><font face=\"Calibri\">...</font><font face=\"宋体\">，如此反复到只剩下最后一个是胜利者。设</font><font face=\"Calibri\">n</font><font face=\"宋体\">个人的编号分别为</font><font face=\"Calibri\">1</font><font face=\"宋体\">，</font><font face=\"Calibri\">2</font><font face=\"宋体\">，</font><font face=\"Calibri\">...</font><font face=\"宋体\">，</font><font face=\"Calibri\">n</font><font face=\"宋体\">，打印出局的顺序。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">根据上述算法思想，补全下列代码。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">输入输出示例：当</font>n=10<font face=\"宋体\">，</font><font face=\"Calibri\">m=4</font><font face=\"宋体\">，输出如下：</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 4</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 8</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 2</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 7</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 3</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 10</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 9</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 1</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">出局的人是</font>: 6</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">最后胜利者是</font>: 5</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>def fun(n,k):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;L = list(</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>①</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span>)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;if n == 1:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;else:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 0</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in&nbsp;</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>②</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x =</span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>③</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span>- 1</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('<font face=\"宋体\">出局的人是</font><font face=\"Calibri\">:',L[x])</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;del L[x]</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if x &lt; 0:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 0</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('<font face=\"宋体\">最后胜利者是</font><font face=\"Calibri\">:',</font></span><u><span>&nbsp;&nbsp;&nbsp;</span></u><u><span>④</span></u><u><span>&nbsp;&nbsp;&nbsp;</span></u><span>)</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>fun(10,4)</span><span><o:p></o:p></span></p>",
+            "referenceAnswer": "<p class=\"p\"><b><span class=\"15\"><font face=\"宋体\">参考程序：</font></span></b><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>def fun(n,k):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; L = list(range(1,n+1))</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; if n == 1:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; return</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; else:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; x = 0</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; for i in range(n-1):</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; x = (x + k) % len(L) - 1</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('出局的人是:',L[x])</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; del L[x]</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if x &lt; 0:</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; x = 0</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp; &nbsp; &nbsp; &nbsp; print('最后胜利者是:',L[0])</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>fun(10,4)</span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"p\"><b><span class=\"15\"><font face=\"宋体\">评分标准：</font></span></b><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>① range(1,n+1) 或等效答案；（3分）</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>② range(n-1): 或等效答案；（3分）</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>③ (x + k) % len(L) 或等效答案；（3分）</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>④ L[0] 或等效答案；（3分）</span><span><o:p></o:p></span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "185",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "701",
+                    "knowledgePoint": "基本算法中由递归变递推的方法"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "702",
+                    "knowledgePoint": "基本算法中的分治算法"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                },
+                {
+                    "questionId": "3644",
+                    "knowledgePointId": "707",
+                    "knowledgePoint": "用分治算法实现简单的Python程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

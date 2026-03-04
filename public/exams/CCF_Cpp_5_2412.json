@@ -1,0 +1,1288 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202412GESP C++五级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "1888852348189188098",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面关于链表和数组的描述，错误的是（ ）。</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:27:48",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888852348189188098",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>当数据数量不确定时，为了应对各种可能的情况，需要申请一个较大的数组，可能浪费空间；此时用链表比较合适，大小可动态调整。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888852348189188098",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>在链表中访问节点的效率较低，时间复杂度为 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-27-24/8577193264552329216.png\" alt=\"\" data-href=\"\" style=\"\"/>。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888852348189188098",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>链表插入和删除元素效率较低，时间复杂度为<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-27-38/8577193326569283584.png\" alt=\"\" data-href=\"\" style=\"\"/> 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888852348189188098",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>链表的节点在内存中是分散存储的，通过指针连在一起。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888852348189188098",
+                    "knowledgePointId": "130",
+                    "knowledgePoint": "单链表"
+                },
+                {
+                    "questionId": "1888852348189188098",
+                    "knowledgePointId": "131",
+                    "knowledgePoint": "双链表"
+                },
+                {
+                    "questionId": "1888852348189188098",
+                    "knowledgePointId": "132",
+                    "knowledgePoint": "循环链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888852502870544386",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>在循环单链表中，节点的 next 指针指向下一个节点，最后一个节点的 next 指针指向（ ）。</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:28:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888852502870544386",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>当前节点</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888852502870544386",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>nullptr</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888852502870544386",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>第一个节点</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888852502870544386",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>上一个节点</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888852502870544386",
+                    "knowledgePointId": "132",
+                    "knowledgePoint": "循环链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888852920462397442",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>为了方便链表的增删操作，一些算法生成一个虚拟头节点，方便统一删除头节点和其他节点。下面代码实现了删除链表中值为 val 的节点，横线上应填的最佳代码是( )。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-29-23/8577193763338960896.png\" alt=\"62.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-29-23/8577193763338960896.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-29-35/8577193816824700928.png\" alt=\"63.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-29-35/8577193816824700928.png\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:30:04",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888852920462397442",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>dummyHead-&gt;next = head; cur = dummyHead;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888852920462397442",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>dummyHead-&gt;next = head-&gt;next; cur = dummyHead;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888852920462397442",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>dummyHead-&gt;next = head; cur = dummyHead-&gt;next;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888852920462397442",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>dummyHead-&gt;next = head-&gt;next; cur = dummyHead-&gt;next;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888852920462397442",
+                    "knowledgePointId": "130",
+                    "knowledgePoint": "单链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888853228589993986",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>对下面两个函数，说法错误的是（ ）。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-30-36/8577194070932439040.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:31:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888853228589993986",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>两个函数的实现的功能相同。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888853228589993986",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>fibA采用递推方式。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888853228589993986",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>fibB采用的是递归方式。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888853228589993986",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>fibA时间复杂度为 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-31-06/8577194199206838272.png\" alt=\"\" data-href=\"\" style=\"\"/>，fibB的时间复杂度为<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-31-14/8577194229560991744.png\" alt=\"\" data-href=\"\" style=\"\"/> 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888853228589993986",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1888853228589993986",
+                    "knowledgePointId": "138",
+                    "knowledgePoint": "递归时间复杂度分析"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888853480793874433",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>两块长方形土地的长宽分别为 和 米，要将它们分成正方形的小块，使得正方形的尺寸尽可能大。小杨采用如下的辗转相除函数 gcd(24, 36) 来求正方形分块的边长，则函数 gcd 调用顺序为（ ）。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-31-47/8577194367822053376.png\" alt=\"65.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-31-47/8577194367822053376.png\" style=\"\"/></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:32:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888853480793874433",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>gcd(24, 36)、gcd(24, 12)、gcd(12, 0)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888853480793874433",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>gcd(24, 36)、gcd(12, 24)、gcd(0, 12)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888853480793874433",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>gcd(24, 36)、gcd(24, 12)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888853480793874433",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>gcd(24, 36)、gcd(12, 24)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888853480793874433",
+                    "knowledgePointId": "117",
+                    "knowledgePoint": "最大公约数与最小公倍数"
+                },
+                {
+                    "questionId": "1888853480793874433",
+                    "knowledgePointId": "122",
+                    "knowledgePoint": "欧几里得算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888853851444518913",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>唯一分解定理表明，每个大于1的自然数可以唯一地写成若干个质数的乘积。下面函数将自然数 n的所有质因素找出来，横线上能填写的最佳代码是（ ）。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-33-21/8577194765689511936.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:33:46",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888853851444518913",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>for (int i = 3; i &lt;= n; i ++)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888853851444518913",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>for (int i = 3; i * i &lt;= n; i ++)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888853851444518913",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>for (int i = 3; i &lt;= n; i += 2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888853851444518913",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>for (int i = 3; i * i &lt;= n; i += 2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888853851444518913",
+                    "knowledgePointId": "123",
+                    "knowledgePoint": "唯一分解定理"
+                },
+                {
+                    "questionId": "1888853851444518913",
+                    "knowledgePointId": "120",
+                    "knowledgePoint": "质因数分解"
+                },
+                {
+                    "questionId": "1888853851444518913",
+                    "knowledgePointId": "116",
+                    "knowledgePoint": "素数与合数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888854344904003585",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下述代码实现素数表的埃拉托色尼(埃氏)筛法，筛选出所有小于等于n 的素数。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-34-11/8577194975249522688.png\" alt=\"67.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-34-11/8577194975249522688.png\" style=\"\"/></p><p>下面说法，正确的是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:35:44",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888854344904003585",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>代码的时间复杂度是 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-34-53/8577195148486860800.png\" alt=\"68.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-34-53/8577195148486860800.png\" style=\"\"/>。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888854344904003585",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>在标记非素数时，代码从<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-35-20/8577195263356264448.png\" alt=\"69.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-35-20/8577195263356264448.png\" style=\"\"/> 开始，可以减少重复标记。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888854344904003585",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>代码会输出所有小于等于n 的奇数。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888854344904003585",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>调用函数 sieve_Eratosthenes(10) ，函数返回值的数组中包含的元素有： 2, 3, 5, 7, 9 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888854344904003585",
+                    "knowledgePointId": "116",
+                    "knowledgePoint": "素数与合数"
+                },
+                {
+                    "questionId": "1888854344904003585",
+                    "knowledgePointId": "124",
+                    "knowledgePoint": "埃氏筛法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888854704506851329",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下述代码实现素数表的线性筛法，筛选出所有小于等于 的素数。下面说法正确的是( )。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-36-35/8577195575978713088.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-36-40/8577195598531510272.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:37:09",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888854704506851329",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>线性筛的时间复杂度是<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-36-52/8577195649999790080.png\" alt=\"\" data-href=\"\" style=\"\"/> 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888854704506851329",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>每个合数会被其所有的质因子标记一次。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888854704506851329",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>线性筛和埃拉托色尼筛的实现思路完全相同。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888854704506851329",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>以上都不对</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888854704506851329",
+                    "knowledgePointId": "125",
+                    "knowledgePoint": "线性筛法"
+                },
+                {
+                    "questionId": "1888854704506851329",
+                    "knowledgePointId": "124",
+                    "knowledgePoint": "埃氏筛法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888855069944356866",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>考虑以下C++代码实现的快速排序算法：</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-37-37/8577195835971059712.png\" alt=\"72.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-37-37/8577195835971059712.png\" style=\"\"/></p><p>以下关于快速排序的说法，正确的是（ ）。</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:38:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888855069944356866",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>快速排序通过递归对子问题进行求解。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888855069944356866",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>快速排序的最坏时间复杂度是<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-38-15/8577195998152187904.png\" alt=\"11.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-38-15/8577195998152187904.png\" style=\"\"/> 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888855069944356866",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>快速排序是一个稳定的排序算法。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888855069944356866",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>在最优情况下，快速排序的时间复杂度是<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-38-33/8577196071862910976.png\" alt=\"8.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-38-33/8577196071862910976.png\" style=\"\"/> 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888855069944356866",
+                    "knowledgePointId": "142",
+                    "knowledgePoint": "快速排序"
+                },
+                {
+                    "questionId": "1888855069944356866",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888855312487993346",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面关于归并排序，描述正确的是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:39:34",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888855312487993346",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>归并排序是一个不稳定的排序算法。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888855312487993346",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>归并排序的时间复杂度在最优、最差和平均情况下都是 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-39-06/8577196211268968448.png\" alt=\"\" data-href=\"\" style=\"\"/>。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888855312487993346",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>归并排序需要额外的 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-39-22/8577196277681602560.png\" alt=\"\" data-href=\"\" style=\"\"/>空间。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888855312487993346",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>对于输入数组 {12, 11, 13, 5, 6, 7}，代码输出结果为：7 6 5 13 12 11。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888855312487993346",
+                    "knowledgePointId": "141",
+                    "knowledgePoint": "归并排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888855801139744769",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>给定一个长度为 n的有序数组 nums ，其中所有元素都是唯一的。下面的函数返回数组中元素 target 的索引。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-40-08/8577196472385388544.png\" alt=\"73.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-40-08/8577196472385388544.png\" style=\"\"/></p><p>关于上述函数，描述不正确的是（ ）。</p><p><br></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:41:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888855801139744769",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>函数采用二分查找，每次计算搜索当前搜索区间的中点，然后根据中点的元素值排除一半搜索区间。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888855801139744769",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>函数采用递归求解，每次问题的规模减小一半。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888855801139744769",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>递归的终止条件是中间元素的值等于 target ，若数组中不包含该元素，递归不会终止。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888855801139744769",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>算法的复杂度为<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-41-27/8577196803240476672.png\" alt=\"\" data-href=\"\" style=\"\"/> 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888855801139744769",
+                    "knowledgePointId": "135",
+                    "knowledgePoint": "二分查找"
+                },
+                {
+                    "questionId": "1888855801139744769",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1888855801139744769",
+                    "knowledgePointId": "138",
+                    "knowledgePoint": "递归时间复杂度分析"
+                },
+                {
+                    "questionId": "1888855801139744769",
+                    "knowledgePointId": "133",
+                    "knowledgePoint": "多项式复杂度"
+                },
+                {
+                    "questionId": "1888855801139744769",
+                    "knowledgePointId": "134",
+                    "knowledgePoint": "对数复杂度"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888856557171429377",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>给定一个长度为 m的有序数组 nums ，其中可能包含重复元素。下面的函数返回数组中某个元素 target 的左边界，若数组中不包含该元素，则返回 −1 。例如在数组 nums = [5,7,7,8,8,10] 中查找 target=8 ，函数返回8 在数组中的左边界的索引为 。则横线上应填写的代码为（ ）。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-44-05/8577197464355061760.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:44:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888856557171429377",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>right = middle - 1;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888856557171429377",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>right = middle;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888856557171429377",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>right = middle + 1;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888856557171429377",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>以上都不对</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888856557171429377",
+                    "knowledgePointId": "135",
+                    "knowledgePoint": "二分查找"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888856894063562753",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>假设有多个孩子，数组 g 保存所有孩子的胃口值。有多块饼干，数组 s 保存所有饼干的尺寸。小杨给孩子们发饼干，每个孩子最多只能给一块饼干。饼干的尺寸大于等于孩子的胃口时，孩子才能得到满足。小杨的目标是尽可能满足越多数量的孩子，因此打算采用贪心算法来找出能满足的孩子的数目，则横线上应填写的代码为（ ）。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-45-18/8577197770795081728.png\" alt=\"75.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-45-18/8577197770795081728.png\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:45:51",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888856894063562753",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>result++; index--;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888856894063562753",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>result--; index--;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888856894063562753",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>result--; index++;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888856894063562753",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>result++; index++;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888856894063562753",
+                    "knowledgePointId": "143",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888857015010512897",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>关于分治算法，以下说法中不正确的是（ ）。</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:46:20",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888857015010512897",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>分治算法将问题分成子问题，然后分别解决子问题，最后合并结果。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888857015010512897",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>归并排序采用了分治思想。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888857015010512897",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>快速排序采用了分治思想。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888857015010512897",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>冒泡排序采用了分治思想。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888857015010512897",
+                    "knowledgePointId": "141",
+                    "knowledgePoint": "归并排序"
+                },
+                {
+                    "questionId": "1888857015010512897",
+                    "knowledgePointId": "142",
+                    "knowledgePoint": "快速排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888857487327272961",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>小杨编写了一个如下的高精度减法函数：</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-46-56/8577198182994501632.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-47-02/8577198205182394368.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p>下面说法，正确的是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:48:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "1888857487327272961",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>如果数组a 表示的整数小于 表示的整数，代码会正确返回二者的差为负数。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1888857487327272961",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>代码假设输入数字是以倒序存储的，例如 500存储为 {0, 0, 5} 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1888857487327272961",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>代码的时间复杂度为<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-48-00/8577198450393964544.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1888857487327272961",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>当减法结果为 0时，结果数组仍然会存储很多个元素0 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888857487327272961",
+                    "knowledgePointId": "127",
+                    "knowledgePoint": "高精度减法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888857939036655618",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>单链表只支持在表头进行插入和删除操作。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:50:01",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888857939036655618",
+                    "knowledgePointId": "130",
+                    "knowledgePoint": "单链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888857972620828674",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>线性筛相对于埃拉托斯特尼筛法，每个合数只会被它的最小质因数筛去一次，因此效率更高。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:50:09",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888857972620828674",
+                    "knowledgePointId": "124",
+                    "knowledgePoint": "埃氏筛法"
+                },
+                {
+                    "questionId": "1888857972620828674",
+                    "knowledgePointId": "125",
+                    "knowledgePoint": "线性筛法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858009442242561",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>任何一个大于1的自然数都可以分解成若干个不同的质数的乘积，且分解方式是唯一的。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:50:17",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858009442242561",
+                    "knowledgePointId": "120",
+                    "knowledgePoint": "质因数分解"
+                },
+                {
+                    "questionId": "1888858009442242561",
+                    "knowledgePointId": "123",
+                    "knowledgePoint": "唯一分解定理"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858045819822081",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>贪心算法通过每一步选择当前最优解，从而一定能获得全局最优解。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:50:26",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858045819822081",
+                    "knowledgePointId": "143",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858078833188866",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>递归算法必须有一个明确的结束条件，否则会导致无限递归并可能引发栈溢出。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:50:34",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858078833188866",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858258940796929",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>快速排序和归并排序的平均时间复杂度均为 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-51-13/8577199259357790208.png\" alt=\"\" data-href=\"\" style=\"\"/>，且都是稳定排序。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:51:17",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858258940796929",
+                    "knowledgePointId": "141",
+                    "knowledgePoint": "归并排序"
+                },
+                {
+                    "questionId": "1888858258940796929",
+                    "knowledgePointId": "142",
+                    "knowledgePoint": "快速排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858290001989633",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p> 快速排序的时间复杂度总比插入排序的时间复杂度低。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:51:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858290001989633",
+                    "knowledgePointId": "142",
+                    "knowledgePoint": "快速排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858336400822274",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>二分查找仅适用于数组而不适合链表，因为二分查找需要跳跃式访问元素，链表中执行跳跃式访问的效率低。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:51:35",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858336400822274",
+                    "knowledgePointId": "135",
+                    "knowledgePoint": "二分查找"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858389390217218",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>对有序数组 {5,13,19,21,37,56,64,75,88,92,100} 进行二分查找，成功查找元素 19 的比较次数是2。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:51:48",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858389390217218",
+                    "knowledgePointId": "135",
+                    "knowledgePoint": "二分查找"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888858438699896833",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>递归函数每次调用自身时，系统都会为新开启的函数分配内存，以存储局部变量、调用地址和其他信息等，导致递归通常比迭代更加耗费内存空间。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:52:00",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888858438699896833",
+                    "knowledgePointId": "137",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1888858438699896833",
+                    "knowledgePointId": "139",
+                    "knowledgePoint": "递归空间复杂度分析"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1888859305671303170",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 4,
+            "title": "<p>奇妙数字</p><p><br></p><p>题面描述</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-52-52/8577199676527460352.png\" alt=\"79.png\"></p><p>输入格式</p><p>第一行包含一个正整数 n，含义如题面所示。</p><p><br></p><p>输出格式</p><p>输出一个正整数，代表满足条件的集合最多包含的奇妙数字个数。</p><p><br></p><p>样例</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-53-43/8577199889052844032.png\"></p><p>样例解释</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-54-10/8577200001422417920.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p>参考程序</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-55-15/8577200273959927808.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-55-21/8577200300807643136.png\"></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 15:55:26",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>128</p>",
+                        "testCaseOutput": "<p>3</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1888860989579120641",
+            "examinationPaperTitle": "202412GESP C++五级试卷",
+            "type": 4,
+            "title": "<p>武器强化</p><p><br></p><p>题面描述</p><p>小杨有n 种武器和 m种强化材料。第 i种强化材料会适配第 pi种武器，小杨可以花费 ci金币将该材料对应的适配武器修改为任意武器。</p><p>小杨最喜欢第1 种武器，因此他希望适配该武器的强化材料种类数严格大于其他的武器，请你帮小杨计算为了满足该条件最少需要花费多少金币。</p><p><br></p><p>输入格式</p><p>第一行包含两个正整数n，m，含义如题面所示。</p><p>之后m行，每行包含两个正整数pi，ci，代表第i种强化材料的适配武器和修改花费。</p><p><br></p><p>输出格式</p><p>输出一个整数，代表能够适配第1种武器的强化材料种类数严格大于其他的武器最少需要花费得金币。</p><p><br></p><p>样例</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-15-59-44/8577201404601655296.png\"></p><p>样例解释</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-16-00-15/8577201531580039168.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-16-01-47/8577201918441644032.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-16-01-54/8577201948418334720.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-16-02-00/8577201973919703040.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-02-10-16-02-06/8577201999962136576.png\"></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1881180818420441090",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-02-10 16:02:08",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1888860989579120641",
+                    "knowledgePointId": "143",
+                    "knowledgePoint": "贪心算法概念"
+                },
+                {
+                    "questionId": "1888860989579120641",
+                    "knowledgePointId": "144",
+                    "knowledgePoint": "最优子结构"
+                },
+                {
+                    "questionId": "1888860989579120641",
+                    "knowledgePointId": "136",
+                    "knowledgePoint": "二分答案（二分枚举法）"
+                }
+            ],
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>4 4</p><p>1 1</p><p>2 1</p><p>3 1</p><p>3 2</p>",
+                        "testCaseOutput": "<p>1</p>"
+                    }
+                ]
+            }
+        }
+    ]
+}

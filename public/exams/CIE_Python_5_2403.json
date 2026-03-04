@@ -1,0 +1,1992 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202403Python五级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "10912",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">以下代码的输出结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p><p>def count_odd_numbers(n):</p><p> &nbsp; &nbsp;return len([num for num in range(n) if num % 2 != 0])</p><p>print(count_odd_numbers(20))</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>range(n) <span style=\"font-family: 宋体;\">表示包含 </span>0 <span style=\"font-family: 宋体;\">到 </span>n-1 <span style=\"font-family: 宋体;\">之间的所有整数，而 </span>[num for num in range(n) if num % 2 != 0] <span style=\"font-family: 宋体;\">表示从 </span>0 <span style=\"font-family: 宋体;\">到 </span>n-1 <span style=\"font-family: 宋体;\">中选出所有奇数，而这些奇数正好有 </span>1, 3, 5, 7, 9, 11, 13, 15<span style=\"font-family: 宋体;\">，</span>17<span style=\"font-family: 宋体;\">，</span>19<span style=\"font-family: 宋体;\">所以输出结果为 </span>10</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10912",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10912",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10912",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10912",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>15</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10912",
+                    "knowledgePointId": "716",
+                    "knowledgePoint": "列表推导式"
+                },
+                {
+                    "questionId": "10912",
+                    "knowledgePointId": "713",
+                    "knowledgePoint": "range类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10912",
+                    "knowledgePointId": "730",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10936",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">闰年是公历中的名词，分为普通闰年和世纪闰年。普通闰年是</span>4<span style=\"font-family: 宋体;\">年一次，若公历年份是</span>4<span style=\"font-family: 宋体;\">的倍数且不是</span>100<span style=\"font-family: 宋体;\">的倍数则为普通闰年（如</span>2004<span style=\"font-family: 宋体;\">年、</span>2020<span style=\"font-family: 宋体;\">年就是普通闰年），现在想输出</span>1949<span style=\"font-family: 宋体;\">年到今年（</span>2024<span style=\"font-family: 宋体;\">年）之间的所有普通闰年，正确的列表推导式是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">本题考察列表推导式的应用。循环变量</span>i<span style=\"font-family: 宋体;\">的范围是</span>1949-2024<span style=\"font-family: 宋体;\">，条件是能被</span>4<span style=\"font-family: 宋体;\">整除但不能被</span>100<span style=\"font-family: 宋体;\">整除。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10936",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>print([i for i in range(1949,2025)if i %4==0 and i%100!=0])</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10936",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>print([i for i in range(1949,2025)if i %4!=0 and i%100!=0])</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10936",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>print([for i in range(1949,2025)if i %4==0 and i%100=0])</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10936",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>print([for i in range(1949,2025)if i %4!=0 and i%100=0])</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10936",
+                    "knowledgePointId": "716",
+                    "knowledgePoint": "列表推导式"
+                },
+                {
+                    "questionId": "10936",
+                    "knowledgePointId": "713",
+                    "knowledgePoint": "range类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10935",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">某</span>Python<span style=\"font-family: 宋体;\">程序段如下：</span> </p><p>l= [\"python\" +i+\"<span style=\"font-family: 宋体;\">级</span>\" for i in \"<span style=\"font-family: 宋体;\">一二三四五六</span>\"]</p><p>print(l[4]) </p><p><span style=\"font-family: 宋体;\">程序运行后，输出结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">列表推导式会遍历后面的可迭代对象</span>,<span style=\"font-family: 宋体;\">然后按照</span>for<span style=\"font-family: 宋体;\">前的表达式进行运算生成列表。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10935",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>python<span style=\"font-family: 宋体;\">二级</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10935",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>python<span style=\"font-family: 宋体;\">三级</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10935",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>python<span style=\"font-family: 宋体;\">四级</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10935",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>python<span style=\"font-family: 宋体;\">五级</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10935",
+                    "knowledgePointId": "716",
+                    "knowledgePoint": "列表推导式"
+                },
+                {
+                    "questionId": "10935",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10935",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10934",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">某</span>Python<span style=\"font-family: 宋体;\">程序段如下：</span></p><p>import random</p><p>a=[random.randint(1,5)*2 for i in range(5)]</p><p>print(a)</p><p><span style=\"font-family: 宋体;\">程序运行后，输出结果不可能是？（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">本题考察列表推导式，产生</span>5<span style=\"font-family: 宋体;\">个</span>2-10<span style=\"font-family: 宋体;\">之间的偶数。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10934",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[4,4,8,10,8]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10934",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>\t[8,8,2,4,2]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10934",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>\t[2,5,6,8,4]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10934",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[2,4,6,8,10]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10934",
+                    "knowledgePointId": "723",
+                    "knowledgePoint": "random库的功能与使用"
+                },
+                {
+                    "questionId": "10934",
+                    "knowledgePointId": "716",
+                    "knowledgePoint": "列表推导式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10933",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知</span>list1<span style=\"font-family: 宋体;\">＝</span>list(\"php\")<span style=\"font-family: 宋体;\">，执行语句</span>list1[2<span style=\"font-family: 宋体;\">：</span>]<span style=\"font-family: 宋体;\">＝</span>list(\"Python\")<span style=\"font-family: 宋体;\">后，列表</span>list1<span style=\"font-family: 宋体;\">中的内容为？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">本题考查的是列表的替换操作。将列表</span>list1<span style=\"font-family: 宋体;\">中第</span>3<span style=\"font-family: 宋体;\">至最后一个元素内容替换为″</span>Python<span style=\"font-family: 宋体;\">″。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10933",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>['p'<span style=\"font-family: 宋体;\">，</span>'h'<span style=\"font-family: 宋体;\">，</span>'p'<span style=\"font-family: 宋体;\">，</span>'P'<span style=\"font-family: 宋体;\">，</span>'y'<span style=\"font-family: 宋体;\">，</span>'t'<span style=\"font-family: 宋体;\">，</span>'h'<span style=\"font-family: 宋体;\">，</span>'o'<span style=\"font-family: 宋体;\">，</span>'n']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10933",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>['p'<span style=\"font-family: 宋体;\">，</span>'P'<span style=\"font-family: 宋体;\">，</span>'y'<span style=\"font-family: 宋体;\">，</span>'t'<span style=\"font-family: 宋体;\">，</span>'h'<span style=\"font-family: 宋体;\">，</span>'o'<span style=\"font-family: 宋体;\">，</span>'n']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10933",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>\t['p'<span style=\"font-family: 宋体;\">，</span>'h'<span style=\"font-family: 宋体;\">，</span>'P'<span style=\"font-family: 宋体;\">，</span>'y'<span style=\"font-family: 宋体;\">，</span>'t'<span style=\"font-family: 宋体;\">，</span>'h'<span style=\"font-family: 宋体;\">，</span>'o'<span style=\"font-family: 宋体;\">，</span>'n']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10933",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>['P'<span style=\"font-family: 宋体;\">，</span>'y'<span style=\"font-family: 宋体;\">，</span>'t'<span style=\"font-family: 宋体;\">，</span>'h'<span style=\"font-family: 宋体;\">，</span>'o'<span style=\"font-family: 宋体;\">，</span>'n']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10933",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10933",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10932",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知列表</span>Lista<span style=\"font-family: 宋体;\">＝</span>[1,2,3,4]<span style=\"font-family: 宋体;\">，执行语句</span>Lista<span style=\"font-family: 宋体;\">＝</span>[2]<span style=\"font-family: 宋体;\">＋</span>Lista<span style=\"font-family: 宋体;\">后，列表</span>Lista<span style=\"font-family: 宋体;\">中的元素为？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>本题考察列表的基本操作。</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10932",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[3,4,5,6]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10932",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>[1,2,3,4,2]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10932",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>[1,2,2,3,4]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10932",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[2,1,2,3,4]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10932",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10932",
+                    "knowledgePointId": "718",
+                    "knowledgePoint": "序列解包"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10931",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">某</span>Python<span style=\"font-family: 宋体;\">程序段如下：</span></p><p>lis=[11,22,33,44,55]</p><p>lis[2],lis[3]=lis[3],lis[2]</p><p>print(lis)</p><p><span style=\"font-family: 宋体;\">程序运行后，输出的结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>本题考察列表的访问与列表元素的交换。</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10931",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[11,22,33,44,55]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10931",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>[11,22,22,33,55]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10931",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>[11,22,44,33,55]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10931",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\t[11,33,33,44,55]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10931",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10931",
+                    "knowledgePointId": "718",
+                    "knowledgePoint": "序列解包"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10930",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">某</span>Python<span style=\"font-family: 宋体;\">程序段如下：</span></p><p>s=[\"seasons\",\"spring\",\"summer\",\"fall\",\"winter\"]</p><p>print(s[1][2:6])</p><p><span style=\"font-family: 宋体;\">程序运行后，输出的结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>本题考察列表的访问</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10930",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>ring</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10930",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>pring</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10930",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>eason</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10930",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\teaso</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10930",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10930",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10930",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10929",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">设</span>str1 = '*@python@*', <span style=\"font-family: 宋体;\">语句</span>print(str1[1:].strip('@'))<span style=\"font-family: 宋体;\">的执行结果是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>str1[1:]<span style=\"font-family: 宋体;\">取到了</span>'@python@*'<span style=\"font-family: 宋体;\">，</span>str1[1:].strip('@')<span style=\"font-family: 宋体;\">是要将</span>'@python@*'<span style=\"font-family: 宋体;\">两端的</span>@<span style=\"font-family: 宋体;\">去掉。左边可以，右边有</span>*<span style=\"font-family: 宋体;\">号挡着，删不到</span>@<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10929",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>python@*</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10929",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>python*</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10929",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>*@python@*</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10929",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\t* python*</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10929",
+                    "knowledgePointId": "708",
+                    "knowledgePoint": "字符串的转义符"
+                },
+                {
+                    "questionId": "10929",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10929",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10928",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p>print('\\x68')<span style=\"font-family: 宋体;\">的结果是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>\\x**<span style=\"font-family: 宋体;\">表示</span>2<span style=\"font-family: 宋体;\">位十六进制数对应的字符。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10928",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>\\x68</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10928",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>68</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10928",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>x68</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10928",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>h</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10928",
+                    "knowledgePointId": "708",
+                    "knowledgePoint": "字符串的转义符"
+                },
+                {
+                    "questionId": "10928",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10927",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">字符串变量</span>str = 'Wfall0343'<span style=\"font-family: 宋体;\">，执行语句</span>print(str.find('3'))<span style=\"font-family: 宋体;\">，输出的结果是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>find<span style=\"font-family: 宋体;\">的作用是找到某个字符在字符串中第一次出现的位置。本题中，是要找到字符</span>'3'<span style=\"font-family: 宋体;\">在字符串中的位置，从</span>0<span style=\"font-family: 宋体;\">开始计数，</span>'3'<span style=\"font-family: 宋体;\">第一次出现的位置为</span>6<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10927",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10927",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10927",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10927",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10927",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10925",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">以下哪个选项可以删除字典中指定的键值对？（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">要删除字典中的一个键值对，可以使用</span> del <span style=\"font-family: 宋体;\">关键字，后跟要删除的键。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10925",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>my_dict.remove(key)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10925",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>del my_dict[key]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10925",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>my_dict.clear(key)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10925",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>my_dict.delete(key)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10925",
+                    "knowledgePointId": "728",
+                    "knowledgePoint": "字典类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10911",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p class=\"MsoNormal\"><font face=\"宋体\">以下代码的输出结果是？（</font> <font face=\"宋体\">）</font><o:p></o:p></p><p class=\"MsoNormal\"><font face=\"Calibri\">nums = list(range(100, 201))</font><o:p></o:p></p><p class=\"MsoNormal\"><font face=\"Calibri\">print(nums[::10])</font><o:p></o:p></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>list(range(100, 201)) <span style=\"font-family: 宋体;\">表示包含 </span>100 <span style=\"font-family: 宋体;\">到 </span>200 <span style=\"font-family: 宋体;\">一百个整数的列表，而 </span>nums[::10] <span style=\"font-family: 宋体;\">表示从开头（即索引 </span>0<span style=\"font-family: 宋体;\">）开始，每隔 </span>10 <span style=\"font-family: 宋体;\">个元素取一个数，因此输出结果为 </span>[100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10911",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p class=\"MsoNormal\"><font face=\"Calibri\">[100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]</font></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10911",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p class=\"MsoNormal\">\t<font face=\"Calibri\">[100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 200]</font></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10911",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p class=\"MsoNormal\"><font face=\"Calibri\">[100, 111, 122, 133, 144, 155, 166, 177, 188, 199]</font></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10911",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p class=\"MsoNormal\">\t<font face=\"Calibri\">[199, 188, 177, 166, 155, 144, 133, 122, 111, 100]</font></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10911",
+                    "knowledgePointId": "713",
+                    "knowledgePoint": "range类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10911",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10911",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10913",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">以下代码的输出结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p><p>for i in range(5):</p><p> &nbsp; &nbsp;print(' '*(5-i) + '*'*(2*i+1))</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">这段代码使用</span> for <span style=\"font-family: 宋体;\">循环，每次循环时打印一个字符串，其中空格和星号的数量是不同的。在第一次循环中，有五个空格和一个星号；在第二次循环中，有四个空格和三个星号；以此类推。因此该程序打印出一个正立的三角形。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10913",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>错误，代码无法运行</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10913",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>打印出一个梯形状的星星</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10913",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>打印出一个倒立的三角形</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10913",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>打印出一个正立的三角形</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10913",
+                    "knowledgePointId": "708",
+                    "knowledgePoint": "字符串的转义符"
+                },
+                {
+                    "questionId": "10913",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10913",
+                    "knowledgePointId": "713",
+                    "knowledgePoint": "range类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10913",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10914",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">运行以下代码的结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p><p>nums = range(1, 11)</p><p>sliced_nums = nums[2:8]</p><p>result = sum(sliced_nums) * 3</p><p>print(result)</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>range(1, 11) <span style=\"font-family: 宋体;\">表示包含 </span>1 <span style=\"font-family: 宋体;\">到 </span>10 <span style=\"font-family: 宋体;\">十个整数，而 </span>nums[2:8] <span style=\"font-family: 宋体;\">表示从索引 </span>2 <span style=\"font-family: 宋体;\">开始（即第三个元素），到索引 </span>8 <span style=\"font-family: 宋体;\">结束之前（即第九个元素）的子列表，即 </span>[3, 4, 5, 6, 7, 8]<span style=\"font-family: 宋体;\">，其和为 </span>33<span style=\"font-family: 宋体;\">，乘以 </span>3 <span style=\"font-family: 宋体;\">得到结果 </span>99<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10914",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>90</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10914",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>99</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10914",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>81</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10914",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>72</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10914",
+                    "knowledgePointId": "713",
+                    "knowledgePoint": "range类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10914",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                },
+                {
+                    "questionId": "10914",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10915",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">集合</span>a={1,2,3,4,5,6}<span style=\"font-family: 宋体;\">，</span>b={1,3,5,7,9}<span style=\"font-family: 宋体;\">，则</span>a&b<span style=\"font-family: 宋体;\">的结果是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">集合有交集、并集、差集，</span>\"&\"<span style=\"font-family: 宋体;\">表示交集，所以选项</span>B<span style=\"font-family: 宋体;\">和选项</span>C<span style=\"font-family: 宋体;\">错误，集合用</span>{}<span style=\"font-family: 宋体;\">，选项</span>D<span style=\"font-family: 宋体;\">用</span>[]<span style=\"font-family: 宋体;\">错误。答案选</span>A</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10915",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>{1, 3, 5}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10915",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>{2, 4, 6}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10915",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>{1,2,3,4,5,6,1,3,5,7,9}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10915",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\t[1, 3, 5]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10915",
+                    "knowledgePointId": "715",
+                    "knowledgePoint": "集合类型的概念"
+                },
+                {
+                    "questionId": "10915",
+                    "knowledgePointId": "729",
+                    "knowledgePoint": "集合类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10916",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p>下列程序的运行结果？（ ）</p><p>a={6,5,4,3,2,1}</p><p>a.remove(1)</p><p>print(a)</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>remove() 方法从集合中删除指定的元素。本题把集合a中的1删除，选A。选项C、D不能用()、[]。</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10916",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>{6,5,4,3,2}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10916",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p> {1,2,3,4,5}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10916",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p style=\"text-align: left;\">(6,5,4,3,2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10916",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[2,3,4,5,6]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10916",
+                    "knowledgePointId": "715",
+                    "knowledgePoint": "集合类型的概念"
+                },
+                {
+                    "questionId": "10916",
+                    "knowledgePointId": "729",
+                    "knowledgePoint": "集合类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10917",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p class=\"MsoNormal\"><font face=\"宋体\">智慧种植社团想要确定农植园西红柿元组的最大值，可以使用下列方法？（</font> <font face=\"宋体\">）</font><o:p></o:p></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">内置函数</span>max()<span style=\"font-family: 宋体;\">，计算元组中元素最大值。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10917",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p class=\"MsoNormal\"><font face=\"Calibri\">list()</font><o:p></o:p></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10917",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p class=\"MsoNormal\">\t<font face=\"Calibri\">max()</font></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10917",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p class=\"MsoNormal\"><font face=\"Calibri\">min()</font></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10917",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p class=\"MsoNormal\"><font face=\"Calibri\">sum()</font></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10917",
+                    "knowledgePointId": "711",
+                    "knowledgePoint": "元组类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10918",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">统计黑色</span>\"black\"<span style=\"font-family: 宋体;\">在当前</span>pen<span style=\"font-family: 宋体;\">元组中出现的次数</span></p><p>pen=('blue','black','red','black','blue','black')</p><p>print(pen.count('black')) </p><p><span style=\"font-family: 宋体;\">输出的结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>Python<span style=\"font-family: 宋体;\">元组元素的统计函数</span>count()<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10918",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10918",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10918",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10918",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10918",
+                    "knowledgePointId": "711",
+                    "knowledgePoint": "元组类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10919",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">科学课上，王老师做了一个实验，一张纸对折</span>1<span style=\"font-family: 宋体;\">次厚度是原来的</span>2<span style=\"font-family: 宋体;\">倍，对折</span>2<span style=\"font-family: 宋体;\">次厚度是原来的</span>4<span style=\"font-family: 宋体;\">倍，对折</span>3<span style=\"font-family: 宋体;\">次厚度是原来的</span>8<span style=\"font-family: 宋体;\">倍，…依此类推，对折</span>n<span style=\"font-family: 宋体;\">次后，厚度是原来的多少倍？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">运用</span>Python math.pow()<span style=\"font-family: 宋体;\">计算快速幂，</span>math.pow(2,n)<span style=\"font-family: 宋体;\">表示</span>2<span style=\"font-family: 宋体;\">的</span>n<span style=\"font-family: 宋体;\">次方。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10919",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>ans=math.pow(10,n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10919",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>ans=math.comb(n,2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10919",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>ans=math.factorial(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10919",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>ans=math.pow(2,n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10919",
+                    "knowledgePointId": "721",
+                    "knowledgePoint": "math库的功能与使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10920",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">有关中文分词</span>jieba<span style=\"font-family: 宋体;\">库的描述，错误的是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>jieba.lcut(s)<span style=\"font-family: 宋体;\">返回的可能是一个列表类型。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10920",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>jieba.add_word(w)<span style=\"font-family: 宋体;\">向分词词典中增加新词</span>w</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10920",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>\tjieba.lcut(s)<span style=\"font-family: 宋体;\">返回的可能是一个字符串类型</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10920",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>jieba.cut(s)<span style=\"font-family: 宋体;\">返回的可能是一个可迭代的数据类型</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10920",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>jieba<span style=\"font-family: 宋体;\">库的分词原理是利用中文词库，将待处理的内容与词库比对后找到最大概率的词组</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10920",
+                    "knowledgePointId": "726",
+                    "knowledgePoint": "jieba库的功能与使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10922",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">石头剪刀布游戏，规则如下</span>:<span style=\"font-family: 宋体;\">石头胜剪刀，剪刀胜布，布胜石头。编写 </span>Python <span style=\"font-family: 宋体;\">程序模拟石头剪刀布游戏，并判定游戏的输赢，代码中数字 </span>0 <span style=\"font-family: 宋体;\">代表石头，数字 </span>1 <span style=\"font-family: 宋体;\">代表剪刀，数字 </span>2 <span style=\"font-family: 宋体;\">代表布。模拟玩家</span>A<span style=\"font-family: 宋体;\">出拳的程序代码是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>Python random. randint(a, b)<span style=\"font-family: 宋体;\">，用于生成一个指定范围内的随机整数，两个参数其中一个是上限，一个是下限。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10922",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>random.uniform(0,3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10922",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>random.randint(0,2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10922",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>\trandom.sample(2,1)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10922",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\trandom.seed()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10922",
+                    "knowledgePointId": "723",
+                    "knowledgePoint": "random库的功能与使用"
+                },
+                {
+                    "questionId": "10922",
+                    "knowledgePointId": "730",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10923",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p>Python<span style=\"font-family: 宋体;\">中</span>wordcloud<span style=\"font-family: 宋体;\">库把词云当作一个</span>WordCloud<span style=\"font-family: 宋体;\">对象。</span></p><p><span style=\"font-family: 宋体;\">向阳小学阅读社团计划编写一个读书笔记的词云，根据笔记的数量，计划使用以下哪个指令自定义设置词云的图片尺寸参数？（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p style=\"text-align: justify;\">wordcloud.WordCloud() <span style=\"font-family: 宋体;\">是以</span>WordCloud<span style=\"font-family: 宋体;\">对象为基础，配置参数并生成词云。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10923",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>wordcloud.WordCloud(font_step=5)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10923",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>wordcloud.WordCloud(width=1600,height=800)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10923",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>wordcloud.WordCloud(max_words=20)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10923",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>wordcloud.WordCloud(min_font_size=10)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10923",
+                    "knowledgePointId": "727",
+                    "knowledgePoint": "wordcloud库的功能与使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10924",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p>以下哪个选项可以添加一个键值对到字典中？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>要向字典中添加一个键值对，可以使用中括号语法将键和值分别放在方括号内。</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10924",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>my_dict.add(key, value)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10924",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>my_dict[key] = value</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10924",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>my_dict.append(key, value)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10924",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\tmy_dict.insert(key, value)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10924",
+                    "knowledgePointId": "728",
+                    "knowledgePoint": "字典类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10926",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">执行下列代码的结果是？（</span> <span style=\"font-family: 宋体;\">）</span></p><p>&gt;&gt;&gt; a = \"3.1415926\"</p><p>&gt;&gt;&gt; b = 6</p><p>&gt;&gt;&gt; c = \"&lt;\"</p><p>&gt;&gt;&gt; print(\"{0:{2}.{1}}\".format(a,b,c))</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">相当于</span>print('{0:&lt;.6}'.format(a))</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "10926",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3.1415926</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "10926",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>003.14</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "10926",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>3.1415</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "10926",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\t003.141</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10926",
+                    "knowledgePointId": "709",
+                    "knowledgePoint": "format()格式化方法"
+                },
+                {
+                    "questionId": "10926",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10940",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">科技社团将个人信息定义为元组，使用小括号，数据可以是不同的数据类型，各个数据之间用逗号隔开。（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<table style=\"width: auto;\"><tbody><tr><p>元组特点：定义元组使用小括号，且逗号隔开各个数据，数据可以是不同的数据类型。</p></tr></tbody></table><p><br></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10940",
+                    "knowledgePointId": "711",
+                    "knowledgePoint": "元组类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10939",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">无法通过引用索引来访问集合中的元素，但是可以用</span>for<span style=\"font-family: 宋体;\">循环来遍历集合中的元素。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">在</span> Python <span style=\"font-family: 宋体;\">中，集合是无序和无索引的集合。无法通过引用索引来访问集合中的元素，可以通过 </span>for <span style=\"font-family: 宋体;\">循环来遍历集合的元素，另外，还可以使用 </span>in <span style=\"font-family: 宋体;\">关键字来判断集合中是否存在某个元素。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10939",
+                    "knowledgePointId": "715",
+                    "knowledgePoint": "集合类型的概念"
+                },
+                {
+                    "questionId": "10939",
+                    "knowledgePointId": "729",
+                    "knowledgePoint": "集合类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10938",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">在</span>Python<span style=\"font-family: 宋体;\">中，可以仅仅使用一对空的花括号</span>{}<span style=\"font-family: 宋体;\">来创建集合。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">本题属于较难题，本题的难点在于：如果仅仅使用一对花括号</span>{}<span style=\"font-family: 宋体;\">，创建的对象将是一个空的字典而不是集合。为了创建一个空集合，必须在花括号中包含一个空格字符。在</span>Python<span style=\"font-family: 宋体;\">中，集合（</span>set<span style=\"font-family: 宋体;\">）是一种非常重要的数据类型，它可以存储任意类型的数据对象，并且确保不含有重复元素。使用内置的</span>set()<span style=\"font-family: 宋体;\">函数是创建一个空集合的最简单的方法。这个函数不接收任何参数，返回一个空的集合对象。在</span>Python<span style=\"font-family: 宋体;\">中，可以使用花括号来创建一个集合对象。如果仅仅使用一对花括号</span>{}<span style=\"font-family: 宋体;\">，创建的对象将是一个空的字典而不是集合。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10938",
+                    "knowledgePointId": "715",
+                    "knowledgePoint": "集合类型的概念"
+                },
+                {
+                    "questionId": "10938",
+                    "knowledgePointId": "729",
+                    "knowledgePoint": "集合类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10937",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">以下代码的输出结果是</span> 48<span style=\"font-family: 宋体;\">。（ ）</span></p><p>nums = range(1, 9)</p><p>result = sum([num for num in nums if num % 3 != 0]) * 2 - 6</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>range(start, stop) <span style=\"font-family: 宋体;\">表示从 </span>start <span style=\"font-family: 宋体;\">开始到 </span>stop-1 <span style=\"font-family: 宋体;\">结束的所有整数，因此 </span>range(1, 9) <span style=\"font-family: 宋体;\">表示包含从 </span>1 <span style=\"font-family: 宋体;\">到 </span>8 <span style=\"font-family: 宋体;\">的所有整数。而 </span>[num for num in nums if num % 3 != 0] <span style=\"font-family: 宋体;\">表示选取其中不能被 </span>3 <span style=\"font-family: 宋体;\">整除的元素，即 </span>[1, 2, 4, 5, 7, 8]<span style=\"font-family: 宋体;\">。这些数加起来是 </span>27<span style=\"font-family: 宋体;\">，再乘以 </span>2 <span style=\"font-family: 宋体;\">得到 </span>54<span style=\"font-family: 宋体;\">，减去</span>6<span style=\"font-family: 宋体;\">得</span>48.</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:23",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10937",
+                    "knowledgePointId": "713",
+                    "knowledgePoint": "range类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10937",
+                    "knowledgePointId": "716",
+                    "knowledgePoint": "列表推导式"
+                },
+                {
+                    "questionId": "10937",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10937",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10942",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p>Jieba<span style=\"font-family: 宋体;\">是优秀的中文分词第三方库，</span>jieba.cut(s)<span style=\"font-family: 宋体;\">精确模式，可以把文本精确的切分开，不存在冗余单词。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>jieba<span style=\"font-family: 宋体;\">精确模式是最常用的分词模式，就是把一段文本精确的切分成若干个中文单词，若干个中文单词之间经过组合就精确的还原为之前的文本，其中不存在冗余单词。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10942",
+                    "knowledgePointId": "726",
+                    "knowledgePoint": "jieba库的功能与使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10943",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">字典中的键必须是唯一的，但值可以重复。（</span> <span style=\"font-family: 宋体;\">）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>字典中的键必须是唯一的，每个键对应一个值。但是，不同的键可以对应相同的值。</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10943",
+                    "knowledgePointId": "714",
+                    "knowledgePoint": "字典类型的概念"
+                },
+                {
+                    "questionId": "10943",
+                    "knowledgePointId": "728",
+                    "knowledgePoint": "字典类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10944",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p>print('It's a wonderful day!')<span style=\"font-family: 宋体;\">的结果是</span>It's a wonderful day!<span style=\"font-family: 宋体;\">。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>需要用转义字符，不然出错。</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10944",
+                    "knowledgePointId": "708",
+                    "knowledgePoint": "字符串的转义符"
+                },
+                {
+                    "questionId": "10944",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10945",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p>str=\"This is a disposable cup\"</p><p>sub=\"is\"</p><p>print(str.rfind(sub))<span style=\"font-family: 宋体;\">的结果为</span>5<span style=\"font-family: 宋体;\">。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>rfind<span style=\"font-family: 宋体;\">的作用为找到子串在字符串中最后出现的位置。本题中应为</span>11<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10945",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10946",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">有列表</span>a=[1,2,3],b=a*3,<span style=\"font-family: 宋体;\">执行语句</span>print(len(b))<span style=\"font-family: 宋体;\">输出结果是</span>9<span style=\"font-family: 宋体;\">。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">本题考察</span>*<span style=\"font-family: 宋体;\">在列表中的应用，</span>*3<span style=\"font-family: 宋体;\">出现在列表中为将列表元素重复三次。</span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10946",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10947",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">小明想在变量</span>a<span style=\"font-family: 宋体;\">中存储</span>26<span style=\"font-family: 宋体;\">个小写字母，但他不想手动输入，可以使用列表推导式</span>[chr(i+97)for i in range(26)]<span style=\"font-family: 宋体;\">实现。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>本题考察列表推导式的应用。</p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10947",
+                    "knowledgePointId": "716",
+                    "knowledgePoint": "列表推导式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10948",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span>火柴棍游戏</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">用火柴棍拼成数字</font><font face=\"Calibri\">0~9</font><font face=\"宋体\">，具体拼法如图所示：</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">编写</font><font face=\"Calibri\">Python</font><font face=\"宋体\">程序，实现输入火柴棍的数量，输出符合该火柴棍数的三位数组合</font><font face=\"Calibri\">,</font><font face=\"宋体\">若找不到，则输出“没有符合要求的数”，见样例，程序如下：</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span>请在划线处填入合适代码。</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">code={0:6,1:2,2:5,3:5,4:4,5:5,6:6,7:3,8:7,9:6}</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">num=int(input(\"</font><font face=\"宋体\">请输入火柴棍数量：</font><font face=\"Calibri\">\"))</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">flag=False</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">for i in range(&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</font><font face=\"宋体\">①</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; if&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">②</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;+code[i//10%10]+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">③</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;==num:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; print(\"</font><font face=\"宋体\">可以组成的三位数：</font><font face=\"Calibri\">\",i,sep=\"\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; flag=True</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">if&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">④</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; print(\"</font><font face=\"宋体\">可以组成的三位数：</font><font face=\"Calibri\">\",\"</font><font face=\"宋体\">没有符合要求的数</font><font face=\"Calibri\">\",sep=\"\")</font></span><span><o:p></o:p></span></p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><span><font face=\"Calibri\">code={0:6,1:2,2:5,3:5,4:4,5:5,6:6,7:3,8:7,9:6}</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">num=int(input(\"</font><font face=\"宋体\">请输入火柴棍数量：</font><font face=\"Calibri\">\"))</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">flag=False</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">for i in range(100,1000):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; if&nbsp;&nbsp;code[i//100]+code[i//10%10]+code[i%10]==num:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; print(\"</font><font face=\"宋体\">可以组成的三位数：</font><font face=\"Calibri\">\",i,sep=\"\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; flag=True</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">if&nbsp;&nbsp;&nbsp;flag==False:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; print(\"</font><font face=\"宋体\">可以组成的三位数：</font><font face=\"Calibri\">\",\"</font><font face=\"宋体\">没有符合要求的数</font><font face=\"Calibri\">\",sep=\"\")</font></span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"MsoNormal\"><span>评分标准：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">1</font><font face=\"宋体\">）</font><font face=\"Calibri\">100,1000 </font><font face=\"宋体\">或</font><font face=\"Calibri\">100,1000,1 </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">）</font><font face=\"Calibri\">code[i//100] </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">3</font><font face=\"宋体\">）</font><font face=\"Calibri\">code[i%10] </font><font face=\"宋体\">或效等价答案；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">4</font><font face=\"宋体\">）</font><font face=\"Calibri\">flag==False </font><font face=\"宋体\">或等效答案 。（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）“</font><font face=\"Calibri\">False</font><font face=\"宋体\">”首字符小写不给分，只写一个等号不给分。</font></span><span><o:p></o:p></span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "714",
+                    "knowledgePoint": "字典类型的概念"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "728",
+                    "knowledgePoint": "字典类型的基础用法及操作"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "713",
+                    "knowledgePoint": "range类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "718",
+                    "knowledgePoint": "序列解包"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "709",
+                    "knowledgePoint": "format()格式化方法"
+                },
+                {
+                    "questionId": "10948",
+                    "knowledgePointId": "730",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10949",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span><font face=\"宋体\">得分处理</font><font face=\"Calibri\">&nbsp;</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>智龙是一名篮球队的教练，为了方便对球员进行精准分析，他需要记录球队每个队员的得分，并按照得分从高到低进行排序。请你帮助他完成以下任务：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">1</font><font face=\"宋体\">）创建一个空的列表 </font><font face=\"Calibri\">scores</font><font face=\"宋体\">，用于存储队员的得分；</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">）使用循环，依次输入每个队员的得分，将得分添加到 </font><font face=\"Calibri\">scores </font><font face=\"宋体\">列表中；当输入“</font><font face=\"Calibri\">stop</font><font face=\"宋体\">”时停止输入。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">3</font><font face=\"宋体\">）使用 </font><font face=\"Calibri\">sorted() </font><font face=\"宋体\">函数对 </font><font face=\"Calibri\">scores </font><font face=\"宋体\">列表进行排序，得到一个新的列表 </font><font face=\"Calibri\">sorted_scores</font><font face=\"宋体\">，按照得分从高到低排序；</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">4</font><font face=\"宋体\">）打印出排序后的队员得分。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>程序代码如下，请你补全代码。</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">scores=&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</font><font face=\"宋体\">①</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">while True:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; score =&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">②</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;(\"</font><font face=\"宋体\">请输入队员的得分（输入</font><font face=\"Calibri\">stop</font><font face=\"宋体\">字符串结束）：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; if score == \"stop\":</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">③</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; scores.append(int(score))</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">sorted_scores =&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">④</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">print(\"</font><font face=\"宋体\">排序后的队员得分：</font><font face=\"Calibri\">\", sorted_scores)</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;</font></span><span>\t</span><span><o:p></o:p></span></p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><span><font face=\"Calibri\"># </font><font face=\"宋体\">创建空的列表存储队员得分</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">scores =&nbsp;[]</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\"># </font><font face=\"宋体\">输入每个队员的得分并添加到列表中</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">while True:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; score =&nbsp;input(\"</font><font face=\"宋体\">请输入队员的得分（输入</font><font face=\"Calibri\">stop</font><font face=\"宋体\">字符串结束）：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; if score == \"stop\":</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;break</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; scores.append(int(score))</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\"># </font><font face=\"宋体\">使用</font><font face=\"Calibri\">sorted()</font><font face=\"宋体\">函数对列表进行排序</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">sorted_scores =&nbsp;sorted(scores, reverse=True)</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\"># </font><font face=\"宋体\">打印排序后的队员得分</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">print(\"</font><font face=\"宋体\">排序后的队员得分：</font><font face=\"Calibri\">\", sorted_scores)</font></span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">1</font><font face=\"宋体\">）</font><font face=\"Calibri\">[] </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">）</font><font face=\"Calibri\">input </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">1</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">3</font><font face=\"宋体\">）</font><font face=\"Calibri\">break </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">4</font><font face=\"宋体\">）</font><font face=\"Calibri\">sorted(scores, reverse=True) </font><font face=\"宋体\">或等效答案。（</font><font face=\"Calibri\">4</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">说明：首先，我们创建一个空的列表</font><font face=\"Calibri\">&nbsp;scores</font><font face=\"宋体\">，用于存储队员的得分。然后，使用循环，依次输入每个队员的得分，并将得分添加到</font><font face=\"Calibri\">&nbsp;scores&nbsp;</font><font face=\"宋体\">列表中。接下来，使用</font><font face=\"Calibri\">&nbsp;sorted()&nbsp;</font><font face=\"宋体\">函数对</font><font face=\"Calibri\">&nbsp;scores&nbsp;</font><font face=\"宋体\">列表进行排序，得到一个新的列表</font><font face=\"Calibri\">&nbsp;sorted_scores</font><font face=\"宋体\">，按照得分从高到低排序。最后，打印出排序后的队员得分。</font></span><span><o:p></o:p></span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10949",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10949",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10949",
+                    "knowledgePointId": "718",
+                    "knowledgePoint": "循环结构"
+                },
+                {
+                    "questionId": "10949",
+                    "knowledgePointId": "716",
+                    "knowledgePoint": "列表推导式"
+                },
+                {
+                    "questionId": "10949",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "10950",
+            "examinationPaperTitle": "202403Python五级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span>知识竞赛活动</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">学校开展</font><font face=\"宋体\">“学宪法</font><font face=\"Calibri\">\"</font><font face=\"宋体\">知识竞赛活动，其中有一项任务为完成“学宪法”答卷记得分。答卷含有</font><font face=\"Calibri\">5</font><font face=\"宋体\">个客观题和</font><font face=\"Calibri\">5</font><font face=\"宋体\">个主观题，其中客观题</font><font face=\"Calibri\">1-4</font><font face=\"宋体\">题为单选题，第</font><font face=\"Calibri\">5</font><font face=\"宋体\">题为多选题，单选题每题分值为</font><font face=\"Calibri\">2</font><font face=\"宋体\">分；多选题全对得</font><font face=\"Calibri\">2</font><font face=\"宋体\">分</font><font face=\"Calibri\">,</font><font face=\"宋体\">漏选、少选得</font><font face=\"Calibri\">1</font><font face=\"宋体\">分</font><font face=\"Calibri\">,</font><font face=\"宋体\">多选错选不得分。为了提高改卷效率，学校信息技术组的老师设计并编写了一个</font><font face=\"Calibri\">Python</font><font face=\"宋体\">小程序，输入客观题正确答案和答卷上的答案，即可计算得分。实现上述功能的</font><font face=\"Calibri\">Python</font><font face=\"宋体\">程序如下，运行界面如图所示。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">请输入客观题（</font><font face=\"Calibri\">5</font><font face=\"宋体\">道）标准答案：</font><font face=\"Calibri\">AABDACD</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">请输入客观题（</font><font face=\"Calibri\">5</font><font face=\"宋体\">道）题学生答案：</font><font face=\"Calibri\">ABBDAC</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">该学生客观题得分为：</font><font face=\"Calibri\">7</font><font face=\"宋体\">分</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">实现上述功能的</font><font face=\"Calibri\">&nbsp;Python&nbsp;</font><font face=\"宋体\">程序如下</font><font face=\"Calibri\">,</font><font face=\"宋体\">请在划线处填入合适的代码。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">def judge(x,y):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp; f=True</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp; i=0</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp; while i&lt;len(y):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if y[i] not in x:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</font><font face=\"宋体\">①</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i+=1</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp; return f</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">num=0</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">key=input(\"</font><font face=\"宋体\">请输入客观题（</font><font face=\"Calibri\">5</font><font face=\"宋体\">道）标准答案：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">s=input(\"</font><font face=\"宋体\">请输入客观题（</font><font face=\"Calibri\">5</font><font face=\"宋体\">道）题学生答案：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">for j in range(5):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp; if j==4:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if key[j:len(key)]==s[j:len(s)]:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; num+=2</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elif&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">②</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; num+=1</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp; else:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if s[j]==key[j]:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">③</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">print(\"</font><font face=\"宋体\">该学生客观题得分为：</font><font face=\"Calibri\">\"+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</font><font face=\"宋体\">④</font><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;+\"</font><font face=\"宋体\">分</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><span><font face=\"Calibri\">def judge(x,y):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; f=True</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; i=0</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; while i&lt;len(y):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; if y[i] not in x:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;f=False</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; i+=1</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; return f</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">num=0</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">key=input(\"</font><font face=\"宋体\">请输入客观题（</font><font face=\"Calibri\">5</font><font face=\"宋体\">道）标准答案：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">s=input(\"</font><font face=\"宋体\">请输入客观题（</font><font face=\"Calibri\">5</font><font face=\"宋体\">道）题学生答案：</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">for j in range(5):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; if j==4:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; if key[j:len(key)]==s[j:len(s)]:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; num+=2</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; elif&nbsp;&nbsp;judge(key[j:len(key)],s[j:len(s)]):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; num+=1</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; else:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; if s[j]==key[j]:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;num+=2</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">print(\"</font><font face=\"宋体\">该学生客观题得分为：</font><font face=\"Calibri\">\"+str(num)&nbsp;+\"</font><font face=\"宋体\">分</font><font face=\"Calibri\">\")</font></span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"MsoNormal\"><span>评分标准：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">1</font><font face=\"宋体\">）</font><font face=\"Calibri\">f=False </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">）</font><font face=\"Calibri\">judge(key[j:len(key)],s[j:len(s)]) </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">3</font><font face=\"宋体\">）</font><font face=\"Calibri\">num+=2 </font><font face=\"宋体\">或等效答案；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">4</font><font face=\"宋体\">）</font><font face=\"Calibri\">str(num) </font><font face=\"宋体\">或等效答案。（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>说明：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">①</font><font face=\"Calibri\">judge</font><font face=\"宋体\">函数判断多选题的漏选情况，</font><font face=\"Calibri\">y[i] not in x:</font><font face=\"宋体\">说明错选，直接返回</font><font face=\"Calibri\">false</font><font face=\"宋体\">。同时可以判断，</font><font face=\"Calibri\">x</font><font face=\"宋体\">是标准答案，</font><font face=\"Calibri\">y</font><font face=\"宋体\">是学生答案。</font><font face=\"Calibri\">&nbsp;</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">②</font><font face=\"Calibri\">j==4</font><font face=\"宋体\">说明该分支处理多选题，</font><font face=\"Calibri\">key[j:len(key)]==s[j:len(s)]</font><font face=\"宋体\">说明多选题全队得</font><font face=\"Calibri\">2</font><font face=\"宋体\">分，所以②处分支表示漏选的情况，得</font><font face=\"Calibri\">1</font><font face=\"宋体\">分，将标准答案和学生答案作为参数传给自定义函数</font><font face=\"Calibri\">judge</font><font face=\"宋体\">进行判断。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">③该分支下，</font><font face=\"Calibri\">j&lt;=4</font><font face=\"宋体\">，说明在处理单选题，标准答案</font><font face=\"Calibri\">key[j]</font><font face=\"宋体\">与学生答案</font><font face=\"Calibri\">s[j]</font><font face=\"宋体\">一致说明正确，得两分。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">④得分是</font><font face=\"Calibri\">num</font><font face=\"宋体\">，与字符串拼接，因此答案是</font><font face=\"Calibri\">str(num) </font><font face=\"宋体\">。</font></span><span><o:p></o:p></span></p>",
+            "analyzeVideo": "",
+            "examinationPaperId": "560",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:20:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "10950",
+                    "knowledgePointId": "712",
+                    "knowledgePoint": "字符串类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10950",
+                    "knowledgePointId": "710",
+                    "knowledgePoint": "列表类型的用法及常用操作"
+                },
+                {
+                    "questionId": "10950",
+                    "knowledgePointId": "719",
+                    "knowledgePoint": "切片的使用方法"
+                },
+                {
+                    "questionId": "10950",
+                    "knowledgePointId": "730",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

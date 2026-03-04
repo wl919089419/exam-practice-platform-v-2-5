@@ -1,0 +1,1812 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202506Python六级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "1955459415792443394",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">仿照图形化软件中的映射，编写一段映射类。运行程序后，输入：5，映射后：1；输入：200，映射后：49。程序①处应补全的语句是？（ ）</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643800251012161536.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643800282733682688.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><span style=\"color: rgb(166, 37, 164);\">class </span><span style=\"color: rgb(182, 106, 0);\">Ying</span><span style=\"color: rgb(56, 57, 66);\">(): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">__init__</span><span style=\"color: rgb(56, 57, 66);\">(self,a,b,c,d,e): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.a</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">a </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.b</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">b </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.c</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">c </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.d</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">d </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.e</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">e </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">ys</span><span style=\"color: rgb(56, 57, 66);\">(self): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return </span><span style=\"color: rgb(56, 57, 66);\">(self.a</span><span style=\"color: rgb(64, 120, 241);\">*</span><span style=\"color: rgb(56, 57, 66);\">(self.e</span><span style=\"color: rgb(64, 120, 241);\">-</span><span style=\"color: rgb(56, 57, 66);\">self.d))</span><span style=\"color: rgb(64, 120, 241);\">/</span><span style=\"color: rgb(56, 57, 66);\">(self.c</span><span style=\"color: rgb(64, 120, 241);\">-</span><span style=\"color: rgb(56, 57, 66);\">self.b) </span></p><p><span style=\"color: rgb(56, 57, 66);\">a</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(80, 160, 79);\">float</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'输入值：'</span><span style=\"color: rgb(56, 57, 66);\">)) </span></p><p><span style=\"color: rgb(56, 57, 66);\">b</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">Ying(a,</span><span style=\"color: rgb(182, 106, 0);\">0</span><span style=\"color: rgb(56, 57, 66);\">,</span><span style=\"color: rgb(182, 106, 0);\">1023</span><span style=\"color: rgb(56, 57, 66);\">,</span><span style=\"color: rgb(182, 106, 0);\">0</span><span style=\"color: rgb(56, 57, 66);\">,</span><span style=\"color: rgb(182, 106, 0);\">255</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"映射前：%d 映射后:%d\"</span><span style=\"color: rgb(64, 120, 241);\">%</span><span style=\"color: rgb(56, 57, 66);\">(a, ① ))</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>调用类的函数应该加上类的名称。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:40:30",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955459415792443394",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">a.ys()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955459415792443394",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">b.ys()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955459415792443394",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>b</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955459415792443394",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">b.self()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955459415792443394",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955459415792443394",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955459552979742721",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">Python语言关于类的定义错误的是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>初始化第一个参数必须是self，如：def __init__(self,l,w,h)</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:41:03",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955459552979742721",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>类名的每个单词的首字母都要大写，且不使用下划线分隔单词</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955459552979742721",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>类命名尽量简洁且有意义</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955459552979742721",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>类的定义必须在引用之前</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955459552979742721",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">class </span><span style=\"color: rgb(182, 106, 0);\">Student_Info</span><span style=\"color: rgb(56, 57, 66);\">(): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">__init__</span><span style=\"color: rgb(56, 57, 66);\">(l,w,h): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.l</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">l </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.w</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">w </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.h</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">h</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955459552979742721",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955459552979742721",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955460017423413250",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">运行以下Python程序后，将打印输入两个整数的取余运算结果，划线处的代码为？（ ）</span></p><p><span style=\"color: rgb(166, 37, 164);\">class </span><span style=\"color: rgb(182, 106, 0);\">Mi</span><span style=\"color: rgb(56, 57, 66);\">(): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">__init__</span><span style=\"color: rgb(56, 57, 66);\">(self,a,b): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.a</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">a </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.b</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\">b </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">yu</span><span style=\"color: rgb(56, 57, 66);\">(self): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> self.a </span><span style=\"color: rgb(64, 120, 241);\">%</span><span style=\"color: rgb(56, 57, 66);\"> self.b </span></p><p><span style=\"color: rgb(56, 57, 66);\">a</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(80, 160, 79);\">int</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'输入第一个数：'</span><span style=\"color: rgb(56, 57, 66);\">)) </span></p><p><span style=\"color: rgb(56, 57, 66);\">b</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(80, 160, 79);\">int</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'输入第二个数：'</span><span style=\"color: rgb(56, 57, 66);\">)) </span></p><p><span style=\"color: rgb(56, 57, 66);\">c</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(c.yu())</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">通过类创建实例，再调用实例的方法。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:42:54",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955460017423413250",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Mi(a%b)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955460017423413250",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">a%b</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955460017423413250",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">self.a % self.b</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955460017423413250",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">self.a % self.b</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955460017423413250",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955460017423413250",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955460229684551681",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p>从json文件中读取数据，并使用json模块中的load方法将其转换为Python的字典对象。下面哪个选项是正确的代码？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>json.load方法可以从一个文件对象中读取json格式的数据，并返回一个Python对象。json.loads方法可以从一个字符串中读取json格式的数据，并返回一个Python对象。open函数可以打开一个文件，并返回一个文件对象。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:43:44",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955460229684551681",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>d = json.load(open('data.json'))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955460229684551681",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>d = json.loads('data.json')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955460229684551681",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>d = open('data.json').load(json)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955460229684551681",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>d = open('data.json').loads(json)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955460229684551681",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955460651807694849",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中，使用json模块将Python字典转换为JSON字符串的方法是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>json.dumps()方法用于将Python对象序列化为JSON格式的字符串，而json.dump()是用于写入文件。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:45:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955460651807694849",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">json.load()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955460651807694849",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">json.loads()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955460651807694849",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">json.dump()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955460651807694849",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">json.dumps()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955460651807694849",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955460816404766722",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中，以下代码的功能是？（ ）</span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'data.csv'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'r'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> reader </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> csv.DictReader(f) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">for</span><span style=\"color: rgb(56, 57, 66);\"> row </span><span style=\"color: rgb(166, 37, 164);\">in</span><span style=\"color: rgb(56, 57, 66);\"> reader: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(row[</span><span style=\"color: rgb(80, 160, 79);\">'name'</span><span style=\"color: rgb(56, 57, 66);\">])</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>csv.DictReader将每行解析为字典，键为CSV的列名。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:46:04",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955460816404766722",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">以字典形式读取CSV，打印name列</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955460816404766722",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">将CSV转为JSON格式输出</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955460816404766722",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">统计name列的出现次数</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955460816404766722",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">修改CSV文件的name列</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955460816404766722",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955460922143170562",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中，关于一维数据的CSV文件存储，以下说法正确的是？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">csv.writerow()可直接写入一维列表（如[1, 2, 3]），无需嵌套。A错误（CSV支持字符串等）；B错误（一维列表可直接写入）；D错误（分隔符默认为逗号）。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:46:29",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955460922143170562",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">CSV文件只能存储数值型数据</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955460922143170562",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">写入CSV时，一维列表应转换为二维嵌套列表</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955460922143170562",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">csv.writerow()方法可以直接写入一维列表</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955460922143170562",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">读取CSV文件时，必须指定delimiter=';</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955460922143170562",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955461022277988354",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中，以下代码的输出是？ （ ）</span></p><p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> numpy </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> np </span></p><p><span style=\"color: rgb(56, 57, 66);\">x </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> np.arange(</span><span style=\"color: rgb(182, 106, 0);\">10</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">20</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">3</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(x[</span><span style=\"color: rgb(64, 120, 241);\">-</span><span style=\"color: rgb(182, 106, 0);\">1</span><span style=\"color: rgb(56, 57, 66);\">])</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">np.arange(10,20,3) 生成 [10,13,16,19]，[-1] 取最后一个元素 19（注意终止值 20 不包含）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:46:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955461022277988354",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955461022277988354",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>16</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955461022277988354",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>19</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955461022277988354",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">报错</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955461022277988354",
+                    "knowledgePointId": "758",
+                    "knowledgePoint": "库导入"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955461109754392578",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在tkinter中，用于创建按钮的类是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">tkinter中Button类用于创建按钮，Label用于创建标签，Entry用于创建单行文本框。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:47:14",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955461109754392578",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Button</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955461109754392578",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Labe</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955461109754392578",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Entry</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955461109754392578",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Frame</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955461109754392578",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955461309843660801",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在tkinter中用于处理按钮点击事件的参数是？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">tkinter中按钮的command参数用于指定点击事件的处理函数。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:48:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955461309843660801",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">action</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955461309843660801",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">click </span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955461309843660801",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">command</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955461309843660801",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">event</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955461309843660801",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955461564228202497",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在tkinter中执行以下代码后，窗口将显示什么？（ ）</span></p><p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> tkinter </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> tk </span></p><p><span style=\"color: rgb(56, 57, 66);\">root </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> tk.Tk() </span></p><p><span style=\"color: rgb(56, 57, 66);\">tk.Label(root, text</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(80, 160, 79);\">\"Hello\"</span><span style=\"color: rgb(56, 57, 66);\">).pack(side</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(80, 160, 79);\">\"left\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\">tk.Label(root, text</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(80, 160, 79);\">\"World\"</span><span style=\"color: rgb(56, 57, 66);\">).pack() </span></p><p><span style=\"color: rgb(56, 57, 66);\">root.mainloop()</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">创建第一个标签，内容为 \"Hello\"，side=\"left\" 使该标签 左对齐窗口，占用窗口的左侧区域。创建第二个标签，内容为 \"World\"，默认 side=\"top\"（未指定时），会从上到下排列，因为左侧已被\"Hello\" 占据，剩余空间不足整行宽度，所以 \"World\" 自动换行并居中显示，pack()默认从上到下布局。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:49:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955461564228202497",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Hello在左，World在右</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955461564228202497",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Hello在上，World在下</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955461564228202497",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Hello在左，World自上居中</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955461564228202497",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Hello在左，World在下方</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955461564228202497",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955461908127576066",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在tkinter中要使Button点击时执行函数show()，正确写法是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">command参数接收函数对象，不加括号。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:50:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955461908127576066",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">tk.Button(root, command=show()).pack()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955461908127576066",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">tk.Button(root, command=show).pack()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955461908127576066",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">tk.Button(root, bind=show).pack()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955461908127576066",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">tk.Button(root, onclick=show).pack()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955461908127576066",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955462065900515329",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">如果你要用numpy快速创建一个10个元素、值全为0的一维数组，不正确的方法是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.zeros可以创建全零数组，三种写法都合法：10、[10] 和 (10,) 都表示1维长度为10的数组。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:51:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955462065900515329",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.zeros(10)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955462065900515329",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.zeros([10])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955462065900515329",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.zeros((10,)）</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955462065900515329",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.zeros([10.])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955462065900515329",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955462157130821633",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">用matplotlib画图时，显示折线图常用的函数是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">lt.plot()用于绘制折线图，是可视化数据变化趋势的经典方式。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:51:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955462157130821633",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">plt.show()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955462157130821633",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">plt.plot(</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955462157130821633",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">plt.scatter()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955462157130821633",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">plt.hist()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955462157130821633",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955462345111138306",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">下列代码运行后，图表的标题会显示什么？（ ）</span></p><p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> matplotlib.pyplot </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> plt </span></p><p><span style=\"color: rgb(56, 57, 66);\">plt.rcParams[</span><span style=\"color: rgb(80, 160, 79);\">\"font.sans-serif\"</span><span style=\"color: rgb(56, 57, 66);\">] </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">\"SimHei\" </span></p><p><span style=\"color: rgb(56, 57, 66);\">plt.plot([</span><span style=\"color: rgb(182, 106, 0);\">1</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">2</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">3</span><span style=\"color: rgb(56, 57, 66);\">], [</span><span style=\"color: rgb(182, 106, 0);\">4</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">5</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">6</span><span style=\"color: rgb(56, 57, 66);\">]) </span></p><p><span style=\"color: rgb(56, 57, 66);\">plt.title(</span><span style=\"color: rgb(80, 160, 79);\">\"成绩走势\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\">plt.show()</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">plt.title(\"成绩走势\")设置图表标题，plt.show()会正确显示“成绩走势”在图表上方。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:52:08",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955462345111138306",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">不显示标题</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955462345111138306",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">\"成绩走势\"</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955462345111138306",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">\"matplotlib图\"</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955462345111138306",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">程序出错</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955462345111138306",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955462481119830018",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">使用numpy时，以下哪种操作可以用来计算数组的平均值？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>numpy.mean()是计算数组所有元素的平均值，属于numpy常用的统计分析函数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:52:41",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955462481119830018",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.sum()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955462481119830018",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.mean()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955462481119830018",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.max()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955462481119830018",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.size()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955462481119830018",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955462967961083906",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">你有一个大文件，需要从文件的第 10 个字节处开始读取数据。应该使用以下哪个方法？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.seek(10) 方法用于将文件指针移动到文件的第 10 个字节处；f.tell() 方法用于返回文件指针的当前位置，而不是移动指针；f.read(10) 是读取 10 个字节的数据；f.write(10) 是尝试写入整数 10，会报错，因为write()方法需要传入字符串或二进制数据。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:54:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955462967961083906",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.seek(10)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955462967961083906",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.tell(10)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955462967961083906",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.read(10)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955462967961083906",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.write(10)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955462967961083906",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955463109023920129",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">你有一个日志文件，需要不断将新的日志信息添加到文件末尾。以下哪种方式可以完成该功能？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">w' 模式会覆盖原文件内容，不符合追加的要求；'a' 模式是文本追加模式，可将新内容添加到文件末尾；'r' 模式是只读模式，不能进行写入操作；'rb' 是二进制读取模式，同样不能进行写入操作。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:55:11",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955463109023920129",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'test.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'w'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(</span><span style=\"color: rgb(80, 160, 79);\">'new text'</span><span style=\"color: rgb(56, 57, 66);\">)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955463109023920129",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'test.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'a'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(</span><span style=\"color: rgb(80, 160, 79);\">'new text'</span><span style=\"color: rgb(56, 57, 66);\">)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955463109023920129",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'test.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'r'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(</span><span style=\"color: rgb(80, 160, 79);\">'new text'</span><span style=\"color: rgb(56, 57, 66);\">)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955463109023920129",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'test.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'rb'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(</span><span style=\"color: rgb(80, 160, 79);\">'new text'</span><span style=\"color: rgb(56, 57, 66);\">)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955463109023920129",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955463608565526530",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">执行以下代码后，file.txt 文件的内容是？（ ）</span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'file.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'w'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(</span><span style=\"color: rgb(80, 160, 79);\">'First line\\n'</span><span style=\"color: rgb(56, 57, 66);\">)</span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'file.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'a'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(</span><span style=\"color: rgb(80, 160, 79);\">'Second line\\n'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'file.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'r+'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.seek(</span><span style=\"color: rgb(182, 106, 0);\">0</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(</span><span style=\"color: rgb(80, 160, 79);\">'Replaced first line\\n'</span><span style=\"color: rgb(56, 57, 66);\">)</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">首先，以 'w' 模式写入 \"First line\\n\"；接着，以 'a' 模式追加 \"Second line\\n\"；最后，以 'r+' 模式打开文件，使用 seek(0) 将文件指针移动到文件开头，然后写入 \"Replaced first line\\n\"，会覆盖原有的第一行内容，所以最终文件内容是 \"Replaced first line\\nSecond line\\n\"。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 10:57:10",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955463608565526530",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">First line </span></p><p><span style=\"color: rgb(52, 73, 94);\">Second line</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955463608565526530",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Replaced first line </span></p><p><span style=\"color: rgb(52, 73, 94);\">Second line</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955463608565526530",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">First line</span></p><p><span style=\"color: rgb(52, 73, 94);\">Replaced first line</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955463608565526530",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Replaced first line</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955463608565526530",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955467404817489922",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p>在处理日志文件时，需要把日志的行顺序反转，方便查看最新的日志记录（即文件里的内容按行倒序）。下面哪个代码能正确实现？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">选项 A ,write只能写字符串。 </span></p><p><span style=\"color: rgb(52, 73, 94);\">选项 B 里 read() 返回的是字符串，字符串没有 reverse() 方法。 </span></p><p><span style=\"color: rgb(52, 73, 94);\">选项 D 中 read() 读取的是字符串，reversed() 处理字符串会按字符反转，并非按行反转。 </span></p><p><span style=\"color: rgb(52, 73, 94);\">选项 C 使用 readlines() 按行读取文件内容，用reversed()迭代反转后的行列表，然后逐行写入新 </span></p><p><span style=\"color: rgb(52, 73, 94);\">文件，符合要求。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 11:12:15",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955467404817489922",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2: </p><p> &nbsp; &nbsp; lines = f1.readlines() </p><p> &nbsp; &nbsp; lines.reverse() </p><p> &nbsp; &nbsp; f2.write(lines)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955467404817489922",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2: </p><p> &nbsp; &nbsp; lines = f1.read() </p><p> &nbsp; &nbsp; lines.reverse() </p><p> &nbsp; &nbsp; f2.write(lines)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955467404817489922",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2: </p><p> lines = f1.readlines() </p><p> </p><p>for line in reversed(lines): </p><p> f2.write(line)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955467404817489922",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2: </p><p> &nbsp; &nbsp; lines = f1.read() &nbsp;</p><p> &nbsp; &nbsp;for line in reversed(lines): </p><p> &nbsp; &nbsp; f2.write(line)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955467404817489922",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955508697287385089",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">某小型书店需要管理其图书库存，决定使用SQLite数据库来存储图书信息。在创建数据库和图书表的过程中，以下哪个步骤是正确的？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">创建表后才能插入数据。SQLite默认开启自动提交模式，无需手动commit()。关闭顺序通常是先游标后连接。CREATE TABLE不强制要求主键。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:56:20",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955508697287385089",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">使用connect('library.db')创建数据库连接后，直接执行INSERT语句插入数据</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955508697287385089",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">创建表后，必须使用commit()方法提交事务，否则数据不会保存</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955508697287385089",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">关闭数据库连接时，先关闭游标，再关闭连接</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955508697287385089",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">使用CREATE TABLE语句时，必须指定主键</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955508697287385089",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955508872219226113",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">物流轨迹跟踪系统中若需获取前3条记录，以下哪种方式最高效？（ ）</span><span style=\"color: rgb(56, 57, 66);\">conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.connect(</span><span style=\"color: rgb(80, 160, 79);\">'logistics.db'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">''' </span></p><p><span style=\"color: rgb(80, 160, 79);\"> SELECT track_id, location, timestamp </span></p><p><span style=\"color: rgb(80, 160, 79);\"> FROM tracking </span></p><p><span style=\"color: rgb(80, 160, 79);\"> WHERE package_id = ? </span></p><p><span style=\"color: rgb(80, 160, 79);\"> ORDER BY timestamp DESC'''</span><span style=\"color: rgb(56, 57, 66);\">, (</span><span style=\"color: rgb(80, 160, 79);\">'PKG12345'</span><span style=\"color: rgb(56, 57, 66);\">,)) </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 获取最新轨迹 </span></p><p><span style=\"color: rgb(56, 57, 66);\">latest_record </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> cursor.fetchone()</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">多次调用fetchone()需手动管理循环，效率低于单次fetchmany()。fetchmany(3)一次性获取3条数据，减少数据库交互次数。fetchall()获取全部数据后再切片，浪费资源（尤其数据量大时）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:57:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955508872219226113",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">[cursor.fetchone() for _ in range(3)]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955508872219226113",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">cursor.fetchmany(3)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955508872219226113",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">cursor.fetchall()[:3]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955508872219226113",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">循环调用fetchone()三次</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955508872219226113",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955508988829265921",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">用Python语言对SQLite数据库进行编程，实现打开和关闭stu.db数据库文件。下列命令语句，执行先后顺序正 </span></p><p><span style=\"color: rgb(52, 73, 94);\">确选项是？（ ） </span></p><p><span style=\"color: rgb(52, 73, 94);\">①conn = sqlite3.connect(\"test.db\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">②cur = conn.cursor( ) </span></p><p><span style=\"color: rgb(52, 73, 94);\">③import sqlite3 </span></p><p><span style=\"color: rgb(52, 73, 94);\">④conn.close( ) </span></p><p><span style=\"color: rgb(52, 73, 94);\">⑤cur.close( )</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">先导入sqlite3模块,然后建立连接，建立游标，最后关闭。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:57:29",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955508988829265921",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">①②③④⑤</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955508988829265921",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">②①③⑤④</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955508988829265921",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">③①②⑤④</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955508988829265921",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">③①②④⑤</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955508988829265921",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509158417559553",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在图书馆管理系统中，有一个列表 new_books = [('Book 1', 'Author 1'), ('Book 2', 'Author 2')]，需要将这些书籍信息插入到 books 表中，以下代码正确的是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">executemany() 方法用于批量插入数据，new_books 列表中的每个元组代表一条要插入的记录，使用 executemany() 可以将列表中的所有记录批量插入到 books 表中，代码正确。execute() 方法只能执行单条 SQL 语句，不能处理列表形式的多条记录，会导致错误。executemany() 应该接收一个包含多个元组的列表，而 new_books[0] 只是一个元组，会导致插入数据不完整。execute() 只能处理单条记录，new_books[0] 是一个元组，只能插入一条记录，不能插入列表中的所有记录。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:58:10",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955509158417559553",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3 </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.connect(</span><span style=\"color: rgb(80, 160, 79);\">'library.db'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor.executemany(</span><span style=\"color: rgb(80, 160, 79);\">'INSERT INTO books (title, author) VALUES (?, ?)'</span><span style=\"color: rgb(56, 57, 66);\">, new_book </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.close()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955509158417559553",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3 </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.connect(</span><span style=\"color: rgb(80, 160, 79);\">'library.db'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">'INSERT INTO books (title, author) VALUES (?, ?)'</span><span style=\"color: rgb(56, 57, 66);\">, new_books) </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.close()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955509158417559553",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3 </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.connect(</span><span style=\"color: rgb(80, 160, 79);\">'library.db'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor.executemany(</span><span style=\"color: rgb(80, 160, 79);\">'INSERT INTO books (title, author) VALUES (?, ?)'</span><span style=\"color: rgb(56, 57, 66);\">, new_book </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.close()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955509158417559553",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3 </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.connect(</span><span style=\"color: rgb(80, 160, 79);\">'library.db'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\">cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">'INSERT INTO books (title, author) VALUES (?, ?)'</span><span style=\"color: rgb(56, 57, 66);\">, new_books[</span><span style=\"color: rgb(182, 106, 0);\">0 </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\">conn.close()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509158417559553",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                },
+                {
+                    "questionId": "1955509158417559553",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509270489358337",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">Python语言关于类的说法错误的是？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">导入类后可以使用原名，重命名不是必须的。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:58:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955509270489358337",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">函数可以定义到类中，称为方法。功能不变，使用格式不同</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955509270489358337",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">定义类后，必须定义一个类的实例才能使用类的方法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955509270489358337",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">导入类必须重命名后才能使用，如：import turtle as t</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955509270489358337",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">可以导入单个类，也可以导入多个类。 如：导入单个：from car import Car 导入多个： from module_name import Class_a, Class_b</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509270489358337",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955509270489358337",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509397664849921",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python语言中，先定义类，再使用类创建出具体的对象：即实例。不同的实例可以带不同的参数，但它们使用相同的方法。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">类：类是一种用户自定义的数据类型，它是对具有相同属性和方法的对象的抽象描述，定义了对象的属性和方法的蓝图。实例：实例是类的具体实现，是根据类创建出来的具体对象。每个实例都有自己独立的属性值，但可以共享类中定义的方法。参数与方法：在创建实例时，可以为实例的属性传入不同的参数，从而使不同的实例具有不同的状态。而方法是类中定义的行为，不同的实例可以调用相同的方法，只是在方法执行过程中，会根据实例自身的属性值进行不同的操作。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:59:07",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509397664849921",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955509397664849921",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509451280637953",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python语言中，针对同一个对象（实例）的相同操作，可以定义类和类的方法，以便重复调用。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">在面向对象编程中，类是一种封装数据和操作数据的结构。类中的方法本质上就是定义在类内部的函数。这些方法可以访问和操作类的属性（实例变量），并且可以被类的实例调用，从而实现特定的行为。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:59:19",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509451280637953",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955509451280637953",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509496910471170",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中，使用json.load()读取JSON文件时，文件对象必须以二进制模式打开（如'rb'）。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">JSON文件应以文本模式（'r'）打开，二进制模式会导致解码错误。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:59:30",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509496910471170",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509557220368386",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中，json.loads()可以将JSON字符串转为Python字典。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">json.loads()用于JSON字符串反序列化。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:59:45",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509557220368386",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509597250805761",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">tkinter中主窗口必须手动设置geometry()才能显示。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">窗口会自动适应内容大小。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 13:59:54",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509597250805761",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509639588110337",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">numpy数组比Python普通列表占用内存更高，速度更慢。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy数组经过优化，占用内存更小，计算速度也比普通Python列表更快，特别适合做科学计算。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:00:04",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509639588110337",
+                    "knowledgePointId": "2009810129876672514",
+                    "knowledgePoint": "numpy库"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509684865626113",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">numpy只能处理一维数据，不能处理多维矩阵。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy非常擅长处理一维、二维甚至多维数组，比如矩阵运算、科学计算等。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:00:15",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509684865626113",
+                    "knowledgePointId": "2009810129876672514",
+                    "knowledgePoint": "numpy库"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509747889238018",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">Python 中的 with 语句在处理文件操作时，会自动关闭文件，即使在执行过程中发生异常也能保证文件被正确关闭。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">with 语句会创建一个上下文管理器，在进入 with 代码块时打开文件，在离开代码块时，无论是否发生异常，都会自动调用文件对象的 close() 方法来关闭文件，避免资源泄漏。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:00:30",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509747889238018",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509805099540482",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在 Python 中，使用open()函数打开文件进行读取时，文件路径必须是绝对路径。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">在 Python 中，使用open()函数打开文件进行读取时，文件路径既可以是绝对路径，也可以是相对路径。相对路径是相对于当前工作目录来确定文件位置，使用相对路径可以使代码在不同环境下更灵活地运行。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:00:44",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509805099540482",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955509863937236993",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">一个学生成绩管理系统需要从SQLite数据库中查询学生信息。在执行查询操作时，fetchmany(size=2)会返回结果中的前两行。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">fetchmany(size=2)返回当前游标位置开始的2行，而非“前两行”。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:00:58",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955509863937236993",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955511678531559426",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 4,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">管理电话号码 </span></p><p><span style=\"color: rgb(52, 73, 94);\">编写一个使用SQLite管理电话号码的程序，功能有：显示所有电话号码、添加、删除和退出，请补全程序。 </span></p><p><span style=\"color: rgb(52, 73, 94);\">（本题无需运行通过，写入代码即可）</span></p><p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3 </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">init_db</span><span style=\"color: rgb(56, 57, 66);\">(): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.connect(</span><span style=\"color: rgb(80, 160, 79);\">'phonebook.db'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"DROP TABLE IF EXISTS contacts\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">'''CREATE TABLE contacts (name TEXT NOT NULL,phone TEXT PRIMAR </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> conn </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">show_all_contacts</span><span style=\"color: rgb(56, 57, 66);\">(conn): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"SELECT name, phone FROM contacts ORDER BY name\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> contacts </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> cursor. ① </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> contacts: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"电话簿为空\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">for</span><span style=\"color: rgb(56, 57, 66);\"> name, phone </span><span style=\"color: rgb(166, 37, 164);\">in</span><span style=\"color: rgb(56, 57, 66);\"> contacts: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"</span><span style=\"color: rgb(56, 57, 66);\">{name}</span><span style=\"color: rgb(80, 160, 79);\">: </span><span style=\"color: rgb(56, 57, 66);\">{phone}</span><span style=\"color: rgb(80, 160, 79);\">\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">add_contact</span><span style=\"color: rgb(56, 57, 66);\">(conn): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> name </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入姓名: \"</span><span style=\"color: rgb(56, 57, 66);\">).strip() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> phone </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入电话号码: \"</span><span style=\"color: rgb(56, 57, 66);\">).strip() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> name </span><span style=\"color: rgb(166, 37, 164);\">or not</span><span style=\"color: rgb(56, 57, 66);\"> phone: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 姓名和电话都不能为空\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">try</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"INSERT INTO contacts (name, phone) VALUES (?, ?)\"</span><span style=\"color: rgb(56, 57, 66);\">, ( </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"成功添加联系人: </span><span style=\"color: rgb(56, 57, 66);\">{name}</span><span style=\"color: rgb(80, 160, 79);\"> - </span><span style=\"color: rgb(56, 57, 66);\">{phone}</span><span style=\"color: rgb(80, 160, 79);\">\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">except</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.IntegrityError: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 该电话号码已存在\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">delete_contact</span><span style=\"color: rgb(56, 57, 66);\">(conn):</span></p><p><span style=\"color: rgb(56, 57, 66);\">phone </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入要删除的电话号码: \"</span><span style=\"color: rgb(56, 57, 66);\">).strip() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> phone: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 请输入有效的电话号码\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"SELECT name FROM contacts WHERE phone=?\"</span><span style=\"color: rgb(56, 57, 66);\">, (phone,)) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> result </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> cursor. ④ </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> result: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 未找到该电话号码\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> confirm </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"确定要删除 </span><span style=\"color: rgb(56, 57, 66);\">{result[</span><span style=\"color: rgb(182, 106, 0);\">0</span><span style=\"color: rgb(56, 57, 66);\">]}</span><span style=\"color: rgb(80, 160, 79);\">(</span><span style=\"color: rgb(56, 57, 66);\">{phone}</span><span style=\"color: rgb(80, 160, 79);\">) 吗? (y/n): \"</span><span style=\"color: rgb(56, 57, 66);\">).lower() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> confirm </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">'y'</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"DELETE FROM contacts WHERE phone=?\"</span><span style=\"color: rgb(56, 57, 66);\">, (phone,)) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"联系人已删除\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">else</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"取消删除\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 主程序 </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">main</span><span style=\"color: rgb(56, 57, 66);\">(): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> init_db() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">while </span><span style=\"color: rgb(182, 106, 0);\">True</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"----------------\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> show_all_contacts(conn) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"\\n请选择操作:\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"1. 添加联系人\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"2. 删除联系人\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"0. 退出程序\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入选项(0-2): \"</span><span style=\"color: rgb(56, 57, 66);\">).strip() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"1\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> add_contact(conn) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">elif</span><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"2\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> delete_contact(conn) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">elif</span><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"0\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"\\n感谢使用电话簿管理系统，再见!\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.close() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">break </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">else</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"无效输入，请重新选择!\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> __name__ </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"__main__\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> main()</span></p><p><br></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(166, 37, 164);\">import</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3 </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">init_db</span><span style=\"color: rgb(56, 57, 66);\">(): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.connect(</span><span style=\"color: rgb(80, 160, 79);\">'phonebook.db'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"DROP TABLE IF EXISTS contacts\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">'''CREATE TABLE contacts (name TEXT NOT NULL,phone TE </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> conn</span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">show_all_contacts</span><span style=\"color: rgb(56, 57, 66);\">(conn): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"SELECT name, phone FROM contacts ORDER BY name\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> contacts </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> cursor.fetchall() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> contacts: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"电话簿为空\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">for</span><span style=\"color: rgb(56, 57, 66);\"> name, phone </span><span style=\"color: rgb(166, 37, 164);\">in</span><span style=\"color: rgb(56, 57, 66);\"> contacts: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"</span><span style=\"color: rgb(56, 57, 66);\">{name}</span><span style=\"color: rgb(80, 160, 79);\">: </span><span style=\"color: rgb(56, 57, 66);\">{phone}</span><span style=\"color: rgb(80, 160, 79);\">\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">add_contact</span><span style=\"color: rgb(56, 57, 66);\">(conn): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> name </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入姓名: \"</span><span style=\"color: rgb(56, 57, 66);\">).strip() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> phone </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入电话号码: \"</span><span style=\"color: rgb(56, 57, 66);\">).strip() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> name </span><span style=\"color: rgb(166, 37, 164);\">or not</span><span style=\"color: rgb(56, 57, 66);\"> phone: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 姓名和电话都不能为空\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">try</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"INSERT INTO contacts (name, phone) VALUES (?, ?) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"成功添加联系人: </span><span style=\"color: rgb(56, 57, 66);\">{name}</span><span style=\"color: rgb(80, 160, 79);\"> - </span><span style=\"color: rgb(56, 57, 66);\">{phone}</span><span style=\"color: rgb(80, 160, 79);\">\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">except</span><span style=\"color: rgb(56, 57, 66);\"> sqlite3.IntegrityError: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 该电话号码已存在\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">delete_contact</span><span style=\"color: rgb(56, 57, 66);\">(conn): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> phone </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入要删除的电话号码: \"</span><span style=\"color: rgb(56, 57, 66);\">).strip() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> phone: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 请输入有效的电话号码\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> conn.cursor() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"SELECT name FROM contacts WHERE phone=?\"</span><span style=\"color: rgb(56, 57, 66);\">, (phone,)) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> result </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> cursor.fetchone() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> result: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"错误: 未找到该电话号码\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(56, 57, 66);\"> confirm </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"确定要删除 </span><span style=\"color: rgb(56, 57, 66);\">{result[</span><span style=\"color: rgb(182, 106, 0);\">0</span><span style=\"color: rgb(56, 57, 66);\">]}</span><span style=\"color: rgb(80, 160, 79);\">(</span><span style=\"color: rgb(56, 57, 66);\">{phone}</span><span style=\"color: rgb(80, 160, 79);\">) 吗? (y/n): \"</span><span style=\"color: rgb(56, 57, 66);\">).lowe </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> confirm </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">'y'</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> cursor.execute(</span><span style=\"color: rgb(80, 160, 79);\">\"DELETE FROM contacts WHERE phone=?\"</span><span style=\"color: rgb(56, 57, 66);\">, (phone,)) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.commit() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"联系人已删除\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">else</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"取消删除\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 主程序 </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">main</span><span style=\"color: rgb(56, 57, 66);\">(): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> init_db() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">while </span><span style=\"color: rgb(182, 106, 0);\">True</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"----------------\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> show_all_contacts(conn) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"\\n请选择操作:\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"1. 添加联系人\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"2. 删除联系人\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"0. 退出程序\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"请输入选项(0-2): \"</span><span style=\"color: rgb(56, 57, 66);\">).strip()</span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"1\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> add_contact(conn) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">elif</span><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"2\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> delete_contact(conn) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">elif</span><span style=\"color: rgb(56, 57, 66);\"> choice </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"0\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"\\n感谢使用电话簿管理系统，再见!\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> conn.close() </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">break </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">else</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"无效输入，请重新选择!\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> __name__ </span><span style=\"color: rgb(64, 120, 241);\">== </span><span style=\"color: rgb(80, 160, 79);\">\"__main__\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> main()</span></p><p><span style=\"color: rgb(52, 73, 94);\">评分标准： </span></p><p><span style=\"color: rgb(52, 73, 94);\">（1）fetchall()（或等效答案）；（3分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（2）name（或等效答案）； （2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（3）phone（或等效答案）； （2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（4）fetchone()（或等效答案）。（3分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:08:10",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955511678531559426",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                },
+                {
+                    "questionId": "1955511678531559426",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955511997550321665",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 4,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">工资系统 </span></p><p><span style=\"color: rgb(52, 73, 94);\">某学校需要开发一个教师工资计算系统，该系统需要根据教师的职称、基本工资和课时工资自动计算每位教师 </span></p><p><span style=\"color: rgb(52, 73, 94);\">的月工资。教师的工资由两部分组成： </span></p><p><span style=\"color: rgb(52, 73, 94);\">结构工资 = 基本工资 × 职称系数 </span></p><p><span style=\"color: rgb(52, 73, 94);\">总工资 = 结构工资 + 课时工资 </span></p><p><span style=\"color: rgb(52, 73, 94);\">学校制定了不同职称对应的配置标准：</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643852756014276608.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><span style=\"color: rgb(52, 73, 94);\">对于未列出的职称，使用默认值：基本工资5000，职称系数1.0。 </span></p><p><span style=\"color: rgb(52, 73, 94);\">输入输出示例 </span></p><p><span style=\"color: rgb(52, 73, 94);\">输入数据格式为元组：(姓名, 职称, 课时工资) </span></p><p><span style=\"color: rgb(52, 73, 94);\">test_cases = [ (\"张老师\", \"一级教师\", 1200), (\"李老师\", \"副高级教师\", 1500),(\"王老师\", \"特级教师\", 2000) ] </span></p><p><span style=\"color: rgb(52, 73, 94);\">预期输出： </span></p><p><span style=\"color: rgb(52, 73, 94);\">张老师(一级教师)总工资：7800.0 </span></p><p><span style=\"color: rgb(52, 73, 94);\">李老师(副高级教师)总工资：11100.0 </span></p><p><span style=\"color: rgb(52, 73, 94);\">王老师(特级教师)总工资：7000.0 </span></p><p><span style=\"color: rgb(52, 73, 94);\">相关Python程序如下，请补全代码完成功能实现。</span></p><p><span style=\"color: rgb(56, 57, 66);\">TITLE_CONFIG </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(56, 57, 66);\">{ </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(80, 160, 79);\">\"二级教师\"</span><span style=\"color: rgb(56, 57, 66);\">: {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.0</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">5000</span><span style=\"color: rgb(56, 57, 66);\">}, </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(80, 160, 79);\">\"一级教师\"</span><span style=\"color: rgb(56, 57, 66);\">: {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.1</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">6000</span><span style=\"color: rgb(56, 57, 66);\">},</span></p><p><span style=\"color: rgb(80, 160, 79);\">\"副高级教师\"</span><span style=\"color: rgb(56, 57, 66);\">: {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.2</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">8000</span><span style=\"color: rgb(56, 57, 66);\">} </span></p><p><span style=\"color: rgb(56, 57, 66);\">} </span></p><p><span style=\"color: rgb(166, 37, 164);\">class </span><span style=\"color: rgb(182, 106, 0);\">Teacher</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">__init__</span><span style=\"color: rgb(56, 57, 66);\">(self, name, title, hourly_wage): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.name </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> name </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.title </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> title </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.hourly_wage </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> hourly_wage </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.config </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> TITLE_CONFIG.get(title, {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.0</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">5000</span><span style=\"color: rgb(56, 57, 66);\">}) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">calculate_structural_salary</span><span style=\"color: rgb(56, 57, 66);\">(self): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> self.config[</span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">] </span><span style=\"color: rgb(64, 120, 241);\">*</span><span style=\"color: rgb(56, 57, 66);\"> ① </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">total_salary</span><span style=\"color: rgb(56, 57, 66);\">(self): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> self.calculate_structural_salary() </span><span style=\"color: rgb(64, 120, 241);\">+</span><span style=\"color: rgb(56, 57, 66);\"> ② </span></p><p><span style=\"color: rgb(56, 57, 66);\">test_cases </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(56, 57, 66);\">[(</span><span style=\"color: rgb(80, 160, 79);\">\"张老师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"一级教师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">1200</span><span style=\"color: rgb(56, 57, 66);\">), (</span><span style=\"color: rgb(80, 160, 79);\">\"李老师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"副高级教师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">1500</span><span style=\"color: rgb(56, 57, 66);\">), (</span><span style=\"color: rgb(80, 160, 79);\">\"王老 </span></p><p><span style=\"color: rgb(166, 37, 164);\">for case in</span><span style=\"color: rgb(56, 57, 66);\"> test_cases: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> ③ </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> Teacher(</span><span style=\"color: rgb(64, 120, 241);\">*</span><span style=\"color: rgb(166, 37, 164);\">case</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"</span><span style=\"color: rgb(56, 57, 66);\">{teacher.name}</span><span style=\"color: rgb(80, 160, 79);\">(</span><span style=\"color: rgb(56, 57, 66);\">{teacher.title}</span><span style=\"color: rgb(80, 160, 79);\">)总工资：</span><span style=\"color: rgb(56, 57, 66);\">{ ④ :.1f}</span><span style=\"color: rgb(80, 160, 79);\">\"</span><span style=\"color: rgb(56, 57, 66);\">)</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(56, 57, 66);\">TITLE_CONFIG </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(56, 57, 66);\">{ </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(80, 160, 79);\">\"二级教师\"</span><span style=\"color: rgb(56, 57, 66);\">: {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.0</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">5000</span><span style=\"color: rgb(56, 57, 66);\">}, </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(80, 160, 79);\">\"一级教师\"</span><span style=\"color: rgb(56, 57, 66);\">: {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.1</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">6000</span><span style=\"color: rgb(56, 57, 66);\">}, </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(80, 160, 79);\">\"副高级教师\"</span><span style=\"color: rgb(56, 57, 66);\">: {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.2</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">8000</span><span style=\"color: rgb(56, 57, 66);\">} </span></p><p><span style=\"color: rgb(56, 57, 66);\">} </span></p><p><span style=\"color: rgb(166, 37, 164);\">class </span><span style=\"color: rgb(182, 106, 0);\">Teacher</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">__init__</span><span style=\"color: rgb(56, 57, 66);\">(self, name, title, hourly_wage): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.name </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> name </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.title </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> title </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.hourly_wage </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> hourly_wage </span></p><p><span style=\"color: rgb(56, 57, 66);\"> self.config </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> TITLE_CONFIG.get(title, {</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">1.0</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">: </span><span style=\"color: rgb(182, 106, 0);\">500 </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">calculate_structural_salary</span><span style=\"color: rgb(56, 57, 66);\">(self): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> self.config[</span><span style=\"color: rgb(80, 160, 79);\">\"base\"</span><span style=\"color: rgb(56, 57, 66);\">] </span><span style=\"color: rgb(64, 120, 241);\">*</span><span style=\"color: rgb(56, 57, 66);\"> self.config[</span><span style=\"color: rgb(80, 160, 79);\">\"coeff\"</span><span style=\"color: rgb(56, 57, 66);\">] </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">def </span><span style=\"color: rgb(64, 120, 241);\">total_salary</span><span style=\"color: rgb(56, 57, 66);\">(self): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">return</span><span style=\"color: rgb(56, 57, 66);\"> self.calculate_structural_salary() </span><span style=\"color: rgb(64, 120, 241);\">+</span><span style=\"color: rgb(56, 57, 66);\"> self.hourly_wage </span></p><p><span style=\"color: rgb(56, 57, 66);\">test_cases </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(56, 57, 66);\">[(</span><span style=\"color: rgb(80, 160, 79);\">\"张老师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"一级教师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">1200</span><span style=\"color: rgb(56, 57, 66);\">), (</span><span style=\"color: rgb(80, 160, 79);\">\"李老师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">\"副高级教师\"</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(182, 106, 0);\">1500 </span></p><p><span style=\"color: rgb(166, 37, 164);\">for case in</span><span style=\"color: rgb(56, 57, 66);\"> test_cases: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> teacher </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> Teacher(</span><span style=\"color: rgb(64, 120, 241);\">*</span><span style=\"color: rgb(166, 37, 164);\">case</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">f\"</span><span style=\"color: rgb(56, 57, 66);\">{teacher.name}</span><span style=\"color: rgb(80, 160, 79);\">(</span><span style=\"color: rgb(56, 57, 66);\">{teacher.title}</span><span style=\"color: rgb(80, 160, 79);\">)总工资：</span><span style=\"color: rgb(56, 57, 66);\">{teacher.total_salary</span></p><p><span style=\"color: rgb(52, 73, 94);\">评分标准： </span></p><p><span style=\"color: rgb(52, 73, 94);\">（1）self.config[\"coeff\"] （或等效答案）；（3分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（2）self.hourly_wage（或等效答案）；（3分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（3）teacher（或等效答案） ；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（4）teacher.total_salary()（或等效答案） 。（2分）</span></p><p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:09:27",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955511997550321665",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955511997550321665",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                },
+                {
+                    "questionId": "1955511997550321665",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955512118535020545",
+            "examinationPaperTitle": "202506Python六级真题",
+            "type": 4,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">IP地址记录 </span></p><p><span style=\"color: rgb(52, 73, 94);\">小明的IP地址记录在文件ip_list.txt中，但其中有些IP属于内网（局域网IP段如192.开头），小明想要： </span></p><p><span style=\"color: rgb(52, 73, 94);\">（1）读取所有IP地址 </span></p><p><span style=\"color: rgb(52, 73, 94);\">（2）删除每行末尾换行符 </span></p><p><span style=\"color: rgb(52, 73, 94);\">（3）筛选出不是以192.开头的IP地址 </span></p><p><span style=\"color: rgb(52, 73, 94);\">（4）将这些IP地址逆序排列后保存到新文件ip_result.txt </span></p><p><span style=\"color: rgb(52, 73, 94);\">（5）并在屏幕上显示每一条被保存的IP</span></p><p><span style=\"color: rgb(52, 73, 94);\">请根据下面代码框架补充完整（共4个填空）。</span></p><p><span style=\"color: rgb(159, 160, 166);\"># 读取ip_list.txt </span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'/data/ip_list.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'r'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> ip_list </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> ① </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 处理IP列表 </span></p><p><span style=\"color: rgb(56, 57, 66);\">clean_list </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(56, 57, 66);\">[] </span></p><p><span style=\"color: rgb(166, 37, 164);\">for</span><span style=\"color: rgb(56, 57, 66);\"> ip </span><span style=\"color: rgb(166, 37, 164);\">in</span><span style=\"color: rgb(56, 57, 66);\"> ip_list: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> ip </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> ip.strip(</span><span style=\"color: rgb(80, 160, 79);\">'\\n'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> ip.startswith( ② ): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> clean_list.append(ip) </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 逆序排列 </span></p><p><span style=\"color: rgb(56, 57, 66);\">clean_list.reverse() </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 保存到新文件并输出 </span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'ip_result.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'w'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">for</span><span style=\"color: rgb(56, 57, 66);\"> ip </span><span style=\"color: rgb(166, 37, 164);\">in</span><span style=\"color: rgb(56, 57, 66);\"> clean_list: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(ip </span><span style=\"color: rgb(64, 120, 241);\">+ </span><span style=\"color: rgb(80, 160, 79);\">\"\\n\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">( ③ ) </span></p><p><span style=\"color: rgb(56, 57, 66);\">a</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> ④ (</span><span style=\"color: rgb(80, 160, 79);\">\"按p退出程序\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> a</span><span style=\"color: rgb(64, 120, 241);\">==</span><span style=\"color: rgb(80, 160, 79);\">\"p\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> exit()</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(159, 160, 166);\"># 读取ip_list.txt </span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'/data/ip_list.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'r'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> ip_list </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> f.readlines() </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 处理IP列表 </span></p><p><span style=\"color: rgb(56, 57, 66);\">clean_list </span><span style=\"color: rgb(64, 120, 241);\">= </span><span style=\"color: rgb(56, 57, 66);\">[] </span></p><p><span style=\"color: rgb(166, 37, 164);\">for</span><span style=\"color: rgb(56, 57, 66);\"> ip </span><span style=\"color: rgb(166, 37, 164);\">in</span><span style=\"color: rgb(56, 57, 66);\"> ip_list: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> ip </span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(56, 57, 66);\"> ip.strip(</span><span style=\"color: rgb(80, 160, 79);\">'\\n'</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">if not</span><span style=\"color: rgb(56, 57, 66);\"> ip.startswith(</span><span style=\"color: rgb(80, 160, 79);\">'192.' </span><span style=\"color: rgb(56, 57, 66);\">): </span></p><p><span style=\"color: rgb(56, 57, 66);\"> clean_list.append(ip) </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 逆序排列 </span></p><p><span style=\"color: rgb(56, 57, 66);\">clean_list.reverse() </span></p><p><span style=\"color: rgb(159, 160, 166);\"># 保存到新文件并输出 </span></p><p><span style=\"color: rgb(166, 37, 164);\">with </span><span style=\"color: rgb(80, 160, 79);\">open</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">'ip_result.txt'</span><span style=\"color: rgb(56, 57, 66);\">, </span><span style=\"color: rgb(80, 160, 79);\">'w'</span><span style=\"color: rgb(56, 57, 66);\">) </span><span style=\"color: rgb(166, 37, 164);\">as</span><span style=\"color: rgb(56, 57, 66);\"> f: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">for</span><span style=\"color: rgb(56, 57, 66);\"> ip </span><span style=\"color: rgb(166, 37, 164);\">in</span><span style=\"color: rgb(56, 57, 66);\"> clean_list: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> f.write(ip </span><span style=\"color: rgb(64, 120, 241);\">+ </span><span style=\"color: rgb(80, 160, 79);\">\"\\n\"</span><span style=\"color: rgb(56, 57, 66);\">) </span></p><p><span style=\"color: rgb(56, 57, 66);\"> </span></p><p><span style=\"color: rgb(166, 37, 164);\">print</span><span style=\"color: rgb(56, 57, 66);\">(ip) </span></p><p><span style=\"color: rgb(56, 57, 66);\">a</span><span style=\"color: rgb(64, 120, 241);\">=</span><span style=\"color: rgb(80, 160, 79);\">input</span><span style=\"color: rgb(56, 57, 66);\">(</span><span style=\"color: rgb(80, 160, 79);\">\"按p退出程序\"</span><span style=\"color: rgb(56, 57, 66);\">)</span></p><p><span style=\"color: rgb(166, 37, 164);\">if</span><span style=\"color: rgb(56, 57, 66);\"> a</span><span style=\"color: rgb(64, 120, 241);\">==</span><span style=\"color: rgb(80, 160, 79);\">\"p\"</span><span style=\"color: rgb(56, 57, 66);\">: </span></p><p><span style=\"color: rgb(56, 57, 66);\"> exit()</span></p><p><span style=\"color: rgb(52, 73, 94);\">评分标准： </span></p><p><span style=\"color: rgb(52, 73, 94);\">（1）f.readlines()（或等效答案）；（3分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（2）'192.'（或等效答案）；（3分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（3）ip（或等效答案）；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（4）input（或等效答案）。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855940826091522",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 14:09:55",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955512118535020545",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                },
+                {
+                    "questionId": "1955512118535020545",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

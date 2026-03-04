@@ -1,0 +1,1032 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202512GESP C++四级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "2018579153292877825",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>小杨想让指针 p 指向整数变量 x ，正确写法是（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 14:55:48",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018579153292877825",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">int p = &amp;x;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018579153292877825",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">int *p = x;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018579153292877825",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">int *p = &amp;x;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018579153292877825",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">p = *x;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018579360738959361",
+            "examinationPaperTitle": "202512GESP C++四级试卷",
+            "type": 1,
+            "title": "<p>小杨写了如下的指针接力程序，程序执行完后变量 a 、 *p1 和 *p2 的值分别是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int a = 5; \nint* p1 = &amp;a; \nint* p2 = p1; \n*p2 = 10;\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 14:56:38",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018579360738959361",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5 10 10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018579360738959361",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>5 10 15</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018579360738959361",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>10 10 10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018579360738959361",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>5 5 10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018581250881085442",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>小杨用一个二维数组表示棋盘，其中 1 表示有棋子，0 表示没有棋子。他想知道第 2 行 第 3 列有没有棋子， </p><p>可采用的代码是：（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int a[3][4] = { \n{1, 0, 1, 0}, \n{0, 1, 0, 1}, \n{1, 1, 0, 0} \n};\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 15:04:08",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018581250881085442",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">cout &lt;&lt; a[1, 2] &lt;&lt; endl;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018581250881085442",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">cout &lt;&lt; a[1][2] &lt;&lt; endl;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018581250881085442",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">cout &lt;&lt; a(1, 2) &lt;&lt; endl;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018581250881085442",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">cout &lt;&lt; a{1}{2} &lt;&lt; endl;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018581404258394114",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>执行完下面的代码后， *(p + 5) 和 arr[1][1] 的值分别是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int arr[3][4] = {{1,2,3,4}, {5,6,7,8}, {9,10,11,12}}; \nint* p = &amp;arr[0][0];\n</pre>",
+            "referenceAnswer": "D",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 15:04:45",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018581404258394114",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5 6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018581404258394114",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>6 5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018581404258394114",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>5 5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018581404258394114",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>6 6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018582170272522242",
+            "examinationPaperTitle": "202512GESP C++四级试卷",
+            "type": 1,
+            "title": "<p>执行完下面的代码后， sum 的值是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int arr[2][3][2] = { \n    {{<span class=\"hljs-number\">1</span>,<span class=\"hljs-number\">2</span>}, {<span class=\"hljs-number\">3</span>,<span class=\"hljs-number\">4</span>}, {<span class=\"hljs-number\">5</span>,<span class=\"hljs-number\">6</span>}}, \n    {{<span class=\"hljs-number\">7</span>,<span class=\"hljs-number\">8</span>}, {<span class=\"hljs-number\">9</span>,<span class=\"hljs-number\">10</span>}, {<span class=\"hljs-number\">11</span>,<span class=\"hljs-number\">12</span>}} \n  }; \nint sum = 0; \nfor(int i = 0; i &lt; 2; i++) \n  for(int j = 0; j &lt; 3; j++) \n    for(int k = 0; k &lt; 2; k++) \n      if((i+j+k) % 2 == 0) \n        sum += arr[i][j][k];\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 15:07:47",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018582170272522242",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>36</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018582170272522242",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>39</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018582170272522242",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>78</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018582170272522242",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>30</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018598139871092738",
+            "examinationPaperTitle": "202512GESP C++四级试卷",
+            "type": 1,
+            "title": "<p>执行完下面的代码后，输出是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-built_in\">int</span> a = <span class=\"hljs-number\">1</span>; \n\n<span class=\"hljs-function\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title\">test</span>()</span> { \n  <span class=\"hljs-built_in\">int</span> a = <span class=\"hljs-number\">2</span>; \n    { \n      <span class=\"hljs-built_in\">int</span> a = <span class=\"hljs-number\">3</span>; \n      a++; \n    } \n    a++; \n    cout &lt;&lt; a &lt;&lt; <span class=\"hljs-string\">\" \"</span>; \n} \n\n<span class=\"hljs-function\"><span class=\"hljs-built_in\">int</span> <span class=\"hljs-title\">main</span>()</span> { \n  test(); \n  cout &lt;&lt; a; \n  <span class=\"hljs-keyword\">return</span> <span class=\"hljs-number\">0</span>; \n}\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:11:15",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018598139871092738",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3 1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018598139871092738",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>4 1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018598139871092738",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>3 2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018598139871092738",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>4 2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018599266700222466",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>执行完下面的代码后， a 、 b 和 c 的值分别是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">void byValue(int x) { x = 100; } \nvoid byRef(int&amp; x) { x = 200; } \nvoid byPointer(int* x) { *x = 300; } \nint main() { \nint a = 1, b = 2, c = 3; \nbyValue(a); \nbyRef(b); \nbyPointer(&amp;c); \nreturn 0; \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:15:44",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018599266700222466",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>100 200 300</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018599266700222466",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>1 2 3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018599266700222466",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>1 200 300</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018599266700222466",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>1 2 300</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018599683182026754",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>运行如下代码会输出（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">struct Point { \nint x, y; \n}; \nstruct Rectangle { \nPoint topLeft; \nPoint bottomRight; \n}; \nint main() { \nRectangle rect = {{10, 10}, {20, 20}}; \nrect.topLeft.x = 5; \nPoint* p = &amp;rect.bottomRight; \np-&gt;y = 5; \ncout &lt;&lt; rect.topLeft.x + rect.bottomRight.y; \nreturn 0; \n}\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:17:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018599683182026754",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018599683182026754",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>30</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018599683182026754",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>15</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018599683182026754",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018602385689534466",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>给定函数 climbStairs(int n) 的定义如下，则 climbStairs(5) 的返回的值是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int climbStairs(int n) { \nif(n &lt;= 2) return n; \nint a = 1, b = 2; \nfor(int i = 3; i &lt;= n; i++) { \nint temp = a + b; \na = b; \nb = temp; \n} \nreturn b; \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:28:07",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018602385689534466",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018602385689534466",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018602385689534466",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>13</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018602385689534466",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>18</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018603609147039745",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>对如下4个扑克牌进行排序，</p><pre class=\"ql-syntax\" spellcheck=\"false\">struct Card { \nint value; \nchar suit; // 花色 \n}; \nCard cards[4] = {{5,'A'}, {3,'B'}, {5,'C'}, {3,'D'}};\n</pre><p>使用某排序算法按value排序后，结果为: {3,'D'}, {3,'B'}, {5,'A'}, {5,'C'} ，则这个排序算法是稳定的吗？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:32:59",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018603609147039745",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>稳定，因为相同 value 的元素相对顺序保持不变</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018603609147039745",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>不稳定，因为 {3,'D'} 出现在 {3,'B'} 之前</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018603609147039745",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>无法判断</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018603609147039745",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>稳定，因为结果是有序的</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018603852483780609",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>下面的函数 selectTopK() 实现从 n 个学生中选出前 k 名成绩最好的学生颁发奖学金（不需要对所有 </p><p>学生完全排序，只需要找出前 k 名），则横线上应填写（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">struct Student { \nstring name; \nint score; \n}; \nvoid selectTopK(Student students[], int n, int k) { \nfor (int i = 0; i &lt; k; i++) { \nint maxIdx = i; \nfor (____________________) { // 在此处填入代码 \nif (students[j].score &gt; students[maxIdx].score) { \nmaxIdx = j; \n} \n} \nif (maxIdx != i) { \nStudent temp = students[i]; \nstudents[i] = students[maxIdx]; \nstudents[maxIdx] = temp; \n} \n} \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:33:57",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018603852483780609",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">int j = 0; j &lt; n; j++\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018603852483780609",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">int j = i + 1; j &lt; n; j++\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018603852483780609",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">int j = i; j &lt; n; j++\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018603852483780609",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">int j = 1; j &lt;= n; j++\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018605533086867458",
+            "examinationPaperTitle": "202512GESP C++四级试卷",
+            "type": 1,
+            "title": "<p>某游戏的排行榜系统需要实时更新玩家分数。每次只有一个玩家的分数发生变化，排行榜已经是按分数降</p><p>序排列的。现在需要将更新后的玩家调整到正确位置。下面的函数 updateRanking() 要实现上述功能，则两处横</p><p>线上应分别填写（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-keyword\">struct</span> <span class=\"hljs-title class_\">Player</span> { \n  string name; \n  <span class=\"hljs-type\">int</span> score; \n }; \n\n  <span class=\"hljs-comment\">// 玩家索引playerIdx的分数刚刚更新，需要调整位置 </span>\n<span class=\"hljs-function\"><span class=\"hljs-type\">void</span> <span class=\"hljs-title\">updateRanking</span><span class=\"hljs-params\">(Player players[], <span class=\"hljs-type\">int</span> size, <span class=\"hljs-type\">int</span> playerIdx)</span> </span>{ \n  Player updatedPlayer = players[playerIdx]; \n\n<span class=\"hljs-keyword\">if</span> (playerIdx &gt; <span class=\"hljs-number\">0</span> &amp;&amp; updatedPlayer.score &gt; players[playerIdx - <span class=\"hljs-number\">1</span>].score) { \n    <span class=\"hljs-type\">int</span> i = playerIdx; \n    <span class=\"hljs-keyword\">while</span> (____________________) { <span class=\"hljs-comment\">// 在此处填入代码 </span>\n      players[i] = players[i - <span class=\"hljs-number\">1</span>]; \n      i--; \n     } \n     players[i] = updatedPlayer; \n  } \n  <span class=\"hljs-keyword\">else</span> <span class=\"hljs-keyword\">if</span> (playerIdx &lt; size - <span class=\"hljs-number\">1</span> &amp;&amp; updatedPlayer.score &lt; players[playerIdx + <span class=\"hljs-number\">1</span>].score) { \n    <span class=\"hljs-type\">int</span> i = playerIdx; \n    <span class=\"hljs-keyword\">while</span> (____________________) { <span class=\"hljs-comment\">// 在此处填入代码 </span>\n      players[i] = players[i + <span class=\"hljs-number\">1</span>]; \n      i++; \n     } \n      players[i] = updatedPlayer; \n  } \n  }\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:40:38",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018605533086867458",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">i &gt; 0 &amp;&amp; updatedPlayer.score &gt; players[i - 1].score \ni &lt; size - 1 &amp;&amp; updatedPlayer.score &lt; players[i + 1].score\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018605533086867458",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">i &lt; size - 1 &amp;&amp; updatedPlayer.score &lt; players[i + 1].score \ni &gt; 0 &amp;&amp; updatedPlayer.score &gt; players[i - 1].score\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018605533086867458",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">i &gt; 0 &amp;&amp; updatedPlayer.score &lt; players[i - 1].score \ni &lt; size - 1 &amp;&amp; updatedPlayer.score &lt; players[i + 1].score\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018605533086867458",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">i &gt; 0 &amp;&amp; updatedPlayer.score &lt; players[i - 1].score \ni &lt; size - 1 &amp;&amp; updatedPlayer.score &gt; players[i + 1].score\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018606478277468161",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>给定如下算法，其时间复杂度为（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">bool f(int arr[], int n, int target) { \nfor (int i = 0; i &lt; n; i++) { \nint sum = 0; \nfor (int j = 0; j &lt; n; j++) { \nif (i &amp; (1 &lt;&lt; j)) { \nsum += arr[j]; \n} \n} \nif (sum == target) return true; \n} \nreturn false; \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:44:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018606478277468161",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018606478277468161",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>O(n^2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018606478277468161",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>O(n^3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018606478277468161",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>O(2^n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018609753533964290",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>执行下面 C++ 程序，会输出（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int main() { \nofstream fout(\"test.txt\"); \nfout &lt;&lt; \"Happy\" &lt;&lt; endl; \nfout &lt;&lt; \"New Year\"; \nfout.close(); \nifstream fin(\"test.txt\"); \nstring s1, s2; \nfin &gt;&gt; s1; \ngetline(fin, s2); \nfin.close(); \ncout &lt;&lt; s1 &lt;&lt; \"|\" &lt;&lt; s2; \nreturn 0; \n}\n</pre>",
+            "referenceAnswer": "D",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 16:57:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018609753533964290",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">Happy|New Year\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018609753533964290",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">Happy| New Year\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018609753533964290",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">HappyNew Year|\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018609753533964290",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">Happy|\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018615978954842114",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 1,
+            "title": "<p>执行下面C++代码，会输出( )。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int divide(int a, int b) { \nif(b == 0) throw \"Division by zero\"; \nreturn a / b; \n} \nint main() { \nint result = 0; \ntry { \nresult = divide(10, 0); \ncout &lt;&lt; \"A\"; \n} \ncatch(const char* msg) { \ncout &lt;&lt; \"B\"; \nresult = -1; \n} \ncout &lt;&lt; result; \nreturn 0; \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:22:08",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018615978954842114",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>A0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018615978954842114",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>B-1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018615978954842114",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>A10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018615978954842114",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>程序崩溃</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616081639792642",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>小杨正在调试他的温度传感器程序，其中变量 x 保存当前温度。下面这段代码运行后，变量 x 的值变成 </p><p>了 8 。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int x = 5; \nint *p = &amp;x; \n*p = *p + 3;\n</pre>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:22:33",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616118776160257",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>一个结构体不能包含另一个结构体。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:22:41",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616155614732290",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>在 C++ 中，定义如下二维数组： int a[3][4]; ，数组 a 在内存中是按行优先连续存放的，即 a[0] </p><p>[0] 、 a[0][1] 、 a[0][2] 、 a[0][3] 在内存中是连续的。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:22:50",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616216264368129",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>执行下面程序后，变量 a 的值会变成 15 。</p><pre class=\"ql-syntax\" spellcheck=\"false\">void add(int &amp;x){ \nx += 10; \n} \nint a = 5; \nadd(a);\n</pre>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:23:05",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616296388157442",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>执行下面的C++代码，会输出 8 ，因为两个指针地址相差 8 个字节（假设 int 占 4 字节）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int arr[5] = {1, 2, 3, 4, 5}; \nint* p1 = arr; \nint* p2 = arr + 2; \ncout &lt;&lt; p2 - p1; // 输出结果\n</pre>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:23:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616615755046913",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>考虑用如下递推方式计算斐波那契数列，时间复杂度是 O(n)。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int n = 10; \nint f[20]; \nf[0] = 0; \nf[1] = 1; \nfor (int i = 2; i &lt;= n; i++) \nf[i] = f[i - 1] + f[i - 2];\n</pre>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:24:40",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616647505928194",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>冒泡排序和插入排序都是稳定排序算法。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:24:48",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616734168637442",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>下面这段代码实现了选择排序算法。</p><pre class=\"ql-syntax\" spellcheck=\"false\">void sort(int a[], int n) { \nfor (int i = 1; i &lt; n; i++) { \nint x = a[i]; \nint j = i - 1; \nwhile (j &gt;= 0 &amp;&amp; a[j] &gt; x) { \na[j + 1] = a[j]; \nj--; \n} \na[j + 1] = x; \n} \n}\n</pre>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:25:08",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616822718783489",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>下面代码可以正常编译并输出 10 。</p><pre class=\"ql-syntax\" spellcheck=\"false\">#include &lt;iostream&gt; \nusing namespace std; \nint calculate(int x, int y = 10); \nint main() { \ncout &lt;&lt; calculate(5); // 调用1 \nreturn 0; \n} \nint calculate(int x, int y) { \nreturn x * y; \n} \nint calculate(int x) { // 重载函数 \nreturn x * 2; \n}\n</pre>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:25:29",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018616879681626114",
+            "examinationPaperTitle": "202512GESP C++四级真题",
+            "type": 3,
+            "title": "<p>执行下面代码会输出 100 。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int main() { \nofstream fout(\"data.txt\"); \nfout &lt;&lt; 10 &lt;&lt; \" \" &lt;&lt; 20 &lt;&lt; endl; \nfout &lt;&lt; 30 &lt;&lt; \" \" &lt;&lt; 40; \nfout.close(); \nifstream fin(\"data.txt\"); \nint a, b, c, d; \nfin &gt;&gt; a &gt;&gt; b &gt;&gt; c &gt;&gt; d; \nfin.close(); \ncout &lt;&lt; a + b + c + d; \nreturn 0; \n}\n</pre>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:25:43",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018953333649694721",
+            "examinationPaperTitle": "202512GESP C++四级试卷",
+            "type": 4,
+            "title": "<p>编程题 <strong>1</strong></p><p><strong>试题名称</strong>：建造</p><p><strong>时间限制</strong>：1.0 s</p><p><strong>内存限制</strong>：512.0 MB</p><p><strong>3.1.1 </strong></p><p>题目描述</p><p>小 A 有一张M行N列的地形图，其中第i 行第 列的数字aij代表坐标 ( i,j）) 的海拔高度。停机坪为一个3*3的区域且内部所有 9个点的最大高度和最小高度之差不超过H。 小 A 想请你计算出，在所有适合建造停机坪的区域中，区域内部9个点海拔之和最大是多少。</p><p><strong>3.1.2 </strong></p><p>输入格式</p><p>第一行三个正整数M,N,H，含义如题面所示。之后M行，第i行包含N个整数ai1,ai2,...,aiN,代表坐标（i,j)的高度。数据保证总存在一个适合建造停机坪的区域。</p><p><strong>3.1.3 </strong></p><p>输出格式</p><p>输出一行，代表最大的海拔之和。</p><p><strong>3.1.4 </strong>样例</p><p><strong>3.1.4.1 </strong>输入样例</p><p>5 5 3 </p><p>5 5 5 5 5 </p><p>5 1 5 1 5 </p><p>5 5 5 5 5 </p><p>5 2 5 2 5 </p><p>3 5 5 5 2</p><p><strong>3.1.4.2</strong>输出样例</p><p>40</p><p><strong>3.1.5</strong>数据范围</p><p>对于所有测试点，保证<img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-04/8707297584454262784.png\"></p><p><br></p><p><br></p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">#include &lt;iostream&gt; \nusing namespace std; \nint a[1010][1010]; \nint main(){ \nint M, N, H; \ncin &gt;&gt; M &gt;&gt; N &gt;&gt; H; \nfor (int i = 1; i &lt;= M; ++i) { \nfor (int j = 1; j &lt;= N; ++j) { \ncin &gt;&gt; a[i][j]; \n} \n} \nint max_sum = 0; \nfor (int i = 1; i &lt;= M - 2; ++i) { \nfor (int j = 1; j &lt;= N - 2; ++j) { \nint local_max = a[i][j], local_min = a[i][j], local_sum = 0; \nfor (int x = 0; x &lt; 3; ++x) { \nfor (int y = 0; y &lt; 3; ++y) { \nint height = a[i + x][j + y]; \nlocal_sum += height; \nif (height &gt; local_max) local_max = height; \nif (height &lt; local_min) local_min = height; \n} \n} \nif (local_max - local_min &lt;= H) { \nif (local_sum &gt; max_sum) { \nmax_sum = local_sum; \n} \n} \n} \n} \ncout &lt;&lt; max_sum; \nreturn 0; \n}\n</pre>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 15:42:40",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 0,
+                "executionMemoryLimit": 0,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "",
+                        "testCaseOutput": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2018961123894091777",
+            "examinationPaperTitle": "202512GESP C++四级试卷",
+            "type": 4,
+            "title": "<p>编程题 <strong>2</strong></p><p><strong>试题名称</strong>：优先购买 </p><p><strong>时间限制</strong>：1.0 s </p><p><strong>内存限制</strong>：512.0 MB</p><p><strong>3.2.1 </strong>题目描述 </p><p>小 A 有M元预算。商店有N个商品，每个商品有商品名S 、价格P和优先级V三种属性，其中V为正整数，且V越小代表商品的优先级越高。</p><p>小 A 的购物策略为： </p><p>总是优先买优先级最高的东西； </p><p>如果有多个最高优先级商品，购买价格最低的； </p><p>如果有多个优先级最高且价格最低的商品，购买商品名字典序最小的。 </p><p>小 A 想知道能购买哪些商品。</p><p><strong>3.2.2 </strong>输入格式 </p><p>第一行两个正整数 M,N，代表预算和商品数。 </p><p>之后N行，每行一个商品，依次为Si，Pi，Vi ，代表第 个商品的商品名、价格、优先级。数据保证不存在两个名字相同的商品。 </p><p><strong>3.2.3 </strong>输出格式 </p><p>按照字典序从小到大的顺序，输出所有购买商品的商品名。 </p><p><strong>3.2.4 </strong>样例 </p><p><strong>3.2.4.1</strong>输入样例</p><p>20 4 </p><p>apple 6 8 </p><p>bus 15 1 </p><p>cab 1 10 </p><p>water 4 8</p><p><strong>3.2.4.2 </strong>输出样例</p><p>bus </p><p>cab </p><p>water</p><p><strong>3.2.5 </strong>数据范围</p><p>对于所有测试点，保证 <img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-04/8707301214049738752.png\">商品名仅由小写字母组成且不存在两个相同的商品名。</p><p><br></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">#include &lt;iostream&gt; \n#include &lt;algorithm&gt; \n#include &lt;string&gt; \n#include &lt;map&gt; \n#include &lt;assert.h&gt; \nusing namespace std; \nstruct Item { \nstring name; \nint price; \nint priority; \n}; \nbool cmp(const Item &amp;a, const Item &amp;b) { \nif (a.priority != b.priority) return a.priority &lt; b.priority; \nif(a.price != b.price) return a.price &lt; b.price; \nreturn a.name &lt; b.name; \n} \nstring s[1005]; \nstd::map&lt;string, int&gt; mp; \nint main(){ \nint M, N; \ncin &gt;&gt; M &gt;&gt; N; \nItem items[N]; \nfor (int i = 0; i &lt; N; ++i) { \ncin &gt;&gt; items[i].name &gt;&gt; items[i].price &gt;&gt; items[i].priority; \nassert(mp.find(items[i].name) == mp.end()); \nmp[items[i].name] = items[i].priority; \n} \nsort(items, items + N, cmp); \nint budget = M; \nint count = 0; \nfor (int i = 0; i &lt; N; ++i) { \nif (items[i].price &lt;= budget) { \nbudget -= items[i].price; \ns[count++] = items[i].name; \n} \n} \nsort(s, s + count); \nfor (int i = 0; i &lt; count; ++i) { \ncout &lt;&lt; s[i] &lt;&lt; endl; \n} \nreturn 0; \n}\n</pre>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2018578113801740289",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:13:37",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 0,
+                "executionMemoryLimit": 0,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "",
+                        "testCaseOutput": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

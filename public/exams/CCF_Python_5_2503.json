@@ -1,0 +1,1186 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202503GESP Python五级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "1909495273900396545",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">链表不具备的特点是( )。</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>链表通过指针连接各节点，每个节点包含数据和指向下一节点的引用。访问元素需从头节点开始逐个遍历，无法直接定位任意位置的元素。插入或删除时，仅需调整相邻节点的指针，不涉及其他节点的移动。存储空间随节点数量线性增长，无需预先分配连续内存区域。节点的分布由运行时动态决定，空间需求与元素个数保持比例关系。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:35:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909495273900396545",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">可随机访问任何一个元素</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909495273900396545",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">插入、删除操作不需要移动元素</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909495273900396545",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">无需事先估计存储空间大小</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909495273900396545",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">所需存储空间与存储元素个数成正比</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909495531795566594",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">双向链表中每个结点有两个指针域 prev 和 next ，分别指向该结点的前驱及后继结点。设 p 指向链表中的一个结点，它的前驱结点和后继结点均非空。现要求删除结点 p ，则下述语句中错误的是（ ）。</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:36:26",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909495531795566594",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-36-10/8597836480343400448.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909495531795566594",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-36-13/8597836495887491072.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909495531795566594",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-36-17/8597836511041511424.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909495531795566594",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-36-21/8597836527357378560.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909495795786502145",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">假设双向循环链表包含头尾哨兵结点(不存储实际内容)，分别为 head 和 tail ，链表中每个结点有两个指针域 prev 和 next ，分别指向该结点的前驱及后继结点。下面代码实现了一个空的双向循环链表，横线上应填的最 佳代码是( )。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-36-53/8597836660056768512.png\" alt=\"3.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-36-53/8597836660056768512.png\" style=\"\"/></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-37-06/8597836716914728960.png\" alt=\"3.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-37-06/8597836716914728960.png\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:37:29",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909495795786502145",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail </span></p><p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">prev </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909495795786502145",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head </span></p><p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">prev </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909495795786502145",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail </span></p><p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909495795786502145",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">prev </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail </span></p><p><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">tail</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">next </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 85, 170);\">self</span><span style=\"color: rgb(51, 51, 51);\">.</span><span style=\"color: rgb(0, 0, 0);\">head</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909495965172027394",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">用以下辗转相除法（欧几里得算法）求gcd(84, 60)的步骤中，第二次调用gcd()函数计算的数是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-37-47/8597836886779846656.png\" alt=\"4.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-37-47/8597836886779846656.png\" style=\"\"/></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:38:09",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909495965172027394",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">84和60</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909495965172027394",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">60和24</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909495965172027394",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">24和12</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909495965172027394",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">12和0</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909495965172027394",
+                    "knowledgePointId": "311",
+                    "knowledgePoint": "欧几里得算法"
+                },
+                {
+                    "questionId": "1909495965172027394",
+                    "knowledgePointId": "306",
+                    "knowledgePoint": "最大公约数与最小公倍数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909496074463006721",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">根据唯一分解定理，下面整数的唯一分解是正确的（ ）。</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:38:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909496074463006721",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">18 = 3 × 6</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909496074463006721",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">28 = 4 × 7</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909496074463006721",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">36 = 2 × 3 × 6</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909496074463006721",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">30 = 2 × 3 × 5</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909496074463006721",
+                    "knowledgePointId": "312",
+                    "knowledgePoint": "唯一分解定理"
+                },
+                {
+                    "questionId": "1909496074463006721",
+                    "knowledgePointId": "309",
+                    "knowledgePoint": "质因数分解"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909496235236696066",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下述代码实现素数表的线性筛法，筛选出所有小于等于 的素数，横线上应填的最佳代码是( )。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-38-53/8597837163989786624.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:39:14",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909496235236696066",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while j &lt; len(primes) and j * primes[j] &lt;= n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909496235236696066",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while j &lt; len(primes) and i * primes[j] &lt;= n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909496235236696066",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while j &lt; len(primes) and j * primes[i] &lt;= n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909496235236696066",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">while i &lt; len(primes) and i * primes[j] &lt; n:</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909496235236696066",
+                    "knowledgePointId": "314",
+                    "knowledgePoint": "线性筛法"
+                },
+                {
+                    "questionId": "1909496235236696066",
+                    "knowledgePointId": "305",
+                    "knowledgePoint": "素数与合数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909496350903017473",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">在程序运行过程中，如果递归调用的层数过多，会因为（ ）引发错误。</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:39:41",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909496350903017473",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">系统分配的栈空间溢出</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909496350903017473",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">系统分配的堆空间溢出</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909496350903017473",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">系统分配的队列空间溢出</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909496350903017473",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">系统分配的链表空间溢出</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909496350903017473",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1909496350903017473",
+                    "knowledgePointId": "321",
+                    "knowledgePoint": "递归空间复杂度分析"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909496672704974849",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">对下面两个函数，说法错误的是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-39-56/8597837429409538048.png\" alt=\"8.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-39-56/8597837429409538048.png\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:40:58",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909496672704974849",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">两个函数的实现的功能相同。</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909496672704974849",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">两个函数的时间复杂度均为</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-40-20/8597837531595366400.png\" alt=\"1.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-40-20/8597837531595366400.png\" style=\"\"/></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909496672704974849",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">factorialA采用递归方式。</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909496672704974849",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">factorialB采用递归方式。</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909496672704974849",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1909496672704974849",
+                    "knowledgePointId": "320",
+                    "knowledgePoint": "递归时间复杂度分析"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909496809414119425",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下算法中，（ ）是不稳定的排序。</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:41:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909496809414119425",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">选择排序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909496809414119425",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">插入排序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909496809414119425",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">归并排序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909496809414119425",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">冒泡排序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909496809414119425",
+                    "knowledgePointId": "323",
+                    "knowledgePoint": "归并排序算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909497104103165953",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">考虑以下python代码实现的快速排序算法，将数据从小到大排序，则横线上应填的最佳代码是( )。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-41-51/8597837913641934848.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:42:41",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909497104103165953",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-42-27/8597838064544604160.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909497104103165953",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-42-31/8597838079031754752.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909497104103165953",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-42-35/8597838094127030272.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909497104103165953",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-42-38/8597838107519442944.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909497104103165953",
+                    "knowledgePointId": "324",
+                    "knowledgePoint": "快速排序算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909497200886730754",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p>若用二分法在[1, 100]内猜数，最多需要猜（ ）次。</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:43:04",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909497200886730754",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>100</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909497200886730754",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909497200886730754",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909497200886730754",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909497200886730754",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909497441407651842",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的python代码实现了二分查找算法，在数组 arr 找到目标元素 target 的位置，则横线上能填写的 最佳代码是（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-43-38/8597838359219625984.png\" alt=\"12.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-43-38/8597838359219625984.png\" style=\"\"/></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:44:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909497441407651842",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">left </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">right </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">// </span><span style=\"color: rgb(17, 102, 68);\">2</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909497441407651842",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">left</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909497441407651842",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">left </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">// </span><span style=\"color: rgb(17, 102, 68);\">2 </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909497441407651842",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">mid </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">right</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909497441407651842",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909497532684095490",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p>贪心算法的核心特征是（ ）。</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:44:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909497532684095490",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>总是选择当前最优解</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909497532684095490",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>回溯尝试所有可能</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909497532684095490",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>分阶段解决子问题</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909497532684095490",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>总能找到最优解</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909497532684095490",
+                    "knowledgePointId": "325",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909497851623165954",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">函数 def find_max(arr, low, high): 计算数组中最大元素，其中数组arr 从索引 low 到 high ，（ ）正确实现了分治逻辑。</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:45:39",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909497851623165954",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-45-06/8597838730629439488.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909497851623165954",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-45-16/8597838770567626752.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909497851623165954",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-45-28/8597838821394178048.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909497851623165954",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-45-33/8597838841568804864.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909497851623165954",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                },
+                {
+                    "questionId": "1909497851623165954",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498147083964417",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">小杨编写了一个如下的高精度乘法函数，则横线上应填写的代码为（ ）。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-46-29/8597839076697268224.png\" alt=\"15.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-46-29/8597839076697268224.png\" style=\"\"/></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:46:50",
+            "questionsOptionList": [
+                {
+                    "questionId": "1909498147083964417",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">temp </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">c</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">k</span><span style=\"color: rgb(51, 51, 51);\">]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1909498147083964417",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">temp </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">c</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">k</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">carry</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1909498147083964417",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">temp </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">c</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">k</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">- </span><span style=\"color: rgb(0, 0, 0);\">carry</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1909498147083964417",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0);\">temp </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">c</span><span style=\"color: rgb(51, 51, 51);\">[</span><span style=\"color: rgb(0, 0, 0);\">k</span><span style=\"color: rgb(51, 51, 51);\">] </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">carry</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498147083964417",
+                    "knowledgePointId": "304",
+                    "knowledgePoint": "高精度计算"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498256268644353",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">单链表中删除某个结点 p (非尾结点)，但不知道头结点，可行的操作是将 p 的值设为 p.next 的值，然后删除 p.next 。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:47:16",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498294887043073",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">链表存储线性表时要求内存中可用存储单元地址是连续的。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:47:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498322229710850",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">线性筛相对于埃拉托斯特尼筛法，每个合数只会被它的最小质因数筛去一次，因此效率更高。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:47:31",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498322229710850",
+                    "knowledgePointId": "314",
+                    "knowledgePoint": "线性筛法"
+                },
+                {
+                    "questionId": "1909498322229710850",
+                    "knowledgePointId": "313",
+                    "knowledgePoint": "埃氏筛法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498347951935489",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">贪心算法通过每一步选择当前最优解，从而一定能获得全局最优解。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:47:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498347951935489",
+                    "knowledgePointId": "325",
+                    "knowledgePoint": "贪心算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498397148749825",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">递归函数必须具有一个终止条件，以防止无限递归。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:47:49",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498397148749825",
+                    "knowledgePointId": "319",
+                    "knowledgePoint": "递归算法概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498512344928258",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">快速排序算法的时间复杂度与输入是否有序无关，始终稳定为</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-48-11/8597839505883643904.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:48:17",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498512344928258",
+                    "knowledgePointId": "324",
+                    "knowledgePoint": "快速排序算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498548323667969",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">归并排序算法的时间复杂度与输入是否有序无关，始终稳定为</span><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-48-22/8597839553669349376.png\" alt=\"1.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-48-22/8597839553669349376.png\" style=\"\"/></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:48:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498548323667969",
+                    "knowledgePointId": "323",
+                    "knowledgePoint": "归并排序算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498580911968257",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">二分查找适用于对无序数组和有序数组的查找。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:48:33",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498580911968257",
+                    "knowledgePointId": "317",
+                    "knowledgePoint": "二分查找算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498624555524097",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">小杨有10元去超市买东西，每个商品有各自的价格，每种商品只能买1个，小杨的目标是买到最多数量的商品。小杨采用的策略是每次挑价格最低的商品买，这体现了分治思想。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:48:44",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498665183924226",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">归并排序算法体现了分治算法，每次将大的待排序数组分成大小大致相等的两个小数组，然后分别对两个小数组进行排序，最后对排好序的两个小数组合并成有序数组</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:48:53",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1909498665183924226",
+                    "knowledgePointId": "323",
+                    "knowledgePoint": "归并排序算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1909498868439896066",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 4,
+            "title": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-49-33/8597839848361123840.png\" alt=\"11.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-49-36/8597839863921991680.png\" alt=\"12.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-49-40/8597839878727884800.png\" alt=\"13.png\"></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:49:42",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 3000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>3</p><p>1 3 5 6 8 10</p><p>2 4 6 7 9 11</p>",
+                        "testCaseOutput": "<p>36</p>"
+                    },
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>2</p><p>6 7 9 9</p><p>1 2 10 12</p>",
+                        "testCaseOutput": "<p>35</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1909499053534531586",
+            "examinationPaperTitle": "202503GESP Python五级试卷",
+            "type": 4,
+            "title": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-50-13/8597840015898402816.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-50-21/8597840048781746176.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-04-08-14-50-24/8597840064141312000.png\"></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1909495107898232833",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-04-08 14:50:26",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 3000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>3</p><p>3 998244353</p><p>5 998244353</p><p>7 998244353</p><p><br></p>",
+                        "testCaseOutput": "<p>Yes</p><p>Yes</p><p>No</p>"
+                    }
+                ]
+            }
+        }
+    ]
+}

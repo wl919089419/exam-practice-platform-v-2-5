@@ -1,0 +1,1042 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202512GESP Python六级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "2019333994260717570",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>在Python的面向对象编程中，下列关于“动态绑定（等效于虚函数）”的描述中，错误的是（ ）。</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 16:55:16",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019333994260717570",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>动态绑定用于支持运行时多态。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019333994260717570",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>通过基类变量调用方法时，会根据对象实际类型决定调用版本。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019333994260717570",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>构造函数（ __init__ ）可以通过动态绑定实现多态以支持灵活初始化。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019333994260717570",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>基类析构函数（ __del__ ）常保证子类调用其实现，以避免资源泄漏析构函数常声明为虚函数以避免资源泄漏。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019334189685923841",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>执行如下代码，将输出 钢琴：叮咚叮咚 和 吉他：咚咚当当 而不是两行 乐器在演奏声音 ，这体现了面向对象编程的（ ）特性。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class Instrument: \n\"\"\"基类：乐器\"\"\" \ndef play(self): \nprint(\"乐器在演奏声音\") \ndef __del__(self): \npass \nclass Piano(Instrument): \n\"\"\"子类：钢琴\"\"\" \ndef play(self): \nprint(\"钢琴：叮咚叮咚\") \nclass Guitar(Instrument): \ndef play(self): \nprint(\"吉他：咚咚当当\") \nif __name__ == \"__main__\": \ninstruments = [Piano(), Guitar()] \nfor inst in instruments: \ninst.play()\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 16:56:03",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019334189685923841",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>继承</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019334189685923841",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>封装</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019334189685923841",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>多态</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019334189685923841",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>链接</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019334370053578753",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>执行下面代码，将输出（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class Instrument: \ndef play(self): \nprint(\"乐器在演奏声音\") \ndef __del__(self): \npass \nclass Piano(Instrument): \ndef play(self): \nprint(\"钢琴：叮咚叮咚\") \nclass Guitar(Instrument): \ndef play(self): \nprint(\"吉他：咚咚当当\") \nif __name__ == \"__main__\": \ninstruments = [Piano(), Guitar()] \nfor inst in instruments: \nInstrument.play(inst)\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 16:56:46",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019334370053578753",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">钢琴：叮咚叮咚 \n吉他：咚咚当当\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019334370053578753",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">乐器在演奏声音 \n乐器在演奏声音\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019334370053578753",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>编译错误</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019334370053578753",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>运行错误</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019334504195809282",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>某文本编辑器把用户输入的字符依次压入栈 S。用户依次输入 A , B , C , D 后，用户按了两次撤销（每次撤销，弹出栈顶一个字符）。此时栈从栈底到栈顶的内容是：（ ）。</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 16:57:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019334504195809282",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>A B</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019334504195809282",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>A B C</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019334504195809282",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>A B D</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019334504195809282",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>B C</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019335048465473538",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>假设循环队列数组长度为 N ，其中队空判断条件为： front == rear ，队满判断条件为： (rear + 1) % </p><p>N == front ，出队对应的操作为： front = (front + 1) % N ，入队对于的操作为： rear = (rear + 1) % </p><p>N 。循环队列长度 N = 6 ，初始 front = 1 , rear = 1 ，执行操作序列为：入队, 入队, 入队, 出队, 入队, 入队， </p><p>则最终 (front, rear) 的值是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 16:59:28",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019335048465473538",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>(2, 5)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019335048465473538",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>(2, 0)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019335048465473538",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>(3, 5)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019335048465473538",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>(3, 0)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019335220452909057",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>以下函数 check() 用于判断一棵二叉树是否为（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class TreeNode: \ndef __init__(self, val=0, left=None, right=None): \nself.val = val \nself.left = left \nself.right = right \nfrom collections import deque \ndef check(root): \nif not root: \nreturn True \nq = deque() \nq.append(root) \nhas_null = False \nwhile q: \ncur = q.popleft() \nif not cur: \nhas_null = True \nelse: \nif has_null: \nreturn False \nq.append(cur.left) \nq.append(cur.right) \nreturn True\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:00:09",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019335220452909057",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>满二叉树</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019335220452909057",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>完全二叉树</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019335220452909057",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>二叉搜索树</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019335220452909057",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>平衡二叉树</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019335379245064194",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>以下代码实现了二叉树的（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class TreeNode: \ndef __init__(self, val=0, left=None, right=None): \nself.val = val \nself.left = left \nself.right = right \ndef traverse(root): \nif not root: \nreturn \ntraverse(root.left) \ntraverse(root.right) \nprint(root.val, end=\" \") \nif __name__ == \"__main__\": \nroot = TreeNode(1) \nroot.right = TreeNode(2) \nroot.right.left = TreeNode(3) \nprint(\"后序遍历结果：\", end=\"\") \ntraverse(root)\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:00:47",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019335379245064194",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>前序遍历</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019335379245064194",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>中序遍历</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019335379245064194",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>后序遍历</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019335379245064194",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>层序遍历</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019336097683202049",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>下面代码实现了哈夫曼编码，则横线处应填写的代码是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class Symbol: \ndef __init__(self, ch='', freq=0, code=''): \nself.ch = ch \nself.freq = freq \nself.code = code \nclass Node: \ndef __init__(self, w=0, l=-1, r=-1, sym=-1): \nself.w = w \nself.l = l \nself.r = r \nself.sym = sym \ndef pop_min_node(nodes, leaf_idx, n, pA, internal_idx, pB): \nif pA[0] &lt; n and (pB[0] &gt;= len(internal_idx) or nodes[leaf_idx[pA[0]]].w &lt;= \nnodes[internal_idx[pB[0]]].w): \nres = leaf_idx[pA[0]] \npA[0] += 1 \nreturn res \nelse: \nres = internal_idx[pB[0]] \npB[0] += 1 \nreturn res \ndef dfs_build_codes(u, nodes, sym_list, path): \nif u == -1: \nreturn \nif nodes[u].sym != -1: \nsym_list[nodes[u].sym].code = ''.join(path) \nreturn \npath.append('0') \ndfs_build_codes(nodes[u].l, nodes, sym_list, path) \npath.pop() \npath.append('1') \ndfs_build_codes(nodes[u].r, nodes, sym_list, path) \npath.pop() \ndef build_huffman_codes(sym_list): \nn = len(sym_list) \nfor sym in sym_list: \nsym.code = '' \nif n &lt;= 0: \nreturn -1 \nif n == 1: \nsym_list[0].code = '0' \nreturn 0 \nnodes = [] \nleaf_idx = [] \nfor i in range(n): \nleaf_idx.append(len(nodes)) \nnodes.append(Node(sym_list[i].freq, -1, -1, i)) \nleaf_idx.sort(key=lambda x: (nodes[x].w, nodes[x].sym)) \ninternal_idx = [] \npA = [0] \npB = [0] \nfor k in range(1, n): \nx = pop_min_node(nodes, leaf_idx, n, pA, internal_idx, pB) \ny = pop_min_node(nodes, leaf_idx, n, pA, internal_idx, pB) \nz = len(nodes) \n______________________________ \nroot = internal_idx[-1] if internal_idx else -1 \npath = [] \ndfs_build_codes(root, nodes, sym_list, path)\nreturn root \nif __name__ == \"__main__\": \nsyms = [ \nSymbol('A', 5), \nSymbol('B', 9), \nSymbol('C', 12), \nSymbol('D', 13), \nSymbol('E', 16), \nSymbol('F', 45) \n] \nroot = build_huffman_codes(syms) \nprint(f\"哈夫曼树根节点下标：{root}\") \nfor sym in syms: \nprint(f\"字符 '{sym.ch}' (频率 {sym.freq})：编码 {sym.code}\")\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:03:38",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019336097683202049",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">nodes.append(Node(nodes[x].w + nodes[y].w, x, y, -1)) \ninternal_idx.append(z)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019336097683202049",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">nodes.append(Node(nodes[x].w + nodes[y].w, x, y, 1)) \ninternal_idx.append(z)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019336097683202049",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">nodes.append(Node(nodes[x-1].w + nodes[y].w, x, y, 1)) \ninternal_idx.append(z)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019336097683202049",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">nodes.append(Node(nodes[x+1].w + nodes[y].w, x, y, 1)) \ninternal_idx.append(z)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019336223751397378",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>以下关于哈夫曼编码的说法，正确的是（ ）。</p><p><br></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:04:08",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019336223751397378",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>哈夫曼编码是定长编码</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019336223751397378",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>哈夫曼编码中，没有任何一个字符的编码是另一个字符编码的前缀</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019336223751397378",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>哈夫曼编码一定唯一</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019336223751397378",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>哈夫曼编码不能用于数据压缩</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019336386574278657",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>以下函数实现了二叉排序树（BST）的（ ）操作。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class TreeNode: \ndef __init__(self, val=0, left=None, right=None): \nself.val = val \nself.left = left \nself.right = right \ndef op(root, x): \nif not root: \nreturn TreeNode(x) \nif x &lt; root.val: \nroot.left = op(root.left, x) \nelse: \nroot.right = op(root.right, x) \nreturn root\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:04:47",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019336386574278657",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>查找</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019336386574278657",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>插入</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019336386574278657",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>删除</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019336386574278657",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>遍历</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019336620176039938",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>下列代码实现了树的深度优先遍历，则横线处应填入（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class TreeNode: \ndef __init__(self, x): \nself.val = x \nself.left = None \nself.right = None \ndef dfs1(root): \nif not root: \nreturn \ntemp = [] \ntemp.append(root) \nwhile temp: \nnode = temp[-1] \ntemp.pop() \nprint(node.val, end=\" \") \nif node.right: \ntemp.append(node.right) \nif node.left: \ntemp.append(node.left) \ndef dfs2(root): \nif not root: \nreturn \nst = [] \nst.append(root) \nwhile st: \nnode = st[-1] \nst.pop() \nprint(node.val, end=\" \") \nif node.right: \nst.append(node.right) \n——————————————————\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:05:42",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019336620176039938",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if node.left: \nst.append(node.left)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019336620176039938",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if node.right: \nst.append(node.left)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019336620176039938",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if node.left: \nst.append(node.right)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019336620176039938",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if node.right: \nst.append(node.right)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019336836992196610",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>给定一棵普通二叉树（节点值没有大小规律），下面代码判断是否存在值为 x 的结点，则横线处应填入（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class TreeNode: \ndef __init__(self, x): \nself.val = x \nself.left = None \nself.right = None \nfrom collections import deque \ndef bfs_find(root, x): \nif not root: \nreturn None \nq = deque() \nq.append(root) \nwhile q: \ncur = q.popleft() \nif cur.val == x: \nreturn cur \n______________________ \nreturn None\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:06:34",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019336836992196610",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">q.append(cur.left)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019336836992196610",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">q.append(cur.right)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019336836992196610",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if cur.left: \nq.append(cur.left) \nif cur.right: \nq.append(cur.right)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019336836992196610",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if cur.right: \nq.append(cur.left) \nif cur.left: \nq.append(cur.right)\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019337327864176642",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>在二叉排序树（Binary Search Tree, BST）中，假设节点值互不相同。给定如下搜索函数，以下说法 一定正 </p><p>确的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class Node: \ndef __init__(self, val=0, left=None, right=None): \nself.val = val \nself.left = left \nself.right = right \ndef find(root, x): \nwhile root: \nif root.val == x: \nreturn True \nif x &lt; root.val: \nroot = root.left \nelse: \nroot = root.right \nreturn False\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:08:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019337327864176642",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>最坏情况下，访问结点数是&nbsp;O(log&nbsp;n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019337327864176642",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>最坏情况下&nbsp;，访问结点数是O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019337327864176642",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>无论如何&nbsp;，访问结点数都不超过树高的一半</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019337327864176642",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>一定比在普通二叉树中搜索快</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019337515286650881",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>0/1 背包（每件物品最多选一次）&nbsp;问题通常可用一维动态规划求解&nbsp;，核心代码如下&nbsp;。遍历的方向无所谓&nbsp;，则下面说法正确的是（&nbsp;&nbsp;）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">def zero_one_knapsack(items, W): \ndp = [0] * (W + 1) \nfor w, v in items: \nfor j in range(W, w - 1, -1): \ndp[j] = max(dp[j], dp[j - w] + v) \nreturn dp[W]\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:09:16",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019337515286650881",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>内层 j 必须从小到大，否则会漏解</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019337515286650881",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>内层 j 必须从大到小，否则同一件物品会被用多次</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019337515286650881",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>j 从大到小或从小到大都一样</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019337515286650881",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>只要 dp 初始为 0 ，方向无所谓</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019337655464484866",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 1,
+            "title": "<p>以下关于动态规划的说法中，错误的是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:09:49",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019337655464484866",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>动态规划方法通常能够列出递推公式。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019337655464484866",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>动态规划方法的时间复杂度通常为状态的个数。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019337655464484866",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>动态规划方法有递推和递归两种实现形式。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019337655464484866",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>在使用动态规划思想（即避免重复子问题）的前提下，递推实现与递归实现（记忆化搜索）的时间复杂度通常是相当的。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019337895873601537",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>以下代码中，构造函数被调用的次数是1次。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class Test: \ninit_count = 0 \ndef __init__(self): \nTest.init_count += 1 \nprint(\"T \", end=\"\") \ndef __copy__(self): \nprint(\"（拷贝构造，不触发__init__）\", end=\"\") \nnew_obj = Test.__new__(Test) \nreturn new_obj \nif __name__ == \"__main__\": \na = Test() \nimport copy \nb = copy.copy(a)\n</pre>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:10:47",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019337941897699329",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>面向对象编程中，封装是指将数据和操作数据的方法绑定在一起，并对外隐藏实现细节。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:10:57",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338050513395714",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>以下代码能够正确统计二叉树中叶子结点的数量。</p><pre class=\"ql-syntax\" spellcheck=\"false\">class TreeNode: \ndef __init__(self, val=0, left=None, right=None): \nself.val = val \nself.left = left \nself.right = right \ndef count_leaf(root): \nif not root: \nreturn 0 \nif not root.left and not root.right: \nreturn 1 \nreturn count_leaf(root.left) + count_leaf(root.right) \nif __name__ == \"__main__\": \nroot1 = TreeNode(1) \nroot1.left = TreeNode(2) \nroot1.right = TreeNode(3) \nroot1.left.left = TreeNode(4) \nroot1.left.right = TreeNode(5) \nroot1.right.right = TreeNode(6) \nprint(f\"二叉树1的叶子节点数：{count_leaf(root1)}\") \nroot2 = TreeNode(1) \nprint(f\"二叉树2的叶子节点数：{count_leaf(root2)}\") 1 \nroot3 = None \nprint(f\"空树的叶子节点数：{count_leaf(root3)}\")\n</pre>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:11:23",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338088601870337",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>广度优先遍历二叉树可用栈来实现。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:11:32",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338121900449794",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>函数调用管理可用栈来管理。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:11:40",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338160479657985",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>在二叉排序树（BST）中，若某结点的左子树为空，则该结点一定是整棵树中的最小值结点。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:11:50",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338258882224129",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>下面的函数能正确判断一棵树是不是二叉排序树（左边的数字要比当前数字小，右边的数字要比当前数字 </p><p>大）。</p><p>class TreeNode: </p><p>def __init__(self, val=0, left=None, right=None): </p><p>self.val = val </p><p>self.left = left </p><p>self.right = right </p><p>def is_bst(root, min_val=float('-inf'), max_val=float('inf')): </p><p>if not root: </p><p>return True </p><p>if root.val &lt;= min_val or root.val &gt;= max_val: </p><p>return False </p><p>return is_bst(root.left, min_val, root.val) and is_bst(root.right, root.val, max_val)</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:12:13",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338302603649025",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>格雷编码相邻两个编码之间必须有多位不同，以避免数据传输错误。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:12:23",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338351656034306",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>小杨在玩一个闯关游戏，从第 1 关走到第 4 关。每一关的体力消耗如下（下标表示关卡编号）： cost = [ </p><p>0, 3, 5, 2, 4 ] ，其中 cost[i] 表示到达第 i 关需要消耗的体力， cost[0]=0 表示在开始状态，体力消耗为 </p><p>0。小杨每次可以从当前关卡 前进 1 步或 2 步。按照上述规则，从第 1 关到第 4 关所需消耗的最小体力为 7。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:12:35",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019338494056849409",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 3,
+            "title": "<p>假定只有一个根节点的树的深度为1&nbsp;，则一棵有 n 个节点的完全二叉树&nbsp;，则树的深度为&nbsp;<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAAgCAYAAAB90wSbAAAE6ElEQVRoBe2Y2ytvWxTH9990nPJGnUJ5OeX24yDxcNx5QCeXUMIDJYdc8kPaif1zC1sehCS5ky13cufB/ed+HafvrDn3XGv/bg57pt0ataw5x5pzjvn7rDHHGMsnMkQZgU/KLBmGyICt0AkM2AZshQQUmjI824CtkIBCU3Y9e3Z2VuE2iK6urmhmZsapzaOjI1pcXLQ57vLyklZWVmw++whKu7ArKyvF/s7Ozig1NZVSUlKE7j0bT09PlJOTQ1ar1emyLy8vVFJSQpubmz+M3d/fp46Ojh/0b1VMTU3R4+PjW5exX/rJsGFlbW2NvL2932zQ1gJtbW3U09Nj65FN3enpKUVHRxPAy/Ia2BsbG/JUm+3GxkbKzs4mNzc3urm5sTnmNUqXPBsL7u7u/hTYABYSEkIPDw+v2TeDvby8rJnzGth6Z9IsJHWOj4/fD/bBk7Sy1NRvZm9vTwMbm6ivr6fq6mrq6+sTXnZ/f09NTU2E+dAXFRVRd3e3tLK2ubW1RTExMRrl4OAgWxthpbW1lSoqKmhnZ0czxmKxUG1trUb34WFrdit1HMEGhNDQUEKygmdWVVUxOJiemZlJAAFPNZlMDPjk5KS0srbZ399PhYWFQnl4eMheVnx8PMsRsAH4CQkJYgwaiKPII7L8krCbm5sJMLjgOHt6ejLA/v7+NDIywh4lJycTxjoSxOvS0lIxBLnh5OSEvLy8aH19nenb29spLS1NjEFjYWGB4uLiNDpHsAcGBgjr8At7423cp6enNWvxDg8j19fXXPW/7y7HbDmMAE5SUpIwurq6yuIaqhacCHg3QkhkZCTzfgxENgf4mpoaKi8vF2Gnq6uLVRdiMSJWafj4+IgxAKMPRfPz8xQbGytPI0ewAQ2nhl8Ib7yN+8XFhWYt3uGwUZp+FyvNfcmjf/Is9M15ASWmuQwbMRPeBhkbG6OgoCABA8c8ODiY9QsKCtiPWFpaotvbW2FoYmKCsrKyWB+VBK/jh4aGKDc3V4xDo6WlhTIyMpgOIcvDw4OVhQ0NDWLc+Pg4KxeFgsghbHkc2vowqX/O+xw2anguVksg/RbzlWa//k2/B7eRq7xdgn1+fs5KIHd3dxafEafLysqouLiYeRzgwbshSJgIKb6+vhQQEMASJLwaiXN7e5uNiYqKYqUkOjgNERERTM//4KV0dnayLmK2n58fmc1mYQMPAAuJWBZHni2P4/P1On0fpwmOgNIvLy+Pent72ZDTcl/6o2KfHnb/Ja8/zXSun2in7xLs5+dnFo8B7e7uTiyFl4CPCzyHcHAAhGOH45menk4IFVxwCmQPhR6xF3O5YL78EYE+bMmCk4T1ZXlv2Ejy+G248OElytPbb2RONJHprxT6vOR6yeoSbPkHOWoDWFhYGOGjA4LNIRyMjo6yPj6zEcv5S+JrobKoq6vjXad3JE65guETXgMbJ0212IWN44OqApccr5xtEIkUpSDCCRIh/3/HwcEBBQYGUmJiIoWHhxPqa1mQOPUfKfJz3kYeyM/P1+wJlcnw8DALaT/jc53bfuvdLmwkOCQxwHqPsgeQAJxfPPTwH4A8oA8L/Jl8R8LUv3x8emOvc3NzmnAkz/sIbbuwP8LmfrU9GLAVvlEDtgFbIQGFpgzPNmArJKDQlOHZBmyFBBSaMjzbgK2QgEJThmcrhP0fnuwWqEB7BqwAAAAASUVORK5CYII=\"></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 17:13:09",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019589606806642690",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 4,
+            "title": "<p><strong>3.1 编程题 1 </strong></p><p><br></p><p><strong>试题名称</strong>：路径覆盖</p><p><strong>时间限制</strong>：3.0 s</p><p><strong>内存限制</strong>：512.0 MB</p><p><br></p><p><strong>3.1.1 题目描述</strong></p><p>给定一棵有&nbsp;n&nbsp;个结点的有根树 T&nbsp;，结点依次以&nbsp;1&nbsp;, 2, . , n 编号&nbsp;，根结点编号为 1&nbsp;。方便起见&nbsp;，编号为 i&nbsp;的结点称为结点 i。</p><p>初始时 <em>T</em> 中的结点均为白色。你需要将 <em>T </em>中的若干个结点染为黑色，使得所有叶子到根的路径上至少有一个黑色结</p><p>点。将结点<em> i</em> 染为黑色需要代价 <em>c</em>，你需要在满足以上条件的情况下，最小化染色代价之和。</p><p>叶子是指 <em>T </em>中没有子结点的结点。</p><p><br></p><p><strong>3.1.2 输入格式</strong></p><p>第一行，一个正整数 <em>n</em>，表示结点数量。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-06/8707929924373274624.png\"></p><p><br></p><p><strong>3.1.3 输出格式</strong></p><p>一行，一个整数，表示在满足所有叶子到根的路径上至少有一个黑色结点的前提下，染色代价之和的最小值。</p><p><br></p><p><strong>3.1.4 样例</strong></p><p><strong>3.1.4.1 输入样例 1</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">4 \n1 2 3 \n5 6 2 3\n</pre><p><br></p><p><strong>3.1.4.2 输出样例 1</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">2\n</pre><p><br></p><p><strong>3.1.4.3 输入样例 2</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">7 \n1 1 2 2 3 3 \n64 16 15 4 3 2 1\n</pre><p><br></p><p><strong>3.1.4.4 输出样例 2</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">10\n</pre><p><br></p><p><strong>3.1.5 数据范围</strong></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-06/8707930557969031168.png\"></p><p><br></p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<p><strong>3.1.6 参考程序</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">getint = lambda: map(int, input().split()) \ngetints = lambda: list(getint()) \n# 获取节点数 \nn = int(input()) \n# 各个节点的根节点 \nf = [0, 0] + getints() \n# 各个节点涂黑的成本 \nc = [0] + getints() \n# cnt[i]表示节点i有多少子节点 \ncnt = [0] * (n + 1) \n# ans[i]表示以节点i为根节点的子树，需要多少成本才能让所有叶子结点到根节点都有涂黑的节点 \nans = [0] * (n + 1) \n# 统计一个节点有多少子节点 \nfor i in range(2, n + 1): \ncnt[f[i]] += 1 \n# 遍历每一个节点，因为一个节点的父节点编号肯定这个节点，所以大编号的一定更深 \nfor i in range(n, 0, -1): \n# 如果一个节点没有子节点，那么显然ans[i]=c[i]就是把自己涂黑 \nif cnt[i] == 0: \nans[i] = c[i] \n# 一个节点当前已经找到的答案等于 \nans[i] = min(ans[i], c[i]) \nans[f[i]] += ans[i] \nprint(ans[1])\n</pre><p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-06 09:50:59",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 3000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<pre class=\"ql-syntax\" spellcheck=\"false\">4 \n1 2 3 \n5 6 2 3\n</pre>",
+                        "testCaseOutput": "<pre class=\"ql-syntax\" spellcheck=\"false\">2\n</pre>"
+                    },
+                    {
+                        "example": 0,
+                        "testCaseInput": "<pre class=\"ql-syntax\" spellcheck=\"false\">7 \n1 1 2 2 3 3 \n64 16 15 4 3 2 1\n</pre>",
+                        "testCaseOutput": "<pre class=\"ql-syntax\" spellcheck=\"false\">10\n</pre>"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2019592634439819265",
+            "examinationPaperTitle": "202512GESP Python六级试卷",
+            "type": 4,
+            "title": "<p><strong>3.2 编程题 2 </strong></p><p><br></p><p><strong>试题名称</strong>：道具商店</p><p><strong>时间限制</strong>：30.0 s</p><p><strong>内存限制</strong>：512.0 MB</p><p><br></p><p><br></p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArQAAAD2CAYAAAAnMRSUAAAgAElEQVR4Aeydi19N2f//f39TczVjRmYig3HNREQ0EU1EIplIIhJJ6aIcnTqVSJEiDiGSEEIKlS4S3evT5XvO93w+z99j7XM/FWJmvh8zaz8e+5y9176t9Vx7r/Xa7/Vea/8/5CQJSAKSgCQgCUgCkoAkIAl8wgT+3yccdxl1SUASkAQkAUlAEpAEJAFJAClo5U0gCUgCkoAkIAlIApKAJPBJE5CC9pPOPhl5SUASkAQkAUlAEpAEJAEpaOU9IAlIApKAJCAJSAKSgCTwSROQgvaTzj4ZeUlAEpAEJAFJQBKQBCQBKWjlPSAJSAKSgCQgCUgCkoAk8EkTkIL2/zD7mpqa+J//+Z8RMdDr9bS3t48IHyvgX//6Fx0dHWNtluGSgCQgCUgCkoAkIAn8rQn8AYLWwJsKDeG+C5g22Zkp81cTVfScoRHY9LwqU7F1+WxcJk/FbU0UBbWDI/ayDdC9eUDB4WCWb9TQoLfd8scu9/f3K4Lw3LlzLFiwgNOnT1suIETnzp072bhxI8PDw5bwP2Lhs88+Q8z/+c9/7E537do1JXzXrl124WOtFBcXK/vHxsaOtYsMlwQkAUlAEpAEJAFJ4G9L4KMF7UDVCeKST1FSdoWciCVM+tyJz74PILfNYAdN/1RDgIc3AetXMc/5cz5z+owJi+KoHKl8gV5qr2ax2+sHPndy4itvFfV/oqBduXKlIgjNAlP8r1u3zi7sl19+QQhfx6mnp4fU1FRqa2s5deoUXl5eluNOnDjhuLvd+po1a5R9ReCMGTP47bfflO13795Vwh89emS3v1gxi9e8vDzLtn//+9/K/pGRkUyYMEER5cJqKydJQBKQBCQBSUASkAT+CQQ+WtAO9fZisVv2nydk8md8PjWEc3Yt4HoaLhdR0WkUuX13Ylj41Wc4feWNqm5spTpwPgTnz/58QfvkyROLCBVidvHixbS1tSkiU6wLIfu///u/o94PoqnfLIS//vprtm3bxrFjxyxhox5kChT7Tp06VVkzHyNWtm/frhz/008/sXz5cgwG68uBEKrm65lOo/yJsKtXr3LmzBll+8WLF203y2VJQBKQBCQBSUASkAT+tgQ+WtDakukpi2LBVB8SbrVjlWC2e5iWB7Vsc/mcz122Utw7ynbLbqH8+PmfL2iFWBWCMDk5WflXqVRs3brVIhzNAtJWWNrGWmzPz8+3DVKO9fDwsAtzXAkPD1f2i4uLw9PTc8T13N3dWb9+/QgxLcR2VlaWcjoRp4aGBuXYL774QvkPDg62E8GO15XrkoAkIAlIApKAJCAJ/J0I/DGCVt9ESfwG3IQrwWdfMtX3CHd6xsakb1Dj8/VXzIsqY2QjvvW4Qe1fI2jFFc2iVfxrtVplfe7cuYqVVrgbiPCxJttjxbJwHRD/S5cuHfUQszXWfJzwzxWWWLEuxLT47+vrG/XYFy9e4O3tjbAq27o3iGOmTZtGaGgo1dXVox4rAyUBSUASkAQkAUlAEvg7EvhjBK0g019H8b5lOH/uhNNnE/BWPWd0Z4JhHiUtZZJ7FKUmF4SxwP7ZglZ08hKdvtLS0hQRaRaY5n9fX18lfNGiRcr/WPEU+wcEBHDz5k2E4BRW0++++w4hhEebxHWFaF69erVy3vPnzyu7CZ/b48ePM3/+fKZPn85XX32luC+YO42Z9xfX+/bbb5VjBgcHLXEXrgovX74c7ZIyTBKQBCQBSUASkAQkgb8tgT9O0ApE+mcc8/mWz5y+YNaeslFGOoChJ2msnr+OrCdvH+FAnO7PFrRffvmlRQyGhYUpyz4+Puzbt09ZXrhwofJvFpJj3QVCYC5ZssQiUH/99Vd+/PFHZs6cOdYhiI5crq6uyvl/+OEH5d8spMX/5s2bLWFCJItJHCOsr2K76Iwm1idPnmzZz3y86NAmJ0lAEpAEJAFJQBKQBP4pBD5a0A69fEL1S7M41fEgbiFfffYtqzObjH60ts60PRXE+fmTfLvbyHfgEZeu1Fktubb7/gWCVghCMQ6s2aXALAj37t2rCFTzuhC2wko71mTeb9WqVYihs4SVVAhaIVRHm4QYNR8za9YsSycysy+v2Cb8a81C1/YcnZ2dyrFinFpzvF+/fq2EiVERhJuDOF6kTU6SgCQgCUgCkoAkIAn8Ewh8nKA1tHFy7US+dPUlobSF4YEa1Kud+XpOBCUdOlqLfufnb5xZllTJsL6JsyGzmOgyB9HZSczzprkSVCDErcF+XxN5yygHXqk8Hd1/4aPzaGBgwCIuhRAUzf9CDAYGBirhZn9XYaUdbRLuAOI4ISaFK8H9+/d59uwZEydOVFwGHI+JiYmxXG/t2rWKj67o5CXOIXxgxb+Y4+PjlX9HtwWzi4EYG1eMmSvi/+rVK2VfEQcRH3F9OUkCkoAkIAlIApKAJPBPIfBxgpZBKpO8mPzFZzh99hXffPsd070jKagdEP4H1KWvZKLTF0wPL+J68gqjf62TE07m+StPkp/oHPYtoc/QQ8Pdy6RvnsUXTk58/sNKDp2vpPFtPcg+IMeEr6vwRRUCUohYMZ6sWVCKf2ENFVNiYqISPtooB8IdwPYYx2XHaJWUlCCG9xIiVoxD6+zsrIhQcdzjx4+Vc33//feWa27ZssVyCsdzi/UVK1Zw8uRJ5Thh+ZWTJCAJSAKSgCQgCUgC/zQCHyloBS49PU2Pqbxzj+qmHqv7gNhk6OHF46e8tgxU+xa849n3LacZzyZhERUfIrD9AphYtvVfFeJS+NUKC61wAxCi13Yyuw8Iy6l5Mvu5zpkzxxw04n/Hjh2KCBWCVkyjiVURJr5eZp6eP3/Ow4cPlVXxeVwhjkUHsrGOFeHCH1hOkoAkIAlIApKAJCAJ/J0J/AGC9tPFM9qXv8ypEULV/CUvs2AUbgRizFjH6fr163ZBZjeE27dv24Xbrpj9ZcVXysQkxKlwHTBPZqur8PF91yTErRgHd8qUKRZxK4b2Eu4P5hES3nUOuV0SkAQkAUlAEpAEJIFPlcA/WtC+T6YJ4Sk6YIn/8UyjuSc4Ht/S0kJv7+hflhDXky4EjsTkuiQgCUgCkoAkIAlIAiMJSEE7kokMkQQkAUlAEpAEJAFJQBL4hAhIQfsJZZaMqiQgCUgCkoAkIAlIApLASAJS0I5kIkMkAUlAEpAEJAFJQBKQBD4hAlLQfkKZJaMqCUgCkoAkIAlIApKAJDCSgBS0I5nIEElAEpAEJAFJQBKQBCSBT4iAFLSfUGbJqEoCkoAkIAlIApKAJCAJjCQgBe1IJjJEEpAEJAFJQBKQBCQBSeATIiAF7SeUWTKqkoAkIAlIApKAJCAJSAIjCUhBO5KJDJEEJAFJQBKQBCQBSUAS+IQISEH7CWWWjKokIAlIApKAJCAJSAKSwEgCUtCOZCJDJAFJQBKQBCQBSUASkAQ+IQJS0H5CmSWjKglIApKAJCAJSAKSgCQwkoAUtCOZyBBJQBKQBCQBSUASkAQkgU+IgBS0n1BmyahKApKAJCAJSAKSgCQgCYwkIAXtSCYyRBKQBCQBSUASkAQkAUngEyIgBe0nlFkyqpKAJCAJSAKSgCQgCUgCIwlIQTuSiQyRBCQBSUASkAQkAUlAEviECEhB+wllloyqJCAJSAKSgCQgCUgCksBIAlLQjmQiQyQBSUASkAQkAUlAEpAEPiECf4Kg1VF3tYCrz3qNGPoryD5ynmf9jlQG6OwccAyEngbqX+lGhtuF6KnP2YJPeAEv9DYb9D309Nms2yzqn+azLyKZSw1vP7dBb7A5yn5RNzRkHzDKmu5eKptD1NzuHPs8oxz2fkGGNi4kH+bSi2HT/nqe50UTqblF2zsv91fky+jJ0DWUU17vwH3oJoeDoyiuH8bwuoLiSzX0AMNVFzld0YI9aT1PC1PRXG/EmHIDeiWfunlUVkHjKLcRBj22t4YxZsOUp+9HU97KO3GNnpSRof23yDqcT1W3dVPnFRWHi587pMG6/b2X/pL8FrH5mGdxZGpGzW+73Ya5mx3H8YpWHO4Ku73EyujPo443rzvGzkP9U05sD+Lg5Zax91GuNERZSjgJWmNeGVrraRA3oWkaqrvL/baRd5F5+3DLHSpq+mGolOSwBIprRxRy5l3/wH8DbTdyOXGtDlMJ+97n1jcVcXh/NhWv3333D99OIGCTmsoxytPRLqpvyCd6ZwoldoXyaHv+UWFd3Mo9Q9Voz/87LjFce5UrNfalzDsOeetm/TMtOWfv89p8uxheUV50mdr34qfnqWYzfnuLqHvXA+EYC0Mfzfe0ZB2M5Ehp2zvud0D/gguqo5x73PWWffuoyErh3FMT2M4bZB3T8nyU21uvNydYnNtU5g5VkBS0g1M1402MNXFDQ+Y6zhr2IUu66lzi1WW8HCUqgwODI0/5wWXu+9av4pIfUN4OPOXeqHnWQ2VRoV39Y0zU++eh2P/PyseRgP/ckD9E0Pbe17Brt4Y7HcaC0tB4HF8Xf/I79TRo1rN8Rw73X7dS32BTBOtrOLx0HpsT0snIyLDMR0PdcJoeyQ2bikXffIeLF7RcunTJOhfFE+C9gyytOUzL8W2zmeybxVNx8+pfUH71ERadYWgl+9ev8FI3Wh7k/vsZHDxebSM8dFTFebNkezLpIk6qRGLjjhiX06JY7jyLSNuIjcibYW7vmY7z5mI6bLf13kNb2jiKwLLd6T2W23Px+9GXrLoBXty/R8uwnpp4d+bGPDAJPftz/Nn50v+ogKNH09FoNKPPqiMkJCeybeHXfOl+kAqbwn34ViTTpwRxtlmHvj6FJVMCKWgy0J/vz0QvFU/s6hodlVEzcYt9hFIEGV6iXuXKxtx7qJZ+g7e6ekT6DR0lRG8IJ79WnKiXC/s3o7rzhuLgWWw632UP6oPXDLzK82eqVwI365+hTYyj8MULNL+6si7nES0vX9JwLZ7fD5ZiejTGd6W/Ir9FjN7zWfyY/KbvPnmqMzzsEmVEJzm+TsyIKMU+Jwx03MknLT0TjSqF1LR4At29OFis5YRaQ3Z2tjJnpYTg5uxBnM0NZWi+y50Ga+Xap93OwvASrFqni4qCIp5YA4BBzm1yxT/X+IIzeHELP3ntRZOVRVZWFvH+LriEaO2fZfppqsgnPtiTKRN/wG1bAS19Zwn4xhtNy7uF4vhugNH21lOXuIAJv+Xx0nw5fTM1tW8RKD0tNHcY6CvcyGSvo8bycbRT24QNl+9iuncGryzXGO0F0eYA5TaKZ/7nq8l999u1/YFvXRviebGKZJUatVqNOiaAuZ6hpIhldQL7wiJQ33zDoFmwdFeSn6pCnZ5Oeno66sPhBIXFoU5PJSo4mH1HRbia2N998Y0ooNF6y7w1Fu/aOFy+B/d1ubSaeQ0UE+yyjORHdjfcqKcxtOazfpIzK4IPkvd0NCHXT9uzKu5c11KYqyE1fh/hwf54L/VkmedSvP2C2L4nhsPZZdb8GvVKIpOqOTT3OwKLXlvqQcdd++9E4+bqx/6cGzQLrm3HWPzjdm70gaGtlKT9OTxRCuJ+cjd5sDVR5EUa+1ZMxVNVw2BNLLN/DKNsFAEsrmVou0GOKl15xsRzNmI+FsaiqctJvG2pvR2j+H7rhjZOr/uKr5cfJP+iFq3WZj4VyUIXb9RPHHiPo8z9oPpVxPw9y1u7RHafwG/SCqIyj3P8uM2cFcOqSV+xNLXazjjw/nkorvJh+WgXv/+SlT9E0EIHp/0n4K26QcExFRkaNdG/b2FP7C42rA8nRaPh2K4VuMzaRrG5hNQ/I8ljLtGV5pLISGSoJJTpgYXYPQtDTTyurKa2tpbaxxdJDIvmVEWNsv741DY8Vh5CW12rrD991kSXOOVQOeE/TiEg2SyW1cTuDCPmqHk9g5SDkeyMOm5jhdBTc2g+vyQ8V8TnUNkOXJapeS2iNlhCyDc/Ef3AJr7dlZw5pibT/FCqIvD4bhrr4zV2D2l6TAi+AfGUdn5MrhtozfHDfd9dhg1NqJa58vvldmoTFrEooVaJ78CrVuwNw39yvhh06N5SIfSfXImTf4F9XioIBindMRffrBdKoWpoSMXL/RCPdNBfEMjM7VcZGm7njSJ+xAE67kfPxju9ibonzxkwdKDx/pHQqy1keM8jpkoHBoNDAa3naeIvOPmfpnf4NlELvEm595ST62cTXFBHw81UwvZfeg/L9lvyrL+cfT4BJGTvxttjG+ozhVzI2U3AdjUnI39lUWgaZwoKOFt0ixc2t43tGWtqajh48KBtkGn5L8pvcbX3fRY/OL+Vi1Cn8uJ7zyM8Gqzm8EJXwkvt3lqM6dbp0DHMncjpeKnfw+KkHGXg1Ynf8Aw5pogYIWRGzCmbmOnkSnD+C5sXy0Euhsxmq7adR7ereK3dygzfBC5evszly5fI2TqbZSrTC3BPDVdOqUmK2Ud05Cpc5h/koTn6A+cJ+nE9he/WLsY0ftSvgeaji/l6WRRq04ukapc3LrO3c8EkJHuqitBosslWJ3M4JZ3kkCV4hBdRFOHG2qxnvHnzhjdv2nh4PIT1CRVKy8hQQwVarUi3cb6oWstkt12cVdYvotnihseBcquBYJQ06KpimDMzCmuRbqCrvcOuoh3lsLcGDVYkszM6zShm1WrS9nji5BJAsiJojSI3ectsJrjHUWHRP8M8uqKluvUNL4u3MnfjaVraHhDvsZj4qlc0leVx6na7Q3nx1mi8c+Nw5QFWbNMyKO5eHegeHGShj5pGs8Dtf8aTBvMNY3M6QzOnA39i/t5SOgcfkLplB3m1DpZDQxvVN8sov11JVXUtDS1v6HwQyy8eiTx7S/lrcxXrov4pCb9MJ/K2Scj11VD52Go90tXlE7ElntI2A7qao6xeEsGFmgy8ZkZReiOF9YsW4rcrjdImceF+cn2nEna1g96hQa5sdcW/oI+GFE/cosuob2igoaGBB7lxJJa8tHnuUNjrG25xpeq1cn8M30lhy47jPOgz0Fm0h82JWh6/HoWXNSXvXOou2YGHv5qKmhpEOTtyruVFu62gHW+Z+wH1q4j1+5a3tikcyMPfZSuXHG4NdJUcmPcLhx5aK5jx5aG4yIfno20U/xuW/yBBC4P1VVR36jHoXlFX342+VUNw8BlaDQZab2mpcHxrF5m6aDK+sfbiTxO5lMmOglaQMrRSWfqAdr2BF+m++KQK0dnJ+YgA4m91on91j1s1NibAoQoiXJeT8caMeYDijd/gdvjJWwpYPTVx83DdnMW58+cpSlrF1z9v59T585wvimO500xihOoaddLxJGk5S2IrrVYhQxcNDW/sHuRRD32fQH0tyb4byBVmmb4ign5exX6NhsP+U5jifxiNJpmQRXMJOfvSrqD+0/MFPfWX87lUVUddXR1PS9XEZlcpzaFjCtqOs2yc5o2quo4rmhTUKUHMmOpPwvEcsnYuYtLyKI6GezE/MJu7ZSdJSUsnZuX3TA+MJnRtOKcbOjm+cio7Sk2C9sEbroYvI7jwlV3a9c+1nL75Bl1tCltC0yk6V0DMiqn4Hj7LuXPnOF9cMabQfHeW9FOpikRV2Qu6RySvi+BSexX5GRcVNxh9rZot2zK4o5g4xj7bvXv3yM3NHbnDX5Xf4srjehY/IL9NqTO0FhC5LZsn3UUE/eDHCcuzCQNPH/DERpC8U9AaeujuMaoFQ9NxVn7zM5GX62luaaHFdm6qICU4jJPaC2jrrBVk74MC0tTpRCyZhGd4DKHrdpKjCWFOYC419fXU1z/n+r5f8DpqfOmyzSB9zWHcFyVYxcRfLWhVnrhGlI9olbCNo1geyA9gTqRpv+E7RLsvJyqvgIKCPKK9JuG1L48C88tWXyNPHj+lXkl7PbVFv+O6NJH7pnUR3tDUbtOaBYb2m+Qkq6xic68X30xZy2Gz2Ezbh/fE7/HNrHlLmesYa+u6viGPAOcFxF4ppSA/n/z8C9y5sAOXxQmUXT5Dvgg7n0dS5GHOVbfbXKOfU7+5sCYhj1Mxv+KybB+5+Wo2zZzJZnUempBZfLc2n2az2LRectxLXZWnScvIQrN/JdO9IlFHr8Mn8hL3jq5g1voEso4fR510kH2bvZjrm8J9O0EyQJVqDZ6hhZg94XT1+WxyX8I2zS1e2motfSP3K1ssea6rjrMTtLrnFzl5+YVlO3RRkZvCMYfWs7SkXXhNnIB3dIbSqpawaT7fzQ1H+9qAofk4Pk5fMd8/hIiYJNQn80nw+R6fY8ksm7SaIxeqaNeDvvYM+eXiWernlK8roZo9zHGPI2uLK/75D0lev4HkM+I+M86qgO/5zDeXF468h6tJ8foR77RaegsDmeibg3jNeF3fQLfjvuPNmc4SooJiyD0WRXRWIUVFRda5MId9IbspcnSN+YAyd9z1q0jHuMpbU8LfU9COPw/F+T8yH8ebN3/i/n+YoEWvMwq3QS0hrkuIOKYiNU00RauJ8HBi5r67xuZic2KUt5QZhBU/MVpehfW1tpbqk4FMG03Q6h4SO286G5I1ZGZqyMgQ/2pSjqSRmZmJOnQeTouOUGN+Yx0haAfRbv6RNdkNSoXXXJXNBs/fOWdpIxIRE4J2PnP3ldPw4gXPi4JxXhRP1YsXvHiez4avfx5T0OqfZ+AzdRmR6TZNKKlBzHBaQqolUubEj/+/58puZjk5E1zcxcD1KH7XCMuR3s5CO+pZ/+x8QUfl3unMCj3J+eJiCmM8+eKXBKqFtXVUC62emlQ/nCfMZG/FEDqdDn3DUauF9mwgM8Ou2lWcVgvtKzqvxRAcX4J61U/sLHtJhvdcdhzZiV9oPmaXLwsHfR+9AzpqCk5yQ7GOD3Bhy3x2mCyDfVWXuGauSSwHvedCfw2VVa94WJBKqiZTuQczNdGsnvUruzOM68mB0/h2bb61afg9Ty12+8vyW1xsXM/i+PO7qSSDI2lWq6n6oB9Tp/lzSG0OSyN88VdMDiowNZmaLLRHSii+XEFZQS55eXl2c8YON75ZEMsd5R3WgE43yLOSE5zIyycvNZjpX8wgOOWUUfTkq9m/7ziPR1hQTRZak9ljUBvCtKW7LS4HCet+wj2hZsQL6VsFbfdtzl2usxFX48j0t+xqaM0lIjie7FOnUG+axte/xnLy1ClO5cSxOeAA1xwNBg6CduBGDFv8o9A81YPhJek+7hwULRtjTMO3djPDR4PNOwf0Pabi3tiWzYGiQL5fZ9MiM3yDHS5uxDk2645xTcdg3eNcopOv0NJaQ8WtW9yquEeNNgxnj0TuVVVw69YtKu7V0TkiGf3k+c8h6s4wQ6U7mL/lAgP6Bo4sXUZqg46WtOXMjrr7x+SR4jc6yJUwF5x/FxZao/El28+TQwrfbvLW/cS2EuvLlDGdPdxXB+GzRcOt5+IFyjjXVWQQFhhC4KKJfPWTF0F7MigTrZpDVwh1cSPUVL9kxvvhMnUtCZnG+iZthztOM6O4bXuPO4pCfQ2JHs58+7Wr1UJrB72XR0W5aB8aLasN909z7Phd2rsy8ZoYwInKJ9Q8uktR2HwWJz9FbxZC2dHM9cmgeOtU/GKSiS+opzRlLzlVwsVQz5ODs5l7yPY50tNYWUZNp56u0hQSta00q72ZseumjSC3i9j4VvSNaFNUXH3VjzbYBV9NLXVXjhC+/zSVDca6PHDiYlQObzQfVOaOt34VKRlXeWtK+nsKWuFeN748FOc3Cdpx5+P4suWv2PujBa2+8SrH1Wr2r5yOR8J9BgevEjrdkz3HT3LypJhz2LdsIr/l2zkRmN5SphKYrrU0c4nmrgtJvkwZTdDqa0nwWElmu4G+ihgWuUVS2vSAU7FRJF+opb0gANeQS1YhNHSLna4r0FicWYWgdcZj72kKCwuNc9E5yux6q+mpjp33FpeDGUSPVgkMVJHqP5WvpkZw0+at2tB8DK+fIzG37jhm6KNHj9i3bx9VVVVKfBISEhRh5LgfuidkxqhJCphNeFkPt9JSuKpYsxwFbT+9fcZS7C/LF3Tci5qFp8rYAWfg/EZ+3FCkWKlHFbQdJRxJziPeayHxQvWK8v89Ba1nbAkl2gKSE3NIWPkze26/JGPFBDxiSm1cBwy8KTuBKl1D8qZZ/Big4pQ6hXRNEjv8N7Mj3A+vFSHEajKID99A8JEypcl1BPP3DBioPMup8qeKdbquJpf1P6xCXSOs1c+5c8iDOfsfjFpxGgwGjhw5wvr162lsbLS/2l+Z3+LKisXgfZ/Fcea3fcpEbvMy05cF0XdtKq8+8tf9wObzgxhelZKZksaBX79hmn8MB5OKuNfUQkvOGqZtK+H50WWKGOnu66OvXzTw2k5DvNDG8JvnXLwiSngjHoWBGnKDFzBvTRRnqm1re3HcIBe3TGdldBaa3BKqLqcRV2R1Seh+XE5ldSkXb7XTWZlLskq8RGeiif8NlylrSTC/yKh34P7lAsLUmaTtD2Z1wCFK2h3VhDGenZ2dpKamkpiYqPj0jch72+TYLr/OYPmM3dx800VXl3XuqElk4eQQLltbjS1HWSy0hlaKktK5cyuZ+KJuGLpK2NzNFJleBsTzkqLOtHOT0kR7892sYFRmd6qsTI6ELsF1QbjVbcxyJbFgoDHVk5+jKq15MlTCVmcfsj7K1Qp0TXfQXrjAhYtXuHdVReihC9wv03LhwgUulj6k5koWuQ9s65ducnxd+S0+k6z0JEK8vQiJS+PYkSOkZWaSsvFnZkbdtrn/7BKirIjm6bi4OESZ/OTJk5E72IYMlhIxw4mJCwOIiD3H04YcQpb6EKMdEL4HHHT3Qd1kcz8M1XEhcRexBY94XFrA2XPnyA2bxxfL9nNWtAZeKKX6dSOlqdGkXn9jbHUauk74dH/M1aijhXZAG4JLwJlR3LvMETXQdjaQWesSiVxg43Jg3qz866mNm8v0LccV62p+zDImLE3nRXclmTvW4rPci2Vey/H5LYT4iw0WQbstJwb3Ndlc2DoFr6Qq3gyWseOnhSQpHSF0VEXPxC2h3q71TPc8k21/zjYAACAASURBVDXTl3D4jngFGOZO1Gy81c12+9hFbTwr/a9oFe5qhgaOLJ5LjGiONzRw1ONbgooHYKCQgB82cu5NDQ9Ep04xjbPM/eD6VVxrXOWtMXp05uD7nTexZ2wszcLqXJBKgOtcYu6ZS8Lx5qE4v1HQfkg+mmL3X/P30YLWmJJ+CtZPIVg8wINX2TZ3E0WdffSJSqevk4shLvibn0Rz0pVM/ZE1cdnk5ORY5qwoL34cVdA+I3HJKjKqCtjqvpo0Uw/K/uqzRHkvJDTC30HQ3iBsqi8ne/voVQpuIWhdCDA7uuk76RjRrqHjbqQrk/3ilY5g6j2efO4ayBHRQSxtF8tcvFA5Wlv1TRTHRJJ9/SjLv/MmWmNjoT0SyIzpYwva2NhYzpw5w4wZMxRB9J///IdJkybR3W1pe1XecJuu5FHS2MvZwNlsyyni2FENeUoTXB5HA11xDTyqrOfEeOOy4KDJaiVA/wX5Mi5Ba+B15S2e9DWiWv4OQWtop+JSOXW1V8iICcHH1YmZ4deU3qqG7vvELJhLzINWMrxd8dsTQej+Amw9TkQheVcUkukmN4SBYjbP20Fpz3V2zt+MKNc+fhrmZsR03HflU1xcTHFRPL9OXEx0UbGyXpC4m4NaexcQ8zXPnz/P8+fP8fHxobS01Bz81+e3uPK4nsWPFLSGl2T7ubPn7FmOZd82ik59A6rlc9hzy/w2ONKHtkPzK/Niqnip9mLugSqraDKR639+GXVMJPvTr1KW7o/7XHdW780gJSiASLMosKFs6Kym+GgYS50n4HPsKkXpxyyWWc3+INZGpCgCLy1mG0GRedSa6wtR9z3Yz1yvY1j6gL2ny4F4rt3d3ZUWov/5n/9RnvXy8nJLrERP4+FhMwNLsHHhtZrls/Zx3yYeYoOh6ShLftpNxSiHmQXtYGsFN4W46C4kOraM/qpYFvtqrPE3Xaqvp9ciKOwttMO0Nr60GgscomZcHUC7ZQr+eTZlV38B675dR4Gt1hz12DECdXWcT01AZXZhUMexdvp0/GNNHcRM4SmHYziUc8fGv1dPZ1u7IliHHyWwyMUXdZVV8Rv6eujtuYcm4TR15hY9myiIzkP+/v6IPNqzZw9hYWGWrf/6178sy+aFXm04/psD8dqWT26QJ5t3xZJTeZJd0dcZ6MhlnXs0dy35Y6D1zlXuWYZDEGcx8DLdm283Gg0BokWqvjiXK7athx8paA0tBQTOWUXmsxp7H1pzIpR/Pc/j5zIlIEVxR0iPWMT3AUX0Pohi5vQ9VIh8NHTw4PYTk3AWvpdTCD2+H6+gAi5unYp/wQBDFXtZE3mG4vOV9IoWvMhpLFY5jiyjo+poMDGlonJuJ8dvNrst1iADb0ozyCy37zJqF9W3rPQ9yOfIkWOoVeEs+nIuIUdNvtbRUcSKzoXCn/4rT0JDljJj+SFu9er5sDr2A+pXEe9xlbfGhOrrUvCeF0lJcyuvFB944Qf/hjevyojxWWtseVF2HW8eioM+Jh+N8ftv+f1TBG3odA92ppt7vqeze8m3+OU5lGoiUz3msO9Ov1KIi4JczL1aY6ewvtYSsk4/tvqj6p+R6LGMiDOXOR+1CM+IDMX1IHbNTHwzG+g47WChHbjAplm/U9J5hg0/rWJ/hob9/m6sjjL67KaFzVdGUyizGXhBNI88PXuU04+Njk52ncKEsae2koe2va50jZRmqjlf04/hVTreP72/hVaIV+FiERkZiUqlUu4HUeF9++23SjO89QbR09sr2PVzNnAO4ZcbaWjuMFlpOrgf64577H06zFab7j4by4P9A/en5IvSgWcaruuTlUJQHbaAL387rRR4o1poRcJEp7bl7kTm5HBUNKGpD7I9dL9iDcpMiCAk8giZ6oOEbtjOsbwsko5XcFWI07R7aOOC8AuOJtjNg+Tnr4ydwh50UBr+E1MjbJusjIL21wxjx6Lhu/tYtD6fziEbQdt7h/L75pqmn6qcnWzeeYKHDreqNS/slwzNhWyc7IJ/vNFyl5mxiyVfu7FNbXJByMwkI2YTATEl1t7PplMIK1tbWxuTJ09WKk7rmf/i/BYXHtezKMTmOPPbmjh01Yl4eSVSPdxKzhpnPBIeohu6QcSMFRyz9KBxFLSiU6A760730DaaoO2poayshk5dO+XJAawMP8M19a84fR5E0d1kwo84+s0baD4Txtq9Z1BvnMVWxeVgmLvJm4g420DXCT/cYx8qndOelZXbDw0oyoELwUwLOm8tm95T0IrWmJ07dyo0BgYGmDBhAoODVqdK4ddtK3BtsGFoSMZ9og8H1OZy1fSfFMDUyWHcMN/GNgcZBe1Net48o7KsihZdG6d2RZIcsZA1mY7WsAEuhMwi4JSxpcVe0LaT+esk1p8d292A4XJ2zVyGysZR0tCqxuuHUK46trbbxPGdi2IIqJAIYyew5EBmuPoTbxG4alR7ffEIPMkzk9Dvr8onOTXDaG3OiGaVswur9quN6+oIvJznE5wsLLdHSUpM54qDH6XID2FUePbsmRI10ampp8cohoV1PSYmxj7KhmZOhO/l4rX9xk5hw3WUlTeg0zeQFhhKfn4oHhGl9u52YtyVynxSjhn9WMUoMUeCfsZpYZipo18K+37fxK5cG9/joevs+OkDLbQ9t4n3WkBocSsG/bN3CFo3Fh9tZmhoiF5tMD+tL6KvJpa5nsd41fuQrPXT+HbuLrRKC0QnGi9nfk/dic+u61wKmcTKk82c27uHc+06niUF8PuFVq5vc8Y721TR9j0g/8hRy8ujMsJB2g4WOXsQrjYbg9Qc3L6BwIhcuxdJe/DvXtM/T2SRewK1egPNhbsJOqClWfgA1yWxaFEizy0vMx9a5n5A/SqiPa7y1pRO/RCDg43kBsxj1VHxoiBGi6ikIL8U+76GQtCOJw/F+T8gH9+N//9kjz9B0Jbw+0w/1HerlKb0qqpKsvwnsjLHWCh03clHpTRvHSNmeyh7kqyjBIgHOzN5D7/vTuDogVACN8dTYh4zUf+URMXlYJiqWG9+F9ZgdFTFrmTb5SH6HV0O2tJZ+Ws6r/qL2OAajNZabyigh65v44cVGmxbwwarC0hOOmYZQszOQpuRwo4VM1kSfd3SRG141cALxfqLImjHa6EVEZk/fz4PHz5U4iT8BDdu3Mi///1vhOC1n0yCtsy25nJ0ObA/wt5C+yflC4Nc+f0HvDXKWBAMV6QRdcIoIN4uaK0WWnpukhKZQlnbMPUleWhrrNYUY4pMoxyoq9CevEhjfyk7ZgVQ0PPaMsqBoeMht0w9Zo3H2AhaQzvFoauILu+H4RvsnLuBgl497RfDCUqtVax9/ScW4ORbyP3ClXy+8NRbmu5sGA89pTi/jDZDP4/SfHHfFMFvLus4YxHEw9yOnM78Aw9GPV9KSopiARJv2n91fotUfNiz+AH5bUZmaOZUoCfhJUY/oM6rR4gtakTfcQK/H7dQbHlGhaD9iTkhosNRDkV37pLq44umVW8jaHU8unvfwlXXXErangjiz1fz8GQQngEpRC2bwd47T0nz9SDisn0va2OUbHxoh24ROfdX0hv19JxYg6tfPJqsI+zdEora6KhrSsUwt/fOZ1WWjcVp4Bwbf3j3KAeiJUYMPSimsrIyli1bhnA9EXn/v//7v3R0WPyjTNey/umfZhEWWcRLSyVs2tb/EG3JU5uX2GFelOWiit1NsLcbv/iHczjrIlWvjKqyq2gT3zsHUzzC+DWENmQyfqeMN6+9oO3hxOqphI02KoUSDQOvzgQwY22e3bBRusoofp53EGsHbAMNhfvYGqsdYR22ptRhaaiCnS6eqN9Af+5KJgReYLD/JCudt3J1EPrz1zAxoNBh+Ddxjj4q4z2YGVxsbAVAx9M0b2ZsPGsXR4erce3aNaZMmTLK84hiEXN8TgcrNRwpbmXIMsqB+YwGmo/7M+U7D/bfGV3RG16XkJpwjrohWwvtIDcPB7OvuMG+FWLoMlvFUJimskX32DjKwdO+BsoKz5C7x4NvR3E5MLSXEb/Gm4hzL4zne6egnYvLuiSlo58q3F2x0PY9jWeuqz8xMfHklLcw2PuQB6LJwtBKfuQucpL9WKVupvrMUc5ePsSCiQsIikwgfbcH324o4Mz67xTLrZmM/b+O6mRPpnpHkVVcxWuHFgjrvuO/d/qKAnHdfNH44qmrJGqmO4nP9AyXRzDDL5fXzx47jI8/3jrWVtC+vX4V6fiw8tZMYICHqSuYPDuUMzZukkO1J9jqt4Pcx2bLnNFC+955KE7/h+SjOZ7/t/9/kKB9Q47vZJN/yjk2uqziyJVSpSm1tPQKKat/ZM1Ju+4FSqp77h/Fx/lnwq+IQdKHqdcmEPJbALs05SMHQtZVc+gXHzTtQ9yMmGex0B7yc2PLxYERgrb3fCgB6gYMA+8vaB2zwtFCq2zvb6fdIlisRwhrxIpxWGjFkeKN/7vvvlMqM7Hu5+en+NUJ/zq7gY6NF+ZMwM+E25lijOPQLjQN22WNjXnpL8gXDHS9aFB6v5qvav4fU9DqG0hZ5k7cY1EodnBlpzuL92hpEuX+8HNOBC3GJ6qI5xaBYx62y2ht7bu2A/egQjoMVkEr/CGvncyn3lzh69soDnZhUUIld3PjSS5uMFb6hiYKwpfhNncOcxeuYmdejdKU2h0/nR8SWtG3HGLK7NT3H7R+uBHtAT9W7jxLXc9FghVBq6Pj5Sv6eh9yaMGUMYXAwoULEX7UYtgux4pSvIz8Vfkt8uv9n8UPyG/lhujnYVoQgSmVmN4BzbcJQ9cjmO6RQI1eT11+GF6zXZmxNJjDBQ94rTPQdWUHy8NKlCblNvVyk8tBO7kpWRhdE/t4VvmQ14PNlBz0xy/yPA1DfZxY6Up4+RC62kxWfuPEjNXhJORXYnVvNQvaflrzgvg1LJ7DaTdpEMPjKRZaSxQtC4bGXAI8d1Fqrj/Elv7T+H8b8M5hu2bNmqUMHSQOES0zIt+FP62whoke++vWrRvD5aAL7ZmLdBgGKE9LQttmQN9whtiEq7QZ9DQU7CY0qQzju7+eFwUx7FVredJhrw4Mr8uIW+XJCs85uIdmU/nG/LCIGA1xeUxB28tJv7EFra4+lwD39ZyyGQdYnLEnz48vVubYiE0dDef24OE0h9gGG59SsfNYk+42u6aOFLQ+k0JMgtYP5+DLIyygYvD61uoyLuQeIyEmks2+83F2msGWnNs0v8Xd6M6dOyxevNgSG+F2IFyCRAe0+Ph4hKuQddLR8LBaSd/wrSiWKsN2mbcaaNOGMe9rF5YfusHo3+cYoiJqLgsOVvLC5HLQ9/oMmz1DKah3EMH9pwmcuYMrpmDd/f3MXZSI0sev4zoRM79mhdq24xX0PswlevsBCsx+oiJq7xS0bixRGd20BktCjBbap/G4eR6jzZQ0XZUaVYm5cH5D3oaVHCjQEJtSQpNOj05nytvB17S2vyZ9mTOh1x3So5zLwKvLu1jkFsbFV8O8unmMrT4+BCdc4KljIcF4751+boS74OwbS4Z5eLuUFMUCrgqZzQTPcCJ+8yBA/cjmZXC8Ze6H1a8i6e9f3oq9h3mWu4mFy6O53GL7zBozpOtGJHMmLuLAdaGjjBba8eWhOM/H5KMxHv8Nvx8taPUNRYQvmk+g5irFGXEcSj5MXHI+V0qNgvZqiZbC/JOcyFZzJDWP28pXwHqpzgtjyTwf9hXW2FVwuqYLhM914sdtly2WUAWUrpJ9c1agbtVRX3qRe6am/4HWakpPxLDJ7Vum7CyziJYTEQe4Jgx9A2fw/8adcLV1/FnxIQd15BK+8DSNMSu6hzRVUV5RQYXNXJa5lonz9nDZElZCysqvmeB3AoeyG0OzCi+zoDV08/RGMYXpQUybFY3FX9shx69fv05gYKAlNCQkROkkJjo7jJx6ObnG1UEc6aiKmYf7YfuCTBz7l+XLyIjSV3+TwuMqYn9zwWnDOWvTrHlffTXx7m7EPhzk+YmtBMSWmqwoph16Kzi4wImpEWUMDzRy95oW1W/O+GR1YmgrIWptOEWKA+NrNN7T2Xmji96mYn5fspWLPQZar8Th57aU8LxSLiRvwT84BnX+Ba6WXud66RUuXSymqOAUWceSiD9ymgfiXhp+SKq/O+4egWQ4+kmb4233P0zLzSwO7IjkWGmT8b4bKGL9t8KKYqC3voSYxU58vvSoMr6u3aGmlcOHDyP8qEUHlJHTX5Hf4qof8Cw6RPbd+d3KDXUUMbmPbJ71bmpKsokLD8TL9SvmHjB2EtM9L6GgzDw8kY6XV2LZEJhsGWO0O2clX84NIiryN6Y5LSJF1OgY6KwqICFyDynnb1Cq1VJSfIRV31l7MuteaIndsocCU/ucofU2+eoktri5EnqmiN2bkqns19OsjWTFD05M9IpCU6DlyhUxmH0Bt14a6Hl0ij3Bezj91KFy7hbDHfnbWOYdAJlWxdBB27dvJzk5WWm6Fh0CRVkkpubmZnx9fUc5UE/j2WDcgo3PUYdmBc6/X2WAdrJ+/Rq//A7Q15Pq4YRbwkjfYuWEutfcO7WfTQFhZIjxVwefcCJoBk5fTMM7TMV1pR22HtVSJ+aGGge810T7MGmOuVNYOr/PdSZ0RE996K3KZvv6CPLNTIYbKDuVwp5gfxY5O+Ge6FA2GVq5dCyXKtuGplFSbQkaqiBcWGhfQ3+ON5+vP89AbxbLv/JHXVrC+T3z+Da4ZBRBK26LHurKThIb4k9gVD4VdwqIC5jJlxOXEntjhIlauaR4sRRuIeLZFB9yEP/C8CDcg0T4ixcvLFGzXRgqjeCXkGJTPHqpzo8kMCybh42lxHg64+IVQcaVpyOGo9JV5ZJe0kqLELSBZ7ijOUhOjYDTTUVCMFFa81CEBjHUtmUartjN9F/ieaLoGwPdb4w+w+Yd9E03Oat9aB2X3NBF7a3r3CzLI2TadKKsgwWbDxG1BrWH5rJEVU/N1QJO7HJjYmAxfc/jmT91EznaK1wtuUBm0BScgy4oZXb3jWg2HCijlyEq90zHZddNo691/zNKNInExYaywMmdFNtOceKKA/VcStiIz4bDXLNtdui5h2rV9zjN2s0V2+ZTccx4753hN7w2j2Wue8Wzmma6euoVVyffE+026TYvvn+Z+2H1q7jOeMvbfh6fimJH/EUH1wJznMW/6Kc0GSe/XDo/IA/FGT44H22j8V+w/NGCluFqTh+/ZhEkPbUlZB2OIjw0hC1bggkONs5btoQQcbyKgY4qCo/GkZhTTrNDvWDmoW88T2LGbXshpLtHUkAk2tHKIV0N2XvjLU703ZVnKaoymVE7s/B2DuWa+YXSdJGh6+HM9c+19I43tD+m7PpNO0FrK27tlm8/5qVD3A0vsgkJyraOTTncSOH25finPbBPhzmRoLgWiKZG82RuejSv2/0b2sjZtJpjT2ytLsNU7F3AqkzT4O+2B/xV+WJ7TdvlgfvE/bqMmBujNKPq7hHj6UPsqUxUZx7av7iYzjF0T0VkhvBjFJYGFb8tCibrUhHqlBybT3cOU6lax5IF83H7ZQkrt6q50y3E/Dk056xDJ/U8vcLxpP3s2rGN30NCEC8OxnkHaeW2pjbbBLx9eaC+gtIHrTZv96KVMxe/74IsHc6GO17TNfKF+u0nNm/9k/NbVJmGD30WzXG0/R8jvw0djyk5U0hZo8MDaDq242IMm0WHPger2WDDTfLVCSSdvGP9nKg4pucxF3MyUGdkkV9apwhkw5sqrpXXW8TyUP1J1k11xTfxpp1LkW10xXLntUi8fPZyVJ1LhdVsy1DLHc6mxRC+2R8fT09C8xp4/egSZy8ax+F0PA9dJSRF5VP7HnltdjEQ5xCtMGbLvHBFEF9Cq66utj99bxGbXd05cNN4nw7fVrP/lBCJep6dTiZXKQ8MNKp9cT9wx+5+7H92nTM56aQkppBz7TmmYXuN5ze8oUITR9Zds3tPH4/OnqLMhoM1Iv0UbF/NUavvAOheUnE6jdTsUppGiFM9DbkRhCRdw96gZKCj9pHFTct6/rcsDWr5fcYGhG4fup1N8sUX6AerKD77gNfNV9m98GdCi6wdLw2dtZRpz5KbqSIxLp7U3CvUdNhmTD81p/cQkeUgtB2ioAwnaPNZV9G/Q3QUG5E/puMGtWF4RGipLTtDRnICx4prrK08fY/J3RHIrtwqhFG8514Bak2W5ct3yhfwsrKUD/RkZxm/hifCsjIzyTr3ALMms43icEUCgVFaS/1lu22sZX13LQXBU3Byi+HmCAuoOErHg2g3Vp/sxND9EJX/QrYWvsSgq6UwNowtQRsJDAxic2gU6ustvH5YiEpz1ZLH+md5JOTacNXVo/ZxwX1vian1AAzdNVw7ncXRJBX5t8foaNh9i0PLfUgSLXiW6QPuHcuxYkFHZ00JCSu+xsk9llGL/fGUueOsXz+0vNU3VlBa/ZavAJrSKO77h/VC84wvD8WT0fUB+WiH9r9o5eMF7X9RYkaNiq6Fp/XmQttmD90QQzZvvDZbPqlFg15v6Zn86UTcgF4/fviikvnvnnrp7ratPP/42H6a+f3Hc/i7nVE0ZQuf6pcvX34aSTP00+/wUv9pRPzDYik6cQoLrfB9HnUS49EOtdHU6vBmNurO/4eBvV10v6UYHU/5Il7OPrVJ393JeIvo8TD5b+Ax3vh+ivk4Fue/v6AdK+UyXBKQBCQBSUASkAQkAUngb0FACtq/RTbKREgCkoAkIAlIApKAJPDPJSAF7T8372XKJQFJQBKQBCQBSUAS+FsQkIL2b5GNMhGSgCQgCUgCkoAkIAn8cwlIQfvPzXuZcklAEpAEJAFJQBKQBP4WBKSg/Vtko0yEJCAJSAKSgCQgCUgC/1wCUtD+c/NeplwSkAQkAUlAEpAEJIG/BQEpaP8W2SgTIQlIApKAJCAJSAKSwD+XwF8maIeGRnxO5iOp91KSsJ34czWYvgn2kecb5fDeLvuv66Cnq+vtX5YauJHAlr35VL81Unoarp/nVouRydC9fNLOPVG+VT9KLEYE6e6lsjlEzW3T539H7PCBAfpnWnLO3rd+mcnwivKiy9SO+lUZx4voearZjN/eIureMnC341GWdUMfzfe0ZB2M5Ehp28d9LKK3nfYR45vreKjZwa78GuXrY5brmhYMLVXcaxr9a1aO+1rXx5+Pho4XNIyWbz1VXL/9ijE/y6BvojA2iuN32z+OjfiWTEM55fXvkUmGbh7fKKOu13EA9SHKUsJJ0D5XPnNpaK2nwebbJUN1d7k/+sfrLeiGW+5QIb4xP1RKclgCxbVveWA+NO29VVzWPhn1S0uWiFgWDLTdyOXEtTrrF54s296+oG8q4vD+bJsv2L19/+HbCQRsUlP5Xs+V+PJdPtE7Uyh5Mebd8fYLyq2SgCQgCfwDCPwhgtbQdoMclfEb4FlZWYyYj4WxaOpyEm93fyBSPS9K8yl+3G2tzIdKCZ/2M9u1Hyl+TDHS9/fQOzjE0JCYX1GSquLyqc1MXxbJMbVa+a63+lgYC5xcibwxQi2ZztJHSagzLqEl2H+hd4B+20P0T0le/AN+OfXoGeTajhn8sqf0PT9jOMztPdNx3lyM3Udle++hLW0cVRAlJiayZs0aHjx48Fb+w+V7cF+XS6tZvwwUE+yyjORHtpEf/RSG1nzWT3JmRfBB8p6O9fLST9uzKu5c11KYqyE1fh/hwf54L/VkmedSvP2C2L4nhsPZZbwyx2H0y709tOcG+1atR/NwgIHudjq7uujqaqc0YgbLVQ10dXXyrGAv4Vk11k+F6p+h9p2Nf2Y1A92tNDS10NJimhtvkbR2NXE3HMTkB+Tj8N19zPslFLXDc5K534fvXbdT4vj9ciWlBtrObWHazyEUvjALUQOdD8q4Z/Op0v5HBRw9mo5Goxl9Vh0hITmRbQu/5kv3g1QIQTV8jyMb1pNwrQ2D/jnXLth8alNfR6rXBDwOO36+eZBzm1zxz21VnsfBi1v4yWsvGlOa4v1dcAnR2t+fSjr6aarIJz7YkykTf8BtWwEtfWcJ+MYbTctYGf5+aR/1hujMwuczN2Lvvvv+Fd+xr0tcwITf8nhpjoq+mZrat3x2sqeF5g4DfYUbmex1lKfmrBk1MtbA4fJdTPfOsN7j4itT1s0jlvQ18cz/fDW5beaIjdiFobIDeMych3eomoo3Y+838kgZIglIApLA34PAHyJoBQpRhOobbnGl6rViARu+k8KWHcd50Gegs2gPmxO1PH794d9KNLSfJ2SGO7G3Gyi5dI++29H84q2izlIT6Gm5e4unbzH0vC3LdHVaNOosUje4MNH3MNk5uVzSbGR60AX6m25SfLOJwQEtm6duoMhUP+pfVnLx3DnOmeeCWLy/dmVTepE17FwRJ/cswdU3k1pThad7FI+n1xFqRNy7zhOydBelNhYuQ+t9KhtMrLorOXNMrXznW3lRUEXg8d001sdr7F4c0mNC8A2Ip3QUQSQ+GTthwgS6u9/+QjFceYAV27QMomNYB7oHB1noo6bRXD/2P+OJOV62MA3NnA78ifl7S+kcfEDqlh3k1Y5i7TS0UX2zjPLblVRV19LQ8obOB7H84pHIM0s+2p74Q5eHqYiczrTICtoq8snIPklubg5xvt8ze6uG3JMqEhI15J6rVESFoekOpY+7GCjdyqQ58TxuraDgeC55eXnG+VQq/t85E3rdnt+48tGUFN29A8xzCxkpaA+tYapPJm9GSfLws2wCPHzZm5rF8ePHlTk7eSvzv3RiVlix9QXEoEP3Fo79J1fi5F9g36Khe0DsQh+ONYgDdTw5shrv+AqU21H/jBQvV7ZddszLQS6GzGartp1Ht6t4rd3KDN8ELl6+zOXLl8jZOptlqkbry2dPDVdOqUmK2Ud05Cpc5h/kobkoGDhP0I/rKRxDc7532i3cDLyqLKWqwwDdOfhO2c61gXZeNNi8DFv2tV0w0Hx0MV8vmAmh+gAAIABJREFUi0JteiFQ7fLGZfZ2LpiEZE9VERpNNtnqZA6npJMcsgSP8CKKItxYm/WMN2/e8OZNGw+Ph7A+wcQQGGqoQKsVbIzzRdVaJrvt4qyyfhHNFjc8DpSP2UKjq4phzswoKi2C2UBXe4d9S4Oui1dtvQx3PiA/rei9xbUtAbksCUgCksCnTOAPE7QKhOFqUrx+xDutlt7CQCb65iBsWq/rG+g2i6IPptVPSfRGErLTyaropizSk1XRGeTk5BjnrGh8nL/BPfKStYIf97UMNKd4MDvmsWIxGdQGK4K25/o2vv/5INV9Wja7BlJsrnx1r2mobVS+v/7yZSNXds9jQfR1mlpqKMkv4m7DS9O2l7S2dtCvMOjj2k4vwi4LcaSnThNMQLSa7Oxs06xhr9e3TPRKGqVJUseTpOUsia3EHAUMXTQ0vHmrhaeyshI3N7cxaXRVniYtIwvN/pVM94pEHb0On8hL3Du6glnrE8g6fhx10kH2bfZirm8K9+30zQBVqjV4hhbSYBbs9flscl/CNs0tXjoaa/WN3K9ssVhGddVxdoJW9/wiJy+/sGwfM9Lv2KBrquKhMPMaXnItKxV1poYDPt8xa7MKTWwA8z2iKDXp0+GKcJx/iKBiYIhBs9CyPb++ltjZPxNTbasWPywfdff2M9/nGM9aW2m1mZuu7WbuijSaHJ6T7qocdoceJCM5jOCDWpr0MFxfyDa32QRoqozC0zau6Km/nM+lqjrq6up4WqomNrtKaUYfXdA+JH6xr8VCaniRhve3v3GiXdyeNSR7zmHPTWsm9j4oIE2dTsSSSXiGxxC6bic5mhDmBOZSU19Pff1zru/7Ba+jL6yC1iZ++prDuC9KsL7AvEXQjj/tyls1Rz2/YH5MBb1dJkE7NExjSRIhgWGoShvHuLcMNKs8cY0oH2O7NRED+QHMiTTtN3yHaPflROUVUFCQR7TXJLz25VFQdAuLMb2vkSePn1Kv8Kmntuh3XJcmct+0LsIbmtoV9w1xFUP7TXKSVcZWIbWatL1efDNlLYfNLUVp+/Ce+D2+maO7zwxXpKO+Zc0za8zlkiQgCUgCf18Cf5Cg1dNYWUZNp56u0hQSta00q72ZsevmOyuHsdDqHqmIVD20FPLKfoZmTh1Ucb8xn9DgTJ6/OUXwgnWoHwzysjiJBO1YldVYV3EMNwvah7Q8e06rSdB2aTczZUMRA4MOgtZ0uP5pMTk5cfgu3kuZcLHV15G86HOWqkZWOPoGDSu/dGKZ6jm6riskHDzPK4OB1uwgvKIu0dpSTMLhizRarDHWOOqfZ+AzdRmR6TZuHalBzHBaQqpi7rXua7t05MgRIiMj+c9//sP58+c5ceKE7WZQmjwHuRLmgvPvwkIratVWsv08OVQlItJN3rqf2FbiqPZ6uK8OwmeLhlvPhZgxznUVGYQFhhC4aCJf/eRF0J4Mysw+BENXCHVxI9SUhsx4P1ymriUh05imtB3uOM2M4rZFsdtH9V1ruu5WmhrrKc9OIuf+a9rqa6itraW29glFoa54JlQa1ytPsXPjIcq6YLgyEteFKbQMVRHv7cn2pDTS0tI4FhvAIu9kKntqRgjaD81HXZWKLTtUFBQWUmgzn9VEEXr4Ok23VMScfMoweprLT5F1uoJWkQUDpezz203W8QhWuHkTVdxob6GzgNFRuXc6s0JPcr64mMIYT774JYFqHbyPoEVfz4VsLYrBdvgeMe5LSBAH200mC+0l45vNoDaEaUt3W1wOEtb9hHtCzagvWW8VtN23OXe5Dt0Hpx10j+Nxnx3JLXH/mC20ptu2/1EGqyd9iVtEMc2mFwdDay4RwfFknzqFetM0vv41lpOnTnEqJ47NAQe4Nkozv62gHbgRwxb/KDRP9crLU7qPOweVZ8YOmN3K8K3dzPDR2Fvj+x5Tcc/BpcV01EBRIN+vs7GsD99gh4sbcU9GEa2619yKW0uE1u6t0+76ckUSkAQkgb8jgT9I0ILueSZrpi/h8B1RkA5zJ2o23upmByuNntaiaIK3RbB79+63zBEEeUzCyXktOY1Wq9jQnUNsP3obbXw0Zxr06GuT8HT3Q106SH/fB/oamHLV8OYmJ1UaUhSXg2j2bd1JpioQ16ALdOT/xpw9legGtQT9uJYCB7ElmgRnOS0k/p4pDoZGVJ6TCTUJQJ1ov1emDi7HRxOxdhabz7Xz4HQu5a0tNLYN057ly6zIcoYGB+1FvOlIBqpI9Z/KV1MjsDGYYWg+htfPkdwepW4zH7pq1SqKi4sVFwUhaCdNmsS///1v82bj/2ApETOcmLgwgIjYczxtyCFkqQ8x2gHhe8BBdx/UtubDoTouJO4ituARj0sLOHvuHLlh8/hi2X7Onj/P+QulVL9upDQ1mtTrb6z3wdB1wqf7k29C5WihHdCG4BJwxr5Z3D6mb13TNZRyOj+HsLnfsy6/iZf3tRzP0FB46RKXzPM5NYeT89FevsL9l3qG7+01CdrHHPh5Pgn1RrUzWBLMNyuO0zfCQjv+fOypPI1KrSFmnScBsZlkZaWwdYkn21Q2LydZWaiT4zl05LzFPUUk1tDXwM28w2z3d8d1VhB5z83302godNyLmoWnqkVhPnB+Iz+KlzHeU9DannLoCjtm+JNj56wtdhjk4pbprIzOQpNbQtXlNOKKXlgEbPfjciqrS7l4yyjQeipzSVZpyMzMRBP/Gy5T1pKgyVTWM9U7cP9yAWHqTNL2B7M64BAlNn7B40t7L1d3LCG46LXxfnMQtCLmvbcP4ubkTpIQoGJ6ncHyGbu5+Ub4WVvnjppEFk4O4bKNK5DxALAIWkMrRUnp3LmVTHxRNwxdJWzuZoosnb0MvCk7QYpa5Lc1nzXR3nw3KxiVJSyTI6FLcF0QTrH5xc98MQw0pnryc1Sl9QVmqIStzj5k2boX6etQ+37HZ05fM91f/f/ZOxO3KK60b/9PJDMmE5OoIWpI4hJRFEVRxGAIcUEEURQQRZEEUUQ2GxoaEEVZBEVaUVFURFRURBGaXfZ1gH67p765v6t6b2yMgPPmHTx1XQW1nPU+p6p+9ZynTltdOizpiA1BQBAQBGY3gQ8maGX/u5ozQcSUy3fzHnJ8l3LYorwkusszyLxn/6nUlNBKHVwI9EdxrZjiJ8aZBsau7cc1MIyE9FeWh+mU0nwrsNlCa3Q5GMn/la8DSqhLcMcrsxdkQfu5Fzl2Ex0MUnncFaflsVTX3iQvL4+8PBV7fvyMTTEXyDsXg/eSLaTX6Riqvsi5+51c37+EwOJOevt09Bbs4Bv3OMpVW1ly6BbVF5WobUS8oYj6FkpiIsm+fYaNX3oRrbI+HLOS/PneZXJBa/afDQoKMjywe3t7qaysfKvmQ+pw/AL98dyfR26AB4GHYsmpPs+h6NuM9uayzS2ahxbRLNFRdZNHXdaXDdmLuj3diy92GcWT3B8aS3K5YfnCzJTlf1jQGnPpQrV5KdEGp8NRrgQswD0iwyigZFEVs4UvnUO5ZRIe7xS0XjmMTBC0025Hxrkd4YZ3tOz/nIj/ko3E5GVwMkFhEDzKsI2sOXwDg07RtvCgpJDzKgWJiUrybj2iPN6TufO9iM4qoLCwkMKCVPZt/Jm4ClvL3swF7eDLGuqHQerMxnfZYe7YGOalvlpKzoSyft7neKfepDg91WKZVf0ewG8RyYa6pMXsJyDyop0wl9tG9+R3lnumYvkGzJHLwTTrrn+Vzv4jarrMbhsDZw0+tDfl8o8+IiMqkfJ2Ld0NjVgmmuhSsnHJMR5PeEeQWs6w7rvDVFr6vPWSMQvasY5K7r4Yh4EiomMrGKmJZa2Pylo3axSGB4csL3X2FlotHc3tjl9iDfFHUe/5Fr+LNv7bI4Vs+2IbhXbv8L1ciDtNjd29yaYAYlMQEAQEgVlOYOaCdvgJeUlnLA81gyUiLYw189wJV5qFl5LjB3biH5H71gPuffhK3dWcj/JikUciZsOKLJhq4z3wVqiJO5BkGFK1T2uEmpyDBB48x1O7G799KPs9e0HbVxDOLlU1F35bhbuPF1HqB1y9cMf6FTRa6guPE3MiiKWusTwb7KCptZf+vjoS180j6EqX0eozMMCIFvRaeSB5nDJZ0F4ZMwxRnvXzIKZ6jN6zW40W2t6rhPlEUmZ+KuuaKc9UcqVuBOlNOl7fTc1C+/jxY5YtW2bwz121apWhPPZ1lk2ArZwLP0rprd+NH4VpG6i4p0Gn15DmH0JeXgjuEeVGVwSbyEPVeSSnZli+qE8K+BGn1aGmj2qSObZvN4dyJ7hdjN8m7Lv/nIXWWDx7QVuyex5uoUqroI31YYHHGYu/qp2g/cHeQvv5prNvCdpptaOhYLKg9SD4Yg21z8uJXuOFsnWMe1lneawdpnTveo7es1GPFtaya4c/3vsvUttjsiL2NXH14HLmuR+lqK7PIpYMoyORi1m0I9HQLsrQlfz913yDxftPXQ60zdxUxqG41mgQWINX97JkZ55RYBvKItFaEMpvRwtQ7lrCXoPLgZaHibuJuKSh/5wvbrFP5U8Kqa+4h6NZpkavBrE44IrVB9yRoLXUW954z7rrm7meVYysLy1LTybe84JRj/RSHrkUJ+ffSK+2n7VA0iTiNtebP5QTZoZI2M7C+aHcmVTQ3mWwu57qihradJ1cOBRJYsRqfsmcOColl2aUq8FL2H7BaDW3F7Q9ZG7+mh2XbF9KLDUA7T0O/bABRZNZpcveQEo8F4RgEOqWoBLdb7o+0Iu9JVGxIQgIAoLAfw2BmQvat6qqozbRg4VeUWSV1NA1wfLxVvD3PDBWcZgV/jZD0fqXJG70JLFulMpoT/wvtNg81GHk3EqcfIp4XLSFT1dfeM8h7HHqTixnzupQTinzqGgcRd+Yxs9e8aT6L2SX6Wuwsdoa6nQwWqemqLILbc1xVsiC1lxXqQXFeqvLgX0VrYJWV5vIznA18gfZfSZBq5Ut3bGuzPcvNEzjJb3R0GSyJMqCdqoW2pSUFIP/rFyGlStXUlNTQ0ZGhl2RxqpVJJV0MG6Z5cB8WqL1rB/ffunO71W2SsF8HqSuMlLiL9MwbmuhHePuqSCOlWisw6TmKOPX2etsI2ifG2c5eDWsoaKogNwj7nxh53IgoSk6xt5YtUPLlzlZ+/9mQdtH3f1Kzgc487Oi2lB3uf6Pi/bzvUNBW0PUoq/YGpdq8KFVhLni5JVD3wQLrTGvqbWjOc7tCHd2ppVx62Y+Ya6yoJUYUh/nqCqZ7T4JPDf3IVOFpL4acmPCiFZlE+X7KwnyKIfUy71Tnixa+wd3bIbnjVHGuLFvAV6qLsOutjKNqHMvDO3wLkGbeP0sEduDUVSZxLG2DoX3EjbHXKHuLaufjQ/t+H0il28mvVnP4LlfWOQbhyoriaN7QlBWWcbeTbXR8uDoCn7OMk73ZTg4epldCxzPcjC1uo/z1lTXQw+5dOE6RdHufOUSRL6DuXf1r7IIjSym3XawQS7YyFPUZbIvs3nR0lSRiyL2MEFerqzyC+dUVik1b4zXRX/xbr6aF0SJw0GocdTB8/G9YHyzthe0g5zbupDQckfXl8Sbgu18/9tF6xRfspW7OooffzrOU9u+MniVkB89SbDchMzlFv8FAUFAEPg4CHxgQSvx5voh1riGUvpGy5u7qez19iYo/iqvJj7bpsh3TL2Pb33PmaxFEh2XQ9gUqkaeclGvyeKXRe4cUbdYBNRAnAsL4jvQt53g26UpfzJZukR7cTirnL/B1T+OK3Umx7nxOpR+Xhx/0MfVgEUmQaujWplGuc03F7IP7fJ3CVr9G1otn/sb/Q93F2u4HBdPmWnOSKugBV2tPK1XsvVLcBMr2TKzaYoWWj8/P9RqtSEFeVupVJKfn29DX4fmaa1h3lzt/SjWG6btMp+W6FSH8tNnzmw8cQfHc+WPUxm1nJXHq2kyuRwMdxUQ6BFCYaODh/RIPv4/hHHDdEr3+HeWrzltsLxLvbeJ+OEzNiltPyjSobl8BHenZcRqrFYqcwkd/+9C5fUNG3ZHkFbdS0ngN3idKqO8vNyw3soJZLGtoK06hLNbMm36Pp5VPrMOR4/00Cs7nzoUtFNrR2mgiZp710j0/YH1B04Sn3iCbd//ROiFMp40qtk/3wmPuGr6bITVaEMFhfnXqDWMj+vRKP3wTVZzLmQVS32TqZTfhN5aJPqbNPTYpGMO4lDQDqoJWejE3DURFGtM8m30FfkhHngdv0Nn/Vn83f1IsZtD2ixoR+i4GMDm0DhOpd1Fk2O20JpztP8vNeey3eMQ5bYCeSQfvy+2vzVt1/Tqbp/fSMNVYrxdWLo9hcq3hL8cth91QSm90ij30hJQd0roNQXExt+kU9KjKTxMSEKFyYVBT1NhDEeVal702ipJ+aWugpM/e7DJYxluIdlUd0+EP871SQXtEOd9HQtaXWMu2912cMHwhZ61boMXffnblhz7ua6lTqoulyH/VoVYBAFBQBD4GAl8OEE72si1+F147zzFLVtzx+AjFD9/hdOSw9yw/YhhirT7LvzGPzwVaPQjvCqKJiA028aVQI+mIIjvnOayMuA0Za3y3EZPSfFzw83dn4x3zABgLobU95wHz63mFan7HoqQIOJuvkFijGtB81ifWMXzqlz8v11B3AvrQ0v3MIolP+4hNUdlnC82M5kAl8/xPGKcKzY5xJU5LmFcN4jXUYp2fYO/6j4PNVqknjrulpdTHOnG0qgHJouQlrExa/qWMrYq8DQLWmmAV3dKKEoPYPGSaB7ZP2PNUejs7ESSjMJHq9UaZiKQZztwtIyXR7AquMTkWjBEbV4k/jLn5nJiPObh7BlBxo1Xb03BpqvJJb2sgzZZ0PoXUKU6Tk6dLI4GqIwPIkotMzQvEqbiGA5oKw/jsioOI06Jge4eG6uYKY7UwbXUXGqs5jJzYo7/D6oJmuuEZ6rs7jBKSYAz/vLkwVIfT6+oSIzwYO76VIvryPjdUL52TcBmVNeUrp6mihwUp8Jx/2QJsVZ/F8Mw8lTaUd+YS7h/OPE5pVQ3DSLpX5HgsQlFXQ0F8Sc5e+sGil1L+fKrH9l8OO8tq6g02EC5KhJfd0+CFXdon6S9HQEZbrxL0VkFsb8647TzsnW4X9bqzcVEBMZRIYtjfR9PL50kyOc3Ii8+M70E6nmV4sm8gCJDPKnjAXnKBPa4LiKkoJjDuxOpHtHTqo5k0wIn5npGoSpUc+OG/OMZhdw3/UrB4LMLHAk6Qv6rCS85A2fxdvKj4B1CbGp119Fdc5nk0F/w2BxM0vXGSUZn9DRfCsI1yMijV7WJeftuMkoPWZs/wzevF3nGhxR3J1zjaywvynZ8dV08uvA7u7eHkvGgB2nsBecCvsfpb4vxClVwW74PyYu+EcV6J5aHGH98RhXtzdfLzB+FpbNv+TzLB6Tm9IdqsjmwI4I8My+thooLyRwJ8mPNPCfcTtu+9Jljif+CgCAgCHy8BGYsaKWBOm7lZ3EmQUHeg0k+bhi4z4mN3iRMHE+dCnd9H3W3i8nLUnL2ej1vG3y1aNRZ5D+29SecSgbmsCO8upWLKrOYZ1Z9y2B1Nkf3BhIQEExE0jVsf19gvDyUhUuOUdE/YiPczOlN/D9K0YFNxFmmJdDT8/AUPm67yKyZMH3ChKhSUzbBAdlWy622maIDG/FLm/hLThMivufumDoU9wg1LysKyEiMJ7WkzmrZHn5Obpg/h3JrkA1Qg48KUaqybObPzSY7K8sg6LOzzHPqZpOVmUnWZZtfn5pQFm1lPP5R6nf8SppE78tnFreLCdEn2R3hxY1yGg16YoRLASs4XGFSw7rXZPq5si3LKghkIe8WUDBJGfS0XfDH9VcVtXaCevrtaCi07inxPgGkP6ij0yJO9fQ8vWH8WVppAE3VNfKzzhAfc5Tw8CiS8+/R/A7hNwkM4+HRx5zcvIGYO29NWYDUU0Pp+XRSTp8mrbCKVpvRBzmyNFBL9Qvr5/59tyLx9D7KGWWuneVzvK2KS2kxhAf64e3hQchF2Q1IovfZNS6V1ji0GtNfRkJUHi9t39+mUffBxkrUhTkoE2KJU+Rx+5W9r+xbbIaKCVzkxh93jeZi7QMlv1+Q+4Se+vxEcl/IjSLRrPTB7Y8qu5eskfrbFOSkk3w6mZxbr+1/HlvqplJ1kqyHVl4wzLNLF6hwaCUeofDAVs6Y/Qd07VTmp5GSXU6LXX+Ta6BHkxtBcMIt2mx5vVU5cUAQEAQEgY+PwIwF7ceH7O0aS/1NaHpnwRNGno92vJOWjncL67cJ/N8+otf/F7aNNEBHSxcj/4VFn3Fv+KjrPsLIBCP2jHmKBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtLO5dUXdBAFBQBAQBAQBQUAQ+AgICEH7ETSyqKIgIAgIAoKAICAICAKzmYAQtEBvby+bNm2ir6/P0tYZGRns3r2bf//735ZjH3Kjvb0dLy8vQ97mdO/evYtarZ5Snhs3buTnn3/mn//8JyMjIwwPD5uTE/8FAUFAEBAEBAFBQBD4KAh8AEEr0V2pItxnJYvnz+PbFVuJKn7N+Fv49LypULB341Kc5y/E9ZcoCl+OvRXKeGAqYSdJYgqHu7u7+eSTT9i/f78llru7u+HY//t//89ybLINWfROVfiOjY0Z0l+2bJklWTc3N8OxN2/eWI792YZCoTDEuXnzJosXLzZs79y588+iifOCgCAgCAgCgoAgIAjMGgIzFrSjNec4mXiBsoob5ESs4+tPnfjkq+3kdkp2kPSvVGx392L7jp/5ad6nfOL0CZ+vOUn128qXqYS1y2SaO69evTIIQdlCK0kSWq3WsC+L3B07dvypWC0rKzOEX7VqFXq9/r1LIaefnJxsCC8LZ3nfxcWFLVu2sG7dOmTR+2eLuay3b99GTiM6OprAwMA/iybOCwKCgCAgCAgCgoAgMGsIzFjQjg8NoTXjGLlC8PxP+HRhMJd7zQfl/3o014up7DOK3OGqGFbP+QSnOV4oGiYKwKmEtc1jetulpaX8/e9/twhYWVQGBAQY9uXhe3n/iy++sHNHcJRTU1OTIexUxKScdkVFBTqdjuzsbLsyyOeePXvmKKu3jslhP/30U5YsWUJOTs5b58UBQUAQEAQEAUFAEBAEZjOBGQtaWziDFVGsXOhN/P0e7O2ztqGAMTX7nT/lU+e9lAxNODdxdyphJ8Z9j/3U1FSLkMzPz+fevXuGfdlKOlHoyj6v1dXVk6Yqi0pZXLa2tk4aRvZ1LS4uZtu2bZZ85Tjm1Zz/uXPnJk1D9vm9fv0627dvt8ST48vuC7K1WSyCgCAgCAgCgoAgIAh8TAQ+jKDVt1AWtxNX2ZXgk7+z0CeJqsHJMeo1Srw/m8NPURWMTB7McGYqYf8kKYenzf6zsiAMDg42CMTMzEx++uknjh07xtOnTw0WWvn8P/7xD5YuXWoY2p+YWGNjo0VczpkzZ1I3hcePH1vCyWmeP3/e4CIgW4U///xzw7mvvvpqYvJ2+999950h3DfffMPBgweJj4837NsFEjuCgCAgCAgCgoAgIAh8JAQ+jKCVYY00UHJsA/M+dcLpk8/xUrxmojOBkamWZwnr+dotinKTC8LkrKcSdvJU3nXG1dXVTmCuXLnSsu/r64tstZWF59WrVydNRv4gzGzN7ezsNISXLb/vWubOnWvJRxa1chpr1qyxHPv111+R03rX0tDQwN69ezGL5Dt37rwruDgnCAgCgoAgIAgIAoLArCTw4QStjEdfT6r3F3zi9DeWHKlwMNMBjL9IY+uKbWS9+PMPnqYSdrqtI1tTZd9TWbReuXLFMJWWvC2v5lkH5O1bt25NmkVMTIwh/PPnzw1h9uzZY9jXaDQO41y6dMlwXk5X9rkNDw/n+++/NxyTp/OSp+4yl0H+P3/+fNra2ixpnTx50u68nJ6Pj49BVFsCiQ1BQBAQBAQBQUAQEAQ+EgIzFrTj7S+obTeLUx1PTq5mzidfsDWzxehHa+tMO1jJSV8/Eh8MGPGOPuPajQarJXcqYT9AA8kiURaPmzdvthOIZjG5b98+y3HZiupoKS8vN4Qxz1Ygh/mf//kfSzzZFcF26e/vN5xLSUkx/JdFtDk/2S82LCzM4uIgH5fnmM3KymJ83DodxODgoMUqe//+fbq6unj58qUhnQcPHthmJ7YFAUFAEBAEBAFBQBCY9QRmJmilTs7/Npe/L/IhvrwN7Wgdyq3z+GxZBGW9OjqK9/HjP+axIaEarb6FS8FLmOu8zGD5lK2fPy1eREChLG6lKYT9cG1i9pmV/WVl8SgLXNkaahaYBw4csGzHxsa+lbF5ui7ZwjpxuXz5siXurl27kEWoLErltGW/V3mRtyMjIw3uDOY8ZQFrFtiy+4Oj5V//+hdmIW2OJ/8ow4oVKwxpjo6OGqLJluOpzo/rKD9xTBAQBAQBQUAQEAQEgf/LBGYmaBmjOsGT+X/7BKdP5vCPL77ExSsT7tJFAAAgAElEQVSSwpeyoNLTkL6FuU5/wyW8mNuJm4z+tU5OOJnXOR4kvtBNMeyHwymLPXneWFlsysJQnj1A/v/o0SPD//T0dFpaWgzbE6fjOnz4sOG4bGGdbJk4C8Hvv/9ucR2Qp+qS8zK7KcjbsriVxWpERIThnFmYmtOXz8nhzKv8gZr80Zp5MddDnmbMnL4QtGY64r8gIAgIAoKAICAIzFYCMxS0MhY9gy3Pqa56RG3LoNV9QD4lDdL0/BVdlolq34FxKmHfkcx0Tsnzvcoi0SwCZWusvC9P0SXPJCBvm62q5vRla67sWvBni5zm0NCQYZUFqXlpbm42pCu7CsjLhg0bDPtmsSr/lwX2xEUuk/yTvPLsDI4WeV5b2zTkH14QiyAgCAgCgoAgIAgIArOZwAcQtP/9eGQrrfyhlbzIv84l/+KWPHuALEBl/9TJxOVMai5bX+V0zaJYnn82NzfXIKpnkq4cV/6AzSxq5R98EIsgIAgIAoKAICAICAKzmYAQtH9h68o/s/ufWmQxLltrba3C/6m8RLqCgCAgCAgCgoAgIAj8lQSEoP0r6Yu8BQFBQBAQBAQBQUAQEARmTEAI2hkjFAkIAoKAICAICAKCgCAgCPyVBISg/Svpi7wFAUFAEBAEBAFBQBAQBGZMQAjaGSMUCQgCgoAgIAgIAoKAICAI/JUEhKD9K+mLvAUBQUAQEAQEAUFAEBAEZkxACNoZIxQJCAKCgCAgCAgCgoAgIAj8lQSEoP0r6Yu8BQFBQBAQBAQBQUAQEARmTEAI2hkjFAkIAoKAICAICAKCgCAgCPyVBISg/Svpi7wFAUFAEBAEBAFBQBAQBGZMQAjaGSMUCQgCgoAgIAgIAoKAICAI/JUEhKD9K+mLvAUBQUAQEAQEAUFAEBAEZkxACNoZIxQJCAKCgCAgCAgCgoAgIAj8lQSEoP0r6Yu8BQFBQBAQBAQBQUAQEARmTEAI2hkjFAkIAoKAICAICAKCgCAgCPyVBISg/Svpi7wFAUFAEBAEBAFBQBAQBGZMQAjaGSMUCQgCgoAgIAgIAoKAICAI/JUEhKD9K+mLvAUBQUAQEAQEAUFAEBAEZkxACNoZIxQJCAKCgCAgCAgCgoAgIAj8lQSEoP0r6Yu8BQFBQBAQBAQBQUAQEARmTODDCdqR+2SdyqNmwFqmvhsKTpW8Ztx6aMZbUnsFN54MzTid6SYg9T2k/GEf0iQJ9N9MIiqrmt7JAkwSz3pYYqBvwEH6Eq23L1BQ3Wk9N1hJYeFTBq2RbbZ01BYmk1vdh6TXoZfP6F9TeraYWps2sonwQTYlSUKr1X6QtGwTkd7c4fzZ69RNq+w6Gu5X0mSAYJuq7baOhpuF3Kw39a2RSrKTrlA/YhvGvD1KX9+oecf6f1BD4xuddd+yNfW20Dc/5XmPo040QsOL1wxb0v6TDWmA53cqaBhylJbjuFJ/Nz2TNqEeze0r3G8zBhh/lEfa5Rf8ebPoGegfsvZdQ9ZjtD6t5Y1du+ioyYkh8Wo9DtE7LrLlqO5RCoHBSh70/Ul9x++SFnmaknpzRXXUFcRzprRukuvJkoV8IfFKFYjv0WIaHDW3bdCJ29IwrY/UZB2PJKnc5lq2hJtaX/lg/cSSv9gQBAQBQeC/k8AHErQSby76sdAznruN9ahPn6SoqQnV5kVsy3lGW3s7mltx7DtePgOhBww/JtFzIW7RahqaWwzptre3I68t95PY6a/k+XTVc38lOQnJpCmVKJVK4g/tJjQ2DaUyjdjQ3RyKNx5PDPfFY1syjxzoGbQ1xLnNw8XnFHcn0dxSxyOulZRQMtl6NoyfvlhNXLVRsuj6O2gx1LGF8sNu/JL5kqa7KlJKWhm6upsFq05SPQLaFg2thoerHs2VVM7X9HI30oOQaz2UR6zll6yXaDuz2LLgF7Lrpwvp3Z1crVbz3XffERcX9+6A0zirrz/N6kWhlJuV3GAVWcoy3ph1i9TOzfRTJKac4cyZCWv8Xtw++xyPhCeM2eQ99FjFocMqqkxvH1LzWXyc/cjr06NR7WBjWA6Puzpo1ExoTH0dp9b/RGB8OhkZGZb1TIgrTi6R3LG8YUy/LUZLg1jgFkZ6ZiaZtmvGYdZ9+iPHqm06oPYRSTt3EH+rE0n/mltXn9Bv5qJvIMXzc9xPPcEaQ0fD1TSSlSpUKiUnwoOITJC35VVBhMdcFgWX0GVOw4YZ+lckrl2Ab04jesa4FfY9q46U0+kgrL6hhKyiJ9SWZxDh7cLcxf7kXFNT8lRDTXECwR7O/GO+G6FFrTZCV0tF+GLWpzSi078mN/owCRmZZCrPkJiiJDNTxcmAn9mbV8/bWlLLgyMuzAssode2zEOPUJc3G1/qTMf1L0/j4RrFfUtb9ZHj8ymuv1fSbxvXwbbUkceOr+exKeg4F1+ZBbFtwBE662uouq2mKFdFStwxwoP88FrvwQaP9Xj5BnDgSAynsius/Zfp9ZUp9RPbIoptQUAQEARmGYEPI2hH7nHMezvx2Yfxct+PsqCIqzmH2X5AyfnIzawJSaOgsJBLxfdpevsp9F5Ipf4HpPhvJTy/jjHGqLtRSHFJKaWlNqu6fBKr1ntlYRNIy92IH/HLk21E/WR7uxBx39GDyyYKWp4lebIk8BINN2MJVdU5tkxr23j5XGMV4y1lhLu4ceJRm0GYGwV6B11DRlD6xhtkq3K4UJDHme1LWX8sl5yMDM7fekxhkAvrI1JJjT/K9lXf4aOsMzy0tZVReIaqqYjyZE+SkuOKQipfjtBfuAuPP6ox1GSom57pmMBsq+xge926ddy9e9fBmSke6q/iQkoaKpOYUyVuZ9FXW4hRGQWeMmYPP3vvIrnSKjb1OjtT33tk2Eu+3+d4Ke5QmKogQ6Uket8ejsQeYueOcJJVKlIPbcJ5yX5KLMpZNtDVk+C+nOhq+848XhaCi3+RnWVxum0xqt7D1677HQvaOT6cNwt7uZa6J8Su9iZVI9dfx4ukrXjFVRotjfp6kj0Xsf+6rZS3QSM1o9i4gt9NdZHac9jq7EtOiwOFKqf+LA4PzyTq5Kz6rxC8/hDlFlEIUsdjqjXGFybd0xiWzfMhLu8mT1qN1tnRS9tx+j6QjOIKajutEttaIi33Dy/ht7whxkdk8byM3x/rGL8VytKAy4xiPO+T0wcD1RSkKsnMyiJLXhURuH+5mB1xKuO+6Xh6TDA+2+Mo75NzGeDFw+e0Xf6D6LIBtPXXuFzdD+NlhLh4k1bXRXd3E9dPHSThtgMLqtRKvv93rDhaTt/YE1L2hHHx5QS2Uie1dyu496CamtqXaNq66XsSyyr309S/o4tOp69MqZ9YIYstQUAQEARmHYEPIGhHqFZEoqgekp92JG6L4FpPDXkZpYYhXv1LJXv2Z1BlNB9OC+BwXSmp8UrKmsboU0fwc9gVWh0/b6eVvjmSriaPlPwq6hteUbz3R37JeEHD64eccHchTP2KhpdlZKffoPktbSvRdzsKjw1/cEce6tRrOL/DDT9F1Z9bpHXVRC1ZR7JmsgpJvFFuZm1UMdlBrmyOK+b4+mVEFGZxIEBJjbaH875u/FEjiyuJ3gd5KDOyUJ3YxyYXZ9aGKUiPC2Xn0RzSdrnid1KFMimOo9tW4R5588/LZ4bzHv9HRkb47LPPGB11JFTeI4F3BJE0yXgsicKgu6RWin8/RqFBwL0j0sRTY910DdhzHmusobZPj6R7Q0PjAPoOFUFBBXRIEh331VQ6ND3Wk7BmPj6x9sJJFbme+RZBO7O2GL0ayJeuByYRtF6oOgcYMLsR6J4St9YHVZuxblJTGl5f/Mq5Hll815HosYwjd9/qtEY62mqOLfdGZainjtpT7iyPqnT8MsYwtw56EnpddjDQ06AKYnu0kuzsbNOq4qjnF8z1TEAeYNC/iGPl6niDiNPWV/KgTcdoyS6+/DXPTvSbm6m/MpfkVCXRXl+xYncYvr9GccChoF3Kb4aXTXNM+b+OFwkbWRdbbbVES/1oNN12lllkAb/BGe/I0ySlpRK3bTFf+uXScD+K9b5xXMjPJz8/l4jVc/BU1Blf/izZjFKj+AWPkCI0pncZXWMeu93WsV91n3ZbxPpmHle3WeLrak/aCVrd61LOX28ynZ9+X5lSP7HUQ2wIAoKAIDD7CMxc0I7UUV3zhqeFKaSYrGeZqmi2LtnMYXmoMDOTRP/FfPFbHu32WuKdNHXPFEQqnhoerPrxceNDaegeUcsWsjOvycFwI/RXnCI0wWSZemfqjk9qb4fh/FM4eSWXObVlEd5xxZRcURGwaCn7c0souRjK0jlbODtBSPVXxrN18xHK3kiMXYvBP6aEhu5K4r0WsGBdCElFD2ketlZeenOTLNUtNLLu+1NBC90Zm1gerCJx2xI8jmZxaK0bgUo1L+4pSSlQst0rnlpby4/+NardARzctRqv0CgiTpZQ35zDDv8cuqQxSoOXE1I2udtBfn4+e/bs4c6dO6SkpHDs2DHDf8fUrEfLy8vZsGEDsh/t+fPnCQwMpK2tzRpgSlsSb+6cNQyLy31IlbjDaqFVKUg4GccZdT3jcr1HX3Er7yIXL75rPUecz1z+tkHBc1uDmtm/eExN8KJ1RKQqSEkzDsVHuDvxw7GHdm4KhioYLLTfE1rygpcvX1rW2vP+LLYIWlNlp9gWoy9vcPFiHrmnQth1LIOLeXnk2a4XEgndfZS4vcv5akMyT+VmnCBo0TdyNVuNoZtqHxHjto74WntrsqUphgvZMdeL9DYJqeWSoa/vy7pMsSqaSNUTrPZv+T1NxZa/O7FB8Rpd/w3ij1/hjSz8swPwjLpGR1sJ8adKaTZlpX8Vz8pv/YhXZRCzZS5fBZbQdjWQb7ZmUt/URFNTEw3lcfjtSOWZ5R1ItsCaBKvUTuqGb/CJUZJ6yIMvVx1AoUzj6MYFptETSy3Qv87Ae+EGItNN1lrZOpsSwPdO60gxmJNNYaV2lJtXE2fgIdGm3MwmRQN3o3cS98SsSEe46LeI/Tdtr5FBHisD8N6j4v7rRhobjWtDZQah/sH4r5nLnO88CTiSQYVszR+/QYizKyGm8mTG+eK88DfiM43lSwtzw+mHKB5Y6i2/I7z/dTutfmLFJbYEAUFAEJh1BGYuaE1IRqsvceHeKxoaGmioy2XHgp9R1jXQ0PCaqhPuLPv9CfKnSR3F0QTtj+Dw4cPvWCMIcP8ap3m/kdNsVmoDVEQu4R/eGdwrVXImK4ecHOOqCnNn3qZI0tOSSVIUUmMzBDqVFtPei+A7rwy6GOGS/1piZKun9g7hS3ZyaQSkN0o2LjqI1dilRVN6kpBDWTwxfRUzWuTPV34XjR/JaJspO+XHd05fsjHmsuWDJtnauHZRCGWys54saH905ditZzx/XsOVo1sJzG2wsyr13kjjjPIw7n//jDWhChIURRhGOXVPOfGTEx4JTzEb62CQKkUEcTdauR2xhn2lL8k7FM2ZpGj8/zhLs36AXD8P4m0f8jaQZOuqLGL/+OMPfv75Z8MHXv39/Xz99dc2oRxvxsTEGOLJvpiykJ0zZw51dXWOA7/r6HAdNwoLKbRdVUF8P9+PxALr8XO/e/GjdypPR0dob2gw+Bo31TzmWUs7bc/iWTN3F4WaNlrajH7WsjtHR0cPw3rQN9/krFLJ71tccI9/zNjYTUJcPDhy9rxBjJ8/n8OxDXP59S1LoMnlYM1C/NPVXL9+3bJeTfDhWztBO422GO/jTWcfXbcVHI5VctbUx819PedsMgeDjlD4opf+gRHji91EQWvLdvwGYd/7kWPnVGoNoHscwyoPf+LP16EbrqHkchXNbQ+Ic1/AxthyTEZfoJfrcdFE/LaEwMs9PMnP5V5HG82dWnqyfFgSeY/xsTE7y66+Pp4165LRSDoeRS9hg6KNkdIgnD3/oLA4h5AlX+GbdIniYjWPLC4dRpcC77grFJZVkLB+LQmv9RNcDiZYaEdrSPFbyJyFETbXJkitqXj+GMkDs06Vq+1A0HrGZRMXl0VxifkDy0HO/eJChPlCH2/g6ulDxBY+43l5IZcuXyY39Cf+tuF3Ll25wpWr5dR2NVOeEk3K7W6jP/D4bcJd/DB3n4kW2lF1MM7bC2ws1VPsK9PpJ9ZmF1uCgCAgCMw6Ah9I0Mo+py64HcozfuxUHMfmuWuJLjZ+/FR4+jDH1e02H35MlaOe5sJw/NYsZt7e629ZzPqyvZmz0953cao5yOEtglb3gjiv9ew8ksoDjQrvH35FUd6Ozk7QSnQ9LOTiDfsvzseu7GbBjkLrsKec7sCA3b5h+Nz1OE9lS5ZB0C4jrLAc2cJZXn6HiictNuEleitTCTucxfkwV3aer+BM8Amu1ZeTER1JYvF1MoOW8/nfF+GbUMGT2xcoqu5FGrpBzM6TBv9GSdtI9eNWHiedpKCrhlivvZTaWiltYMkzFAwNDRksrffu3TOckf+vWbPGJpTjTdl/9ttvv+XKlSv8+9//noHrwSAtrzR0dHXR1dXFm5oMfL78kkV+8VS/kY918lxdTEVTFz09A4yajd/SG3J+/hvfH7nLYIeS9V/vpay/htzYZMpaHFkoRyjc8S1B6lEYu8n+5bsp7htmeFhe+ygNdn7LEmiouWyhXfMNv5zMtrxUyYIzK8qTbyyCVk9rxfTbYvx6MPO802mWGdSfYeN3YZR1dNHVfpW9zutRtJhf9BxYaIHBlzXUD4PUmY3vssPcsTU2WppPolnpzYaEGiqSTnDZ9BVY39Vgftyk4JVNFkPVFzl3v5Pr+5cQWNxJb5+O3oIdfOMeR7lqK0sO3aL6ohK15QVUdjWOx+3HIDIu5hLvOx/3ZA3DJQEs2X+TMdn66ulCpK3a1PdQUxzPju+dWH7kLp3aek67e6F8I00uaPUtlMREkn37DBu/9CJaZWOhTfLnexcHgtZrIVtjUklLSyN+x494HL5GzcAI5eEr2JBUg1bqJMPb7CMt0VF1k0ddNjCQaE/34otdxabrVEdjSS43OswdEZiSoJ1+X5lSP7G0u9gQBAQBQWD2EfggglZqLWLXfGf84lTGL7IzDrHuM1f2K61faGfE7GZ7TBm29/z3wynRV5lF/LnHdOb6sXD/TTsrkJzGhxa0b5oz2HtIzf3j3vjv/Q3flDukeLsRW6aYYKF9uwaOBO3EUG8J2nf40A6/ukVBnpr7NTVcjjtI4rUant7J54wij9tPnvP8+SMKI34lRHWLun4tLTeyUKiyUISvZZFstVad4NcVvmQ36hlRHyI4MY5ft5+je2KhbPbHxsb4/PPPkf/LS0REhGHmANlSO9nyz3/+0xCnp6cHX19fg5VTjj/TKbz0rVcJc13CzpwXvMqIIvnFCI2XQlj53TrCCuQv7a2L9nEMy78/yJ0hozVdFrQ3xkBqK2S3288kV02cXMpe0Ia4uHMw3fy1fzqH132B70UHX84ZXA6WcaxqxFA/uY6GFwG18aOw4Y4ysvKf8HIGbSELla+WBaOUP4pTBPLjXFmsZZKZEYXnF95k2zaFrYVW28xNZRyKa42G62Tw6l6W7MzD8D2UFZVxS69BudWH1EY9+nole0KLaOksJWSFB6ce2ytgvVaLnnHKZEF7RYbazlk/D2Kqx+g9u9Vooe29SphPJGUmYax7dpyVPira+ru5G+3J9vOtdGVtYVXsc/RvCVqJpkxflvueJCHgB6OPrLaKoz+tJlSZSUbker5yC0OZqSLay+RyoGumPFPJlboRpDfpeH03PQvtJkWz4WV74JwPTpsyaNM1kuThbjeKMVSdR3JqhmkmCBVJAT/itDoUpWFmiGSO7dvNodw6qyvU+G3CvntfC61+2tftlPqJodVHqMk5SODBczx10LUndhGxLwgIAoLAfwuBDyJoGX9FSV4FndIIz9J8cNsdwa/O2yiw3DC1PIh0YcUfT2yG2N4fkTyUKds+Ri5MRdBKaIqOsTdWbTNs+u48DRbaTae5lJyIukNC6irjWHAi1SNaHp7wJSIvGU87l4O30/vQglbOQep6hLr4PEmxZ8hTl3E9N5jvXPZx4XoZZdcLuZin5lZNh1XcydOH+QRR2KWnvyyUtcGmaYwG1QQ7f8nOfNOw6NvFNxyRZynw9PS0nJWtrrILwYkTJwzHTp8+TXp6uuW8vCH728r+s/Jy9OhRw1RWcpiBAVlETr0t5HQGn6gIdP+Gvy2KpFILUks2u1Zv5WBGBa22w8hyYElD5i9uhN80Kj3ZPcQsaOXTPdeCmefkTlKNrWnaVtCWse8HX5QPa6ipkddqsvzmsiXH6r/SX5WHQplJVlYqMQdCOJJg/cJedrPITDzCvsPxnPkjBP/AOKOwm2ZbjBRuw2nZXseCdq78UZiNNdAkaBOvnyViezCKKtM8ydo6FN5L2BxzhTpbZ1gZiPy9/61D+BwuN827Okr1iY38uGgpfjn2Li+m4LLZ0SJodbWJ7AxXGz4q7DMJWi06amJdme9faJjGa6zsAOsOVVg+jIIR1HuWEFQ6ahDEb1loDRnZ+NAO5rF9nXEkY/zmAZZYZjkwuhxIbzQ0mWZ7kAXte1to3/KhNQpaqfMZjzVjhlGT6OWbSZ/w9i3fD1LiL9MwbmuhHePuqSCOlWisYlaux/h19spTwJnugbrnxlkOXg1rqCgqIPeIO1/YuRzIQzlTv26n1E/ke+i5lTj5FPG4aAufrr4wrfuxtT+ILUFAEBAE/u8Q+DCCVq6Pthn1H75sOXiJhsFSggyCVkdv+xuGh55yYuW3hJbbW32mimHo/C98+94WWh2ay0dwd1pG7KQzCNiXQHv3IAtXRHK3XY/U/Yj8tHPc77YKB6lD+aeCdrTYn3nb7V0O7HORtVcyHrYuBxMttENNaGwFi4HvXQ66bELZKhmGclc6+xGfoUJ53J+1WxPt5sWVeqopTInl6F4/XBd5kdpgtGMOVcfj8/18Fm9JpNLhpP3Gkubm5hqmPTKXW/5ALD4+3uAfLR+TBe3mzZvNpw3/5Y/A5DlZ5UUWxHv37jX4wBoDTbEtpB4e5sQQeTKfmjoFG34wClpZED086cHSXxIob7FVtHo0OcH4K2osrhoTBS1SF4Xb/s68UFuB1U2Oz3wCSkZh9DK7nH8m6YbZ9eMGyVu/4Zfzjm3Zg4/P4D3vR8Jv9CKhpVEdT/Cv2zmkuke7jXfD1NtCT8fzCm4XKknOLTOwvHvtGG7O/mTfucvdu2UUqY4SFHEJy+j+oJqQhU7MXRNBscbEZfQV+SEeeB2/Q2f9Wfzd/Uh5YLVQS93XORYUx13TIX1XBYm/eeDltYLvPEJR3dZYWBrbUP47RukeF3YXa7gcF0+Z6dqwClrQ1crTeiVTr9dTG/cLB65b3mrRN2SwdUMM1fI7hdRE8toJLgeGjKyCdujqPjbHPDYIxfFrwSw2DPFbz1vLJU8XpmTTe1loW0nzsv8obEOSvaWfMfn+td3mhdyc0ziVUctZebyaJpPLwXBXAYEeIRQ2Tri3jeTj/0MYN0yHdY9/Z/ma0wY3Dqn3NhE/fMYm0zR75tSn1lem0U/kl5g4FxbEd6BvO8G3S1PsPvozl0P8FwQEAUHgv5HABxC0WtruZvFHWCSp5S1Ga8xoMTu+kK0TEkONZcSsdeLT9Wd4ZvOgnw6svuwtOIeUmVwOdDRVlVF+7z7Xolbyuf/lt3xrkTq4lppLja32eUfGYzdDWLBJ/ihMXmyEbHcNJcpj7PF2wemHaB6/ox6j+b/x2W/5DsQAjL68RpY8RJmwAxdnX07KQ8iqGH7+ejE7EkzuGplKor3n4uQWZ/jBBEtxtZUcWr6DwlGTb+KaBBot4+1DVKoUqG0+rGktTyEk8BjKpN38euIuL4qPExSioLKnhSuhP+L0D1d2nb4x7enPEhMTLUV7r433bguJ/ucVVLUYlYDUlMy6+Vs4EnOYyLhsyhvbqEjwYYHTl6z67SCnc+5QU3me0znVRkuj1MnDvHjC/ZbwyTcHuWfT9nrNLcpqjAJLrykmfM0K/FU3Kck4yYnEU5xMzOOGwY+5nJtlaoryznMuW0lSykUeWH4BbIjai6Gs+8mbY0V1dr/YpWu5SvhyJ77Zf93m16a0TLUthhuqufuwmupq03o7BvdvA8mtsh57WHKGUwXGHxfQNxcTERhHhfwDEfo+nl46SZDPb0RefGYSLHpepXgyL6DI2C8Ha7gQr+KO7Bow1MAN5RGCgo6SI/teM0TdpWNsWeTEJ85ubI8p5pVlzttRinZ9g7/qPg81WqSeOu6Wl1Mc6cbSqAcmS6yWsTE9DN0mNkxlmXdVqykmOugIlxpNF4/+FadWLrKb31nqr+PuzWsk+nyLf0ENqXsOUWJyX5BfFL/8VUll+XUUvzqzLd8qlA1Xa6sCT7OglQZ4daeEovQAFi+J5pHt9aqvI95tIb4njD+Kkei/Aq80DXp5yrsnhShOxxMf6cX8JdHGKeImdG5dTS7pZR20yYLWv4Aq1XFy6uRONkBlfBBR6jemO4eEZL2FoK08jMuqOF4YrlmJge4eG8u1OZOp9ZWp9hNDLtqnpPi54ebuT8YkH4aaSyP+CwKCgCDw30RgxoJ2tLGS8icd9jfn4Vx8vwxANnzJi7a3i36L+JouHokWhSeLD962+NBKI+08LghjudM8duTKDyXbRaL35TPLkKTtmcm2tfcS2Z9a/bYwliNI7eRH7iHxtvmB5TiV3vO7WHW03HEaumGGLF8wOY4/8aiu4SppyUpUqmSiw48arLIqRSwHD8aSavDfU6HKiCcyOIijF18y3FzJ5XPpZF15ahgOHm6o4NLZDM6Xa6zDi1IPD3JSudxgo/YmZvyO/aqqKuRfBXv/ZeptYUxbokXlxWff/kLcNXuL4VDdFU4FB3PqRiuDJpcUa3l01ChDOVrcaD8MbA0A2lryz97CbIAffFlG1qkowkOC2bMniKAg47pnTzARZ2sM/VvqraHozElO59yjdYJBzpy0vvkKpxNlwPcAACAASURBVDMeGITj+DTaYlgWVWnmlxuTD3rGKSLDYzhj84thZ2LCCQ5Ls/zSldRTQ+n5dFJOnyatsIpWW88KufsO1FL9QnafkOh5VUd7z0vuXL7I2ayL3HrZN+HakYfMW6jIUVFqN0XdKEUHNhFn+ZBLT8/DU/i47SKzxnb+KR31JbmUG4bsJbofFZN57hbyaL5l0dUQs86TFPv55ui6f5ItqwM5pVBQVGdNU1uZSXyJhqFnifisDuOydfoFQ5JSUzbBAdkWAS2PGBUd2Ihfmu0vpMnVb+VWbgl1pvaTRkbsrtXh6pNscvVHUSmLe+My+KgQpSrLZr7dbLKzsgw/6JCdZZ6DN5uszEyyLtv8SpulsqCtjMc/Su3wF9XkYFPtK9PtJzZFEpuCgCAgCMwqAjMWtI5pDDEwYC8vHYeb2lF9f48DYaylv99iQppagiL0tAgY/WKnFXXqkcY7eSP/WIVYZh0BWwvmrKucqJAgIAgIAoLA/yqB/5Cg/V+tg8hMEBAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCQtDOhlYUdRAEBAFBQBAQBAQBQeAjJiAE7Ufc+KLqgoAgIAgIAoKAICAIzAYCH0jQSnRcTSQ2/ylDFirDVGbGoqrsRrIcm8LGeB+9w5OHH3+Uw8n0cpp1k4eZyRmpvYIbT6y1mUla74qrq80lTllBu4N6jI2OvRX1Q5dL6ntI+cM+h23UfzOJqKxqeqfVgOaiSwz0DThIX6L19gUKqjut5wYrKSx8yqA5qt1/HbWFyeRW9yHpdejlc/rXlJ4tpnbALuB/9Y705g7nz16nblp10tFwv5ImA5zJMOhouFnIzXpT3x6pJDvpCvUjjsKP0tc3+vaJQQ2Nbxx0WEtIPQP9Q9Z2NRwfo/VpLW/syjZORXI48erXjANSRyMam8Yfb3jI4067CJYc5A1tWxWVdSMwXk5iaDwlLx1WAsbvkhZ5mpJ6rSm+jrqCeM6U1k3S1+yyMezoW4o59Xs2lV1/fjFoH8SzfbeS6nfcvybmoNfkEX0wmbJ3N55NNInOO7mcu9Vgc8+1OW3Z/AuvG2mA53cqaBj6c2bm4kr93fSYm8l8UL7U9Tb9QK83Xv/jlSQEhHGh7l190SaRCZvj4w4ysoR53z5siTBho5/7uQXUOLh8ZtYf9bxSBeJ7tJiGqVZbGqb1kZqs45Ekldvcdy0ln1pf0Tc/5XmPo7YdoeHFa6bQ/S0lEBuCwEwIfDBB25TkztLoGmyvscHLgSwLuc4YI9TkneOO3PlHNTy8eZOb71xLUWz/hq9+Octrm/uYbUXHSgP4ykvFG9P1NNZYx2tHNw/bSO+7PfyYRM+FuEWraWhuoa29nXbT2nI/iZ3+Sp7LT+CZLlIn+dvm8NnG4+SVqlGrbdYLkax29kL5wuamO5Vy9VeSk5BMmlKJUqkk/tBuQmPTUCrTiA3dzaF44/HEcF88tiXzaCI7bQ1xbvNw8TnF3XfoeqnjEddKSiiZbD0bxk9frCbO9HTX9XfQYmDZQvlhN37JfEnTXRUpJa0MXd3NglUnqR4BbYuGVkNn0qO5ksr5ml7uRnoQcq2H8oi1/JL1Em1nFlsW/EJ2/YdojJk25oeJr68/zepFoZSbnwaDVWQpyyz9HKmdm+mnSEw5w5kzE9b4vbh99jkeCU+wfRUaeqzi0GEVVaY3E6n5LD7OfuT16dGodrAxLIfHXR00aiY0tL6OU+t/IjA+nYyMDMt6JsQVJ5dI7tiIT31DCVlFT6gtzyDC24W5i/3Juaam5KmGmuIEgj2c+cd8N0KLWm2E7hiXdy/CL7fDcGysdA/feR5FlZVFVlYWcX7OOAer6bVDO0JLZR5xQR58O3cBrvsLaRu+xPZ/eKFqc/RwBf3L03i4RnHfUt4+cnw+xfX3Svrt0nawM9hGa6/EcNEu5nue4ZXtDc5BcPmQ9t4hXLwyrG1mFmCThJcP6+viWPHpVnI7Hdfh7ah6Gk6v5PNfL9JujqJvpe5lv4nv/9J1o31E0s4dxN/qRNK/5tbVJ/RbytNAiufnuJ96gvX2oqPhahrJShUqlZIT4UFEJsjb8qogwmMui4JLsH9vGCF3tzt7T8v3rDSObVqIh6KOsbpYln4TSoWD9xip8w45inRDP5L70ltraihrFm7k9APrm+PU+/A4r0sUJCqM91JlzHaWe4SQbLjnxnMsNALl3W7GJvSZmfRHqSOPHV/PY1PQcS6+snk2WDrICJ31NVTdVlOUqyIl7hjhQX54rfdgg8d6vHwDOHAkhlPZFdb+yfT6ymhpEAvcwkjPzCTTds04zLpPf+RYtbXVLcUTG4LAf5DABxO0rQoPVsXV0d3+mMuKOJJSzTcpJccPhxJ5+DCJ19uRpH5eP3lC3cuXvDSstRQEOeP2R4XNMeO5V/VtDBpujnoarypITLM+VJUR7sxZvo80+UGbHk/g8i9YcfTOe1tcJmMq9T8gxX8r4fl1jDFG3Y1CiktKKS21WdXlk7yZTpaq4+MDZWG4+ymprKujzuH6kiaTuWJm5dJyN+JH/PLkO38/2d4uRNx3dDM0l1PLsyRPlgReouFmLKGqOoMFzXzW7r+2jZfPNVbR31JGuIsbJx61WV4C2ts76Boy3tX1jTfIVuVwoSCPM9uXsv5YLjkZGZy/9ZjCIBfWR6SSGn+U7au+w0dZZ7DEaCuj8AxVUxHlyZ4kJccVhVS+HKG/cBcef1RjqMlQNz0OHmx2Zf2/uNNfxYWUNFSmB4IqcTuLvtpCjMr4kFDG7OFn710kV1rFpl43yVvepPXrJd/vc7wUdyhMVZChUhK9bw9HYg+xc0c4ySoVqYc24bxkPyXmN0Q5LX09Ce7Lia62fyKPl4Xg4l+ELW7d0xiWzfMhLu8mT1qN1tnRS9tx+j6QjOIKajsdPdzGKA1eyl51D88e1NCl3sv3PvGUXr/O9evXyNm7lA2KZqNAG6zjxgUlCTHHiI78GecVx3lqfo8ZvULANzsoeiuLAV48fE7b5T+ILhtAW3+Ny9X9MF5GiIs3aXVddHc3cf3UQRJuGy1WgzXFqFTZZCsTOZWcTmLwOtzDiymOcOW3rHq6u7vp7u7k6dlgdsRXGu4345pK1Gq5zMa1VPEb810PccmwX4pqjyvuf9zDKp3ebihdTQzLfojCilqiv6fXzkBgH0ui9cxaPtsQhdIgBlUoDnnhvPQAV02i+H/lutE9IXa1N6kauU/qeJG0Fa84Ixe5/yR7LmL/ddvXK5taSM0oNq7gd1OlpfYctjr7ktNiVsTmsCPk+iwk9GYvQ+Nj3Ni7CL/CYTTJHrhGV9Co0aDRaHiSe5LTZe1G661s8Ze7sOY+N2q6DBy1VcnsCTvLk2GJvuIjBJ5W87zL3Ilgqn14rDKRg9GykcAoaNOOeODkvJ1E0758PHHPUj53O0mlofGn3h/NBAz/pVby/b9jxdFy+saekLInjIsvJ7CVOqm9W8G9B9XU1L5E09ZN35NYVrmfpv4dt43p9JVR9R6+dt3vWNDO8eG8+aXcrhJiRxD4zxGYsaDtr8wlSaEkcfsi5vmEss11I/FVNSh2B5MrX0GjNwhZuITI8slu51oqIhaz/ozpwTVZXWUrh+4VJTnX0YzD2M19LPqtgBHGqU4OJuz8M7sHrG0y//73v3nx4gVarRZJknj27JnhwWQbRt4erislNV5JWdMYfeoIfg67QuvEe+vESNPd7ysjKiCG3NQoorOKKC4utq5FORwLPkyxafhxuuXS1eSRkl9FfcMrivf+yC8ZL2h4/ZAT7i6EqV/R8LKM7PQbNNtpW4m+21F4bPiDO32S/ETg/A43/BRV7+d6oKsmask6kjWTgZN4o9zM2qhisoNc2RxXzPH1y4gozOJAgJIabQ/nfd34o0YWURK9D/JQZmShOrGPTS7OrA1TkB4Xys6jOaTtcsXvpAplUhxHt63CPfLmpGWU+8Dr16/p6emZbovxr3/9y9B32trapp3Gn0WUNMl4LDEJG6mV4t+PUWgQC38W0+b8WDddA/b8xxprqO3TI+ne0NA4gL5DRVBQAR2SRMd9NZWOLIOyoF0zH59YlZ2FSxW5nvkTBK3+RRwrV8cbHpra+koetOkYLdnFl7/mObwuh54UkqZMJ2Ld13iExxCy7SA5qmCW+edS19hIY+Nrbh9bheeZJpPF0Vo/fd0p3NYY8zIcnUzQyoJpgzPekadJSkslbttivvTLpeF+FOt947iQn09+fi4Rq+fgqagzvhiZshnN286yyHvGY9oqot02EnWxkMLCi0R7fo3nsYsUFt+nSe6mw828eP6KRkO5G3lZvI9F60/z2LQvH9e09Ni9FEo9d8lJVFjF0FFP/vHtb5wyi6G0Y3jN/QqfzLpJRK2EbERYFGEqoxXPB71u7JJ1tKN7StxaH4t1XGpKw+uLXzknX2b6OhI9lnHkrt0NxpqKtppjy71RGfqejtpT7iyPqrTjZAw8wgWfRYSojrDM7SRZexbhl/eUxB07SSyQ28S4KrZ/xSc+uTTZdn1tLcme3+CV9pKhIn/m+uTQg0RXo4YJlwhT6cN6zUW2z1tJ7I1yCvPyyMu7StXVMJzXxlNxvYA8+diViyREnuJybY+xDWfQH2GUGsUveIQUoTG9X+oa89jtto79qvu02yLWN/O4us3Sn3W1J+0Ere51KeevN5nOT/8eO3o1kC9dD0wiaL1QdQ4wMAV3E2vHEFuCwPQIzFjQGrM13lxlC63xJVBHTawn/gU99BZHEnK+kc7yBGLyNZa3Z2txZUG7iOVR9+i2NwRZg1i2dDyNWcrXwdfoMQva7gICVgWQ99r6pm0Jbtq4ePEiKSkpeHp6cvz4ce7du8dPP/3ERGGiHx83lm/oHlHLFrIzr8nhw6S/4hShCSYrxMTM3mdf34w6WcHNNyOog5zxUb2k4UYS4b/nU61poul1Hv5z16Iwqenplkt7Owznn8LJK7nMqS2L8I4rpuSKioBFS9mfW0LJxVCWztnCWRvB1F8Zz9bNRyh7IzF2LQb/mBIauiuJ91rAgnUhJBU9pHnY9okB0pubZKluoZEtZH8qaKE7YxPLg1UkbluCx9EsDq11I1Cp5sU9JSkFSrZ7xVNra03Qv0a1O4CDu1bjFRpFxMkS6ptz2OGfQ5ckW/mWE1I2efv/85//ZPfu3Vy5csXQ/i4uLvY+ee/RZk+fPsXf39/gKrNhwwaqq6vfI9b7BJF4c+esYQhWHrZTJe6wWmhVChJOxnFGXc+4zGP0FbfyLiL358nXc8T5zOVvGxQ8tzXemP2Ox9QEL1pHRKqClDTjsG+EuxM/HHto56ZgKLnBQvs9oSUvTKMpxpGT2vP+LJ4oaF/Fs/JbP+JVGcRsmctXgSW0XQ3km62Z1Dc18f/bOxO3KI61b/9PZE9MggmRqNFooqJElIgYFVEUFwQxiCiCKCI4sujAyAiyI4siKCiIioo6bqgBBBRlkfUF5sy8fb77u6pnYQYwEfXk5NXq6+preqmqrrqrpvtXTz9V/fjxYxqrE/Bfn8oduyXVaqE9a8nocEUw3y/ZbXc50KybjofGdk8ZZfmngrb3KqfONVoFxFN0yxeScM/SOXqiW84ybSOXYjaQcMumAAbJ93dn+3nn9uMoaIcuxrLVPxr9QzPC5eOYrwcH1A7XaJ4ct4xXdjPTV0+n48GBu9TdEFJq4mWoNJCv1hWNin/jRXa4zSPe0eVI9TPOJSIogcy8PHSbv+fT5XHk5OWRlxXPloD9XHDsmLzh/2binI45OkbQYm7iTGYF6i3FeINYj8VoVP5j4ondgSLWT/Hh2BMFpbVYvS9tyzhFqT6GSP0tB99gq6DNjGGubzplIdPwi00ioaiJ6pQosgzi7YWZ+wd+ZO5BW3sx01JfS8MLMz3VKRyuaKdN58PMXZfsQm9sjsyTaMM3ruUSk1TFk/YG6q5c4UrdDRoqwnD1PMwNQx1Xrlyh7kYjLxyfacrrtsc+buo24btVz5U/RGfPsjbWpRMWGEzgoil8Mt2bTXvSqRVvWEaqCHWbR+gxi6vF8QQ/3KatRXPcsp+2wwOXH6K5av8fCnyvfo8delBFfn4BuYdC2bg3nXxV0AtRb13zkgjbHEVCyFy+Wpoy+iZlLHC5Lwm8ZQJvWdDeo6UsiZhkHfr0BH4P3EaMJhmtPp0jCfvZn1g6gQ+aRdAuCE/jwKaV+P2eQsWjl7+rMN04SljKdfpUQVuAISuBEw0jMHiLlE2hFEwwqEL4T1VWVrJw4ULVyiYYenh4cPPmzQlw9lIbOZvPfdO5XK7jaEYWWVmWVb/DE9dlkRxLSyFZW4TB7pM3QTJ/dmjwGe3C0UxpJvmXucTeNqnbRz2/YFPZEAyVEPDNRk51NnBLDHpRl8nny3g5guk+6XQwSHHgL8SKh7DxIuGzN1A8KISojl/dd2IxoBhpLo8ndFcGt6zG9KGSQL7yz7e8KjW2UHnIn+kuX/Jr7CmnQUvCqviLeyiVwiFRCNpZ89h74Q537xo4HbWKLbmNTh2Z7qo0jup24/nxpywK05KoLUF9c2a6zcGfXPBKvM1ox76Pa9oIEqraqIlYxLbyBxTsiuFocgyB+0/QYu4l198LTYOjAnaGv3XrVtLS0tSDV69eVeveMURqaipDQ453d8ezqFZdNzc31aovLL3r16+ntbVVDSSEreggvdYy0ECV1bpkszIV6YOYOdXfyfKUvc+HWb6p3B4a5Gljo+qD/NhwkzutT3lyR8OiKRspan5C65NRX+/29i4GzGBuOc8JnY59K2bgqbnJ8PB5Qmd4sedEDjk5Ys1i79IprFHdUcaUQrXQTiPwWIX9dbp4rX4mcSXfjRW0jzQsWpxCs2LiRsxslmqfMFgehJv3fopKswid/RV+ycWUllZww+7WMEz51hmsiMlAn1uJ4Vwa8aWP7W2l9+5l6u9VU36lixf1uSRp9aqvnj5hDW7frUVjdcs4rtuBx8fzCdMdJ21fEKsCDlIp/PUnEBDeCZkkJGRQWmYbfNhH9uoZRIyxItoFrdJOaeIxrl1JIqG0F0bOEzZ3C6XqLUqhszabFN1xZwt2jA9fzg5Ca/fdPE5y6GLc54c7u3TYcSu0HPFiVnT9aAd6pJIQV18yXtgDWTY60vl15m4udfbQ0zO6djccZuHUYM7Z70lv/r8Zc+WJd8cKWsdQI1XsmOlPlrMTtD2E6WYsC7wC0eQ0YBowUHbqGi1PrpLg+Q2/xlUz6hJtEbTbs2LxWJ3JmZDv8E400Dlcy47pC0m8LzojJgwxPzBP02TvNJj+OM7qGYs5dE10mIxci/4RH52jD7c9K+qG+TXasKn1GhVnznCmvIob57WEHjzDzdoKzpw5Q3n1bRqqMsi9Zb2Hv057HGnkzOFdxBXd4W51EcWnTpEb9hMfLd1H8enTnD5Tzb2OFqqPxHCkxjoAe6SG8Bn+2P7SYy20QxXBuAWIt5u2ZZJtZeQFz56/oKNGy+44HSesz0fbczLrRAo7g/ZQdL+bnt7B0TZtu5z8lQT+QwTeXNAOtHCtVEfkks/5wmc/uZda1AEA5gcaPOfHYPe5V9ppaJhoxgMHlwPlOdUxHrh8tJZCxzfDw/cpTklGZx2YkrZzCW6un+PygxdbtidZBqukJhF/IA7t2dEHoiOzvXv3kpKSoh7q7u7mq6++Ul0QHMOIXn5LUTj+i77HNUQMZnNeXmT68skGZ99B5xCvtjdwq4Dk5FR02nAWfTyX4KPWAVox0cSJAQYpm/nhEy9Cg5cw89eDXOl/vXzZBa3pPgk+S9iwJ5WrzXp8f1iDtvopJrugVei4XkR+lfPI1OHTm/lmfZHDgA4w9vY67YsSq6/J5x1A6HKLoJ3DjqJqqqvFepHaW60OcRS661LZsTuDnB3z2JBTy9Hgg5x9VE16TCRJpec4HjSXzz52xy+xlls1eZTUd6P0VxG7IZ7qPlCMTdTfbONmcjwnOwzE+YRQPrayrFUhXAw+/PBDnj9/rh4RbSAqKsqpooQrghCqL1sOHz6Mn5/fhKeFT+XAwMs7YBNGsh/so/VhM+0dHXR0dPDMkM7KL7/E3V9D/TNx7Dl3K0qpfdxBV1cvQzbznvKMrN8+YuaeS/S161jydQiVPQZy41KobHU0CdkuNEjR+u8IqhgSvjpsn7uZ0hcDar4HBl5QHuxm9a+2hbf+qoL2W1bHZ9o7deKhlRHtzbcTCFqPWUGk5+ei8ZuKZ0ozA2WbmL39PMPKU1K9ZxB51WYVBeXFPcqOhrHE9TN8U89TeizVbpnV79vE2ogUVSSmxW5nU2Q+DxyKZbq1j7neqaOC56UuB0/R+UxjVWyq2qHRrJ+F1+6zGHoHqQ7/maXJBozKc9J9x/sJ2wTtcHsdl4Rg6i0hJq6WQUMcv6zUj17bimqgb3RWB2cLrZH2lqcTvEZ3ZD1Exdbv8M93cMsaLGLdF+soGlUdlggdOn6dvZebDjzECaX1KIun76ZORWymrfbN/jeOufvT7QkEbd8DA8ImoTzPxG/Obi46G7+tySm06HxZmmigNvkgp6yjwF6cCWbWMi3CGD66CB/a7wg9sQ/vTUWUh0zDv2iIkbooVkeepOx0Pf2YqI/8nl+0lgGGlrgmDEeDiFVHWHaR5fcju+0dF4XO6nSOXx4dFigE7Su3YVMjp49o0NpcRHTxrJ0xA/846wAx6/GUQ7EczLpmMQoIQTup9qjQfu08NzocYSg8PebDFxtLrfdUE01luVS1224OwKQE7eu3lZFzwbj6HqNF3L8eHeXX6TuobO+g4+kZQtyWoG11zPdobcotSeA/ReANBa2ZBzo/FgamcHLvIubHnCQ7KQWdXkfcSndmbTpMenoy+yOiiY9ew5wFYRNYKBwErSil8pRzR/RcHh0D41x2UwNHfl1AhGYz7v4p6KKTuP4KekJYZ22viU+cOEFISIjqUymEhGVReFGXgSb7Js9z/Zm2/fy4h9DbErS2Apn/OMwiDw0PzAptJbvZtL+CNmFVa0xk0aLD1hkeXj9fNkH7rCWdkF0VXDngS2DIWvyOXOSIrwdxlVoHC60tV6O/Ewna0bOjW+ME7Z/40A48vMDJggquGAycSthJ0lkDty8WclRbQM2tu9y9e4OiiDWE6i/Q0GOktSoDrT4DbfgvuAvruP4ga372I7PJzGDFLoKTElgTkO38enc0a6rP67fffms/smrVKnU2iYsXL6oiVlhShHXUtghL7VhrbVhYGBqNxhZEjfevf/0L4YYgZhowmcaoC3vIV98wt51hx7zZbMi6z8P0aFLuD9JUHMr86YvZcbLJbrUUKRpvxjJ35k4u9lus7ELQVg2D8qSIzR6/kXLNQRipWXAWtKEzPNl5zDZo8xi7F3+BX/5Y5SReQ4pBYXPYe21Q7fwJH3Sx9ldYBoUNtFeSUXhXfbCa7hxgvhB6PZ1civEmIKeNjowVLIi7i3mcoFVoOxnG2qiT6DbOJkR1OTByPWkzEcXN9GT74RF3GxNGHtVeHjcN2dCZIL7fdHq0k/Rngnacy4HFV783eyUuy9J5Ymoi2ctznIXfImgv0df5iPpaA09Mz8nbFUlSxEJWHx9r5RviTPBsAvKeqNZBZ0HbxfHlX7O++OXuBhgvs+uHpWgdnD+Vdh3e34QyxhMCpTkJjym+7FdnCbDVoR59YgDTpoZx0Spo3/R/88ot11HQGls4r0tAe7ZJvXf2nQlh9oYCxhqZ1bTNzehWrSS1yYz5kY6tYSW0Pi8n9GcvDt0cq4BfoPd2ZduRnfjuquFs8NesyGnjVNQeTnWZeJQYwLYz7dRsd8Unsx8GblGQfNTeQVJnOEjbwSJXT8J1thkPdBz4fQOBEbn2ztLk2rAQjnUkBkdYBoElBTLT3Z8Eu8DVoY1aiWdgDo9st4cJLLTLrIMe/6w99tcXkJKabp0JQk/yplm4LAyzDgZMYe+2zezKdfC1Hqlhx/RXtdCaX/seKwTtV3OC0YkBrdotzJriQ4x4a5IejfcXvmSO9hWszWkQQ9ZOtuzM5vYEt5tXbnMyoCTwEgJvKGhtqY7xoe0pZZNHODVDYKzbzcx5Cc4+kbZo6q+R2p3ufz0oTA3bS+3exXgduEp3pWVQWEd1JIuX7aOi+SUmOuGqNTDAF198YRce27Zto7i4mNjYWLsLgkh+ZHhYfSAN5k1W0Co0l+wlJK5inOXGqahjdgZKA3HfUm55MItX9T94cPiRGSFEZ/rl0vHorjo/6OvmSxW0yw5TnJJERbuC0lHJ3uAk6geNXD/oR0RBCt52l4MxmQP+E4JWXEXpuEFFaQ7JcUcpqKjkXG4w02dsI+9cJZXnisgvqOCCoX1UxIkpxFYGUdRhpqcyjF+CyyxTOfVVEOz2JRsKJ7L8W8rT29vLjz/+qAqxqqoqvv76a27duoVwMxB+naKTExwcbC98QEAAS5Ysse+LDTGd2pYtW/j3v/+tWnrj4uLUuDU1Naxdu5bhYVvbUMfSAwAAIABJREFUe7120HdLzxbPb/nIPVK1sCmtmWxcuIqd6bW0jRo1LXlSmjm+2oPw85anhXAbsQlaEaDrbDCuLp4kG2x5EkcdBW0l237wQ3fdgMEg1noy/KewIsv+rpqeawVo1dfoqcT+HsqeRB3Hra/PxfRKx5P2sG23hqP7QwnckkBlh8Jw5e8s3lXr4J84SMXW2QSVD6md1LEWWkthHHxoR64QOXc5x1rM9GWvxt0vAX1GMlFbQ9Fdc+yxGrka9TO/ZThY4oZOsfGbCWY5+BMBoTy/w01xzzDVEyOuq1q4jDyuzUUbt5sgn3ks8A/nUEY5hmcWgdVTupmvXIMoG/egHqEieCp+eZantLOg7SN71TTCqseKNAsBMfDx2ckAZq7Nd5hGSWQrmlk/Wd962IKKPsbDDMIiS3k61vg1eJuKyocO/EXP53X+N5Nsw1ZBm3TuBBEBwWivWee0Njag9Z3N8tjTNExgnOi9sIuVu6uts9IMUX/wV2a5/4h/lrN7klp0pZ2CyF1kJfnxm66NeyePUnzuIPOnzGdTpIZjuz35YkMRJ9d/qVpuHXBZN03cS/Jimk80GWUGOmwCc0zASbfhkTp2unmh64TB3BV8FniG4cEcVriGcH4YBgtWMyWgZHRquEm3x9EMinv3Ec0pGkccLbTDXDoUxN6yZufX+iPnCBHT8llFo+muZZaDhwPN1JacJHePJ184uRy8XlsZLFqHy5yQiQXtFDEozMFqLO5C2fNxWVnCzZIVfLgwz8HlYbSccksSeBMC/xFBO3zzODvC96lWrVCPWYSeG2sxcszyCDU7puE1wWhmx1AonVw86MfKGMucnMOVIUyzznLQVBTK7I8+Y+6qUGL1NYyd9aWvr08VsLb0hJDRarXqa17bMcff/pzVfDcpC62J5lN78HSZQ9xLR/c7XkFsD3Ix3A3XlXGk26bdSRHWbT3a4B/5zCuciDWeBOju2B9Sk82X8dJOpv0cyaWnZpTOGxSmZXOlc/Qmo1qB/kTQioEqrgHOLgdjSyH2/9JC2/+Y5jE3N4yX2DljGbo2BfGqb76bP5p0PboDgfyyKslpXlylq56iI3FEhfgzz92H1EbL07y/XsPKmVP5fkUSdRNO8G3J7cOHD9VXzsJnWog4MZ2OsDSKRfjWXrhwwd6xEWGF9X7sIsSrGFhYWFiIGGQmFuHGIDpHo5O+T7IdKF1cz4olMr4QQ4OWpT9YBK1oG9fjvfhxdSLVrY6K1kxzVjCBWoPdOjlW0KJ0ULTuY1zDHMVlJ1krp1r9s0+x0e03kqtsLiFVpKz6ltU5TkOY7MXvu3kUX9dZhFd1o2CkqUJD8JoAdukvO3wMxMy9hNX8fm7U7GJuTGfV0ljqha5WHpPyi7PLgeUCNkE7SHv+JpaHJXAo7RLNWTYLrT0b9g2lJZcAr11UO4qkwUL8vwgYP22X0kaaj/OgsKXJztZuhssJcgvgpJp1M4+LYokSAxS7nVWP0lFL/G9eLPOag0doJvWdjopyhHMvFbT95Pi9XNCamnIJ8FhPnsPATFHYvnw/PlqRNSqGVAI9VJwsp1sZ4nJaIhXPFczNJ4nTnOe5Yqa5aDehibX2OVxf738zyTbcV0HoNBemLIqgtNnaVoceUhjqhc+Bizx/dIJAT3+O2H3PQOk8x96gBC5ZHwvmjlqS1nrh4/Mz073C0Nc029u3veLpJH/DCvYX6YlLqaTVZMZkst7Lhjto7+rg2FJXQmvGdhwUnp3bxaJ5YZQ/M/LsUiohvr4Eac7w0LGfxGu0YdNVdk0bL2h9vw62Clo/XIMcXNcm3R5HSw8j1EXPZf6Beh5bXQ4GOk6yxSuUoqYxZR4sJPCHHVRZD5tu7mPuosOqG4fSXUPED5+yzDolou0Kk2srZtrv1lJTpCMlt5JLly5x6exePNwCybx4iUuXKinRRxEUUUyLw9+kN2EG32jaMT85yHc/HnEY9GfLhfyVBN6MwJsL2r4mbtUbqIiYzQLNI7tVzfz8MinrFrM6NIjF309nyfYMxBSQ45cRzoW44pk80QwIltBK53XyNQdIrWyx90SHK7bg6jc6JdBIy3mSQrajMzjdpcZf7hWOvMhcgVtopdXlwMTja5VUX77C2ej5fBZ4apxvrZqk0s7Z1FwMjvrjr65l7KTDNgu56RmPGtro6Wsia7UrK9V5b5wTmGy+hs+H8s0yMShMLA5CttNAmW4vW31n4PJDzDh/PNtVhwrX8unawgkeLpYQQw/OkiHEeOJ6Zrj5ES9eN+lj+e3r71mfaBnAc/y4jhjfKbh4JKgfTLCljbGOXXPXUzQk3mxr8FiUSJP95tdPnV5LhX3wkJG26iOEbtmLLnkzaw5e4n7pAYJCtdR1tXI6bBYun89j4+GqSU+ztm7dOnXAkxhgIxZhhXV0L7Dnd4IN4U9aUlLC2bNnR8++cjtQ6Llby7VWy1NHeZzC4qkr2BO7m8iETKqbnlCbuJJvXL5kwdqdHM66iKEuh8NZ9RarlvKc6wUawv1n88G3O7ns0O7MzReoNFjEpbm5lPBFPxOoP09ZejwHkw4Rn1RAlerfXM35ygpKCnLIztSRfCSfq/YvgPVzLz+MxT/5srekwemrP6bWM4TPdeHb7ecseemvIW6H3j7PpbG5lJigPRQ3WUWh+SGH5rs7zX2stF+lQJfI1nnuhJ4sZfdm8ebATFtFJMu+cWGKdzT6ogqqqsQE8UVcearQdyePPUF7KHw45gHeewJfF3+rKB2tCjFtlMZjGn4HLR+GSAr8GZ80cZ9R6L5VhPawBk2kD1NnxzjM/+oQX2yaOriRt4/NAWGkX+1CGb5P9qaZuHz0PT5hWmpUH6EmtEtcmBtqmchfH+PL13Nsg8KOsW2u64SzcPQbMvl9fQQFtvIYm6nNS2FPkD+LXF3wOGwbsS8yYqalOIh5QafU/2O3fhmu284zRBcZyz/Fr6AbMcPAEU8X5mlsH7h5zf/NK7dhMeiwlIgtCdSKj3aYX3C7OJ6glWuJzL9jFSxmHh7xxnVTieU+0mcgT6PnovCZ7W+kSreHoKAosoSfPP00FO9lhbsLH7h5EBBbahedvRdj2LC/ln4xTeOeGbjtumS5Pw8+olJ/mPi4UOa7eJDiaM0YauKsZiO+Gw5xwdGk3XcD7W9f4TJ7N1U2f4jXaMPC5SBcWGg7YDDLhw/Xn2aoP4NfP/FHV13J6T0/8UVQ5ejz4g3bo8mQy7HKdp4IQRt4kmv6A2Q1iD9+L3WaIKIrnlnv8grK6O1efUs6Y0EC99X7q0JvZ5fdSDLa2ifXVgYa67l0vV59wyXectXXxOL53RZyr40eu152lEMnH9mf2Rhvc8TfAw/PQNL/ZBDvaJ7kliQwOQJvLmgZounUdma4zCW2+hH15TmkavaxK1JD8V1LF1zpvESC15eszJ7IUjtCrWYTcaoFaKLMK3Q9fjxuzsChknV87lfg9KCdKPbkjym0ar35fmeN3YdWGXzKzZM7mOviyvrciYS3QveDOzx+Iy1t4kVDJZpln+LiETeBD/Hk82W8nMT21PrRG6ojDOUphZFbSaqx3QQdT1q2u3M2siCqeuL4IohpgH77SKXx8Sc6Ymo8Q1qKDr0+hZjwKNUqq9fGsXNnHKlWS7U+XUNkcBBR+Q8YaKnjVPYxMk7fVueYHWispfhEOjnVzaOvrJQurmalcqrRQdVNdPEJjok5iYVV1rYI31oxSOxVFuHOINwYhAi2LK/bDhRa9T58+t1qEs46W6f6G05zKDiYQ1Vt9FldYkbzZsKgCyOqtGn0oTF60rJlvEfhiQvYDPN9DyrJOBRNeGgwW7cGERRkWbduDSbihEF90CndBkqOxnM46zJtY7SjLXlzy2kOp19lCBOPynKpVl/ZK3TeKOV49gWcPIBMBmIXe3PEaS42eHEhEm/fKI7qcp0s7CNPrlGcFkv4Fn98vbwIzW+m485ZissNdNk7PbaciG+FVJIYXcCDseeUNi7kliEmQRGLMjjo1JYH6uNZNi8QbZ0QU87L4KMaTmYdI+VwClkX/rB+4MUaRumkTh9PxnWbm8YAd4rzqJ3wLcEgRb+v4qg6YtIa3/SUusI0jmRW42SAV0+bac6NIDjxAk8cy9NfyhZ3D/ZbP9tnvKpjX54QvGYeFSaRe190HsRAq5V47L9G72v/bybfhpUuA+U5xzhy+DBpRddoc/R2EbnqvUf9fcFKoethA0+7HnDxVD4nMvK58OCF3Qhir4GRVmqz9JRbrdY9t0vQ6s/beZgf5aPJdRD7piZ0vm54RFWq1mmlt4ELhRkcTdRScPUlA/J6r3DwV18S71o6Xa/Vhocr2DZzA6IvMXI1k6Tyx5iHDZQV36Kj7Ty7F84itPTpaNt6jfbYd6MInT6DzMzM0TUjQ3UByswYPZZx/DgZpxy+0maHKdz+NARGVzD2JZktyMgk28qA6Aym2QwW1q+EpR8iMjyWow5fDDsaG07wjjSHL/TZrih/JYH/DIG3IGhFxowMDBhR+tpp7RpzN7Pl22zE6HiDth1/3d+BLrpePtPS66aqxjP3dNEzLq9GenreSLG+Up7MvS/oHXdtS9T/Zr5eKfMy0OsTGHnOM/Ehi3d0cbQYvaNFfPViKYMMvqSj8OqJvD8hxcdw/gnLPyQb/wQUMg+SwD+SwFsStP/IsslMSQKSgCQgCUgCkoAkIAm8BwSkoH0PKlkWURKQBCQBSUASkAQkgXeZgBS073LtyrJJApKAJCAJSAKSgCTwHhCQgvY9qGRZRElAEpAEJAFJQBKQBN5lAlLQvsu1K8smCUgCkoAkIAlIApLAe0BACtr3oJJlESUBSUASkAQkAUlAEniXCUhB+y7XriybJCAJSAKSgCQgCUgC7wEBKWjfg0qWRZQEJAFJQBKQBCQBSeBdJiAF7btcu7JskoAkIAlIApKAJCAJvAcEpKB9DypZFlESkAQkAUlAEpAEJIF3mYAUtO9y7cqySQKSgCQgCUgCkoAk8B4QkIL2PahkWURJQBKQBCQBSUASkATeZQJS0L7LtSvLJglIApKAJCAJSAKSwHtAQAra96CSZRElAUlAEpAEJAFJQBJ4lwlIQfsu164smyQgCUgCkoAkIAlIAu8BASlo34NKlkWUBCQBSUASkAQkAUngXSYgBe27XLuybJKAJCAJSAKSgCQgCbwHBKSgfQ8qWRZREpAEJAFJQBKQBCSBd5mAFLTvcu3KskkCkoAkIAlIApKAJPAeEJCCFvh//+//YTabnap7eHgYo9HodOyvdnJzc7l586aa3l+FFdf83//9378K9pfnnz59Oul8/mWiMoAkIAlIApKAJCAJSAL/hwhIQQu0tbXxwQcfkJmZaa+61atXq8f+/e9/24/91cb06dPVOGfOnPmroDQ2Nqphk5OT7WG3bdvGp59+Sm9vr/3YX2189tlnajp3794lMjISkW9RHrlIApKAJCAJSAKSgCTwvhB4C4JWobNOT/jK+Xw/1ZXvfl5FdOkfjIwjaOZZrZaQX3/Ebeo05q2OpujB8LhQlgOvmuZLok/y8PPnz1VRWFxcbI/5ySefqMd6enrsx/5qIz4+Xo3T3Nz8V0HV80JEr1q1yh52xowZavyurq5XFrUPHz5U41y+fBmRf5GmWOUiCUgCkoAkIAlIApLA+0LgjQXtkCGb+KQ8KmuryIpYzNcfuvDBVwHkPlecGJof6gnw9CFg/W/85PohH7h8wGeL4qkfr3x51TSdLvAGO+fOnVNFYHp6Onv37kVYO4Uo3LJli/or9l+2OLolFBQUqOH/53/+Rw3u4+NDaWnpy6KqYU+fPq2eF8LZJkZtv/fu3XtpXNsJ4bogwovr9PX1qesff/xhOy1/JQFJQBKQBCQBSUASeOcJvLGgHenvx+5pOnia4Kkf8OG0YE51O7Iz03yulLoXFpE7cC2WhZ98gMsnPmgbnX1XRaxXS9Mx/dffXrJkiZOQFCJUCER/f3+ePHnCnDlz1H3hDuAoXsUVTSaTek6v16sZEKJSxFUUSznd3d3VfSE0xy7ClUGE9fT0ZOfOnSxYsEDdz8vLU3/FOZswHhvXti98cC9evGgPL+Ls3r3bdlr+SgKSgCQgCUgCkoAk8F4QeGNB60iprzaa+dN80Vzpwtk+6xgKGK5gu9uHfOgWQln/mHNjdl85zTHxXnVXDAYTQlCsx48fZ+nSpfZ9cezbb79l3bp19mPCFcHRr1b4zXp7e6uXs73yr6ysVEWqiC/COy51dXX2tGzXdfx1c3NTz7948cIxmtO2uJ5jHNu2cD+QiyQgCUgCkoAkIAlIAu8bgbcjaM2tVCZsYJ5wJfjgY6atTObaeKOkna25WYfvp5/wU3Qtg/ajYzYmmeaY2K+8W1JSYheHX3/9tbpdW1uLsNS2t7fT3d2tHhP+sVVVVeoxW+INDQ32uDZRaftdvHixek5Ydh0XYdUVotYmklNTUykqKqKjo4O0tDR7emOtwY5p3LlzB2HJvX37tjo7g7Aki+uKmRnkIglIApKAJCAJSAKSwPtG4O0IWkFtsJGyvUtx/dAFlw8+w0f7B+OdCURAI3cSl/C1RzTVVheEl0J/5TRfmsJfnrAJUNuvzcXAtm8TueLV/tilpqZGFZKzZs0iPz+fw4cPq/u2cIcOHWKiQWVDQ0N24SquI9wOHj16pB6zuTyI48IdQojrsUJViOLz58/z888/q3H279+v/grXBblIApKAJCAJSAKSgCTwvhF4e4JWkDM/ItX3Cz5w+YjZe2onmOkARu6nserndWTcf0Vr4iuk+SaVduzYMV5mad20aZNdeJaVlU14GTFwrKWlRT0nBpUJIWpbhMAUVtSxy6JFi+zpivNi6i4Rb/v27eoctmLaLZuQFsfFKgSvbRED12zHRR7/9a9/Ifx4xbGx8+na4shfSUASkAQkAUlAEpAE3lUCbyxoR57e595Tmzg1cSt+IZ988AWrjrda/GgdnWn76oj38yfpqnWe1aE7nK1qHLXkWsP+ZZpvqTbEvK226bmEGExKSrIPzhL7oaGhduEoXAMmWsTAL2EpFUtKSooaXmwLYSnmlBXpOC62MLapwpYvX26/hgjruIqBYgMDA47RnbZF2H379jF16lSE4Bb7mzdvtocRlmC5SAKSgCQgCUgCkoAk8K4TeDNBqzwnZ+0UPnZfiab6CcahBnSrXPl0TgSV3SbaS7cx63NXlibWYzS3Uhw8myluc/Dw8FDXn753Z1ORELfKaFhNORkvTdNRHb951YhpsZYtW4ZtLlebyLS9yhdiUeRVCMVdu3aNu6BtpoIvvvgC4SvrKEYdt20RBwcH1TCdnZ2qJVaEuX//vjrITGxHRUWpMylUVFSo4cSXxxwXcT3x8QdxrS+//NJ+PWEZFgJap9Opx0R8sYg0xbRecpEEJAFJQBKQBCQBSeBdJvBmgpZh6hO9mfrRB7h88Amff/ElM3wiKXogLINmGo+tYIrLR8wIL6UmaZnFv9bFBRfb+okXSfdNY8Kepvqlaf5nqqKpqUkVf8IaKkSgVqtVfwsLC7HNLbthw4ZxF4+Li1PDiThiFR9JEOGfPXumCskVK1aox8dFBPXDCSKObY5bYen96quv2LFjhz1NIYAdFzEd2IcfioF3HzB79mzVVcLxvBCvNh/gEydOqOEcZ2RwDCu3JQFJQBKQBCQBSUASeFcIvKGgFRjM9LXepf7aDe619o26D4hTSh+P7z6kwz5R7Z9gcwr7J2n+SRKve8o2S4AQfyEhIfYBWsJia7O8CqE6dhHnhWgVvxMtOTk5BAYGTnRKneNWCNOnT5+q54ODg1UBKqzDQUFBiFkVJprpQIjWsYPEHC8g/Gk//vhjuyj+s+m/HOPJbUlAEpAEJAFJQBKQBP6vEngLgvb/atGd8z1WJNo+hiBErhCXb9vSKYSpGNxlW4QQHZsH27nJ/gpLbkxMjCpqxXRgcpEEJAFJQBKQBCQBSeBdJiAF7btcu7JskoAkIAlIApKAJCAJvAcEpKB9DypZFlESkAQkAUlAEpAEJIF3mYAUtO9y7cqySQKSgCQgCUgCkoAk8B4QkIL2PahkWURJQBKQBCQBSUASkATeZQJS0L7LtSvLJglIApKAJCAJSAKSwHtAQAra96CSZRElAUlAEpAEJAFJQBJ4lwlIQfsu164smyQgCUgCkoAkIAlIAu8BASlo34NKlkWUBCQBSUASkAQkAUngXSYgBe27XLuybJKAJCAJSAKSgCQgCbwHBKSgfQ8qWRZREpAEJAFJQBKQBCSBd5mAFLTvcu3KskkCkoAkIAlIApKAJPAeEJCC9j2oZFlESUASkAQkAUlAEpAE3mUCUtC+y7UryyYJSAKSgCQgCUgCksB7QEAK2vegkmURJQFJQBKQBCQBSUASeJcJSEH7LteuLJskIAlIApKAJCAJSALvAQEpaN+DSpZFlAQkAUlAEpAEJAFJ4F0mIAXtu1y7smySgCQgCUgCkoAkIAm8BwSkoP0HV3JjYyM3btz4B+dQZk0SkAQkAUlAEpAEJIH/PoG3JGjNPKg6g6HXsUD91OVnUN064nhwwm3laR0VtY8ZmvDsmx1UntZSdav/zRL5D8buOZ9MdEY93cr4iyQkJLBmzRrrCYW2mjxO1j/HHrSvjqKi2/SNjwqYuFeUQm79CxSzCbMIY/6D8hOl3HOqpwkjv9ZB5dlFck6co+G10jfReKWOx2pGnS+vdD+m+YW91KMn+wzUXH1mKdvo0dEtcyslcdGcuN41ymz07KS2TM2XudxkerU4Si93L9bS2O+Y5xFqU8LRVPyB+Eco7U00O1TcSON1bj6foPAOVzQ+uUZdwyCMVJMUpqHswaDDWevmyCXSIg9T9shoPWCi4aSGo+UNL2kn45Mwt5ZyaF8mdR2O+R8fznbEeFVDwGYd9QO2I3/+a24uIGZnCpUTVfaEURWeX8wl+0Ijf/1P/vvb/YRZlgclAUlAEpAE/lYCb0fQKo9JWuDG7zWjSsZkiGPO59MI0N5nvAxQUByelSZDLHM++xXt3b8Wv5OiM3CTJO9peMRU0NjSypOnT3lqXVuvJLMhUMfbvuSk8mc0kODhyoyVh7g0wZNaCNpVy3+lVc1zK9W7PVh9/AGPL+k5UtZG/5nNfLMgnvpBMLY206aCNtN8OpUcQzeXIr0IPdtFdcQvrM54gPF5Biu+WU3mo7fM2Vpo86PDLHQPo9ombPqukaGr5JmtrpWnnD92iKQjRzl6dMyqCcHj08/wSrzF8BiIxut7+WlBKLqMDDIc1uP7fPnK/XcqX4yJoO4qPD+1le9nBVPy2NYCFV7cquVGly1DMHiniKNHj6HX6ydetclokg6zfeGnfOxxgDpb2Yw3SN6wHs2F5yjmP7hw5hY9tmTNjRzx/gzPQ7ccOmnDnNrsjn9uuyquh8u3Mt07Cr21PAn+brgFV9A9riiDtNYVkBDkxXdTvmHe9iKeDBQT8LkP+ie2C45GMj84jNe8aK7YxfILslZ+yLx9dfSMBpt4q+8Jbd0KAyUbmep9lIc2bBOHth81Xt7FDJ/00Xo2m1/eyRD9qoYEfv5wFbnPx+ffnqjThpnGw/P5bE0+T21RzG00POhx6Kj899q9U1bljiQgCUgCksB/hcAbC9rhxlpKC6JY6OZPasEBAjcd58HIH+h8FxBR3U5dgj8BmhqeOj4cTfUcWLqIPecsljPT3Tjmzd3PLTWMibsab+aGl+OgOyYNR+m5ypHAVYQXNjDMMA1VRZSWlVNe7rBWVHP3TS4y6Vw5RjByJ9mb2VuKaTwfR5i+QbXcOYYQgnb1krlk6rPIO1nA0YAfWbI3l6z0dHIu3KQoaAZLIlJJ1UQRsGA6K3UNqpAw1kXjHVZBbbQ3W5N1HNAWUfdgkJ6ijXjtr0e13fV30jWBgc/x+n+53XONvCNp6I8f5/jx4+iTAnD/agWxesu+LnYrv/luJKVuVK2bTX9uhZzomqYb+/lpXvB4QXtwNdN8j9M5QSTjo0wCPFcSdSSDEydOqGtmUgg/f+zC7LAy2m3CSDHxZ1kazFmBi38R41CZbhG30JfUZlEeE/eTV+GTUGexgpofkeLtzvZzjtJ8mPLgHwmp6OLOVQMdFSHMXKmh/Nw5zp07S1bIjyzVtowKtL4GqvJ0JMbuJSbyN9x+PsBtWz9k6DSbvl1PidMrjV7uX7/Lk1P7iansxfjoLKfqe2CkktAZvqQ1dNDZ+Zhzh3aSWGOx8vcZStHrM8nUJXEo5RhJwYvxDC+lNGIeazMe0dnZSWfnc26fCGa9xlo2YKS5jooKkW/LWq5dy9R5uyhW98vRb52H5/7LjHZvnStI7cD+EE29/Z6g0NPVPUHH1xZPoe3oL3y6NBqdteOh3eWD24+/c8ZBFP9t7d6WLfkrCUgCkoAk8I8h8MaCFtMgT7P8WHzwvtUqM8K91E1sybAItJ6aJLat8+Br14Wsj87DICxcplvsnzuXWIPliWa6F898u6A180CzkJmRdRbh9RqoBhrKSdXoqHw8zIuKCH7bcZo2m4B5jfTefhSFFzXReC3dz0XxKt3cTM56D/y115xcDywuB3480y3nl+hSMoPmsTyhlANL5hBRlMHvm3QYjF3k+HmwX2Wp0H21AF16BvqD21g2w41fdmg5lhDGhqgs0jbOwz9ejy45gah1C/CMPO90vTctp9Kcgtdsq1BR2ijdt5ciVfBNIuXhTjp6nSvLdGMfP/um8qi9nXaHtfXCbuYuS6PVOTi9hix2hx4gPSmMoAMVtJrB2FTC9nk/EqA3TPDq3UzTuQLOGhoRfssPq3XEZRrU19svF7S3Sfhlpd1KqjxOw+eLNWR3qSZIkrzmsOeS5bV//60i0nTHiFj8NV7hsYSu20mWPpg5gbk0NDXR1PQHNXsX4H308aigdUBmbjiExyINj2x9gYkErdKCdqkbvpGHSU5LJWHd93zpn0vjlWiW+CWQV1hIYWEuEQs/wVvrUpvrAAATjElEQVTb4PTfGioIYE7kZcsx4zViPH4lOr+IoqJ8Yry/xntvPkWlV7AbugdauH/3IU1q3pt4ULoN9yWHuWndF8ebW7vsHTSl6xJZSVp0Op26pkV58/l3azlk3del7cVnylesPN7wElGr0Kb1wj3CmkcHNpbN/267H5cdeUASkAQkAUngbyfw5oKWfooCfiEyNpCffy/hepmG2GOFlBSWUXH2LGUncyi83MyTS/kU37Ra6l5B0E7f9bKH18sZme5oidTeZnBkxCKu+y8TPWcaGwoeT/ig7Kk9RFjiqOXp5Sm/2RlbvmwGtp46DauW76HymcLw2VgCY8to7KxD4/MN3ywOJbnkOi0DCjYf2s70ZcwN1pO0bjZeURns+sWDLboK7l/WceSkjgAfDfdsYkdk1fwH+s2b2LlxIT5h0UTEl/GoJYv1gVl0KMJSOJfQSltu3qRsCs8uniBFp7daaNePWmj1WhLjEzha8YgRkbehh1woyCc//8/WbBJWTuGjpVruOhg3TQYtW3doKSopocRhLdZHE3qohtYrWmJzHmLETNvlPDIK62gXfaWhavb67SbjRATL5vkQXdYyYTsQFtb6qBnMDs3hdFkZJbFefLRAwz0TvKqgxdzEmcwKVP1uvEGsx2I0IgH7YrXQnrUUbLgimO+X7La7HGjWTcdDY7Gw26NYN/5U0PZe5dS5RkzKU3TLF5KgXlPhiW45y7SNXIrZQMItmz/tIPn+7mw/71z3joJ26GIsW/2j0T80g/KUY74eHLB2PMfmy7ZvvLKbmb56Z0v5wF3qbkzsuzxUGshX6xys3saL7HCbR/x9Wz4tKSvtuUQEJZCZl4du8/d8ujyOnLw88rLi2RKwnwsO1lk1xt/W7m0ll7+SgCQgCUgC/xQCbyxolbYTrFgQxaVcP37clsSJLA3bN6ZQVnGcnYGxlFaWUtlQwc75a8hosqgupbOUjV99g78mm9zcXLKT1uL2zRo02bnk5uaQssEd19Aqq4XHTHtpDEHbI9i9e/efrBFs8vwaF9e1ZLWI6/RSGzmbz33TuVyu42hGFllZllW/wxPXZZEcS0shWVuEwe5vOJlqeZ18/Q/N5fGE7srglvV97FBJIF/551tezxpbqDzkz3SXL/k19hSh0ZZBYd1VaRzV7cbz409ZFKYlUVvCA6GLTLc5+JMLXom3GR1/1Mc1bQQJVW3URCxiW/kDCnbFcDQ5hsD9J2gx95Lr74WmwVEBT6bc1rADDVQVCSuew6oPYuZUf5JOjh7L3ufDLN9Ubg8N8rSxUfUHfmy4yZ3Wpzy5o2HRlI0UNT+h9cmof3N7excDZuirL0Sr0xO7zouAuONkZKQQstiL7VpnX1pdUgIHk0/zwEE/KgPNXMo/xO/+HrjP3kT+Hw4nxxXXxI3o2Xhpn6gW0qHTG/l2Q6nq//rKgtYxzZEqdsz0J8vJIXaY8q0zWBGTgT63EsO5NOJLH9t9TXvvXqb+XjXlVywisK8+lySttaOQsAa379aisbpyHNftwOPj+YTpjpO2L4hVAQepfN46TtB6J2SSkJBBaZlt4GAf2atnEGG1HNuybBe0Sjulice4diWJhNJeGDlP2NwtlNr8hlHorM0mRSfqYrQO9DE+fDk7CK392HGSQxfjPj+cMrsDte1qCi1HvJgVXT/auRipJMTVl4yxvtAd6fw6czeXOnvo6RlduxsOs3BqMOec/rd/U7u3FUP+SgKSgCQgCfyjCLyxoB25p2dn1HFO7ffEzS+JgvJYvBen8GQgm98WHOBs3AKW6cr43c2XbJsjovkxZanZ1PcaMRqNDBmED20M9YOW/c66Yopvdk/4+vXV6JlpKQrHf9H3uIacGzfI6EWmL59sKBnvF/lqib9mKIWO60XkV/2BXR8Aw6c38836IofBQ2Ds7VX3bS4H3XWp7NidQc6OeWzIqeVo8EHOPqomPSaSpNJzHA+ay2cfu+OXWMutmjxK6rtR+quI3RBPdR8oxibqb7ZxMzmekx0G4nxCKHewgL5egfpofdhMe0cHHR0dPDOks/LLL3H311D/TBx7zt2KUmofd9DV1cuQzS1AeUbWbx8xc88l+tp1LPk6hMoeA7lxKVS2TiQ6R6iJ8MA3Rk9GRhKBs38ltiCd+EStKqp0O35l0e4qVC1kbOVqWRE5ei1JSToKLtygWuPNlKk+xGSctIjvk6ls+/U3EmodrYdvR9D2PTDwaACU55n4zdnNRashVHlxj7KjYSxx/Qzf1POUHku1W2b1+zaxNiJFLUta7HY2ReY7CXNRN6Zb+5jrnYp9DNiELgdP0flMY1VsKmlpaWjWz8Jr91kMvYNUh//M0mQDRuU56b5ziRl1XlWr3iZoh9vruHR/BHpLiImrZdAQxy8r9aPXdWgoA3399v+ns4XWSHvLU7u7gUMU6+YQFVu/wz/fwcN2sIh1X6yjyHZ/sEXq0PHr7L3cHNMslNajLJ6+mzq7QddMW+3f1e5tmZO/koAkIAlIAv8kAm8saG2FGSpay5zfS6mr2YfnD9spKNvDgnkHqIxfxKoT59kxbYVd0A6d1xCacIZGq5HQ2YcWzA+ziQw/Rt1rDdhSeFGXgSb7Js9z/Zm2/fy4h+t/R9DaSDn/TiRobSGEoF2x+CdOFlRwxWDgVMJOks4auH2xkKPaAmpu3eXu3RsURawhVH+Bhh4jrVUZaPUZaMN/wV1YofUHWfOzH5lNZgYrdhGclMCagGzn18O2C77mr7ntDDvmzWZD1n0epkeTcn+QpuJQ5k9fzI6TTXYrpEjeeDOWuTN3crEflGcWQVs1DMqTIjZ7/EbKNQeho+ZHCFovgvMN3LtbTcwiH3Rtw1zOOMFN4wDlIUuIuuz8Ct1SjD5u6gLx3Z7PvS6rde/FY87snIurZxQlDS/sggyMXIv8Hvf1SepMB7qw+Xy8plDt8LyShdbYwnldAtqzTWpb6zsTwuwNBRaRjULbyTDWRp1Et3E2IarLgZHrSZuJKG6mJ9sPj7jbmDDyqPbyhNOWDZ0J4vtNp0c7PS8TtONcDiyDzHqzV+KyLJ0npiaSvTzHWectgvYSfZ2PqK818MT0nLxdkSRFLGT18TYHTrYGMsSZ4NkE5Fks2s6Ctovjy79mfbFjh8EWTzSAy+z6YSnax7YejpjCTIf3N6GM8YRAaU7CY4ov+3VjZqBIDGDa1DAuOgja12v3gxiydrJlZza3x4pphyzLTUlAEpAEJIF/PoE3FLQjPChNIGzjOgK8XPnMV0vdH+ksnz0qaCviFvBbhrOgHSxYw8ercu2joMcJWjEIxj2C2ol0yiswHRkeVh/Cg3mTFbQKzSV7CYmrmNAq9QqXnnSQvxK0Yh5apeMGFaU5JMcdpaCiknO5wUyfsY28c5VUnisiv6CCC4b2UeEopgNbGURRh5meyjB+CS6zTAfVV0Gw25dsKOycQKS8Xtn7bunZ4vktH7lHqhYzpTWTjQtXsTO9lja74LBiUZo5vtqD8POWCaQcBa0I0XU2GFcXT5INjuZjIWg92ZBWyYXzheyYJwStQn/FAaL0KQSsTOTuWAveCwO5sTuI0WcS7beGxMs9oHRz+ZA37r/s5+K4jtIwVdu+wUffoWbUWJdGdLZlurm/ErRJ504QERCM9ppVIBsb0PrOZnnsaRpGJ3cQtnjLLAdC0I5cIXLuco61mOnLXo27XwL6jGSitoaiu+ZovxfZMXI16md+y7BM96VmcOgUG78ZM8vBhD60FkGrPL/DzeZhMNUTI66rTvFg5HFtLtq43QT5zGOBfziHMsoxPLP86XpKN/OVaxBlE871NUJF8FT88iwq0FnQ9pG9ahph1RP9eRWenQxg5tr80Sm+hAW6PppZPx3g9ph6ND/MICyylKdjvWMGb1NRKXymxyyTbPeD2fNxWVnCzZIVfLgw729+YzMm73JXEpAEJAFJ4I0IvKGghf76UorquxgoWMPcPfWYBk/g6+ByUKnfQfyFaicL7WCBP5/6n7Q/QMYLWg0eP0RyddwTa3Jl7c9ZzXeTstCaaD61B0+XOcQ1j1qQJnfVyYUWA2RcA5xdDmwp2AaFqfvGS+ycsUwVc+ZHGua7+aNJ16M7EMgvq5K44TCFk9JVT9GROKJC/Jnn7kOq1RTeX69h5cypfL8iaQLr9yTLrnRxPSuWyPhCDA1alv5gEbQwyPV4L35cnUh1q2MFmmnOCiZQa7BbGscKWpQOitZ9jGtYrSpWlN7HGC6fJcnvB5b8Ho8m6SDrZv5EWF4lt5oq2D7VBa+Eel44CJ6hxlqKCs9yT/0Qg5lmnT9+KRVkhy7gR78U6ib6ggUKPY+b6XJIx1YHLxW0fRWETnNhyqIISput5Rx6SGGoFz4HLvL80QkCPf05ctVmcbYJ2kHa8zexPCyBQ2mXaM6yWWhtV3T+VVpyCfDaRbWjOB4sxP+LAOdpu5Q20nycB4UtTXa2jjNcTpBbACdVHWrmcVEsUWJwYbezklQ6aon/zYtlXnPwCM2kvnMsmBHOvVTQ9pPjN7GgNTXlEuCxnrwxM1/05fvx0YqsMfPk9lBxspxuZYjLaYlUPFcwN58kTnOe54qZ5qLdhCbW4vjth8m2+96EGXyjacf85CDf/XjkFT7a4Fw3ck8SkAQkAUngn0PgjQWtrSiD2SuYsesapv4Mlv+STPMzPT7zD1L/uJlnXZWEfPsbudbXel0Zy3H5NZG6+nrq6+u5XhLGrOmhnLxu3T8dzmwnHznbVSb3+yJzBW6hlVaXAxOPr1VSffkKZ6Pn81ngqXG+tWrqSjtnU3MxOGqxyV12UqGHCtfy6dpCu8hzjOwsaOvYNXc9RUMgBK3HokSsY+yAfur0WirsA3CMtFUfIXTLXnTJm1lz8BL3Sw8QFKqlrquV02GzcPl8HhsPVzlPZ/bKZVfouVvLNetX4JTHKSyeuoI9sbuJTMikuukJtYkr+cblSxas3cnhrIsY6nI4nFVvmTJLec71Ag3h/rP54NudXHZgbW6+QKXB0lDMTbmEB4ajySqn/nEfivkhiV7L0DYYOKmJ58SFKrQbf+TLr2axfHfBGIsoKH2NVOsj8fP0Jlh70XkuZEfQE2wPNF2i5ISWuDVuuGw4Na5+zC2lRGxJoFYIZPMLbhfHE7RyLZH5d6zCyMzDI964biphoP0qBbpEts5zJ/RkKbs3J1E/aKatIpJl37gwxTsafVEFVVUVlOQWccX69YC+O3nsCdpD4cMx1s7eE/i6+FuFqTXz5gY0HtPwO3iM9PR0kgJ/xietGTMK3beK0B7WoIn0YersGIf5X8cU3NTBjbx9bA4II/1qF8rwfbI3zcTlo+/xCdNS02YVtuYmtEtcmBt6TPX91cf48vUc26CwY2yb6zpuFo1+Qya/r4+gwFYWYzO1eSnsCfJnkasLHocdZ3gw01IcxLwgC/du/TJct51niC4yln+KX0E3YlaJI54uzNMYRgeXMcl2b7zNEX8PPDwDSX/TQZJjUMpdSUASkAQkgb+XwFsTtN3p3szeZ2DkWSreS2IpjJyHa+ApXry4R/a6L3Hx0SNmAhLi63qyH79FFlN39SpXJ1jrSnYwyzWUqjHP8cmhUWjVevP9zhq7D60y+JSbJ3cw18WV9bniYT92Ueh+cIfHY9/6jg32Fve7czayIKp6QnEtBO0qr9mkpejQ61OICY9SrbJ6bRw7d8aRavu6VbqGyOAgovIfMNBSx6nsY2Scvq3OMTvQWEvxiXRyqpvtFnGULq5mpXKq0UFJCuHzWmVXaNX78Ol3q0k42+wk/PobTnMoOJhDVW30Wd1ARtGZMOjCiCptchAko2cn3DLdRrNyE8euNvDcblQ003W7yvJZWqWX5mtnKcw4iiY2ivDwaFIKL9Ni7UhNmOafHRy6SfzypcRedJquwB5D6TJQnnOMI4cPk1Z0jTZHTwnxedvee9TftwzFf3EhEm/fKI7qcp2s4yNPrlGcFkv4Fn98vbwIzW9FEXVx5yzF5YYJrcb0VJIYXcADxwastHEht4wG639GGRx0alMD9fEsmxeItm78YMvBRzWczDpGyuEUsi78QZ/jywmlkzp9PBnXHacUGOBOcR6141w3BJpBin5fxVGb/4DpKXWFaRzJrMbJYK9SNNOcG0Fw4gWeOJalv5Qt7h7st34+z3hVx748IXjNPCpMIve+qHyFFt1KPPZfU635I6/d7u3VKTckAUlAEpAE/g8TeGuCVunptrz6NffQLb4BOtxPv+3h2t/DmLny/xzZUAsNjxw/a/nnwV921tzTRY/jg1INaKSn529UrC/L3CscT0pKYsOGDa8Q8r8cZOQ5z9RX/P/lfCi9tLd2MDiuzv/L+XqfL68MMvhGHdP3GZ4suyQgCUgCksCrEnhrgvZVLyjDSQKSgCQgCUgCkoAkIAlIAm+TgBS0b5OmTEsSkAQkAUlAEpAEJAFJ4G8nIAXt345cXlASkAQkAUlAEpAEJAFJ4G0SkIL2bdKUaUkCkoAkIAlIApKAJCAJ/O0EpKD925HLC0oCkoAkIAlIApKAJCAJvE0CUtC+TZoyLUlAEpAEJAFJQBKQBCSBv52AFLR/O3J5QUlAEpAEJAFJQBKQBCSBt0lACtq3SVOmJQlIApKAJCAJSAKSgCTwtxOQgvZvRy4vKAlIApKAJCAJSAKSgCTwNglIQfs2acq0JAFJQBKQBCQBSUASkAT+dgL/H1KoRLyT1COkAAAAAElFTkSuQmCC\"></p><p><br></p><p><strong>3.2.4 样例 </strong></p><p><br></p><p><strong>3.2.4.1 输入样例 1</strong></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">3 5 \n99 1 \n33 2 \n11 3\n</pre><p><strong>3.2.4.2 输出样例 1</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">132\n</pre><p><br></p><p><strong>3.2.4.3 输入样例 2</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">4 100 \n10 1 \n20 11 \n40 33 \n100 99\n</pre><p><br></p><p><strong>3.2.4.4 输出样例 2</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">110\n</pre><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-06/8707933606116532224.png\"></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<p><strong>3.2.6 参考程序</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">getint = lambda: map(int, input().split()) \ngetints = lambda: list(getint()) \n# 得到物品数量和预算 \nn, k = getint() \n# 这里进行了滚动优化，dp[j]表示攻击力为j的情况下的最小预算 \n# 最大攻击力为500*500，所以初始化这么大的数组，并且所有值都是1e10表示无穷大预算 \nf = [0] + [int(1e10)] * 500 * 500 \n# 能够达到的最大攻击力，用来缩小遍历的范围 \ns = 0 \nfor i in range(n): \n# 输入当前物品的攻击力和价格 \na, c = getint() \ns += a \n# 计算题解中的转移公式，因为j是从高到低遍历的，f[j-a]和f[j]此时尚未被更新，相当于是f[i-1][j-a]与 \nf[i-1][j] \nfor j in range(s, a - 1, -1): \nf[j] = min(f[j], f[j - a] + c) \n# 遍历f[i]得到符合预算条件的最高攻击力 \nans = 0 \nfor i in range(s + 1): \nif f[i] &lt;= k: \nans = i \nprint(ans)\n</pre>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2019333367677837313",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940031270514689",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2026-02-06 10:03:01",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 3000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<pre class=\"ql-syntax\" spellcheck=\"false\">3 5 \n99 1 \n33 2 \n11 3\n</pre>",
+                        "testCaseOutput": "<pre class=\"ql-syntax\" spellcheck=\"false\">132\n</pre>"
+                    },
+                    {
+                        "example": 0,
+                        "testCaseInput": "<pre class=\"ql-syntax\" spellcheck=\"false\">4 100 \n10 1 \n20 11 \n40 33 \n100 99\n</pre>",
+                        "testCaseOutput": "<pre class=\"ql-syntax\" spellcheck=\"false\">110\n</pre>"
+                    }
+                ]
+            }
+        }
+    ]
+}

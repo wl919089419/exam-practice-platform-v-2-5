@@ -1,0 +1,2162 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202305Python四级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "9411",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">当n为6时，运行下列Python程序后的结果是？（ ）<br>def f(n):<br> &nbsp; &nbsp;if n&lt;=2:<br> &nbsp; &nbsp; &nbsp; &nbsp;return 1<br> &nbsp; &nbsp;else:<br> &nbsp; &nbsp; &nbsp; &nbsp;return f(n-1)+f(n-2)<br>n=int(input(\"请输入一个正整数：\"))<br>print(f(n))</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>每一项为前两项之和。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "9411",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9411",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9411",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>11</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9411",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>13</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9411",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9411",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9411",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9411",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9411",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "9411",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9412",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">有一头母牛，它每年年初生一头小母牛。每头小母牛从第四个年头开始，每年年初也生一头小母牛。问第n年的时候，共有多少头母牛?由递推法可推测，当年数小于等于4的时候，第几年就是有几头牛，即a[1]=1；a[2]=2；a[3]=3；a[4]=4。当n大于4的时候，这时候第一年出生的那个小母牛就也可以生出小母牛了，也就是该考虑小母牛是否可以生了，所以n&gt;4的时候，a[n]=？（ ）</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>前四年共有四只，从第五年开始，第二年出生的小母牛也会生一只母牛(而且以后每年初都会生一只母牛),加上第一年那只母牛生的小母牛，共有六只母牛；第六年的时候得加上第三年那只母牛生的母牛，共九只母牛；依次类推。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "9412",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>a[n-1]+a[n-3]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9412",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">a[n-1]+a[n-4]</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9412",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">a[1]+a[3]</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9412",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>a[-1]+a[-3]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9412",
+                    "knowledgePointId": "701",
+                    "knowledgePoint": "基本算法中由递归变递推的方法"
+                },
+                {
+                    "questionId": "9412",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9413",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<table style=\"width: auto;\"><tbody><tr><p>二分查找又称折半查找，下列数列中适合二分查找算法的是？（　）</p></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>根据二分查找的实现原理,首先数列元素必须是有序的。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "9413",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">11 99 4 25 3 39</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9413",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>43 71 78 81 6 55</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9413",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">67 62 68 4 1 17</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9413",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>85 78 59 53 19 18</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9413",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9414",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">在32枚崭新的金币中，有一枚外表与真金币完全相同的假币（质量小一点），现在只有一台天平，则应用二分法的思想最多称几次就可以发现这枚假币？（　）</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>二分查找法，每次都通过跟区间的中间元素对比，将待查找的区间缩小为之前的一半，直到找到要查找的元素，或者区间被缩小为 0。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "9414",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9414",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9414",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9414",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9414",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "9414",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                },
+                {
+                    "questionId": "9414",
+                    "knowledgePointId": "702",
+                    "knowledgePoint": "基本算法中的分治算法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9415",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<table style=\"width: auto;\"><tbody><tr><p>已知在某程序中，有一个全局变量名为a。在程序中的某个函数中，再次定义了一个变量a，且该变量非组合类型变量。</p><p>下面哪个说法是对的？（ ）</p></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>未声明为global，就是局部变量，因此与全局变量a无关。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "9415",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>如果在该函数中将a声明为global，则对a的操作与全局变量a无关。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9415",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>如果在该函数中未将a声明为global，则对a的操作与全局变量a无关。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9415",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>如果在该函数中未将a声明为global，则对a的操作即为对全局变量a的操作。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9415",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>不管在该函数中是否将a声明为global，对a的操作都是对全局变量a的操作。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9415",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9410",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>下列程序段的运行结果是？（ ）</p><p>def s(n):<br> &nbsp; &nbsp;if n==0:<br> &nbsp; &nbsp; &nbsp; &nbsp;return 1<br> &nbsp; &nbsp;else:<br> &nbsp; &nbsp; &nbsp; &nbsp;return n +s(n-1)<br>print(s(7))</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>递归公式</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "9410",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>29</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9410",
+                    "questionOption": "B",
+                    "questionOptionContent": "<table style=\"width: auto;\"><tbody><tr><p>27</p></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9410",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9410",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9410",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9410",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9410",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9410",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9410",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "9410",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9432",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>下列代码输出的结果是？（ ）<br>def py(a,b=2):<br> &nbsp;a=a%b<br> &nbsp;return(a)<br>print(py(7))</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>def py(a,b=2):<br> &nbsp;a=a%b<br> &nbsp;return(a)<br>print(py(7))<br>代码输出的结果是1</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9432",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1,2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9432",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9432",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>3,2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9432",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9432",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9432",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9432",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9432",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9433",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>下列代码输出的结果是？（ ）<br>def py(b):<br> &nbsp; &nbsp;b+=3<br> &nbsp; &nbsp;return(b)<br>print(py(3))</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>def py(b):<br> &nbsp; &nbsp;b+=3<br> &nbsp; &nbsp;return(b)<br>print(py(3))</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9433",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9433",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9433",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9433",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>9</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9433",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9433",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9433",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9433",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9434",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>下列属于Python中文分词方向第三方库的是？（　）</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>jieba属于python中文分词方向第三方库</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9434",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>pandas</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9434",
+                    "questionOption": "B",
+                    "questionOptionContent": "<table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">beautifulsoup4</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9434",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">python-docx</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9434",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">jieba</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9434",
+                    "knowledgePointId": "703",
+                    "knowledgePoint": "第三方库（模块）的功能、获取、安装、调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9431",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">下列代码输出的结果是？（ ）<br>def sum(a):<br> &nbsp; &nbsp;a+=1<br>a=6<br>sum(a)<br>print(a)</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>def sum(a):<br> &nbsp; &nbsp;a+=1<br>a=6<br>sum(a)<br></p><p>print(a)</p><p>下列代码输出的结果是6</p><p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9431",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9431",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9431",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9431",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9431",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9431",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9431",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9431",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9431",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9430",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>调用下列哪个函数可查看说明文档？（　）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>help()函数可查看说明文档。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9430",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>help()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9430",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">range()</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9430",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">len()</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9430",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">print()</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9430",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9429",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>通常，定义一个函数，最多包含多少个参数？（　）</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>通常，定义一个函数，可包含任意多个参数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9429",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9429",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9429",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9429",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">任意多</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9429",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9429",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9429",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9429",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9428",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">def tj(n):<br> &nbsp; &nbsp;while n&gt;0:<br> &nbsp; &nbsp; &nbsp; &nbsp;a[n%10] += 1<br> &nbsp; &nbsp; &nbsp; &nbsp;n //= 10 &nbsp; &nbsp; &nbsp; &nbsp;<br> &nbsp; &nbsp;return sum(a)<br>print(tj(20230113))</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>函数tj功能统计整数n中每位数字出现的次数，当n=20230113时，0出现2次，1出现2次，2出现2次，3出现2次，因此答案选A。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9428",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9428",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>12</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9428",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9428",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9428",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9428",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9428",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9428",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9428",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9428",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9427",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">小李查看电脑上安装的Python库，下列命令可行的是？（　）</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>查看已经安装的库命令是pip list</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9427",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">pip install</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9427",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">pip list</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9427",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">pip show</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9427",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">pip help</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9427",
+                    "knowledgePointId": "703",
+                    "knowledgePoint": "第三方库（模块）的功能、获取、安装、调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9426",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>某同学用对分查找和顺序查找在数字序列“1，3，5，8，15，21，35，65”中查找数字15,两种方法都能访问到的下列数字是？（　）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>顺序查找数字15，访问的数字是1，3，5，8，15；使用二分查找数字15，访问到的数字依次是8，21，15；数字8是两种方法都访问到。因此选C。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9426",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9426",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9426",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9426",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>34</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9426",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "9426",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "9426",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9425",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">自然界的规律：花瓣的个数大多数花瓣的个数有1、1、2、3、5、8、13、21、......，仔细观察这些数的顺序,会发现这些数的排列是有规律的，即斐波那契数列。小李同学编写程序求该数列的第n项的值。</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>递推法求斐波那契数列，选D。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9425",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">①②③</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9425",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">①③②</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9425",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>③②①</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9425",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">③①②</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9425",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "9425",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9424",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>小方的妈妈分苹果方法如下，第一天分掉其中一半加一个苹果，第二天分掉剩下的一半加一个苹果，以后每天都分掉剩下的一半加一个苹果。到第8天的时候妈妈发现只剩一个苹果了。请问小方妈妈一开始有多少个苹果？ 这个问题我们可以用以下什么算法解决？（　）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>从第8天往前计算第7天剩余的苹果数，然后再计算第6天的，依次递推解决问题。这是递推问题</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9424",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">查找</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9424",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">递推</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9424",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>枚举</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9424",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>排序</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9424",
+                    "knowledgePointId": "701",
+                    "knowledgePoint": "基本算法中由递归变递推的方法"
+                },
+                {
+                    "questionId": "9424",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9423",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>下列有关递归的描述中，正确的是？（　）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>递归有明确的结束递归的边界条件以及结束时的边界值，递归体现了“大事化小”的思想。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9423",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>递归函数中肯定有循环结构</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9423",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>递归没有体现“大事化小”的思想</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9423",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">递归有明确的结束递归的边界条件</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9423",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>递归执行效率较高</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9423",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "9423",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9422",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>小明帮老师统计年龄是10岁的学生数，老师手头有全年级每位学生的身份证号码等信息。他编写程序如下。</p><p>#列表stud存储每位学生的身份证号码，如</p><p>stud = ['110726201205261117','120718201209011101']<br>def cj(xs):<br> &nbsp; &nbsp;c = 0<br> &nbsp; &nbsp;for s in xs:<br> &nbsp; &nbsp; &nbsp; &nbsp;age = int(<u><strong> &nbsp; ① &nbsp; </strong></u>)</p><p> &nbsp; &nbsp; &nbsp; &nbsp;if 2023 - age == 10:<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c += 1<br> &nbsp; &nbsp;return c</p><p>print(cj(stud) )</p><p>下列代码中，为实现统计功能划线处<strong>①</strong>的代码不能选的是？（ ）</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>从身份证号码中切片取出出生年份的代码，A，B，C三个选项代码均正确。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9422",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">s[6:10]</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9422",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">s[6:-8]</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9422",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>s[-12:-8]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9422",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">s[-12:11]</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9422",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9422",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9422",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9422",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9422",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9421",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>运行下列程序，输出的结果是？（ ）</p><p>s = 1</p><p>def sums(n):<br> &nbsp; &nbsp;global s<br> &nbsp; &nbsp;s = 0<br> &nbsp; &nbsp;s = s + n<br> &nbsp; &nbsp;print(s)<br>sums(5)<br>print(s)</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>若想在函数内部对函数外的变量进行操作，需要在函数内部声明其为global，本题中在函数内部声明s为global，因此函数内改变后，影响函数外，因此输出结果都是5。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9421",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5 5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9421",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>5 1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9421",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">1 1</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9421",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">1 5</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9421",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9421",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9421",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9421",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9421",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9421",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9420",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>小方编写计算长方形面积的匿名函数，下列哪一个语句是正确的？（　）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>关键字lambda表示匿名函数，冒号之前表示的是这个函数的参数，冒号之后表示的是返回值，在定义匿名函数时，需要将它赋值给一个变量。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9420",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">rst = lambda a,b : a * b</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9420",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">lambda a,b:a*b</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9420",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">lambda a,b,a*b</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9420",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">rst = lambda a,b,a*b</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9420",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9420",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9420",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9420",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9419",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>关于函数的描述，不正确的是？（　）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>在函数内部可以使用全局变量。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9419",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>函数中通过return语句返回结果</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9419",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">函数可以提高代码的重复利用率</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9419",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>在函数内部不能使用全局变量</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9419",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>函数的定义必须在主程序函数调用语句之前</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9419",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9419",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9419",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9419",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "函数的定义与调用顺序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9418",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">关于return语句，下列说法正确的是？（　）</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>return语句里可以包含表达式，也可以返回多个值。一个函数可以有返回值，也可以没有返回值。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9418",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">return语句中返回值的数据类型可以是列表</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9418",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">return语句中不能有表达式</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9418",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>一个函数至少有一个return语句</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9418",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">return只能返回一个值</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9418",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9418",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9417",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>下列函数中，不可以直接调用的是？（　）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>sqrt()函数是math模块里的函数，不能直接调用，应该先导入math模块。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9417",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">print( )</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9417",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">sqrt( )</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9417",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">str( )</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9417",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">dict( )</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9417",
+                    "knowledgePointId": "703",
+                    "knowledgePoint": "第三方库（模块）的功能、获取、安装、调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9416",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 1,
+            "title": "<p>对于程序中的列表来说，哪个选项中的参数填写在range（）中的横线上，算法执行效率最高？（　）<br>a=[1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1]<br>for i in range _____:<br> &nbsp; &nbsp;if a[i]==1:<br> &nbsp; &nbsp; &nbsp; &nbsp;print(i)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>数据变化的步长为3。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "9416",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>(0,16,1)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "9416",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p> (0,16,2)</p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "9416",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><span style=\"font-size: 16px;\"> (0,16,3)</span></td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "9416",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">(0,16,4)</td></tr></tbody></table><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9416",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                },
+                {
+                    "questionId": "9416",
+                    "knowledgePointId": "699",
+                    "knowledgePoint": "算法优化效率的方法"
+                },
+                {
+                    "questionId": "9416",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9416",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9435",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<p>每次进入更深一层递归时，问题规模相比上次递归都应有所增大。（　）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>每次进入更深一层递归时，问题规模相比上次递归都应有所减少。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9435",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9436",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<p>位置参数和关键字参数是函数调用时的概念，当二者共存时，关键字参数必须写在未知参数之前，否则会造成语法错误。（　）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>当二者共存时，关键字参数必须写在位置参数之后，否则会造成语法错误。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9436",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9437",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<p>一个函数可以没有参数，也可以有多个参数，但是参数的个数必须是确定的。（　）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>函数的参数个数可以是不确定的。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9437",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9437",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9438",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<p>不了解函数内部实现细节就没有办法使用该函数。（　）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>调用函数时，只需要知道函数名及函数的输入、输出即可，不需要知道函数的实现细节。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9438",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9438",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9439",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">小明编写如下函数， def jiafa(x,y=0): return x+y 他用语句 jiafa(10) 调用函数，程序将提示运行错误。（ ）</td></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>函数调用时，可以不给函数参数中的默认参数传值，故调用函数时返回结果10，并不会提示运行错误。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9439",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9439",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9439",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9440",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<table style=\"width: auto;\"><tbody><tr><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"> &nbsp; &nbsp;if n == 1:<br> &nbsp; &nbsp; &nbsp; &nbsp;return 1<br> &nbsp; &nbsp;else:<br> &nbsp; &nbsp; &nbsp; &nbsp;fun(n-1) * 2<br>print(fun(3))</td></tr></tbody></table></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>递归函数需要有return语句返回，即return fun(n-1)*2。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9440",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9440",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9440",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "9440",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9441",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<table style=\"width: auto;\"><tbody><tr><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">空间复杂度是指算法被编写成程序后，在计算机中运行时所需存储空间大小的度量，记作S(n)，其中n为问题的规模或大小。（　）</td></tr></tbody></table></tr></tbody></table><p><br></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>空间复杂度是指算法被编写成程序后，在计算机中运行时所需存储空间大小的度量，记作S(n)，其中n为问题的规模或大小。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9441",
+                    "knowledgePointId": "698",
+                    "knowledgePoint": "算法以及算法性能、效率的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9442",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<p>自定义函数可以没有参数。（　）</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>自定义函数可以没有参数，是正确的</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9442",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9442",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9442",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                },
+                {
+                    "questionId": "9442",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9443",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<p>分治算法一定会用到递归。（　）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>分治算法不一定会用到递归。例如，对分查找也属于分治，但没有用到递归。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9443",
+                    "knowledgePointId": "702",
+                    "knowledgePoint": "基本算法中的分治算法"
+                },
+                {
+                    "questionId": "9443",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9444",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 3,
+            "title": "<p>调用库时为方便后续代码编写，可给其取一个别名，比如将matplotlib命名为plt。（　）</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>调用库时为方便后续代码编写，可给其取一个别名。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9444",
+                    "knowledgePointId": "703",
+                    "knowledgePoint": "第三方库（模块）的功能、获取、安装、调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9447",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 4,
+            "title": "<p>有一只蜗牛在井底，井深n米。蜗牛每天往上爬a米，又会往回滑b米。</p><p>请从键盘接收输入整数n，a，b，用空格隔开。</p><p>并完成下列程序，计算蜗牛爬出这口井需要几天。</p><p>n,a,b=input(\"请输入井深，蜗牛每天往上爬几米，蜗牛滑下几米：\").<u>&nbsp;</u><u>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</u><span><u><strong>①</strong></u></span><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u><br>n,a,b=<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>②</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u><br>pos=0<br>i=0<br>while<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>③</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>:<br>&nbsp; &nbsp; &nbsp; <u>&nbsp;</u><u>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</u><span><u><strong>④</strong></u></span><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u><br>&nbsp; &nbsp; &nbsp; <u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>⑤</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u><br>print(\"第%d天，蜗牛距离井口%d米；\"%(i,n-pos))<br>print(\"第%d天，蜗牛成功离开了深井！！\"%(<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>⑥</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>))</p>",
+            "referenceAnswer": "<p><p><strong>参考程序:</strong></p><p><span>n,a,b=input(\"请输入井深，蜗牛每天往上爬几米，蜗牛滑下几米：\").</span><span><strong>split()</strong></span></p><span>n,a,b=</span><span><strong>int(n),int(a),int(b)</strong></span><br><span>pos=0</span><br><span>i=0</span><br><span>while&nbsp;</span><span><strong>pos+a<n< strong=\"\"></n<></strong></span><strong><span>:</span><br><span>&nbsp; &nbsp;&nbsp;</span><span><strong>i+=1</strong></span><br><span>&nbsp; &nbsp;&nbsp;</span><span><strong>pos+=(a-b)</strong></span><br><span>print(\"第%d天，蜗牛距离井口%d米；\"%(i,n-pos))</span><br><span>print(\"第%d天，蜗牛成功离开了深井！！\"%(</span><span><strong>i+1</strong></span><span>))</span></strong></p>",
+            "analyzeContent": "<p><p><strong>评分标准：</strong></p><p><span>（1）split()；（2分）</span></p><span>（2）int(n),int(a),int(b)；（2分）</span><br><span>（3）pos+a<n；（2分）< span=\"\"><br><span>（4）i+=1；（2分）</span><br><span>（5）pos+=(a-b)；（2分）</span><br><span>（6）i+1。（2分）</span></n；（2分）<></span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9447",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9447",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9447",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9447",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9447",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9445",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 4,
+            "title": "<p>已知某c的第n项计算步骤如下：</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2024-06-14-16-03-04/8489866767915769856.png\" alt=\"undefined\"><br></p><p>小明编写程序计算第n项的结果。首先从键盘输入n，然后利用上述递推关系计算结果，请完善划线处的代码。</p><p>def fc(n):<br>&nbsp; &nbsp; if n ==1:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<u>&nbsp;</u><u>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</u><span><u><strong>①</strong></u></span><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u><br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; a=6*n-1<br>&nbsp; &nbsp; &nbsp; &nbsp; b=8*n+3<br>&nbsp; &nbsp; &nbsp; &nbsp; return &nbsp;<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>②</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u><br>m=int(input(\"请输入一个整数：\"))<br>if not isinstance(m,int):&nbsp; &nbsp; &nbsp;#判断输入的m是否为整数<br>&nbsp; &nbsp; print('请输入一个整数')<br>else:<br>&nbsp; &nbsp; print(<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>③</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>)</p>",
+            "referenceAnswer": "<p><p><strong>参考程序：</strong></p><p><span>def fc(n):</span></p><span>&nbsp; &nbsp; if n ==1:</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span><strong>return</strong></span></span><span><strong>&nbsp;1</strong></span><span><strong>&nbsp;</strong></span><br><span>&nbsp; &nbsp; else:</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; a=6*n-1</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; b=8*n+3</span><br><span>&nbsp; &nbsp; &nbsp; &nbsp; return&nbsp;</span><span>&nbsp;<span>a<strong>*fc(n-1)/b</strong></span></span><br><span>m=int(input(\"请输入一个整数：\"))</span><br><span>if not isinstance(m,int):&nbsp; &nbsp; &nbsp;#判断输入的m是否为整数</span><br><span>&nbsp; &nbsp; print('请输入一个整数')</span><br><span>else:</span><br></p><p><span>&nbsp; &nbsp; print(<span><strong>fc(m)</strong></span></span><span>)</span></p><p><strong>说明：</strong><span>本题中已知c的第n项计算公式，第1项时c的值为1，第2项可以由第1项的基础上用公式计算，程序中编写了函数fc实现计算c的结果，在函数fc中，第1项时返回1，故①处代码是return 1 ；函数fc中②处代码是计算第n的数据，由递推公式可知该处代码是a*fc(n-1)/b&nbsp;，③处代码是将输入的第m项调用函数fc计算结果，故该处的代码是fc(m)。</span></p><p></p>",
+            "analyzeContent": "<p><p><strong>评分标准：</strong></p><p><span>（1）return 1；（3分）</span></p><span>（2）a*fc(n-1)/b；（3分）</span><br><span>（3）fc(m)。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9445",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9445",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9445",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9445",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                },
+                {
+                    "questionId": "9445",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "9446",
+            "examinationPaperTitle": "202305Python四级真题",
+            "type": 4,
+            "title": "<table tag=\"question\" is_child_question=\"\" id=\"question_73d8047d-807d-4a1c-a924-9b42844a6006\" question_uid=\"73d8047d-807d-4a1c-a924-9b42844a6006\" question_type_code=\"program\" question_type_name=\"编程题\" question_score=\"10.00\" parent_question_uid=\"\" tag_question=\"\" class=\"layui-table\"><tbody><tr><td><p>请补全下列代码，编程实现用递归的方法输出九九乘法表。</p></td></tr></tbody></table><p><br></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2024-06-14-16-03-04/8489866768020627456.png\" alt=\"undefined\"></p><p>def get_result(num):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if num == 1:&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(\"<u><u>&nbsp;</u><u>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</u><span><u><strong>①</strong></u></span><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u></u><u></u>\")&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get_result(<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>②</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>)&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in range(1,<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>③</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>):&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(\"%d * %d = %d\" % (i, num, i * num), end=\"&nbsp; \")&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print()</p><p>get_result(<u>&nbsp;</u><u>&nbsp; &nbsp; &nbsp; &nbsp;<span><span><strong>④</strong></span></span></u><u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>)</p>",
+            "referenceAnswer": "<p><strong>参考程序:</strong></p><p>def get_result(num):&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if num == 1:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(\"<span><strong>1 * 1 = 1</strong></span>\")&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;else:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get_result(<span><strong>num - 1</strong></span>)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in range(1,<span><strong>num + 1</strong></span>):&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(\"%d * %d = %d\" % (i, num, i * num), end=\"&nbsp; \")</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print()</p><p>get_result(<span><strong>9</strong></span>)</p>",
+            "analyzeContent": "<p><p><strong>评分标准：</strong></p><p><span>（1）1*1=1；（3分）&nbsp;</span></p><span>（2）num-1；（3分）</span><br><span>（3）num+1；（2分）</span><br><span>（4）9。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "470",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:19:25",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "694",
+                    "knowledgePoint": "函数及过程的概念"
+                },
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "695",
+                    "knowledgePoint": "函数的参数"
+                },
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "696",
+                    "knowledgePoint": "函数的返回值"
+                },
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "697",
+                    "knowledgePoint": "变量作用域"
+                },
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "700",
+                    "knowledgePoint": "基本算法中递归的概念"
+                },
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "706",
+                    "knowledgePoint": "实现基本算法中的递归方法"
+                },
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "704",
+                    "knowledgePoint": "创建简单的自定义函数"
+                },
+                {
+                    "questionId": "9446",
+                    "knowledgePointId": "705",
+                    "knowledgePoint": "自定义函数及调用"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

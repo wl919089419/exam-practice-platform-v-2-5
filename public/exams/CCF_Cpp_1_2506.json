@@ -1,0 +1,1604 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202506GESPC++一级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "1952930793013669890",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">2025年4月19日在北京举行了一场颇为瞩目的人形机器人半程马拉松赛。比赛期间，跑动着的机器人会利用身上安装的多个传感器所反馈的数据来调整姿态、保持平衡等，那么这类传感器类似于计算机的( )。</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 11:12:39",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952930793013669890",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">处理器</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952930793013669890",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">存储器</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952930793013669890",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">输入设备</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952930793013669890",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">输出设备</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952930793013669890",
+                    "knowledgePointId": "1",
+                    "knowledgePoint": "计算机的基本构成（CPU、内存、I/O设备等）"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952931008969994241",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">在某集成开发环境中调试下面代码段时尝试设置断点和检查局部变量，下面哪个说法是错误的（ ）。</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">,</span><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(170, 85, 0);\">// L1 </span></p><p><span style=\"color: rgb(0, 0, 0);\">cin </span><span style=\"color: rgb(152, 26, 26);\">&gt;&gt; </span><span style=\"color: rgb(0, 0, 0);\">N</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(170, 85, 0);\">// L2 </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">9</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(119, 0, 136);\">break</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(170, 85, 0);\">// L3 </span></p><p><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">9</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"N不能大于9\\n\"</span><span style=\"color: rgb(51, 51, 51);\">); </span><span style=\"color: rgb(170, 85, 0);\">// L4</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 11:13:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952931008969994241",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">断点不可以设在L1标记的代码行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">执行暂停在L2标记的代码行时，可以检测i的值</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">执行暂停在L3标记的代码行时，可以修改i的值</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">执行有可能暂停在L4标记的代码行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952931008969994241",
+                    "knowledgePointId": "33",
+                    "knowledgePoint": "调试概念"
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "knowledgePointId": "38",
+                    "knowledgePoint": "调试"
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "knowledgePointId": "27",
+                    "knowledgePoint": "cin语句"
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "knowledgePointId": "30",
+                    "knowledgePoint": "printf语句"
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "knowledgePointId": "26",
+                    "knowledgePoint": "break语句"
+                },
+                {
+                    "questionId": "1952931008969994241",
+                    "knowledgePointId": "7",
+                    "knowledgePoint": "变量"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952931150469033986",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p>对下列C++的代码，描述准确的是( &nbsp;)。</p><p>int first = 10; </p><p>printf(\"{%d}\\n\", First)</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 11:14:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952931150469033986",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>执行后输出10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952931150469033986",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>执行后输出 {First}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952931150469033986",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>执行后输出 \"{First}\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952931150469033986",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>编译报错，因为First应该是first</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952931150469033986",
+                    "knowledgePointId": "7",
+                    "knowledgePoint": "变量"
+                },
+                {
+                    "questionId": "1952931150469033986",
+                    "knowledgePointId": "30",
+                    "knowledgePoint": "printf语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952997706704121857",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">在C++中，下列可以做变量名的是( &nbsp;)。</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:38:33",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952997706704121857",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">X.cpp</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952997706704121857",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">X-cpp</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952997706704121857",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">X#cp</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952997706704121857",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">X_cpp</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952997706704121857",
+                    "knowledgePointId": "4",
+                    "knowledgePoint": "标识符"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952997838124249089",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p>下面的C++代码执行后，其输出是( &nbsp;)。</p><p>int x = 10, y = 20; </p><p>x = x + y; </p><p>y = x - y; </p><p>x = x - y; </p><p>cout &lt;&lt; x &lt;&lt; ' ' &lt;&lt; y;</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:39:04",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952997838124249089",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>10 20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952997838124249089",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>20 10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952997838124249089",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>10 10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952997838124249089",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>20 20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952997838124249089",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1952997838124249089",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1952997838124249089",
+                    "knowledgePointId": "31",
+                    "knowledgePoint": "赋值语句"
+                },
+                {
+                    "questionId": "1952997838124249089",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952997906856308737",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">定义整型变量 int a=16 ，则执行 ++a += 3 之后，a的值会是（ ）。</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:39:21",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952997906856308737",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952997906856308737",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>17</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952997906856308737",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>19</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952997906856308737",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952997906856308737",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1952997906856308737",
+                    "knowledgePointId": "16",
+                    "knowledgePoint": "变量自增与自减"
+                },
+                {
+                    "questionId": "1952997906856308737",
+                    "knowledgePointId": "31",
+                    "knowledgePoint": "赋值语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952998182317223938",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">C++的 int 类型变量 X 的值为8，如果执行 cout &lt;&lt; (++X)++; ，则输出和执行后 X 的值分别是（ ）。</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:40:26",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952998182317223938",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">8 &nbsp; &nbsp;9</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952998182317223938",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>9 &nbsp; &nbsp;9</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952998182317223938",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">9 &nbsp; &nbsp;10</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952998182317223938",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">编译错误，无法执行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952998182317223938",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1952998182317223938",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1952998182317223938",
+                    "knowledgePointId": "16",
+                    "knowledgePoint": "变量自增与自减"
+                },
+                {
+                    "questionId": "1952998182317223938",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                },
+                {
+                    "questionId": "1952998182317223938",
+                    "knowledgePointId": "8",
+                    "knowledgePoint": "表达式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952999176522461186",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面C++代码执行后的输出是（ ）。</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(51, 51, 51);\">,</span><span style=\"color: rgb(0, 0, 0);\">b</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">a </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">3</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">b </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">4</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"a+b=%02d#a+b={a+b}\"</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(152, 26, 26);\">+</span><span style=\"color: rgb(0, 0, 0);\">b</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">a</span><span style=\"color: rgb(152, 26, 26);\">+</span><span style=\"color: rgb(0, 0, 0);\">b</span><span style=\"color: rgb(51, 51, 51);\">);</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:44:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952999176522461186",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">a+b=07#a+b={a+b}</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952999176522461186",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">a+b= 7#a+b=7</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952999176522461186",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">a+b=7#a+b={a+b}</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952999176522461186",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">a+b=7#a+b=7</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952999176522461186",
+                    "knowledgePointId": "30",
+                    "knowledgePoint": "printf语句"
+                },
+                {
+                    "questionId": "1952999176522461186",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1952999176522461186",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952999377752584194",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码用于求M天后是星期几，两处横线处分别应填入的代码是（ &nbsp;）。</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">N</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">D</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(170, 17, 17);\">\"当前星期几? \"</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(170, 85, 0);\">// 星期日是0 </span></p><p><span style=\"color: rgb(0, 0, 0);\">cin </span><span style=\"color: rgb(152, 26, 26);\">&gt;&gt; </span><span style=\"color: rgb(0, 0, 0);\">N</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(170, 17, 17);\">\"求多少天后? \"</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(170, 85, 0);\">// 输入正整数 </span></p><p><span style=\"color: rgb(0, 0, 0);\">cin </span><span style=\"color: rgb(152, 26, 26);\">&gt;&gt; </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">D </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">____________</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">____________</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"%d天后是星期日\"</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">); </span></p><p><span style=\"color: rgb(119, 0, 136);\">else </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"%d天后是星期%d\"</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">D</span><span style=\"color: rgb(51, 51, 51);\">);</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:45:11",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952999377752584194",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">/ </span><span style=\"color: rgb(17, 102, 68);\">7 </span></p><p><span style=\"color: rgb(0, 0, 0);\">D </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(17, 102, 68);\">7 </span></p><p><span style=\"color: rgb(0, 0, 0);\">D </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">/ </span><span style=\"color: rgb(17, 102, 68);\">7 </span></p><p><span style=\"color: rgb(0, 0, 0);\">D </span><span style=\"color: rgb(152, 26, 26);\">&lt;= </span><span style=\"color: rgb(17, 102, 68);\">0</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">M</span><span style=\"color: rgb(51, 51, 51);\">) </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(17, 102, 68);\">7 </span></p><p><span style=\"color: rgb(0, 0, 0);\">D </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952999377752584194",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "knowledgePointId": "14",
+                    "knowledgePoint": "关系运算（>、>=、<、<=、==、!=）"
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "knowledgePointId": "18",
+                    "knowledgePoint": "if语句"
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "knowledgePointId": "27",
+                    "knowledgePoint": "cin语句"
+                },
+                {
+                    "questionId": "1952999377752584194",
+                    "knowledgePointId": "30",
+                    "knowledgePoint": "printf语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952999755730677761",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">C++表达式 14-3*3%2 的值是( &nbsp;)。</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:46:41",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952999755730677761",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952999755730677761",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>11</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952999755730677761",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>13</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952999755730677761",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>-67</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952999755730677761",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1952999755730677761",
+                    "knowledgePointId": "8",
+                    "knowledgePoint": "表达式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1952999930750595073",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面C++代码执行后输出是（ ）。</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">11</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">3</span><span style=\"color: rgb(51, 51, 51);\">){ </span></p><p><span style=\"color: rgb(119, 0, 136);\">continue</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(17, 102, 68);\">2 </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\">break</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"%d#\"</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">); </span></p><p><span style=\"color: rgb(51, 51, 51);\">} </span></p><p><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&gt;= </span><span style=\"color: rgb(17, 102, 68);\">11</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\">printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"END\"</span><span style=\"color: rgb(51, 51, 51);\">);</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:47:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "1952999930750595073",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">END</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">1#</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">1#4#END</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">1#4#7#10#END</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1952999930750595073",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "knowledgePointId": "25",
+                    "knowledgePoint": "continue语句"
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "knowledgePointId": "26",
+                    "knowledgePoint": "break语句"
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "knowledgePointId": "14",
+                    "knowledgePoint": "关系运算（>、>=、<、<=、==、!=）"
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1952999930750595073",
+                    "knowledgePointId": "30",
+                    "knowledgePoint": "printf语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953000143867375618",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码用于求N的所有因数（即能将N整除的数），如输入12则将输出 12,6,4,3,2,1 。（ ）。</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">N</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cin </span><span style=\"color: rgb(152, 26, 26);\">&gt;&gt; </span><span style=\"color: rgb(0, 0, 0);\">N</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">N</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">while </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">_______</span><span style=\"color: rgb(51, 51, 51);\">){ </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">N </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"%d,\"</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">); </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;i </span><span style=\"color: rgb(152, 26, 26);\">-= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(51, 51, 51);\">} </span></p><p><span style=\"color: rgb(0, 0, 0);\">printf</span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(170, 17, 17);\">\"1\"</span><span style=\"color: rgb(51, 51, 51);\">);</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:48:14",
+            "questionsOptionList": [
+                {
+                    "questionId": "1953000143867375618",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">i -= 1</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">i == 1</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">i == 1</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">i &gt;= 1</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953000143867375618",
+                    "knowledgePointId": "14",
+                    "knowledgePoint": "关系运算（>、>=、<、<=、==、!=）"
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "knowledgePointId": "23",
+                    "knowledgePoint": "while循环"
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "knowledgePointId": "30",
+                    "knowledgePoint": "printf语句"
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "knowledgePointId": "27",
+                    "knowledgePoint": "cin语句"
+                },
+                {
+                    "questionId": "1953000143867375618",
+                    "knowledgePointId": "16",
+                    "knowledgePoint": "变量自增与自减"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953000292463177729",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面C++代码执行后输出的是（ ）。</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">Sum </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">){ </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(17, 102, 68);\">2 </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;continue</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(17, 102, 68);\">5 </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;break</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;Sum </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(51, 51, 51);\">} </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">Sum</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:48:49",
+            "questionsOptionList": [
+                {
+                    "questionId": "1953000292463177729",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>55</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>15</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>9</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "18",
+                    "knowledgePoint": "if语句"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "25",
+                    "knowledgePoint": "continue语句"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "26",
+                    "knowledgePoint": "break语句"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "14",
+                    "knowledgePoint": "关系运算（>、>=、<、<=、==、!=）"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "7",
+                    "knowledgePoint": "变量"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "31",
+                    "knowledgePoint": "赋值语句"
+                },
+                {
+                    "questionId": "1953000292463177729",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953000447681785857",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">试图编译并执行下面C++代码，下面描述正确的是（ &nbsp;）。</span></p><p><span style=\"color: rgb(0, 136, 85);\">float </span><span style=\"color: rgb(0, 0, 0);\">x</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">x </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">101</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">x</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; ++</span><span style=\"color: rgb(0, 0, 0);\">x</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:49:26",
+            "questionsOptionList": [
+                {
+                    "questionId": "1953000447681785857",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">输出 101</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1953000447681785857",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">输出 102</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1953000447681785857",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">输出 103</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1953000447681785857",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">编译将报错，无法执行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953000447681785857",
+                    "knowledgePointId": "10",
+                    "knowledgePoint": "实数型（float, double）"
+                },
+                {
+                    "questionId": "1953000447681785857",
+                    "knowledgePointId": "16",
+                    "knowledgePoint": "变量自增与自减"
+                },
+                {
+                    "questionId": "1953000447681785857",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953000881163104257",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">以下C++代码可以找出百位、十位和个位满足特定条件的三位数，横线处应该填入的是（ ）</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">count </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">100</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt;= </span><span style=\"color: rgb(17, 102, 68);\">999</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">) { </span></p><p><span style=\"color: rgb(0, 136, 85);\"> &nbsp; &nbsp;int </span><span style=\"color: rgb(0, 0, 0);\">a </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">/ </span><span style=\"color: rgb(17, 102, 68);\">100</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;_________________________ </span></p><p><span style=\"color: rgb(0, 136, 85);\"> &nbsp; &nbsp;int </span><span style=\"color: rgb(0, 0, 0);\">c </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">a </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">a </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(0, 0, 0);\">b </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">b </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(0, 0, 0);\">c </span><span style=\"color: rgb(152, 26, 26);\">* </span><span style=\"color: rgb(0, 0, 0);\">c</span><span style=\"color: rgb(51, 51, 51);\">) { </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;count</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(51, 51, 51);\"> &nbsp; &nbsp;} </span></p><p><span style=\"color: rgb(51, 51, 51);\">}</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-06 15:51:10",
+            "questionsOptionList": [
+                {
+                    "questionId": "1953000881163104257",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">int b = (i / 10) / 10;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">int b = (i / 10) % 10</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">int b = (i % 10) / 10;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(51, 51, 51);\">int b = (i % 10) % 10;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953000881163104257",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "knowledgePointId": "14",
+                    "knowledgePoint": "关系运算（>、>=、<、<=、==、!=）"
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "knowledgePointId": "18",
+                    "knowledgePoint": "if语句"
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1953000881163104257",
+                    "knowledgePointId": "7",
+                    "knowledgePoint": "变量"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953269323275464705",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">人们现在参加很多闭卷考试时通常都不允许带智能手机、平板电脑等，此外很多种智能手表同样因为具有嵌入操作系统及通信等功能，所以也不允许随身携带。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:37:51",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953269323275464705",
+                    "knowledgePointId": "2",
+                    "knowledgePoint": "操作系统基本概念和常见操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953269456620777474",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">如果N是C++的整型变量，值为5，则表达式 (N + !N) 的值为4。 ( &nbsp;)</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:38:23",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953269456620777474",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1953269456620777474",
+                    "knowledgePointId": "15",
+                    "knowledgePoint": "逻辑运算（&&、||、!）"
+                },
+                {
+                    "questionId": "1953269456620777474",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1953269456620777474",
+                    "knowledgePointId": "8",
+                    "knowledgePoint": "表达式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953269566901612545",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p>在下面C++代码中，删除break语句对程序执行结果没有影响。 ( )</p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">){ </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;continue</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(170, 17, 17);\">\"#\"</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;break</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(51, 51, 51);\">} </span></p><p><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&gt;= </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(170, 17, 17);\">\"END\"</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:38:49",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953269566901612545",
+                    "knowledgePointId": "26",
+                    "knowledgePoint": "break语句"
+                },
+                {
+                    "questionId": "1953269566901612545",
+                    "knowledgePointId": "25",
+                    "knowledgePoint": "continue语句"
+                },
+                {
+                    "questionId": "1953269566901612545",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1953269566901612545",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953270039108935682",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">删除下面C++代码中的continue后其输出是0#2#4#6#8#。（ ）</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">){ </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp;if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">% </span><span style=\"color: rgb(17, 102, 68);\">2 </span><span style=\"color: rgb(152, 26, 26);\">== </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">){ </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp; &nbsp; &nbsp;cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(170, 17, 17);\">\"#\"</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\"> &nbsp; &nbsp; &nbsp; &nbsp;continue</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(51, 51, 51);\"> &nbsp; &nbsp;} </span></p><p><span style=\"color: rgb(51, 51, 51);\">} </span></p><p><span style=\"color: rgb(119, 0, 136);\">if </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&gt;= </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(170, 17, 17);\">\"END\"</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:40:42",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953270039108935682",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1953270039108935682",
+                    "knowledgePointId": "18",
+                    "knowledgePoint": "if语句"
+                },
+                {
+                    "questionId": "1953270039108935682",
+                    "knowledgePointId": "25",
+                    "knowledgePoint": "continue语句"
+                },
+                {
+                    "questionId": "1953270039108935682",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953270113301983233",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">将下面C++代码中的 i &lt; 100; i = i + 1 修改为 i &lt; 200; i += i + 1 ，其输出与当前代码输出相同。（ </span></p><p><span style=\"color: rgb(51, 51, 51);\">）</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">cnt </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">100</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">+ </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\">cnt </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">cnt</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:41:00",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953270113301983233",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1953270113301983233",
+                    "knowledgePointId": "31",
+                    "knowledgePoint": "赋值语句"
+                },
+                {
+                    "questionId": "1953270113301983233",
+                    "knowledgePointId": "8",
+                    "knowledgePoint": "表达式"
+                },
+                {
+                    "questionId": "1953270113301983233",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1953270113301983233",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953270196844126210",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">交换下面C++代码中的 i += 2 和 cnt += 1 ，交换前后分别运行的两次输出相同。（ ）</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(51, 51, 51);\">, </span><span style=\"color: rgb(0, 0, 0);\">cnt </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cnt </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">while </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">){ </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;i </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">2</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;cnt </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(51, 51, 51);\">} </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">cnt</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:41:20",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953270196844126210",
+                    "knowledgePointId": "23",
+                    "knowledgePoint": "while循环"
+                },
+                {
+                    "questionId": "1953270196844126210",
+                    "knowledgePointId": "16",
+                    "knowledgePoint": "变量自增与自减"
+                },
+                {
+                    "questionId": "1953270196844126210",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953272242523627522",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">下面的C++代码执行后将输出45。（ ）</span></p><p><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">cnt</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(119, 0, 136);\">for </span><span style=\"color: rgb(51, 51, 51);\">(</span><span style=\"color: rgb(0, 136, 85);\">int </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">= </span><span style=\"color: rgb(17, 102, 68);\">0</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i </span><span style=\"color: rgb(152, 26, 26);\">&lt; </span><span style=\"color: rgb(17, 102, 68);\">10</span><span style=\"color: rgb(51, 51, 51);\">; </span><span style=\"color: rgb(0, 0, 0);\">i</span><span style=\"color: rgb(152, 26, 26);\">++</span><span style=\"color: rgb(51, 51, 51);\">) </span></p><p><span style=\"color: rgb(0, 0, 0);\"> &nbsp; &nbsp;cnt </span><span style=\"color: rgb(152, 26, 26);\">+= </span><span style=\"color: rgb(17, 102, 68);\">1</span><span style=\"color: rgb(51, 51, 51);\">; </span></p><p><span style=\"color: rgb(0, 0, 0);\">cout </span><span style=\"color: rgb(152, 26, 26);\">&lt;&lt; </span><span style=\"color: rgb(0, 0, 0);\">cnt</span><span style=\"color: rgb(51, 51, 51);\">;</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:49:27",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953272242523627522",
+                    "knowledgePointId": "22",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "1953272242523627522",
+                    "knowledgePointId": "7",
+                    "knowledgePoint": "变量"
+                },
+                {
+                    "questionId": "1953272242523627522",
+                    "knowledgePointId": "8",
+                    "knowledgePoint": "表达式"
+                },
+                {
+                    "questionId": "1953272242523627522",
+                    "knowledgePointId": "31",
+                    "knowledgePoint": "赋值语句"
+                },
+                {
+                    "questionId": "1953272242523627522",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953272670292303874",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">执行C++代码 cout &lt;&lt; (12 + 12.12) 将报错，因为12是int类型，而12.12是float类型，不同类型不能直接运算。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:51:09",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953272670292303874",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1953272670292303874",
+                    "knowledgePointId": "10",
+                    "knowledgePoint": "实数型（float, double）"
+                },
+                {
+                    "questionId": "1953272670292303874",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1953272670292303874",
+                    "knowledgePointId": "29",
+                    "knowledgePoint": "cout语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953272704043868162",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">在C++代码中，不可以将变量命名为false，因为false是C++语言的关键字。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:51:17",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953272704043868162",
+                    "knowledgePointId": "5",
+                    "knowledgePoint": "关键字"
+                },
+                {
+                    "questionId": "1953272704043868162",
+                    "knowledgePointId": "4",
+                    "knowledgePoint": "标识符"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953273070634426370",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(51, 51, 51);\">X是C++的整型变量，则表达式 3 &lt; X &lt; 5 求值结果是4。( )</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:52:45",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953273070634426370",
+                    "knowledgePointId": "14",
+                    "knowledgePoint": "关系运算（>、>=、<、<=、==、!=）"
+                },
+                {
+                    "questionId": "1953273070634426370",
+                    "knowledgePointId": "12",
+                    "knowledgePoint": "布尔型（bool）"
+                },
+                {
+                    "questionId": "1953273070634426370",
+                    "knowledgePointId": "8",
+                    "knowledgePoint": "表达式"
+                },
+                {
+                    "questionId": "1953273070634426370",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1953273762103189505",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 4,
+            "title": "<p>3.1 编程题 1</p><p>试题名称：假期阅读</p><p>时间限制：1.0 s</p><p>内存限制：512.0 MB</p><p>3.1.1 题目描述</p><p>小 A 有一本厚厚的书。这本书总共有 页，小 A 一天中最多只能阅读完其中的 页。小 A 的假期总共有t天，他想知道在假期中最多能阅读完这本书的多少页。</p><p>3.1.2 输入格式</p><p>第一行，一个正整数 ，表示书的页数。</p><p>第二行，一个正整数 ，表示小 A 每天最多阅读的页数。</p><p>第三行，一个正整数 ，表示小 A 假期的天数。</p><p>3.1.3 输出格式</p><p>一行，一个整数，表示假期中所能阅读的最多页数。</p><p>3.1.4 样例</p><p>3.1.4.1</p><p>输入样例 1</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-07/8641614542947950592.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-07/8641614566905815040.png\"></p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<p>#include &lt;cstdio&gt;</p><p>using namespace std;</p><p><br></p><p>int n, k, t;</p><p>int ans;</p><p><br></p><p>int main() {</p><p>&nbsp;&nbsp;scanf(\"%d\", &amp;n);</p><p>&nbsp;&nbsp;scanf(\"%d\", &amp;k);</p><p>&nbsp;&nbsp;scanf(\"%d\", &amp;t);</p><p>&nbsp;&nbsp;ans = k * t;</p><p>&nbsp;&nbsp;if (n &lt; ans)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;ans = n;</p><p>&nbsp;&nbsp;printf(\"%d\\n\", ans);</p><p>&nbsp;&nbsp;return 0;</p><p>}</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:55:30",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953273762103189505",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1953273762103189505",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                },
+                {
+                    "questionId": "1953273762103189505",
+                    "knowledgePointId": "7",
+                    "knowledgePoint": "变量"
+                },
+                {
+                    "questionId": "1953273762103189505",
+                    "knowledgePointId": "8",
+                    "knowledgePoint": "表达式"
+                },
+                {
+                    "questionId": "1953273762103189505",
+                    "knowledgePointId": "31",
+                    "knowledgePoint": "赋值语句"
+                }
+            ],
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>8</p><p>3</p><p>2</p>",
+                        "testCaseOutput": "<p>6</p>"
+                    },
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>19</p><p>3</p><p>30</p>",
+                        "testCaseOutput": "<p>19</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1953274241893822466",
+            "examinationPaperTitle": "202506GESPC++一级试卷",
+            "type": 4,
+            "title": "<p>试题名称：值日</p><p>时间限制：1.0 s</p><p>内存限制：512.0 MB</p><p>3.2.1 题目描述</p><p>小杨和小红是值日生，负责打扫教室。小杨每m天值日一次，小红每n天值日一次。今天他们两个一起值日，请问至少多少天后，他们会再次同一天值日？</p><p>3.2.2 输入格式</p><p>第一行，一个正整数m，表示小杨的值日周期；</p><p>第二行，一个正整数n，表示小红的值日周期。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-07/8641615116217032704.png\"></p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<p>#include &lt;cstdio&gt;</p><p>#include &lt;algorithm&gt;</p><p>#include &lt;iostream&gt;</p><p>using namespace std;</p><p><br></p><p>int main() {</p><p>&nbsp;&nbsp;int m, n;</p><p>&nbsp;&nbsp;cin &gt;&gt; m &gt;&gt; n;</p><p>&nbsp;&nbsp;for (int i = max(m, n); ; i ++)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if (i % m == 0 &amp;&amp; i % n == 0) {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; i &lt;&lt; endl;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break ;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;return 0;</p><p>}</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1952930529934340098",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2025-08-07 09:57:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1953274241893822466",
+                    "knowledgePointId": "9",
+                    "knowledgePoint": "整型（int, long）"
+                },
+                {
+                    "questionId": "1953274241893822466",
+                    "knowledgePointId": "13",
+                    "knowledgePoint": "算术运算（+、-、*、/、%、整除）"
+                }
+            ],
+            "questionsDetailDTO": {
+                "executionTimeLimit": 1000,
+                "executionMemoryLimit": 512,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>4</p><p>6</p>",
+                        "testCaseOutput": "<p>12</p>"
+                    }
+                ]
+            }
+        }
+    ]
+}

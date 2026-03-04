@@ -1,0 +1,1902 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "2509Python三级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "1971098750021562370",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">以下代码的输出是？( )<br>try: &nbsp;<br> &nbsp; &nbsp;print(10 / 0) &nbsp;<br>except ZeroDivisionError: &nbsp;<br> &nbsp; &nbsp;print(\"Error\") &nbsp;<br>else: &nbsp;<br> &nbsp; &nbsp;print(\"OK\") </span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">除零错误触发 except 块，else 不执行。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:25:38",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971098750021562370",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Error</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971098750021562370",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">OK</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971098750021562370",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">无输出</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971098750021562370",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">报错</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971098750021562370",
+                    "knowledgePointId": "680",
+                    "knowledgePoint": "程序的异常处理：try-except结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971099168474689537",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p>以下代码的输出是？（ ）</p><p>try: &nbsp;</p><p> &nbsp; &nbsp;num = int(\"abc\") &nbsp;</p><p>except ValueError: &nbsp;</p><p> &nbsp; &nbsp;print(\"Type Error\") &nbsp;</p><p>except: &nbsp;</p><p> &nbsp; &nbsp;print(\"Other Error\") </p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在try块中，int(\"abc\")尝试将字符串\"abc\"转换为整数，由于字符串不是有效的纯数字形式，会引发ValueError异常。因此，程序会执行except ValueError块中的代码，输出\"Value Error\"。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:27:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971099168474689537",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Type Error</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971099168474689537",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>Other Error</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971099168474689537",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">无输出</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971099168474689537",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">报错</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971099168474689537",
+                    "knowledgePointId": "680",
+                    "knowledgePoint": "程序的异常处理：try-except结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971099306693783553",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">有如下Python程序：<br>car_brands=['Honda','Toyota','BYD','Ford]<br>f=open('cars.csv','w')<br>f.write(' '.join(car_brands)+'\\n')<br>f.close()<br>下列说法正确的是？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">car_brands是列表形式的一维数据，每个数据元素都是一个字符串，A错；程序功能是将car_brands中的字符串用空格符连接并写入csv文件中，故cars.csv文件中的内容是Honda Toyota BYD Ford，B错C对；若CSV文件不存在，再执行程序后将产生一个cars.csv文件，D不正确。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:27:51",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971099306693783553",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>car_brands是一组二维数据</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971099306693783553",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">程序功能是将cars.csv文件中的内容写入到car_brands中</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971099306693783553",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">cars.csv文件中的内容是：Honda Toyota BYD Ford</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971099306693783553",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在执行程序前，必须先创建cars.csv文件</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971099306693783553",
+                    "knowledgePointId": "678",
+                    "knowledgePoint": "二维数据的表示"
+                },
+                {
+                    "questionId": "1971099306693783553",
+                    "knowledgePointId": "679",
+                    "knowledgePoint": "CSV格式文件"
+                },
+                {
+                    "questionId": "1971099306693783553",
+                    "knowledgePointId": "690",
+                    "knowledgePoint": "二维数据的读写方法"
+                },
+                {
+                    "questionId": "1971099306693783553",
+                    "knowledgePointId": "691",
+                    "knowledgePoint": "编写程序处理二维数据"
+                },
+                {
+                    "questionId": "1971099306693783553",
+                    "knowledgePointId": "692",
+                    "knowledgePoint": "CSV格式文件的读写方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971099766578245634",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p style=\"text-align: start;\">有如下程序段：</p><p style=\"text-align: start;\">cartoon=['孙悟空','哪吒','黑猫警长','喜洋洋','熊大']</p><p style=\"text-align: start;\">with open('car_toons.txt','w') as file: &nbsp;①</p><p style=\"text-align: start;\"> &nbsp; &nbsp;for acter in cartoon:</p><p style=\"text-align: start;\"> &nbsp; &nbsp; &nbsp; &nbsp;file.write(acter+'\\n') &nbsp; &nbsp; &nbsp; &nbsp;②</p><p style=\"text-align: start;\">下列有关说法正确的是？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">由car_toons.txt可知，这是一个txt文件，A正确；①处语句with open不可以改写为open，with open语句打开文件，处理结束后可以自动关闭文件，故B错D错；②处语句功能是将cartoon中每个人物名称写入txt文件，每写入一个进行换行，故C错。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:29:40",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971099766578245634",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">①处文件是一个txt文件</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971099766578245634",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">①处语句with open可直接改写为open</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971099766578245634",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">②处语句功能是每打印一个“acter”单词，就进行换行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971099766578245634",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">该程序段缺少关闭文件的语句</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971099766578245634",
+                    "knowledgePointId": "677",
+                    "knowledgePoint": "一维数据的表示"
+                },
+                {
+                    "questionId": "1971099766578245634",
+                    "knowledgePointId": "688",
+                    "knowledgePoint": "一维数据的读写方法"
+                },
+                {
+                    "questionId": "1971099766578245634",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971099879623127042",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p>有如下程序：</p><p>x=[[1,2,1],[2,4,2],[3,6,3]]</p><p>sum1=0</p><p>for i in range(len(x)):</p><p> &nbsp; &nbsp;sum1+=x[i][1]</p><p>print(sum1)</p><p>程序执行后，输出结果是？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题考查二维数组的遍历处理。for循环遍历每一项数据元素，x[i][1]为第i项数据元素的第2个值，sum1变量用于存储这些值的和。由于sum1初值为0，故结果为0+2+4+6=12，故选B。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:30:07",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971099879623127042",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>13</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971099879623127042",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>12</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971099879623127042",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971099879623127042",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971099879623127042",
+                    "knowledgePointId": "678",
+                    "knowledgePoint": "二维数据的表示"
+                },
+                {
+                    "questionId": "1971099879623127042",
+                    "knowledgePointId": "691",
+                    "knowledgePoint": "编写程序处理二维数据"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971100066768777218",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p style=\"text-align: left;\">已知gs.txt文件如图所示，则有如下代码：</p><p style=\"text-align: left;\">with open(\"gs.txt\",'r',encoding=\"UTF-8\") as file:</p><p style=\"text-align: left;\"> &nbsp; &nbsp;lines=file.readlines()</p><p style=\"text-align: left;\"> &nbsp; &nbsp;a=[]</p><p style=\"text-align: left;\"> &nbsp; &nbsp;for line in lines:</p><p style=\"text-align: left;\"> &nbsp; &nbsp; &nbsp; &nbsp;a.append(line[0])</p><p style=\"text-indent: 21pt; text-align: left;\">print(a)</p><p style=\"text-align: left;\">程序执行后，a的结果是？（ ）</p><p style=\"text-align: left;\"><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-09-25/8659440977863450624.png\" alt=\"\" data-href=\"\" style=\"\"></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题代码主要功能是读取记事本文件，并通过循环遍历每一行，并将行首的首字符写入列表a中，故选B。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:30:52",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971100066768777218",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">['春眠不觉晓']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971100066768777218",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">['春','处','夜','花']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971100066768777218",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">['春','眠','不','觉','晓']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971100066768777218",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>['晓','鸟','声','少']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971100066768777218",
+                    "knowledgePointId": "688",
+                    "knowledgePoint": "一维数据的读写方法"
+                },
+                {
+                    "questionId": "1971100066768777218",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971100139867107329",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在一个txt文件中写入新内容，不覆盖原内容，指定使用以下什么模式打开txt文件？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">w模式可以写入文件，但是会覆盖文件内容；r模式可以读取文件内容；b模式是以二进制的方式打开文件；a模式可以写入文件，并且不覆盖原有的文件内容。 故选D。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:31:09",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971100139867107329",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>w</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971100139867107329",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>r</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971100139867107329",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>b</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971100139867107329",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>a</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971100139867107329",
+                    "knowledgePointId": "688",
+                    "knowledgePoint": "一维数据的读写方法"
+                },
+                {
+                    "questionId": "1971100139867107329",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971100231693004802",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">执行代码：<br>print(bool(2)+3)<br>打印出的结果应该是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">bool函数是int子类型，如果有参数，会返回True也就是整数1，所以正确答案是选项B，也就是数字4</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:31:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971100231693004802",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971100231693004802",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971100231693004802",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971100231693004802",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">报错</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971100231693004802",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971105017834270721",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">小明编写了如下3行代码，请问代码运行后print()打印出的结果是？（ ）</span></p><p style=\"text-align: start;\">a = set('大家好我是小明')</p><p style=\"text-align: start;\">b = set('你好我是大明')<br>print(a &amp; b)</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题是求两串字符的交集，选项A中的5个字，在两个字符串中都存在，所以答案是选项A。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:50:32",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971105017834270721",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">{'好', '我', '是', '大', '明'}</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971105017834270721",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">{'大','家','好','我','是','小','明','你','好','我','是','大','明'}</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971105017834270721",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">{'家', '小', '你'}</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971105017834270721",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>{'好', '我', '是', '大', '明', '家', '小', '你'}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971105017834270721",
+                    "knowledgePointId": "677",
+                    "knowledgePoint": "一维数据的表示"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971105441060515841",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p style=\"text-align: start;\">小明编写了如下4行代码，请问，代码中两次print()函数打印的结果，是什么状态？（ ）</p><p style=\"text-align: start;\">a = [9,3,7,5,8,4]<br>print(sorted(a))<br>a.sort()<br>print(a)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">内置函数sorted()默认将列表中的数据升序排列；列表的sort()方法，默认也是将列表的值进行升序排列，所以正确答案是选项C</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:52:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971105441060515841",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>第1次print(a)，a会降序排列；第2次print(a)，a也会降序排列</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971105441060515841",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">第1次print(a)，a会降序排列；第2次print(a)，a会升序排列</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971105441060515841",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">第1次print(a)，a会升序排列；第2次print(a)，a也会升序排列</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971105441060515841",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">第1次print(a)，a会升序排列；第2次print(a)，a会降序排列</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971105441060515841",
+                    "knowledgePointId": "677",
+                    "knowledgePoint": "一维数据的表示"
+                },
+                {
+                    "questionId": "1971105441060515841",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                },
+                {
+                    "questionId": "1971105441060515841",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971105537814720513",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">下面代码中，运行结果不等于9，会出错的是哪项？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">考查学生对常见内置函数的掌握情况。ACD三个选项运行结果都等于9，B末尾的3是字符串，不能直接参与计算，所以会报错。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:52:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971105537814720513",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">sum([1,2,3,2,1])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971105537814720513",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">sum([3,2,1],'3')</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971105537814720513",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">sum([3,2,1],max(1,2,3))</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971105537814720513",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">sum([3,2,1],int('3'))</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971105537814720513",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971105655720800258",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">请问，下面代码最末print(d1)，执行的结果是？（ ）<br>c1 = ['你','好','吗']<br>d1 = tuple(c1)<br>print(d1)</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">tuple() 可以将字符串，列表，字典，集合转化为元组，所以正确答案是选项C。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:53:04",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971105655720800258",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">['你', '好', '吗']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971105655720800258",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">tuple()不能转换本身就是元组的变量为元组，所以程序不能正确执行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971105655720800258",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">('你', '好', '吗')</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971105655720800258",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">TypeError:非预期类型错误</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971105655720800258",
+                    "knowledgePointId": "677",
+                    "knowledgePoint": "一维数据的表示"
+                },
+                {
+                    "questionId": "1971105655720800258",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971105810033438722",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p style=\"text-align: start;\">如下3行代码，运行之后打印出来的结果是什么？（ ）</p><p style=\"text-align: start;\">b = (5,7,3,6,4)<br>b = sorted(b,reverse=1)<br>print(b)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题考查学生对sorted()排序函数的理解与掌握。题中的两个要点。一：虽然原题中变量b是元组，但排序后打印出来是列表；二：sorted()函数的参数reverse=1为降序排列，reverse=0为升序排列，所以本题正确答案为C。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:53:41",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971105810033438722",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[3, 4, 5, 6, 7]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971105810033438722",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>(3, 4, 5, 6, 7)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971105810033438722",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">[7, 6, 5, 4, 3]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971105810033438722",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">(7, 6, 5, 4, 3)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971105810033438722",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                },
+                {
+                    "questionId": "1971105810033438722",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971106107292151809",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">表达式sum(map(int,'12345'))的返回值是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">map()可以把序列'12345'中的每个字符转成int类型，结果是一个包含数字1,2,3,4,5的迭代器。sum()可以对上述结果进行求和，所以结果是1+2+3+4+5的和，即15，选择B。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:54:52",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971106107292151809",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">[1, 2, 3, 4, 5]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971106107292151809",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>15</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971106107292151809",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971106107292151809",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">['1', '2', '3', '4', '5']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971106107292151809",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971106243271487489",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p style=\"text-align: start;\">小明想得到整数9除以2的商和余数，所以他写下了表达式：x = divmod(9, 2)。请问，表达式中的 x 是什么类型？（ ）</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题考查学生对divmod()函数的理解，divmod()函数返回参数的商和余数，商和余数以元组的形式返回，所以x的类型，是元组。也就是选项D</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:55:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971106243271487489",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">浮点数</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971106243271487489",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">整数</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971106243271487489",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">列表</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971106243271487489",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">元组</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971106243271487489",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971106347718045698",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">下列4个表达式中，答案不是整数6的是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">考查学生对内置数值处理函数的理解。abs()是取绝对值，int()默认会取整，round()四舍五入，float()会把整数转为浮点数，min()获取列表中的最小值，所以，上列4个表达式，只有选项D的答案是6.0浮点数，不是整数6。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:55:49",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971106347718045698",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">abs(-6)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971106347718045698",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">int(6.88)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971106347718045698",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">round(5.55)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971106347718045698",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">min(float(6),9,8,7)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971106347718045698",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971107338483953666",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">已知a = min('654')，那么print(max(float(a),3,2))输出的结果将是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">a=’4’，float(a)=4.0，max(float(a),3,2)=4.0，故选D。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 14:59:46",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971107338483953666",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971107338483953666",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971107338483953666",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>6.0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971107338483953666",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>4.0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971107338483953666",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971107540192227330",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">关于all()函数的用法，以下语句中能够返回True值的是哪一项？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">all() 函数的参数如果为0、空、False则返回False。上述选项ABC都有数字0，选项D中全是字符，没有0或者空值，所以会返回True。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:00:34",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971107540192227330",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>all((0,))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971107540192227330",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">all([0])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971107540192227330",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">all([0,1,2])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971107540192227330",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">all(['a','1','2'])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971107540192227330",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971107655036465153",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">十进制数16，转化为二进制为？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">十进制与二进制转化。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:01:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971107655036465153",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">10000</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971107655036465153",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">1000</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971107655036465153",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">10001</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971107655036465153",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>1001</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971107655036465153",
+                    "knowledgePointId": "675",
+                    "knowledgePoint": "数制的基本概念"
+                },
+                {
+                    "questionId": "1971107655036465153",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971107927578144770",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">将十六进制数2f 转化为二进制数的表达式为？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">将十六进制数转化为二进制数的函数为 bin()，bin(0x2f)的值为 '0b101111'。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:02:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971107927578144770",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>int(0x2f)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971107927578144770",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">hex(0x2f)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971107927578144770",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>oct(0x2f)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971107927578144770",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">bin(0x2f)</span></p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971107927578144770",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                },
+                {
+                    "questionId": "1971107927578144770",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971107998734512129",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">八进制数20，转化为十进制数为？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">八进制与十进制转化问题。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:02:23",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971107998734512129",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>16</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971107998734512129",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>30</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971107998734512129",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>64</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971107998734512129",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>192</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971107998734512129",
+                    "knowledgePointId": "675",
+                    "knowledgePoint": "数制的基本概念"
+                },
+                {
+                    "questionId": "1971107998734512129",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111163844390914",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">下面转化结果与二进制数100001不相等的是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">考核 二进制与十进制、八进制、十六进制转化问题。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:14:58",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971111163844390914",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">十进制数33</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971111163844390914",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">八进制数41</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971111163844390914",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">十六进制数21</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971111163844390914",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">int(\"33\",2)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111163844390914",
+                    "knowledgePointId": "675",
+                    "knowledgePoint": "数制的基本概念"
+                },
+                {
+                    "questionId": "1971111163844390914",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                },
+                {
+                    "questionId": "1971111163844390914",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111262544752641",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">下列哪个选项不是算法的表示方法？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">算法的表示方法有自然语言、流程图、程序设计语言。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:15:21",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971111262544752641",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">自然语言</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971111262544752641",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">流程图</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971111262544752641",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">程序设计语言</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971111262544752641",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">枚举</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111262544752641",
+                    "knowledgePointId": "681",
+                    "knowledgePoint": "算法的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111395328028674",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">下列哪个选项不是算法的基本结构？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">算法的基本结构是顺序结构、选择结构、循环结构。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:15:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971111395328028674",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">顺序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971111395328028674",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">循环</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971111395328028674",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">排序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971111395328028674",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>选择</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111395328028674",
+                    "knowledgePointId": "681",
+                    "knowledgePoint": "算法的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111502622519298",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">输入一指定金额（以元为单位，如683），然后输出支付该金额的各种面额的人民币数量，分6行分别输出100元，50元，20元，10元，5元，1元各多少张，要求尽量使用大面额的钞票，求解这个问题主要用到的算法是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">因为题目要求尽量使用大面额的钞票，所以是解析算法。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:16:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "1971111502622519298",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">查找</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1971111502622519298",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">排序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1971111502622519298",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">枚举</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1971111502622519298",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">解析</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111502622519298",
+                    "knowledgePointId": "682",
+                    "knowledgePoint": "解析算法的特征"
+                },
+                {
+                    "questionId": "1971111502622519298",
+                    "knowledgePointId": "693",
+                    "knowledgePoint": "用解析、枚举、排序、查找算法实现简单的Python程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111589213925378",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在 Python 中，对于异常处理时 except: 语句可以捕获所有类型的异常，无需指定具体错误类型。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">except: 不指定异常类型时，默认捕获所有异常。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:16:39",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111589213925378",
+                    "knowledgePointId": "680",
+                    "knowledgePoint": "程序的异常处理：try-except结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111626371264513",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">当文件有多行时，使用read()每次只读取文件的一行。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">read()每次读取整个文件，且所读取的文件内容将生成一个字符串。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:16:48",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111626371264513",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111669815865346",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">无论是一维数据还是二维数据，都可以写入CSV文件中。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">csv格式是一二维数据的存储格式，因此一维序列和二维序列都可以写入CSV文件中。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:16:58",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111669815865346",
+                    "knowledgePointId": "679",
+                    "knowledgePoint": "CSV格式文件"
+                },
+                {
+                    "questionId": "1971111669815865346",
+                    "knowledgePointId": "677",
+                    "knowledgePoint": "一维数据的表示"
+                },
+                {
+                    "questionId": "1971111669815865346",
+                    "knowledgePointId": "678",
+                    "knowledgePoint": "二维数据的表示"
+                },
+                {
+                    "questionId": "1971111669815865346",
+                    "knowledgePointId": "692",
+                    "knowledgePoint": "CSV格式文件的读写方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111713864445953",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">简单文件的读取过程中，readline()和readlines()返回的结果都是字符串。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">readline()是读取一行，返回字符串类型数据；readlines()是按行读取整个文件内容，返回一个列表。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:17:09",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111713864445953",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111747318214658",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">sum()函数可以对列表进行求和，但不能对元组进行求和。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">sum()函数可以对元组进行求和。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:17:17",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111747318214658",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111826791886849",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">set()函数能剔除集合中重复的元素，所保留的元素位置不固定，所以不能使用索引来确定某个元素的位置。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题正确，set()之后的集合，集合中的元素位置不定，使用索引会报错。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:17:36",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111826791886849",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111878188888066",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">以下代码的运行结果是False。（ ）<br>a = any([None,[],(),[2]])<br>print(a)</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">列表[2]不为空，所以 any() 的结果是True。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:17:48",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111878188888066",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111912229859330",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p style=\"text-align: start;\">请判断，下面3行代码，能否正确执行。（ ）</p><p style=\"text-align: start;\">txt1 = \"白黑黑白黑白白黑白黑白白\"</p><p style=\"text-align: start;\">a = txt1.count(\"白\") - txt1.count(\"黑\")</p><p style=\"text-align: start;\">print(a)</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">正确。字符串也是一种特殊的“列表”，所以可以使用列表的count()方法，统计字符串中元素的个数。本代码中“白”字有7个，“黑”字有5个，两者相减为2，代码能够正确运行。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:17:56",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111912229859330",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971111953472450562",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">二进制数1100，转化为十六进制为C。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">二进制与十六进制转化。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 15:18:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971111953472450562",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971129423683940354",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在Python中，hex(0b11111111)的结果为'0xff'。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">hex函数将一个二进制数转化为十六进制数，结果为字符串。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 16:27:31",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971129423683940354",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                },
+                {
+                    "questionId": "1971129423683940354",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971129524661809154",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 4,
+            "title": "<p style=\"text-align: start;\"><strong>垃圾分类</strong></p><p style=\"text-align: start;\">2025年，某社区推行垃圾分类积分制度。居民每日投放可回收物（每袋积2分）和厨余垃圾（每袋积1分），当日统计得出总积分达到30分且总垃圾袋数少于20袋。</p><p style=\"text-align: start;\">要求找出所有符合题目要求的垃圾袋组合方案。请完成下面程序中①②③④的语句，实现对问题的求解。</p><p style=\"text-align: start;\">#设recycle、food分别为可回收物、厨余垃圾的垃圾袋数量，num为符合题目要求的方案数目<br>num=0<br>for recycle in range(0,<u> &nbsp; &nbsp; &nbsp; &nbsp;</u><u><strong>①</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>): &nbsp;<br> &nbsp; &nbsp;for food in range(0,<u> </u><u><strong> &nbsp; &nbsp; &nbsp; ②</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>): &nbsp;<br> &nbsp; &nbsp; &nbsp; &nbsp;if <u> &nbsp;</u><u><strong> &nbsp; &nbsp; &nbsp; ③</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u> &gt;= 30 and <u> </u><u><strong> &nbsp; &nbsp; &nbsp; ④</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>:<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;num=num+1<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(f\"方案{num}：可回收物{recycle}袋，厨余垃圾{food}袋 → 总袋数{recycle +food}\")</p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p style=\"text-align: start;\"><span style=\"color: rgb(229, 51, 51);\"><strong>参考程序：</strong></span></p><p style=\"text-align: start;\">#设recycle、food分别为可回收物、厨余垃圾的垃圾袋数量，num为符合题目要求的方案数目</p><p style=\"text-align: start;\">num=0<br>for recycle in range(0, <span style=\"color: rgb(229, 51, 51);\"><strong>20</strong></span>): &nbsp;<br> &nbsp; &nbsp;for food in range(0, <span style=\"color: rgb(229, 51, 51);\"><strong>30//1+1</strong></span>): &nbsp;<br> &nbsp; &nbsp; &nbsp; &nbsp;if<strong> </strong><span style=\"color: rgb(229, 51, 51);\"><strong>2 * recycle + food</strong></span> &gt;= 30 and <span style=\"color: rgb(229, 51, 51);\"><strong>recycle + food&lt;20</strong></span>:<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;num=num+1<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(f\"方案{num}：可回收物{recycle}袋，厨余垃圾{food}袋 → 总袋数{recycle +food}\")</p><p style=\"text-align: start;\">\t试题解析：</p><p style=\"text-align: start;\">评分标准：</p><p style=\"text-align: start;\"><br></p><p style=\"text-align: start;\">（1）20 或等效答案；(2分) &nbsp;</p><p style=\"text-align: start;\"><br></p><p style=\"text-align: start;\"> &nbsp; &nbsp; &nbsp; &nbsp;30//2+1；(只给1分) &nbsp;</p><p style=\"text-align: start;\"><br></p><p style=\"text-align: start;\">（2）30//1+1 或31 或等效答案；（2分）</p><p style=\"text-align: start;\"><br></p><p style=\"text-align: start;\">（3）2 * recycle + food 或等效答案；（3分）</p><p style=\"text-align: start;\"><br></p><p style=\"text-align: start;\">（4）recycle + food&lt;20 或等效答案。（3分）</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 16:27:55",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971129524661809154",
+                    "knowledgePointId": "683",
+                    "knowledgePoint": "枚举算法的特征"
+                },
+                {
+                    "questionId": "1971129524661809154",
+                    "knowledgePointId": "693",
+                    "knowledgePoint": "用解析、枚举、排序、查找算法实现简单的Python程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971129705763467266",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 4,
+            "title": "<p style=\"text-align: start;\"><strong>跳绳抽测</strong></p><p style=\"text-align: start;\">学校某年级跳绳抽测（每个班抽测5名同学）后，老师将有效数据导出为”ts.csv”文件进行保存，部分数据如图所示，现要编程统计共有多少同学在100个以下，请补全代码：</p><p style=\"text-align: start;\"><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-09-25/8659470601049808896.png\" alt=\"\" data-href=\"\" style=\"\"></p><p style=\"text-align: start;\">import csv</p><p style=\"text-align: left;\">with open(\"/data/ts.csv\") as <u> &nbsp; &nbsp; &nbsp; &nbsp;</u><span style=\"color: rgb(229, 51, 51);\"><u><strong>①</strong></u></span><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>:</p><p style=\"text-align: left;\"> &nbsp; &nbsp;rs=list(csv.reader(file))</p><p style=\"text-align: left;\"> &nbsp; &nbsp;<u> </u><u><strong> &nbsp; &nbsp; &nbsp; ②</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u></p><p style=\"text-align: left;\"> &nbsp; &nbsp;for i in rs[1:]:</p><p style=\"text-align: left;\"> &nbsp; &nbsp; &nbsp; &nbsp;if int(<u> </u><u><strong> &nbsp; &nbsp; &nbsp; ③</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>)&lt;100:</p><p style=\"text-align: left;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c+=1</p><p style=\"text-align: left;\"> &nbsp; &nbsp;print(\"该年级抽测中共有\"+str(c)+\"人低于100个\")</p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">标准答案：</span></p><p style=\"text-align: left;\"><span style=\"color: rgb(229, 51, 51);\"><strong>参考程序：</strong></span></p><p style=\"text-align: left;\">import csv</p><p style=\"text-align: left;\"><strong>with open(\"/data/ts.csv\")as file:</strong></p><p style=\"text-align: left;\"> &nbsp; &nbsp;rs=list(csv.reader(file))</p><p style=\"text-align: left;\"><strong> &nbsp; &nbsp;c=0</strong></p><p style=\"text-align: left;\"> &nbsp; &nbsp;for i in rs[1:]:</p><p style=\"text-align: left;\"><strong> &nbsp; &nbsp; &nbsp; &nbsp;if int(i[1])&lt;100:</strong></p><p style=\"text-align: left;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c+=1</p><p style=\"text-align: left;\"> &nbsp; &nbsp;print(\"该年级抽测中共有\"+str(c)+\"人低于100个\")</p><p style=\"text-align: start;\"><span style=\"color: rgb(229, 51, 51);\"><strong>评分标准：</strong></span><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">（1）file 或等效答案；(1分)<br>（2）c=0 或等效答案；（1分）<br>（3）[1] 或等效答案。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 16:28:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971129705763467266",
+                    "knowledgePointId": "692",
+                    "knowledgePoint": "CSV格式文件的读写方法"
+                },
+                {
+                    "questionId": "1971129705763467266",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                },
+                {
+                    "questionId": "1971129705763467266",
+                    "knowledgePointId": "690",
+                    "knowledgePoint": "二维数据的读写方法"
+                },
+                {
+                    "questionId": "1971129705763467266",
+                    "knowledgePointId": "691",
+                    "knowledgePoint": "编写程序处理二维数据"
+                },
+                {
+                    "questionId": "1971129705763467266",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1971129829109559298",
+            "examinationPaperTitle": "2509Python三级真题",
+            "type": 4,
+            "title": "<p style=\"text-align: start;\"><strong>购买餐具</strong></p><p style=\"text-align: start;\">学校食堂购买 110个餐具，总共花了 2200元 。已知：盘子25元一个，碗20元一个，勺子10元一个，请列出盘子、碗、勺子各买多少个的所有组合。</p><p style=\"text-align: start;\">为解决上述问题，小明编写了以下Python程序，运行结果如后图。请将下面数字序号①②③④⑤⑥处的代码补全：</p><p style=\"text-align: start;\">plate = 0</p><p style=\"text-align: start;\">bowl = 0<br>spoon = 0<br>price = 0<br>b =[]<br><br>for plate in range(1,round(2200/25)): &nbsp; &nbsp; #盘子数量从少到多<br> &nbsp; &nbsp; price =<u> &nbsp; &nbsp; &nbsp; &nbsp;</u><span style=\"color: rgb(229, 51, 51);\"><u><strong>①</strong></u></span><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>#计算盘子价格<br> &nbsp; &nbsp; <br> &nbsp; &nbsp; for bowl in range(1,<u> </u><u><strong> &nbsp; &nbsp; &nbsp; ②</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>): &nbsp; &nbsp;#碗数量从少到多<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;price1 = price + bowl * 20 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #计算盘子加碗的价格<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;for spoon in range(1,round(2200/10)): &nbsp; &nbsp;#勺子数量从少到多<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; price2 = price1 + spoon * 10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#计算盘子加碗再加勺子的价格<br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if<u> </u><u><strong> &nbsp; &nbsp; &nbsp; ③</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #如果总价等于2200元<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if &nbsp;<u> </u><u><strong> &nbsp; &nbsp; &nbsp; ④</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u> == 110: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#如果个数等于110个<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b. <u> </u><u><strong> &nbsp; &nbsp; &nbsp; ⑤</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u> ([plate,bowl,spoon,price2]) &nbsp;#将当前数据加入到数组中<br><br>for a in<u> </u><u><strong> &nbsp; &nbsp; &nbsp; ⑥</strong></u><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>:<br> &nbsp; &nbsp; print('盘',a[0],'个;碗',a[1],'个;勺',a[2],'个;价',a[3]) &nbsp; &nbsp;#打印出数组中符合要求的数据</p><p style=\"text-align: start;\"><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-09-25/8659470793685803008.png\" alt=\"20250822092625_2265.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-09-25/8659470793685803008.png\" style=\"\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p style=\"text-align: start;\"><strong>参考程序：</strong><br></p><p style=\"text-align: start;\">plate = 0</p><p style=\"text-align: start;\">bowl = 0<br>spoon = 0<br>price = 0<br>b =[]<br>for plate in range(1,round(2200/25)): &nbsp; &nbsp;#盘子数量从少到多<br> &nbsp; &nbsp; price =<span style=\"color: rgb(229, 51, 51); font-size: 14px;\"><strong> plate * 25 </strong></span> &nbsp; &nbsp;#计算盘子价格<br> &nbsp; &nbsp; for bowl in range(1,<span style=\"color: rgb(229, 51, 51); font-size: 14px;\"><strong>round(2200/20)</strong></span>): &nbsp; #碗数量从少到多<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;price1 = price + bowl * 20 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#计算盘子加碗的价格<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;for spoon in range(1,round(2200/10)): &nbsp; #勺子数量从少到多<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; price2 = price1 + spoon * 10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #计算盘子加碗再加勺子的价格<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if<span style=\"color: rgb(229, 51, 51); font-size: 14px;\"><strong> price2 == 2200</strong></span>: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#如果总价等于2200元<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if<span style=\"color: rgb(229, 51, 51); font-size: 14px;\"><strong> plate+bowl+spoon </strong></span>== 110: &nbsp; &nbsp; &nbsp; &nbsp; #如果个数等于110个<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.<span style=\"color: rgb(229, 51, 51); font-size: 14px;\"><strong>append</strong></span>([plate,bowl,spoon,price2]) #将当前数据加入到数组中<br>for a in<span style=\"color: rgb(229, 51, 51); font-size: 14px;\"><strong> b</strong></span>:<br> &nbsp; &nbsp; print('盘',a[0],'个;碗',a[1],'个;勺',a[2],'个;价',a[3]) &nbsp; #打印出数组中符合要求的数据</p><p style=\"text-align: start;\"><span style=\"color: rgb(229, 51, 51);\"><strong>评分标准：</strong></span><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">（1）plate * 25 或等效答案；（2分）<br>（2）round(2200/20) 或等效答案；（3分）<br>（3）price2 == 2200 或等效答案；（3分）<br>（4）plate+bowl+spoon 或等效答案；（3分）<br>（5）append 或等效答案；（3分） &nbsp;<br>（6）b 或等效答案。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1970757909348380674",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-09-25 16:29:08",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1971129829109559298",
+                    "knowledgePointId": "683",
+                    "knowledgePoint": "枚举算法的特征"
+                },
+                {
+                    "questionId": "1971129829109559298",
+                    "knowledgePointId": "693",
+                    "knowledgePoint": "用解析、枚举、排序、查找算法实现简单的Python程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

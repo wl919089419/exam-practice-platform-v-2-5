@@ -1,0 +1,2045 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202106Python二级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "3722",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">小红用一个列表</span>score=[80,78,92,96,100,88,95]<span style=\"font-family: 宋体;\">来依次表示她七周的英文测验分数，如果想要查找到第三周的英文测验分数并将其删除，应该怎么做？</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">检索并删除特定元素</span>s.pop(i)*<span style=\"font-family: 宋体;\">此处小括号里是索引号</span>.<span style=\"font-family: 宋体;\">小红用列表来表示自己七周的测验分数，但是列表的索引是从</span>0<span style=\"font-family: 宋体;\">开始，也就是第</span>1<span style=\"font-family: 宋体;\">周的测验分数对应的索引号是</span>0<span style=\"font-family: 宋体;\">。依此类推，第三周的索引号就是</span>2.<span style=\"font-family: 宋体;\">因此是</span>score.pop(2)<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3722",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>score[3]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3722",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>score[2]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3722",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>score.pop(3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3722",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>score.pop(2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3722",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3722",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3722",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3721",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p>执行下列代码后，运行结果是？<br><br></p><p>seq=['hello','good','morning']</p><p><br></p><p> </p><p>s='*'.join(seq)</p><p> </p><p>print(s)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">理解用</span>join<span style=\"font-family: 宋体;\">方法连接字符串的方式</span><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3721",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>hello*good*morning*</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3721",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>*hello*good*morning</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3721",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>hello*good*morning</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3721",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>*hello*good*morning*</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3721",
+                    "knowledgePointId": "658",
+                    "knowledgePoint": "字符串类型的概念"
+                },
+                {
+                    "questionId": "3721",
+                    "knowledgePointId": "670",
+                    "knowledgePoint": "字符串的基础用法及操作：字符串的分割、结合、替换、检索、长度获取"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3737",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知列表</span>List1=[1,2,3,4,5]<span style=\"font-family: 宋体;\">，要在列表</span>List1<span style=\"font-family: 宋体;\">中的最前面添加元素</span>0<span style=\"font-family: 宋体;\">，则下列操作可行的是？</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3737",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>List1=0+List1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3737",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>\tList1=\"0\"+List1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3737",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>List1=[0]+List1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3737",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>List1=List1+[0]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3737",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3737",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3737",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3736",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">正确定义元组</span>yuan<span style=\"font-family: 宋体;\">的语句是？</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>定义元组使用括号，也可以不用符号<br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3736",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>yuan={1,2,3}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3736",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>yuan=[1,2,3]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3736",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>yuan=(1,2,3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3736",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>yuan=&lt;1,2,3&gt;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3736",
+                    "knowledgePointId": "656",
+                    "knowledgePoint": "元组类型的概念"
+                },
+                {
+                    "questionId": "3736",
+                    "knowledgePointId": "669",
+                    "knowledgePoint": "元组的基础用法及操作：元组的声明与赋值、元组的访问与更新、元组的遍历、添加、删除、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3735",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">下列程序的运行结果是？</span></p><p>name='The dog is ehite'</p><p>new_name=name[:11]+'white'</p><p>print(new_name[11:])</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3735",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>The dog is white</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3735",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>hite</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3735",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>ehite</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3735",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>white</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3735",
+                    "knowledgePointId": "658",
+                    "knowledgePoint": "字符串类型的概念"
+                },
+                {
+                    "questionId": "3735",
+                    "knowledgePointId": "670",
+                    "knowledgePoint": "字符串的基础用法及操作：字符串的分割、结合、替换、检索、长度获取"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3734",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">关于下列程序理解说法正确的是？</span></p><p>num=0</p><p>while num&lt;10:</p><p> &nbsp; &nbsp;print(\"Python\")</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3734",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">在</span>while<span style=\"font-family: 宋体;\">代码块中无论加什么都不能改变死循环</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3734",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">运行结果打印输出</span>10<span style=\"font-family: 宋体;\">个</span>\"Python\"<span style=\"font-family: 宋体;\">语句</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3734",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">这个</span>while<span style=\"font-family: 宋体;\">循环是一个死循环</span>,<span style=\"font-family: 宋体;\">会一直打印</span>\"Python\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3734",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">在</span>while<span style=\"font-family: 宋体;\">代码块中加一行代码</span>num-=1<span style=\"font-family: 宋体;\">可以改变死循环</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3734",
+                    "knowledgePointId": "666",
+                    "knowledgePoint": "while循环"
+                },
+                {
+                    "questionId": "3734",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3733",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p>以下说法正确的是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3733",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>同一个元组中，元素的类型必须相同</p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3733",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>tuple()<span style=\"font-family: 宋体;\">函数可以将列表转换为元组</span></p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3733",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"font-family: 宋体;\">用</span>del<span style=\"font-family: 宋体;\">就可以删除元组中的元素</span></p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3733",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>列表和元组都是可变数据类型</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3733",
+                    "knowledgePointId": "656",
+                    "knowledgePoint": "元组类型的概念"
+                },
+                {
+                    "questionId": "3733",
+                    "knowledgePointId": "657",
+                    "knowledgePoint": "元组和列表的不同"
+                },
+                {
+                    "questionId": "3733",
+                    "knowledgePointId": "669",
+                    "knowledgePoint": "元组的基础用法及操作：元组的声明与赋值、元组的访问与更新、元组的遍历、添加、删除、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3732",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p>下列说法错误的是？</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3732",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>字典是可变的无序集合</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3732",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>列表、元组可以相互嵌套使用</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3732",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>字典虽然不能利用下标访问元素，但可以排序</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3732",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>字典属于一对一映射关系的数据类型</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3732",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3732",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "字典属于一对一映射关系的数据类型"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3731",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p>将下列列表a中偶数提取出来并形成一个新的列表c，请补充完整语句？</p><p> </p><p>a = [3,5,7,6,2,8,10]</p><p> </p><p>c=[]</p><p> </p><p>for i in a:</p><p> </p><p> if _______:</p><p> </p><p> &nbsp; &nbsp;________</p><p> </p><p>print(c)</p><p> </p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>这道题我们首先得了解for循环来遍历列表的方法，即for i in a:，然后将每个数通过if分支语句进行判断是否为偶数。所以if 条件处需要添加的一个判断条件是i%2==0，然后将符合条件的i添加到列表c中，即c.append(i)。最后将列表c打印出来即print(c)。</p><p> </p><p>i%2==0 #i除以2的余数等于0.</p><p> </p><p>i//2==1#i 整除2的得数等于1</p><p> </p><p> </p><p>c.append(i)#追加元素s.append()</p><p> </p><p> </p><p>c.extend(i)#扩展序列s.extend()</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3731",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>i%2==0:</p><p> </p><p>c.append(i)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3731",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>i%2==0</p><p> </p><p>c.extend(i)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3731",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>i//2=1</p><p> </p><p>c.append(i)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3731",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>i//2=1</p><p> </p><p>c.extend(i)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3731",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3731",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3731",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                },
+                {
+                    "questionId": "3731",
+                    "knowledgePointId": "660",
+                    "knowledgePoint": "选择结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3731",
+                    "knowledgePointId": "661",
+                    "knowledgePoint": "单分支结构"
+                },
+                {
+                    "questionId": "3731",
+                    "knowledgePointId": "665",
+                    "knowledgePoint": "for循环"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3729",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">执行下列代码后，屏幕打印的</span>k<span style=\"font-family: 宋体;\">值的个数共有多少个？<br></span></p><p>k=100</p><p><br></p><p>while k&gt;1:</p><p> &nbsp; &nbsp;print(k)</p><p> &nbsp; &nbsp;k=k//2</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>理解循环体，能够判断循环次数</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3729",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3729",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3729",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3729",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>50</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3729",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3729",
+                    "knowledgePointId": "666",
+                    "knowledgePoint": "while循环"
+                },
+                {
+                    "questionId": "3729",
+                    "knowledgePointId": "673",
+                    "knowledgePoint": "完成简单循环结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3728",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知</span>a=\"123\"<span style=\"font-family: 宋体;\">，那么</span>a*2<span style=\"font-family: 宋体;\">的结果是？</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">字符串的重复，特别要注意这里的</span>a<span style=\"font-family: 宋体;\">是字符串类型，而不是整型，所以选择</span>C</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3728",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>246</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3728",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>123123</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3728",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>'123123'</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3728",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>'246'</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3728",
+                    "knowledgePointId": "658",
+                    "knowledgePoint": "字符串类型的概念"
+                },
+                {
+                    "questionId": "3728",
+                    "knowledgePointId": "670",
+                    "knowledgePoint": "字符串的基础用法及操作：字符串的分割、结合、替换、检索、长度获取"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3727",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">以下代码输出结果是？</span></p><p>ls = [888,'note',[2021,'Python',123],20]</p><p>print(ls[2][1])</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3727",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>note</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3727",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>Python</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3727",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>2021</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3727",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>结果错误</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3727",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3727",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3727",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3726",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">在</span>Python3.5.2<span style=\"font-family: 宋体;\">的</span>IDLE<span style=\"font-family: 宋体;\">交互式环境下依次输入以下程序语句后的结果是？</span></p><p> </p><p>&gt;&gt;&gt;S=[10,20,30,40]</p><p> </p><p>&gt;&gt;&gt;10 in S</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">判断元素是否在序列之内</span>x in s.10<span style=\"font-family: 宋体;\">在序列</span>S=[10,20,30,40]<span style=\"font-family: 宋体;\">中，因此答案为</span>True<span style=\"font-family: 宋体;\">。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3726",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>True</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3726",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>true</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3726",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>False</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3726",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\tfalse</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3726",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3726",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3725",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">原有列表</span>s=[5,2,9,1]<span style=\"font-family: 宋体;\">，下列哪个操作不能使得列表</span>s<span style=\"font-family: 宋体;\">变为</span>[9,5,2,1]<span style=\"font-family: 宋体;\">？</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>sort() <span style=\"font-family: 宋体;\">函数用于对原列表进行排序，</span>reverse -- <span style=\"font-family: 宋体;\">排序规则，</span>reverse = True <span style=\"font-family: 宋体;\">降序， </span>reverse = False <span style=\"font-family: 宋体;\">升序（默认）；</span>sort <span style=\"font-family: 宋体;\">与 </span>sorted <span style=\"font-family: 宋体;\">区别：</span>sort <span style=\"font-family: 宋体;\">是应用在 </span>list <span style=\"font-family: 宋体;\">上的方法，</span>sorted <span style=\"font-family: 宋体;\">可以对所有可迭代的对象进行排序操作。</span><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3725",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>s.sort()</p><p>s.reverse()</p><p>print(s)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3725",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>s.sort(reverse=True)</p><p>print(s)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3725",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>print(sorted(s,reverse=True))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3725",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>s.sort() </p><p> </p><p>print(s)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3725",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3724",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知</span>Lista=list(\"five\")<span style=\"font-family: 宋体;\">，执行语句</span>Lista[2:]=list(\"rst\")<span style=\"font-family: 宋体;\">后，列表</span>Lista<span style=\"font-family: 宋体;\">中的元素为？</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3724",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>['f', 'i', 'v', 'e', 'r', 's', 't']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3724",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>['f', 'r', 's', 't']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3724",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>['f', 'i', 'r', 's']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3724",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>['f', 'i', 'r', 's', 't']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3724",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3724",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3724",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3723",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">以下代码输出结果是？</span></p><p>ls =[\"2021\",\"123\",\"Python\"]</p><p>ls.append([2021,\"2021\"])</p><p>ls.append(2021)</p><p>print(ls)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>列表的添加<br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3723",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>['2021', '123', 'Python', 2021]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3723",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>['2020', '123', 'Python', [2021, '2021']]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3723",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>['2021', '123', 'Python', [2021, '2021'], 2021]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3723",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>['2020', '123', 'Python', [2021],2021]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3723",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3723",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3730",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">据相关文件规定，全国景区对老年人实行优惠政策：</span>60<span style=\"font-family: 宋体;\">岁以内全票，</span>60-69<span style=\"font-family: 宋体;\">岁（含</span>60<span style=\"font-family: 宋体;\">岁和</span>69<span style=\"font-family: 宋体;\">岁）的老年人半票，</span>69<span style=\"font-family: 宋体;\">岁以上免费。输入年龄，可以输出全票</span>/<span style=\"font-family: 宋体;\">半票</span>/<span style=\"font-family: 宋体;\">免费信息的程序是？</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "3730",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>while True:</p><p> &nbsp;a=int(input('<span style=\"font-family: 宋体;\">年龄：</span>'))</p><p> &nbsp;if(a&gt;=70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">免费</span>')</p><p> &nbsp;elif(a&gt;60 and a&lt;70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">半票</span>')</p><p> &nbsp;else:</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">全票</span>') &nbsp;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3730",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>while True:</p><p> &nbsp;a=int(input('<span style=\"font-family: 宋体;\">年龄：</span>'))</p><p> &nbsp;if(a&gt;=70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">免费</span>')</p><p> &nbsp;elif(a&gt;=60 and a&lt;70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">半票</span>')</p><p> &nbsp;else:</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">全票</span>') &nbsp; &nbsp;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3730",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>while True:</p><p> &nbsp;a=int(input('<span style=\"font-family: 宋体;\">年龄：</span>'))</p><p> &nbsp;if(a&gt;70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">免费</span>')</p><p> &nbsp;elif(a&gt;=60 and a&lt;70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">半票</span>')</p><p> &nbsp;else:</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">全票</span>') &nbsp; &nbsp; </p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3730",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>while True:</p><p> &nbsp;a=int(input('<span style=\"font-family: 宋体;\">年龄：</span>'))</p><p> &nbsp;if(a&gt;70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">免费</span>')</p><p> &nbsp;elif(a&gt;60 and a&lt;70):</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">半票</span>')</p><p> &nbsp;else:</p><p> &nbsp; &nbsp;print('<span style=\"font-family: 宋体;\">全票</span>') &nbsp; &nbsp;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3730",
+                    "knowledgePointId": "660",
+                    "knowledgePoint": "选择结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3730",
+                    "knowledgePointId": "663",
+                    "knowledgePoint": "多分支结构语句"
+                },
+                {
+                    "questionId": "3730",
+                    "knowledgePointId": "672",
+                    "knowledgePoint": "完成简单选择结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3745",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">用语句</span>mydict={'a':1,'b':2,'c':3,'d':4}<span style=\"font-family: 宋体;\">定义了一个字典，以下语句中，可以输出字典键值的是？</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3745",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>print(mydict('c'))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3745",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>print(mydict 'c')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3745",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>mydict['c']</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3745",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>print(mydict{'c'})</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3745",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "字典"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3744",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知字典</span>dict1={0:\"zero\",1:\"one\",2:\"two\",3:\"Three\"}<span style=\"font-family: 宋体;\">，执行语句</span>dict1[3]=\"three\"<span style=\"font-family: 宋体;\">后，字典</span>dict1<span style=\"font-family: 宋体;\">的内容为？</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3744",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>{0:\"zero\",1:\"one\",2:\"two\",3:\"Three\"}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3744",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>{0:\"zero\",1:\"one\",2:\"two\",3:\"three\"}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3744",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>{0:\"zero\",1:\"one\",2:\"two\",\"3\":three}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3744",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>{0:\"zero\",1:\"one\",2:\"two\",3:\"Three\",3:\"three\"}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3744",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3744",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "字典类型的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3743",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">以下不属于</span>Python<span style=\"font-family: 宋体;\">语言流程控制结构的是？</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>Python<span style=\"font-family: 宋体;\">语言控制结构有：单分支选择结构、双分支选择结构、多分支选择结构、顺序结构、循环结构</span><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3743",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>\t顺序结构</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3743",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>分支结构</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3743",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>\t数据结构</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3743",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>循环结构</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3743",
+                    "knowledgePointId": "660",
+                    "knowledgePoint": "选择结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3743",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3742",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p>下列有关字典对象的说法，不正确的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>在字典中，可以通过字典的键找到对应的值，但不能通过值来找到对应的键。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3742",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>字典中的值可以是任意类型的数据</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3742",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>字典中的每个元素包含键和值两部分</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3742",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>在同一个字典中，键值必须互不相同</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3742",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>可以通过字典的键找到对应的值，也可以通过值来找到对应的键</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3742",
+                    "knowledgePointId": "714",
+                    "knowledgePoint": "字典类型的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3741",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">执行以下语句，程序将输出？</span></p><p>yuan=2,3,1,4,6,5</p><p>list1=sorted(yuan)</p><p>list1</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3741",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>\t报错</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3741",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>1, 2, 3, 4, 5, 6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3741",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>(1, 2, 3, 4, 5, 6<span style=\"font-family: 宋体;\">）</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3741",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[1, 2, 3, 4, 5, 6]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3741",
+                    "knowledgePointId": "656",
+                    "knowledgePoint": "元组类型的概念"
+                },
+                {
+                    "questionId": "3741",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、遍历、排序"
+                },
+                {
+                    "questionId": "3741",
+                    "knowledgePointId": "669",
+                    "knowledgePoint": "元组的基础用法及操作：元组的声明与赋值、元组的访问与更新、元组的遍历"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3740",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p>\t<span style=\"font-family: 宋体;\">以下是一个猜数字程序，当输入的数字大于目标数字（本程序指定为</span>5<span style=\"font-family: 宋体;\">）时，提示“大了”； 当小于时，提示“小了”； 当相等时，提示“相等”，程序退出。程序中空白处分别应填入的代码是？<br></span></p><p><img src=\"data:image/png;base64,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\" alt=\"\" data-href=\"\" style=\"\"/></p><p><br></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3740",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>if,break</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3740",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>else,break</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3740",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>elif,break</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3740",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>elif,continue</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3740",
+                    "knowledgePointId": "660",
+                    "knowledgePoint": "选择结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3740",
+                    "knowledgePointId": "663",
+                    "knowledgePoint": "多分支结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3739",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p>执行下列代码后，运行结果是？</p><p> </p><p>for i in range(0,10,2):</p><p> &nbsp; &nbsp;print(i*2,end=',')</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>掌握range函数的用法，理解print中参数end的作用</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3739",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>-4,0,4,8,12,</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3739",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>0,4,8,12,16,</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3739",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>-2,6,10,14,18,</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3739",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>2,6,10,14,</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3739",
+                    "knowledgePointId": "659",
+                    "knowledgePoint": "range类型的概念"
+                },
+                {
+                    "questionId": "3739",
+                    "knowledgePointId": "665",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "3739",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3739",
+                    "knowledgePointId": "671",
+                    "knowledgePoint": "range类型的基础用法及操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3738",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 1,
+            "title": "<p><span style=\"font-family: 宋体;\">已知列表</span>a=[1,2,3]<span style=\"font-family: 宋体;\">，执行语句</span>print(2*a)<span style=\"font-family: 宋体;\">，显示的结果是？</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "3738",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[2, 4, 6]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "3738",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>[1, 2, 3, 1, 2, 3]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "3738",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>[1, 2, 3, 2, 4, 6]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "3738",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[1, 2, 3, 3, 2, 1]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3738",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3738",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3738",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3748",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p>字典中的键必须是唯一的，必须是不可变数据类型，如字符串、数字或列表。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>字典中的键必须是唯一的，必须是不可变数据类型，如字符串、数字或元组。列表是可变对象，因此错误。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3748",
+                    "knowledgePointId": "714",
+                    "knowledgePoint": "字典类型的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3749",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">字符串中的元素是通过索引来定位的，其中第一个元素的索引是</span>0<span style=\"font-family: 宋体;\">。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3749",
+                    "knowledgePointId": "658",
+                    "knowledgePoint": "字符串类型的概念"
+                },
+                {
+                    "questionId": "3749",
+                    "knowledgePointId": "670",
+                    "knowledgePoint": "字符串的基础用法及操作：字符串的分割、结合、替换、检索、长度获取"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3750",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p>a=0 </p><p> </p><p>while a&lt;10: </p><p> </p><p> &nbsp; &nbsp;a+=1 </p><p> </p><p> &nbsp; &nbsp;print(a,end=\" \")</p><p> </p><p><span style=\"font-family: 宋体;\">打印结果最后一个数是</span>10<span style=\"font-family: 宋体;\">。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>while<span style=\"font-family: 宋体;\">条件循环，打印前先累加</span>1<span style=\"font-family: 宋体;\">，所以执行的结果为：</span>1 2 3 4 5 6 7 8 9 10 .<span style=\"font-family: 宋体;\">故本题正确</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3750",
+                    "knowledgePointId": "666",
+                    "knowledgePoint": "while循环"
+                },
+                {
+                    "questionId": "3750",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3751",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p>Python<span style=\"font-family: 宋体;\">程序的分支结构分为单分支结构、二分支结构和多分支结构，可用</span>if<span style=\"font-family: 宋体;\">语句来实现。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3751",
+                    "knowledgePointId": "660",
+                    "knowledgePoint": "选择结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3751",
+                    "knowledgePointId": "661",
+                    "knowledgePoint": "单分支结构"
+                },
+                {
+                    "questionId": "3751",
+                    "knowledgePointId": "662",
+                    "knowledgePoint": "二分支结构语句"
+                },
+                {
+                    "questionId": "3751",
+                    "knowledgePointId": "663",
+                    "knowledgePoint": "多分支结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3752",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">表达式</span>\"abc\"in [\"abcdef\"] <span style=\"font-family: 宋体;\">的值为</span>True<span style=\"font-family: 宋体;\">。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">结果应该为</span>False</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3752",
+                    "knowledgePointId": "658",
+                    "knowledgePoint": "字符串类型的概念"
+                },
+                {
+                    "questionId": "3752",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3753",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p>'red' in ('yellow','red','purple') 的结果为True。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3753",
+                    "knowledgePointId": "656",
+                    "knowledgePoint": "元组类型的概念"
+                },
+                {
+                    "questionId": "3753",
+                    "knowledgePointId": "657",
+                    "knowledgePoint": "元组和列表的不同"
+                },
+                {
+                    "questionId": "3753",
+                    "knowledgePointId": "669",
+                    "knowledgePoint": "元组的基础用法及操作：元组的声明与赋值、元组的访问与更新、元组的遍历、添加、删除、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3754",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p>Python<span style=\"font-family: 宋体;\">程序设计语言中的循环结构可用</span>while<span style=\"font-family: 宋体;\">或</span>for<span style=\"font-family: 宋体;\">语句来实现，所有的</span>while<span style=\"font-family: 宋体;\">语句均可用</span>for<span style=\"font-family: 宋体;\">语句来实现。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>Python<span style=\"font-family: 宋体;\">程序设计语言中的循环结构可用</span>while<span style=\"font-family: 宋体;\">或</span>for<span style=\"font-family: 宋体;\">语句来实现，所有的</span>for<span style=\"font-family: 宋体;\">语句均可用</span>while<span style=\"font-family: 宋体;\">语句来实现，但</span>while<span style=\"font-family: 宋体;\">语句不一定能用</span>for<span style=\"font-family: 宋体;\">语句来实现，因此说法错误。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3754",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3754",
+                    "knowledgePointId": "665",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "3754",
+                    "knowledgePointId": "666",
+                    "knowledgePoint": "while循环"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3755",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p><span style=\"font-family: 宋体;\">运行下列代码后，</span>list1<span style=\"font-family: 宋体;\">的值为</span>['a',1,2,3,7]<span style=\"font-family: 宋体;\">。</span></p><p> </p><p> list1=[1,3,'a',2,7]</p><p> </p><p> list1.sort()</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3755",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "列表、元组、字典、字符串、range、集合六大内置核心数据类型"
+                },
+                {
+                    "questionId": "3755",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3755",
+                    "knowledgePointId": "668",
+                    "knowledgePoint": "列表的基础用法及操作：访问/更新、获取元素个数、遍历、转换为列表型数据、添加和删除、连接、排序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3747",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p>元组的定义方法与列表完全相同。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3747",
+                    "knowledgePointId": "656",
+                    "knowledgePoint": "元组类型的概念"
+                },
+                {
+                    "questionId": "3747",
+                    "knowledgePointId": "655",
+                    "knowledgePoint": "列表类型的概念"
+                },
+                {
+                    "questionId": "3747",
+                    "knowledgePointId": "657",
+                    "knowledgePoint": "元组和列表的不同"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3746",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 3,
+            "title": "<p>for-in<span style=\"font-family: 宋体;\">用于在某范围内的循环，循环范围是有限的。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3746",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3746",
+                    "knowledgePointId": "665",
+                    "knowledgePoint": "for循环"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3756",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span>没有重复数字的两位数统计</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span>编写一段程序，实现下面的功能：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">1</font><font face=\"宋体\">）检查所有的两位数；</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">2</font><font face=\"宋体\">）程序自动分析两位数上的个位与十位上的数字是否相同；相同则剔除，不同则保留（例如：</font><font face=\"Calibri\">12</font><font face=\"宋体\">符合本要求，个位是</font><font face=\"Calibri\">2</font><font face=\"宋体\">，十位是</font><font face=\"Calibri\">1</font><font face=\"宋体\">，两个不相同）；</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">（</font><font face=\"Calibri\">3</font><font face=\"宋体\">）统计符合上面要求的两位数的个数，并且将个数最后打印出来（注意：是个数打印出来，符合要求的两位数不要求打印出来）。</font></span><span><o:p></o:p></span></p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><span><font face=\"宋体\">参考程序</font><font face=\"Calibri\">1</font><font face=\"宋体\">：</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">count=0</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">for i in range(10,99):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">m=i%10</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">n=i//10</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">if m!=n:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">count=count+1</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\"># &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i) &nbsp;#</font><font face=\"宋体\">可有可无</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">print(\"</font><font face=\"宋体\">满足条件的两位数的个数为：</font><font face=\"Calibri\">\",count)</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">参考程序</font><font face=\"Calibri\">2</font><font face=\"宋体\">：</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">count=0</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">for i in range(1,10):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">for j in range(10):</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">if i !=j:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\"># &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(str(i)+str(j)) &nbsp;&nbsp;&nbsp;#</font><font face=\"宋体\">可有可无</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">count=count+1</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">print(\"</font><font face=\"宋体\">满足条件的两位数的个数为：</font><font face=\"Calibri\">\",count)</font></span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"MsoNormal\"><span>评分细则：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">1</font><font face=\"宋体\">）有统计个数的变量；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">2</font><font face=\"宋体\">）分离出来了十位和个位上的数；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">3</font><font face=\"宋体\">）对个位和十位数字是否相等进行比较；（</font><font face=\"Calibri\">3</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">4</font><font face=\"宋体\">）使用了循环语句；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">5</font><font face=\"宋体\">）使用了条件语句；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">6</font><font face=\"宋体\">）对所有的两位数进了了遍历；（</font><font face=\"Calibri\">4</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">7</font><font face=\"宋体\">）对满足条件的两位数的个数进行了累加；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">8</font><font face=\"宋体\">）输出统计的个数。（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 15.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3756",
+                    "knowledgePointId": "664",
+                    "knowledgePoint": "循环结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3756",
+                    "knowledgePointId": "665",
+                    "knowledgePoint": "for循环"
+                },
+                {
+                    "questionId": "3756",
+                    "knowledgePointId": "659",
+                    "knowledgePoint": "range类型的概念"
+                },
+                {
+                    "questionId": "3756",
+                    "knowledgePointId": "671",
+                    "knowledgePoint": "range类型的基础用法及操作"
+                },
+                {
+                    "questionId": "3756",
+                    "knowledgePointId": "660",
+                    "knowledgePoint": "选择结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3756",
+                    "knowledgePointId": "661",
+                    "knowledgePoint": "单分支结构"
+                },
+                {
+                    "questionId": "3756",
+                    "knowledgePointId": "673",
+                    "knowledgePoint": "完成简单循环结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "3757",
+            "examinationPaperTitle": "202106Python二级真题",
+            "type": 4,
+            "title": "<p class=\"MsoNormal\"><span><font face=\"宋体\">编写一段程序程序，实现输入的数字自动改为对应的星期几，如下图所示，当输入</font><font face=\"Calibri\">1</font><font face=\"宋体\">时，输出：</font><font face=\"Calibri\">1 </font><font face=\"宋体\">—— 星期一；当输入</font><font face=\"Calibri\">2</font><font face=\"宋体\">时，输出：</font><font face=\"Calibri\">2 </font><font face=\"宋体\">—— 星期二……以此类推，当输入</font><font face=\"Calibri\">7</font><font face=\"宋体\">时，输出：</font><font face=\"Calibri\">7 </font><font face=\"宋体\">—— 星期日。</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"宋体\">注意，程序运行后，用户是随机输入数字</font><font face=\"Calibri\">1-7</font><font face=\"宋体\">。<br></font></span><p><img src=\"data:image/png;base64,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\" alt=\"\"></p></p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><span>参考程序：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">d={1:'</font><font face=\"宋体\">星期一</font><font face=\"Calibri\">',2:'</font><font face=\"宋体\">星期二</font><font face=\"Calibri\">',3:'</font><font face=\"宋体\">星期三</font><font face=\"Calibri\">',4:'</font><font face=\"宋体\">星期四</font><font face=\"Calibri\">',5:'</font><font face=\"宋体\">星期五</font><font face=\"Calibri\">',6:'</font><font face=\"宋体\">星期六</font><font face=\"Calibri\">',7:'</font><font face=\"宋体\">星期日</font><font face=\"Calibri\">'} </font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">while True:</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">t=input('</font><font face=\"宋体\">输入数字：</font><font face=\"Calibri\">') </font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span>&nbsp;</span></p><p class=\"MsoNormal\"><span>&nbsp;&nbsp;&nbsp;<font face=\"Calibri\">print(t,'</font><font face=\"宋体\">——</font><font face=\"Calibri\">',d.get(int(t)))</font></span><span><o:p></o:p></span></p>",
+            "analyzeContent": "<p class=\"MsoNormal\"><span>评分细则：</span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">1</font><font face=\"宋体\">）有列表、元组、或者字典任意一种数据类型；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">2</font><font face=\"宋体\">）有输入语句；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">3</font><font face=\"宋体\">）有数据类型转换；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">4</font><font face=\"宋体\">）有循环语句；（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p><p class=\"MsoNormal\"><span><font face=\"Calibri\">5</font><font face=\"宋体\">）运行正确。（</font><font face=\"Calibri\">2</font><font face=\"宋体\">分）</font></span><span><o:p></o:p></span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "188",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 15.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:15:06",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "3757",
+                    "knowledgePointId": "654",
+                    "knowledgePoint": "字典"
+                },
+                {
+                    "questionId": "3757",
+                    "knowledgePointId": "658",
+                    "knowledgePoint": "字符串类型的概念"
+                },
+                {
+                    "questionId": "3757",
+                    "knowledgePointId": "660",
+                    "knowledgePoint": "选择结构语句的功能和写法"
+                },
+                {
+                    "questionId": "3757",
+                    "knowledgePointId": "666",
+                    "knowledgePoint": "while循环"
+                },
+                {
+                    "questionId": "3757",
+                    "knowledgePointId": "672",
+                    "knowledgePoint": "完成简单选择结构的程序"
+                },
+                {
+                    "questionId": "3757",
+                    "knowledgePointId": "673",
+                    "knowledgePoint": "完成简单循环结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

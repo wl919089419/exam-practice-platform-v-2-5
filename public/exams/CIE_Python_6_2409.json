@@ -1,0 +1,1797 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202409Python六级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "1846810860772970497",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>下面代码运行后出现的图像是？（ ）<br>import matplotlib.pyplot as plt<br>import numpy as np<br>x = np.array(['A', 'B', 'C', 'D'])<br>y = np.array([30, 25, 15, 35])<br>plt.bar(x, y)<br>plt.show()</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>代码中的bar( )函数来生成柱形图。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:09:56",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846810860772970497",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2024-10-17-15-09-35/1.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846810860772970497",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2024-10-17-15-09-40/2.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846810860772970497",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2024-10-17-15-09-45/3.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846810860772970497",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2024-10-17-15-09-49/4.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846810860772970497",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846811261987889153",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>下面代码的输出结果正确的是？（ ）<br>import numpy as np<br>dt = np.dtype('i1')<br>print(dt)</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>数据类型对象 dtype中int8, int16, int32, int64 四种数据类型可以使用字符串 'i1', 'i2','i4','i8' 代替。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:11:32",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846811261987889153",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>int64</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846811261987889153",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>int32</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846811261987889153",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>int16</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846811261987889153",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>int8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846811261987889153",
+                    "knowledgePointId": "758",
+                    "knowledgePoint": "库导入"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846811374944309250",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>下面代码的输出结果正确的是？（ ）</p><p>import numpy as np </p><p>a = np.array([1, 2, 3], dtype = float) &nbsp;</p><p>print (a)</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>这段代码创建了一个numpy数组a，其中包含三个浮点数（1.0, 2.0, 3.0）。</p><p>由于默认情况下，numpy数组使用科学计数法进行打印，所以数字后面不会有小数点。但是，由于我们为数组指定了浮点数类型dtype=float，所以打印结果中的数字后面会有小数点。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:11:59",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846811374944309250",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[1.+0.j 2.+0.j 3.+0.j]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846811374944309250",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>[1. 2. 3.]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846811374944309250",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>[1, 2, 3]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846811374944309250",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[ True &nbsp;True &nbsp;True]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846811374944309250",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846811514256674818",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>下面代码的输出结果正确的是？（ ）</p><p>import numpy as np</p><p>student = np.dtype([('name','S20'), ('age', 'i2'),('height', 'f4')]) </p><p>a = np.array([('Alice', 20, 55),('Jone', 21, 48)], dtype = student) </p><p>print(a)</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>这段代码是使用NumPy库来创建一个自定义的数据类型student，这个数据类型由三个字段组成：</p><p> &nbsp; &nbsp; &nbsp; * `name`：一个长度为20的字符串（'S20'表示字符串长度为20）。</p><p> &nbsp; &nbsp; &nbsp; * `age`：一个2字节的整数（'i2'表示2字节的整数）。</p><p> &nbsp; &nbsp; &nbsp; * `height`：一个4字节的浮点数（'f4'表示4字节的浮点数）。</p><p>使用student这个数据类型来创建一个数组a，包含两个元组，每个元组都符合前面定义的`student`数据类型。即每个元组都有一个长度为20的字符串、一个2字节的整数和一个4</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:12:32",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846811514256674818",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[(b'Alice', 20., 55.) (b'Jone', 21., 48.)]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846811514256674818",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>[(b'Alice', 20., 55) (b'Jone', 21., 48)]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846811514256674818",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>[(b'Alice', 20, 55.) (b'Jone', 21, 48.)]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846811514256674818",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>{(b'Alice', 20, 55.), (b'Jone', 21, 48.)}</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846811514256674818",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                },
+                {
+                    "questionId": "1846811514256674818",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                },
+                {
+                    "questionId": "1846811514256674818",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846811639637004289",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>关于SQLite，说法错误的是？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>主关键字PRIMARY KEY可以不指定，默认用序号当作主关键字。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:13:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846811639637004289",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>SQLite创建表时，必须指定主关键字PRIMARY KEY</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846811639637004289",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>连接数据库conn=sqlite3.connect('d:/test.db') ，执行SQL语句都必须用conn.execute开头</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846811639637004289",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>语句conn.commit()表示保存数据到数据库</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846811639637004289",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>SQLite是Python的内置库，可以直接用import sqlite3导入</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846811639637004289",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846811757249482753",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>关于SQLite，说法错误的是？（ ）</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>向数据库的表中插入数据时，指定了NOT NULL时不能留空。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:13:30",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846811757249482753",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>同一个数据库文件中，不能创建名称相同的表</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846811757249482753",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>SQLlite Expert是常用的查看数据库的软件</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846811757249482753",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>Python可以连接已存在的数据库</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846811757249482753",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>向数据库的表中插入数据时，所有字段都必须输入完整（不允许留空）</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846811757249482753",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846811854525222913",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>关于导入SQLite，正确的导入语句是？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>import sqlite3正确导入SQLite。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:13:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846811854525222913",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>import SQLite3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846811854525222913",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>import sqlite3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846811854525222913",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>import sqlite</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846811854525222913",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>import SQLite</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846811854525222913",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846811998498902018",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>关于SQLite连接数据库语句，正确的是？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>表示路径的\\必须更换为/。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:14:27",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846811998498902018",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>conn=sqlite.connect('d:/test.db')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846811998498902018",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>conn=sqlite.connect('d:\\test.db')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846811998498902018",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>conn=sqlite3.connect('d:/test.db')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846811998498902018",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>conn=sqlite3.connect('d:\\test.db')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846811998498902018",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812101811556353",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>有一个文件记录了 1000个学生的高考总分，每一行信息长度是 20 个字节，要想只读取最后 10 行的内容，不能直接用到的函数是？（ ）</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>seek，用于把文件指针移动到新位置；readline，从文件中读取一行；open，打开文件；read，从文件中读取指定的字符数，括号内无参数或者为负则读取所有内容。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:14:52",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812101811556353",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>seek()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812101811556353",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>readline()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812101811556353",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>open()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812101811556353",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>read()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812101811556353",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812208843628546",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>以下选项中不是 Python 对文件的写操作方法的是？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>writetext是一个用于文本处理和生成的Python框架，并非某个具体的操作方法。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:15:17",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812208843628546",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>writelines</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812208843628546",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>writeline</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812208843628546",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>writetext</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812208843628546",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>write</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812208843628546",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812347913785345",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>以下语句的执行结果是？（ ）</p><p>with open('A.txt','w+') as f:</p><p> &nbsp; &nbsp;f.write('hello')</p><p> &nbsp; &nbsp;print(f.read())</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>文件的读取模式为'w+'，每次程序运行都会清除文件内容，重新进行写入，f.read()，在'r'模式下读取文件的内容。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:15:51",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812347913785345",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>输出一个'hello'字符串</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812347913785345",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>写到文件A.txt里一个'hello'字符串</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812347913785345",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>写到文件A.txt里一个'hello'字符串并输出一个'hello'字符串</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812347913785345",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>打印'hello'</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812347913785345",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812440738308098",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>如下选项中，对文件的描述错误的是？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>文本文件可以用二进制文件方式读入。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:16:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812440738308098",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>文件中能够包含任何数据内容</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812440738308098",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>文本文件和二进制文件都是文件</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812440738308098",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>文本文件不能用二进制文件方式读入</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812440738308098",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>文件是一个存储在辅助存储器上的数据序列</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812440738308098",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812547797536770",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>以下关于JSON格式的数据遵循的语法规则，错误的是？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>数据的字段由逗号分隔。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:16:38",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812547797536770",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>数据存储在键值对中</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812547797536770",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>数据的字段由分号分隔</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812547797536770",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>一个花括号保存一个JSON对象</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812547797536770",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>一个方括号保存一个数组</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812547797536770",
+                    "knowledgePointId": "2009809330983395329",
+                    "knowledgePoint": "JSON库"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812693491261441",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>有一个名为scores.txt的文件，里面存储了一些学生的姓名和成绩，如下所示：</p><p>Alice 90</p><p>Bob 80</p><p>Charlie 85</p><p>David 75</p><p>Eve 95</p><p>你想用Python读取这个文件，并将每一行的数据格式化为一个元组，例如('Alice','90')，请补全下面的代码？（ ）</p><p>with open('scores.txt', 'r') as f:</p><p> &nbsp; &nbsp;for line in f:</p><p> &nbsp; &nbsp; &nbsp; &nbsp;# 将每一行的数据格式化为一个元组</p><p> &nbsp; &nbsp; &nbsp; &nbsp;score = tuple(_______)</p><p> &nbsp; &nbsp; &nbsp; &nbsp;print(score) </p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>split方法可以将一个字符串按照指定的分隔符切分成一个列表，例如'a,b,c'.split(',')的结果是['a', 'b', 'c']。如果没有指定分隔符，那么默认按照空格切分，例如'Alice 90'.split()的结果是['Alice', '90']。tuple函数可以将一个可迭代对象（如列表，字符串，集合等）转换为元组，例如tuple(['Alice', '90'])的结果是('Alice', '90')。因此，tuple(line.split())可以将每一行的数据格式化为一个元组，例如tuple('Alice 90'.split())的结果是('Alice', '90')。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:17:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812693491261441",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>line.split()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812693491261441",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>line.split()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812693491261441",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>line.split(',')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812693491261441",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>line.strip(',')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812693491261441",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812801033216002",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>从一个json文件中读取一些数据，并将其转换为Python的字典对象。可以使用json模块中的load方法来实现这个功能。请问，下面哪个选项是正确的代码，可以从data.json文件中读取数据，并赋值给变量data？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>json.load方法可以从一个文件对象中读取json格式的数据，并返回一个Python对象。json.loads方法可以从一个字符串中读取json格式的数据，并返回一个Python对象。open函数可以打开一个文件，并返回一个文件对象。因此，只有选项A可以正确地从文件中读取数据，并赋值给变量data。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:17:39",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812801033216002",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>data = json.load(open('data.json'))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812801033216002",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>data = json.loads('data.json')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812801033216002",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>data = open('data.json').load(json)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812801033216002",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>data = open('data.json').loads(json)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812801033216002",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846812921929453569",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>有如下程序段： </p><p>a=[[0]*3 for i in range(4)]</p><p> for i in range(len(a)):</p><p> &nbsp; &nbsp; for j in range(3): </p><p> &nbsp; &nbsp; &nbsp; &nbsp;a[i][j]=i*len(a[j])+1</p><p> print(a[2][2])</p><p> 执行程序后输出的值是？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>运算可得a的为[[1, 1, 1], [4, 4, 4], [7, 7, 7], [10, 10, 10]]，故a[2][2]=7。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:18:07",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846812921929453569",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846812921929453569",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846812921929453569",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846812921929453569",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846812921929453569",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846813025338576897",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>以下关于Python中类的说法错误的是？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>__init__()方法在类实例化会被自动调用。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:18:32",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846813025338576897",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>Python使用class关键字来声明一个类，且类名一般首字母大写</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846813025338576897",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>类的成员函数中必须有self参数，且self参数永远是第一个参数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846813025338576897",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>__init__()方法在类实例化时不会自动调用</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846813025338576897",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>定义类之后，需要定义具体的对象才可以访问对象的成员方法或属性</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846813025338576897",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1846813025338576897",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846815809584680962",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>Python中的类有几个主要组成部分？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>在Python中，类由属性和方法组成。属性是类的变量，而方法是类的函数。因此，选项B“属性和方法”是正确的。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:29:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846815809584680962",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>变量和方法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846815809584680962",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>属性和方法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846815809584680962",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>方法和构造函数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846815809584680962",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>方法和构造函数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846815809584680962",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1846815809584680962",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846815939513458689",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>以下代码中，哪个选项可以正确地创建一个类和其实例？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>选项B正确地定义了一个类MyClass，然后通过MyClass()创建了一个该类的实例my_instance。其他选项中存在一些错误或不完整的地方。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:30:07",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846815939513458689",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>class MyClass():</p><p> &nbsp; &nbsp;pass</p><p>my_instance = MyClass('ok')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846815939513458689",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>class MyClass():</p><p> &nbsp; &nbsp;def __init__(self):</p><p> &nbsp; &nbsp; &nbsp; &nbsp;print('hello')</p><p>my_instance = MyClass()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846815939513458689",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>class MyClass():</p><p> &nbsp; &nbsp;x = 10</p><p>my_instance = MyClass(x)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846815939513458689",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>def MyClass():</p><p> &nbsp; &nbsp; &nbsp; &nbsp;print(\"This is a method\")</p><p>my_instance = MyClass()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846815939513458689",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1846815939513458689",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846816066219188226",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>有如下Python程序：</p><p>class Cars():</p><p> &nbsp; &nbsp;def __init__(self,color,shape):</p><p> &nbsp; &nbsp; &nbsp; &nbsp;self.color = color </p><p> &nbsp; &nbsp; &nbsp; &nbsp;self.shape = shape </p><p> &nbsp; &nbsp; &nbsp; &nbsp;print('您定制的{}{}已经生产好了!'.format(self.color,self.shape))</p><p>new_car = Cars('红色','小汽车')</p><p>执行程序后，打印的结果是？（ ）</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>根据代码可知，创建了实例new_car，自动调用构造函数内容，打印相关内容，所以选D。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:30:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846816066219188226",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>小汽车</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846816066219188226",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>红色</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846816066219188226",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>您定制的已经生产好了!</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846816066219188226",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>您定制的红色小汽车已经生产好了!</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846816066219188226",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1846816066219188226",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846816188021776385",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>运行以下代码： </p><p>import tkinter as tk &nbsp;</p><p> def click(): &nbsp;</p><p> &nbsp; &nbsp;print(\"Button clicked!\") &nbsp;</p><p>root = tk.Tk() &nbsp;</p><p>button = tk.Button(root, text=\"Click me!\", command=click) &nbsp;</p><p>button.pack() &nbsp;</p><p>root.mainloop()</p><p>当用户点击按钮时，程序将输出？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>代码中定义了一个按钮（Button），并为其command参数指定了一个函数click。当用户点击按钮时，click函数将被调用，从而打印出“Button clicked!”。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:31:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846816188021776385",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>\"Button clicked!\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846816188021776385",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>\"Click me!\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846816188021776385",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>没有任何输出</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846816188021776385",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>程序将崩溃</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846816188021776385",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846816313267507201",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>阅读以下代码： </p><p>import tkinter as tk &nbsp; </p><p>root = tk.Tk() &nbsp;</p><p>listbox = tk.Listbox(root) &nbsp;</p><p>listbox.insert(tk.END, \"Apple\") &nbsp;</p><p>listbox.insert(tk.END, \"Banana\") &nbsp;</p><p>listbox.pack() &nbsp;</p><p>root.mainloop()</p><p>程序运行后，列表框中将显示哪些项？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>代码中创建了一个列表框（Listbox），并使用insert方法向其中添加了两个项：\"Apple\"和\"Banana\"。因此，程序运行后，列表框中将显示这两个项。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:31:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846816313267507201",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>仅\"Apple\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846816313267507201",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>仅\"Banana\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846816313267507201",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>\"Apple\"和\"Banana\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846816313267507201",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>什么也不显示</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846816313267507201",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846816437859307522",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>下列代码创建了一个按钮，当按钮被点击时，会发生什么？（ ）</p><p> </p><p>import tkinter as tk &nbsp;</p><p> </p><p>def on_button_click(): &nbsp;</p><p> &nbsp; &nbsp;print(\"Button clicked!\") &nbsp;</p><p>root = tk.Tk() &nbsp;</p><p>button = tk.Button(root, text=\"Click me!\", command=on_button_click) &nbsp;</p><p>button.pack() &nbsp;</p><p>root.mainloop()</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>在Tkinter中，当按钮的command参数设置为一个函数时，每次按钮被点击时，都会调用该函数。在给出的代码中，当按钮被点击时，on_button_click函数将被调用，该函数会在控制台输出\"Button clicked!\"，因此选项B正确。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:32:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846816437859307522",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>弹出对话框显示\"Button clicked!\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846816437859307522",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>在控制台输出\"Button clicked!\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846816437859307522",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>窗口标题变为\"Button clicked!\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846816437859307522",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>按钮文本变为\"Clicked!\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846816437859307522",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846816640727961602",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>运行以下代码： </p><p>import tkinter as tk &nbsp; </p><p>def change_text() </p><p>label.config(text=\"Changed text\") &nbsp;</p><p>root = tk.Tk() &nbsp;</p><p>label = tk.Label(root, text=\"Original text\") &nbsp;</p><p>label.pack() &nbsp;</p><p>button = tk.Button(root, text=\"Change text\", command=change_text) &nbsp;</p><p>button.pack() &nbsp;</p><p>root.mainloop()</p><p>当点击“Change text”按钮后，标签的文本会变成？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>在这段代码中，定义了一个标签和一个按钮。点击按钮会调用change_text函数，该函数使用label.config(text=\"Changed text\")来改变标签的文本。因此，当点击\"Change text\"按钮后，标签的文本会变成\"Changed text\"。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 15:32:54",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846816640727961602",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>保持不变</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846816640727961602",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>\"Changed text\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846816640727961602",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>\"Button clicked!\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846816640727961602",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\"Original text\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846816640727961602",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826450110304257",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 1,
+            "title": "<p>考虑一个名为arr的NumPy数组，其形状是(3, 2)。如果将这个数组转换为形状(2, 3)，返回一个新数组，以下哪个函数调用是正确的？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>arr.reshape(2, 3)正确地将名为arr的数组的形状从(3, 2)更改为(2, 3)。reshape函数用于在不更改数据的情况下更改数组的形状。选项A原封不动地保留了数组的原始形状，选项B的resize方法虽然可以改变数组的形状，但它会直接更改原数组而不是返回一个新数组。选项D的flatten方法返回一个将多维数组降为一维的数组，与题目要求不符。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:11:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "1846826450110304257",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><br></p><p>arr.reshape(2, 3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1846826450110304257",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>arr.resize(3, 2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1846826450110304257",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>arr.resize(2, 3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1846826450110304257",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>arr.flatten()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826450110304257",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826568143654913",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>26. </p><p>下面代码输出结果是： </p><p>1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>2</p><p>3</p><p>import numpy as np </p><p>a = np.array([1,2,3]) &nbsp;</p><p>b = a.reshape(3,1) &nbsp;</p><p>print (b)</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>在NumPy中，'reshape()'函数改变数组的维数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:12:21",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826568143654913",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826608786841601",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>NumPy库中的np.sum( )函数可以用来计算数组中所有元素的平均值。（ ）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>NumPy库中的np.mean()函数可以用来计算数组中所有元素的平均值。</p><p>np.sum()函数可以用来计算数组中所有元素的和。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:12:31",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826608786841601",
+                    "knowledgePointId": "2009810129876672514",
+                    "knowledgePoint": "numpy库"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826649058725890",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>SQLite中使用的SQL语句必须全部使用大写字母。（ ）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>SQLite中使用的SQL语句大小写字母均可。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:12:40",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826649058725890",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826682034343937",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>fi=open(\"t.txt\",\"r+\") 执行后只能对\"t.txt\"文件进行读操作。（ ）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>r+ 可以对文件进行读写操作。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:12:48",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826682034343937",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826726164058113",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>以只读模式打开文件时，文件指针指向文件开始处。（ ）</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>以只读模式打开文件时，文件指针位于文件的开始位置。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:12:59",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826726164058113",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826762839052290",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>在类定义的外部没有任何办法可以访问对象的私有成员。（ ）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>私有成员在类的内部可以直接访问，在类的外部不可以通过调用类的公有成员方法的方式进行访问。但可以借助类的内部方法，将私有属性返回到类的外部，在类的外部对私有属性进行访问；也可以借助内部方法对私有属性进行修改，对象._类名__私有属性 ，对象._类名__私有方法就可以访问。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:13:07",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826762839052290",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1846826762839052290",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826820036775937",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>可以使用np.reshape()函数来改变图像的形状，从而实现旋转、缩放等操作。（ ）</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>np.reshape()函数只能改变数组的维度，但不会改变数组中元素的顺序。如果要对图像进行旋转、缩放等操作，需要使用其他的函数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:13:21",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826820036775937",
+                    "knowledgePointId": "2009810129876672514",
+                    "knowledgePoint": "numpy库"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826870133923841",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>在Python中，要将一个字典对象保存为json格式的文件，可以使用json.dump()函数。（ ）</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>在Python中，要将一个字典对象保存为json格式的文件，可以使用json.dump()函数。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:13:33",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826870133923841",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826912549097473",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>在Python中，封装是将对象的属性和方法绑定在一起，并通过访问器（getter）和修改器（setter）来控制对对象的访问和修改。（ ）</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>在Python中，封装是将对象的属性和方法绑定在一起，并通过访问器（getter）和修改器（setter）来控制对对象的访问和修改。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:13:43",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826912549097473",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846826989247582210",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 3,
+            "title": "<p>阅读以下代码：</p><p> </p><p>import tkinter as tk &nbsp;</p><p> </p><p>root = tk.Tk() &nbsp;</p><p>root.geometry(\"200x100\") &nbsp;</p><p>root.title(\"My Window\") &nbsp;</p><p>root.mainloop()</p><p>执行上述代码后，程序将创建一个尺寸为200x100、标题为“My Window”的窗口。（ ）</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>代码中设置了窗口的尺寸（geometry）为“200x100”，并设置了窗口的标题（title）为“My Window”。因此，程序将创建一个尺寸为200x100、标题为“My Window”的窗口。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:14:01",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846826989247582210",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846827955569086465",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 4,
+            "title": "<p><span style=\"font-family: 宋体;\">士兵瑞恩</span></p><p><span style=\"font-family: 宋体;\"> 按照需求填空：</span></p><p><span style=\"font-family: 宋体;\"> 1）士兵瑞恩有一把AK47</span></p><p><span style=\"font-family: 宋体;\">2）士兵有枪就可以开火</span></p><p><span style=\"font-family: 宋体;\">3）枪能够把子弹发射出去，每射击一次，子弹减少一个</span></p><p><span style=\"font-family: 宋体;\">4）枪能够装填子弹 --增加子弹的数量</span></p><p><span style=\"font-family: 宋体;\"> class Gun(): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def &nbsp; &nbsp; &nbsp; &nbsp; ① &nbsp; &nbsp; &nbsp; &nbsp;(self,model): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.model = model &nbsp; &nbsp; &nbsp; self.bullet_count = 0 &nbsp; &nbsp;def add_bullet(self,count):</span></p><p><span style=\"font-family: 宋体;\">self.bullet_count += count </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def shoot( &nbsp; &nbsp; &nbsp; &nbsp;② &nbsp; &nbsp; &nbsp; &nbsp;):</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; if self.bullet_count &lt;= 0: </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('%s没有子弹' %(self.model)) </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; else: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; self.bullet_count &nbsp; &nbsp; &nbsp; &nbsp; ③ &nbsp; &nbsp; &nbsp; &nbsp; 1 </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('%s的子弹数量为%s' %( &nbsp; &nbsp; &nbsp; &nbsp;④ &nbsp; &nbsp; &nbsp; &nbsp;,self.bullet_count)) </span></p><p><span style=\"font-family: 宋体;\">class Soldier(): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def __init__(self,name): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.name =name </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.gun = None </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def fire(self): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; if self.gun == None: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('%s没有枪' %(self.name))</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;else: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; self.gun.add_bullet(5)</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⑤ &nbsp; &nbsp; &nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体;\">ak47 = Gun('AK47') </span></p><p><span style=\"font-family: 宋体;\">ak47.add_bullet(10) </span></p><p><span style=\"font-family: 宋体;\">ak47.shoot() </span></p><p><span style=\"font-family: 宋体;\">ruien = Soldier('RE') </span></p><p><span style=\"font-family: 宋体;\">ruien.gun = ak47 </span></p><p><span style=\"font-family: 宋体;\">ruien.fire()</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">class Gun():</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def __init__(self,model):</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.model = model</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.bullet_count = 0</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def add_bullet(self,count):</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.bullet_count += count</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def shoot(self):</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; if self.bullet_count &lt;= 0 :</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('%s没有子弹' %(self.model))</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; else:</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; self.bullet_count -= 1</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('%s的子弹数量为%s' %(self.model,self.bullet_count)) </span></p><p><span style=\"font-family: 宋体;\">class Soldier(): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def __init__(self,name): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.name =name </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; self.gun = None </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; def fire(self): </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; if self.gun == None: </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('%s没有枪' %(self.name)) </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; else: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; self.gun.add_bullet(5) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; self.gun.shoot() </span></p><p><span style=\"font-family: 宋体;\">ak47 = Gun('AK47') </span></p><p><span style=\"font-family: 宋体;\">ak47.add_bullet(10) </span></p><p><span style=\"font-family: 宋体;\">ak47.shoot() </span></p><p><span style=\"font-family: 宋体;\">ruien = Soldier('RE') </span></p><p><span style=\"font-family: 宋体;\">ruien.gun = ak47 </span></p><p><span style=\"font-family: 宋体;\">ruien.fire()</span></p><p><span style=\"font-family: 宋体;\">试题解析：</span></p><p><span style=\"font-family: 宋体;\">评分标准：</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\">（1）__init__ 或等效答案；（2分）</span></p><p><span style=\"font-family: 宋体;\">（2）self 或等效答案；（2分）</span></p><p><span style=\"font-family: 宋体;\">（3）-= 或等效答案；（2分）</span></p><p><span style=\"font-family: 宋体;\">（4）self.model 或等效答案；（2分）</span></p><p><span style=\"font-family: 宋体;\">（5）self.gun.shoot() 或等效答案。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:17:52",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846827955569086465",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1846827955569086465",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846836289412440065",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 4,
+            "title": "<p>成绩统计</p><p>（1）在D盘根目录下建立一个空数据库Cjdata.db，按照如图所示的表结构，创建学生基本情况表cj；</p><p>（2）为表cj添加数据，内容是”学号—— 20210919、班级——4、姓名——赵雨乐、性别——女、成绩——98“；</p><p>（3）查询并输出表cj中成绩低于100的数据。</p><p>请根据要求，补全代码。（本题无需运行通过，写入代码即可）</p><p>import sqlite3</p><p>conn = &nbsp; &nbsp; &nbsp; &nbsp;① &nbsp; &nbsp; &nbsp; &nbsp;</p><p>cursor = conn.cursor()</p><p>cursor.execute('''CREATE TABLE cj &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;( &nbsp; &nbsp; &nbsp; &nbsp;② &nbsp; &nbsp; &nbsp; &nbsp;,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 班级 INTEGER,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 姓名 &nbsp;TEXT(10) NOT NULL,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 性别 &nbsp;TEXT(1) &nbsp; NOT NULL,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 成绩 &nbsp;REAL);''')</p><p>cursor.execute(\" &nbsp; &nbsp; &nbsp; &nbsp;③ &nbsp; &nbsp; &nbsp; &nbsp;('20210919',4,'赵雨乐','女',98)\") </p><p> </p><p>conn.commit()</p><p>cursor.execute(\" &nbsp; &nbsp; &nbsp; &nbsp;④ &nbsp; &nbsp; &nbsp; &nbsp;\") &nbsp; &nbsp;</p><p>for i in &nbsp; &nbsp; &nbsp; &nbsp;⑤ &nbsp; &nbsp; &nbsp; &nbsp;: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p><p> &nbsp; &nbsp;print(i)</p><p>conn.close()</p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<p>参考程序：</p><p> </p><p>import sqlite3</p><p> </p><p>conn =sqlite3.connect(\"d:/Cjdata.db\")</p><p>cursor = conn.cursor()</p><p>cursor.execute('''CREATE TABLE cj &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(学号 TEXT(10) PRIMARY KEY NOT NULL,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 班级 INTEGER,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 姓名 &nbsp;TEXT(10) NOT NULL,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 性别 &nbsp;TEXT(1) &nbsp; NOT NULL,</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 成绩 &nbsp;REAL);''')</p><p> </p><p>cursor.execute(\"INSERT INTO CJ VALUES('20210919',4,'赵雨乐','女',98)\") </p><p> </p><p>conn.commit()</p><p>cursor.execute(\"SELECT * from cj where 成绩&lt;100\") &nbsp; &nbsp;</p><p>for i in cursor.fetchall(): &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p><p> &nbsp; &nbsp;print(i)</p><p>conn.close()</p><p>试题解析：</p><p>评分标准：</p><p> </p><p>（1）sqlite3.connect(\"d:/Cjdata.db\") 或等效答案；（2分）</p><p> </p><p>（2）学号 TEXT(10) PRIMARY KEY NOT NULL 或等效答案； （2分）</p><p> </p><p>（3）INSERT INTO CJ VALUES 或等效答案；（2分）</p><p> </p><p>（4）SELECT * from cj where 成绩&lt;100 或等效答案；（2分）</p><p> </p><p>（5）cursor.fetchall() 或等效答案。（2分）</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:50:59",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846836289412440065",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1846836463060439041",
+            "examinationPaperTitle": "202409Python六级真题",
+            "type": 4,
+            "title": "<p><span style=\"font-family: 宋体;\">家庭记录</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\">假设有一个任务是帮助你的家庭记录每日的支出。每天结束时，你会记录下今天的日期、购买的物品以及花费的金额。这个信息将被保存在一个名为ledger.txt的文本文件中。编写一段Python代码来完成以下的操作： </span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\">（1）在文件末尾追加新的消费记录；</span></p><p><span style=\"font-family: 宋体;\">（2）需要查看当前所有的消费记录。 </span></p><p><span style=\"font-family: 宋体;\">为了简化问题，假设每条记录只包含日期、物品和金额，使用逗号分隔。</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\">def append_record(date, item, amount):</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp;with open(\"ledger.txt\", \" &nbsp; &nbsp; &nbsp; &nbsp;① &nbsp; &nbsp; &nbsp; &nbsp;\") as file:</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;file.write(f\"{date},{item},{amount}\\n\")</span></p><p><span style=\"font-family: 宋体;\">def read_records():</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp;with open(\" &nbsp; &nbsp; &nbsp; &nbsp;② &nbsp; &nbsp; &nbsp; &nbsp;\", \"r\") as file:</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;records = file. &nbsp; &nbsp; &nbsp; &nbsp;③ &nbsp; &nbsp; &nbsp; &nbsp;()</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;for record in records:</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(record, end=\"\")</span></p><p><span style=\"font-family: 宋体;\"># 示例操作</span></p><p><span style=\"font-family: 宋体;\">append_record(\"2023-04-05\", \"Groceries\", 35.20)</span></p><p><span style=\"font-family: 宋体;\">append_record(\"2023-04-06\", \"Internet Bill\", 50)</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;④ &nbsp; &nbsp; &nbsp; &nbsp;()</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"font-family: 宋体;\">标准答案：</span></p><p><span style=\"font-family: 宋体;\">参考程序：</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\">def append_record(date, item, amount):</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp;with open(\"ledger.txt\", \"a\") as file:</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;file.write(f\"{date},{item},{amount}\\n\")</span></p><p><span style=\"font-family: 宋体;\">def read_records():</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp;with open(\"ledger.txt\", \"r\") as file:</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;records = file.readlines()</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp;for record in records:</span></p><p><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;print(record, end=\"\")</span></p><p><span style=\"font-family: 宋体;\"># 示例操作</span></p><p><span style=\"font-family: 宋体;\">append_record(\"2023-04-05\", \"Groceries\", 35.20)</span></p><p><span style=\"font-family: 宋体;\">append_record(\"2023-04-06\", \"Internet Bill\", 50)</span></p><p><span style=\"font-family: 宋体;\">read_records()</span></p><p><span style=\"font-family: 宋体;\">评分标准：</span></p><p><span style=\"font-family: 宋体;\">（1）a 或等效答案；（2分）</span></p><p><span style=\"font-family: 宋体;\">（2）ledger.txt 或等效答案； （2分）</span></p><p><span style=\"font-family: 宋体;\">（3）readlines 或等效答案； &nbsp;（3分）</span></p><p><span style=\"font-family: 宋体;\">（4）read_records 或等效答案。（3分）</span></p><p><span style=\"font-family: 宋体;\"> </span></p><p><span style=\"font-family: 宋体;\">说明：1. \"a\" (2分) 使用模式\"a\"（追加模式）打开文件，这样可以在文件末尾追加内容而不是覆盖现有内容。 2.\"ledger.txt\" (2分) 这里需要打开的文件名是ledger.txt，以只读模式打开。 3. readlines (3分) readlines()方法读取文件的每一行作为一个字符串对象，并返回一个包含这些字符串的列表。 4.read_records() (3分) 调用read_records()函数来打印出所有已保存的消费记录。这显示了函数定义和函数调用之间的关系。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1846095472901136385",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-10-17 16:51:40",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1846836463060439041",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

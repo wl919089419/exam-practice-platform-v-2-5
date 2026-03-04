@@ -1,0 +1,2172 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202506Python一级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "1939861773292457986",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p>如图所示程序，下列操作哪个能实现：程序不报错，仅中间红色虚线框中部分不运行？（ ）</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-07-01-09-37-00/8628201775494840320.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>多行注释需要’’’或”””成对出现，#为单行注释，逗号不是注释用符号。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:41:02",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939861773292457986",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>import turtle</p><p><br></p><p>turtle.pendown()</p><p>turtle.forward(150)</p><p>turtle.left(120)</p><p>'''</p><p>turtle.forward(150)</p><p>turtle.left(120)</p><p>\"\"\"</p><p>turtle.forward(150)</p><p>turtle.left(120)</p><p>turtle.penup()</p><p><br></p><p><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939861773292457986",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p style=\"text-align: start;\">import turtle</p><p style=\"text-align: start;\">turtle.pendown()<br>turtle.forward(150)<br>turtle.left(120)<br>'''<br>turtle.forward(150)<br>turtle.left(120)<br>'''<br>turtle.forward(150)<br>turtle.left(120)<br>turtle.penup()</p><p style=\"text-align: start;\"><br></p><p style=\"text-align: start;\"><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939861773292457986",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p style=\"text-align: start;\">import turtle</p><p style=\"text-align: start;\">turtle.pendown()<br>turtle.forward(150)<br>turtle.left(120)<br>###<br>turtle.forward(150)<br>turtle.left(120)<br>###<br>turtle.forward(150)<br>turtle.left(120)<br>turtle.penup()</p><p style=\"text-align: start;\"><br></p><p style=\"text-align: start;\"><br></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939861773292457986",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p style=\"text-align: start;\">import turtle</p><p style=\"text-align: start;\">turtle.pendown()<br>turtle.forward(150)<br>turtle.left(120)<br>,,,<br>turtle.forward(150)<br>turtle.left(120)<br>###<br>turtle.forward(150)<br>turtle.left(120)<br>turtle.penup()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939861773292457986",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939861773292457986",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                },
+                {
+                    "questionId": "1939861773292457986",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939862321349578754",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p>下列选项中写法正确，运行后不报错的是？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>字符串可以使用单引号或双引号，但必须成对出现，选项中仅有a=‘去年今日此门中’为成对的单引号，其他的不成对，或使用的是逗号。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:43:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939862321349578754",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>a='去年今日此门中'</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939862321349578754",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>a='人面桃花相映红\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939862321349578754",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>a=\"人面不知何处去'</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939862321349578754",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>a=,桃花依旧笑春风,</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939862321349578754",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939862321349578754",
+                    "knowledgePointId": "631",
+                    "knowledgePoint": "Python的基本格式：缩进、注释、字符串标识"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939862591924510722",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p style=\"text-align: start;\">小会想用下面的程序画一条线段，但不成功，下列选项中哪个修改方案能帮他实现设想？（ ）</p><p style=\"text-align: start;\">程序：</p><p style=\"text-align: start;\">import turtle</p><p style=\"text-align: start;\">turtle.penup()</p><p style=\"text-align: start;\">turtle.forward(300)</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">程序没有成功画出直线的原因在于使用了turtle.penup()即提笔，将其修改为turtle.pendown()即落笔，即可。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:44:17",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939862591924510722",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>将import turtle修改为#import turtle</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939862591924510722",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">将turtle.penup()修改为turtle.pendown()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939862591924510722",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">将turtle.forward(300)修改为turtle.backward(300)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939862591924510722",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">在程序最后再添加turtle.pendown()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939862591924510722",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939862591924510722",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                },
+                {
+                    "questionId": "1939862591924510722",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939862941628801025",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p style=\"text-align: start;\">小会的学校有一个游泳池，如图1所示，现在需要沿着游泳池的边缘画一条警戒线，需要计算出游泳池的周长，小会编写了一个程序，如下所示，下面四个选项中哪个填入图中红色问号处<span style=\"color: rgb(229, 51, 51);\">无法</span>计算出游泳池的周长？（ ）</p><p style=\"text-align: start;\">程序：</p><p style=\"text-align: start;\">a=50</p><p style=\"text-align: start;\">b=25</p><p style=\"text-align: start;\">zhouchang=<span style=\"color: rgb(229, 51, 51); background-color: rgb(255, 229, 0);\">? &nbsp; </span></p><p style=\"text-align: start;\">print('周长=',zhouchang)</p><p style=\"text-align: start;\"><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-07-01-09-44-38/8628203695341002752.png\" alt=\"\" data-href=\"\" style=\"\"></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">计算泳池周长需要对4条边长度求和，程序中a对应泳池的长，b对应泳池的宽。四个选项中仅a*b计算的示泳池面积，其他的均为泳池周长。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:45:41",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939862941628801025",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">a+b+a+b</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">(a+b)*2</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">a*2+b*2</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">a*b</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "632",
+                    "knowledgePoint": "变量基本概念"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "633",
+                    "knowledgePoint": "变量名的命名和保留字"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "638",
+                    "knowledgePoint": "顺序结构语句的特点和写法"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "651",
+                    "knowledgePoint": "解决数学运算基本问题"
+                },
+                {
+                    "questionId": "1939862941628801025",
+                    "knowledgePointId": "652",
+                    "knowledgePoint": "完成简单顺序结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939863121239658498",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p>在交互模式下，输入下面哪一个选项中的内容，并按回车键，会显示True？（ ）</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p>not是逻辑运算符，其对后面的内容做“非”运算，即求反。1和True做非运算后都得到False，0和False做非运算后都得到True。其中“not 0”符合要求，而“not fasle”中False拼写错误（False首字母还要大写），会报错。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:46:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939863121239658498",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>not 1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939863121239658498",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>not True</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939863121239658498",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>not 0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939863121239658498",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>not fasle</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939863121239658498",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939863251503599617",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">执行语句 print(2 + 4 * 4) 的输出结果是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">根据运算优先级，先乘除后加减，所以 4 * 4 = 16，然后 2 + 16 = 18。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:46:55",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939863251503599617",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>18</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939863251503599617",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>14</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939863251503599617",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939863251503599617",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939863251503599617",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                },
+                {
+                    "questionId": "1939863251503599617",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                },
+                {
+                    "questionId": "1939863251503599617",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939863251503599617",
+                    "knowledgePointId": "651",
+                    "knowledgePoint": "解决数学运算基本问题"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939863377889120258",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">执行turtle.right(90)命令后，画笔将如何转动？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">turtle.right(90)命令使画笔向右转动90度。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:47:25",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939863377889120258",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">向左转动90度</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939863377889120258",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">向右转动90度</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939863377889120258",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">向前移动90单位</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939863377889120258",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">向后移动90单位</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939863377889120258",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939863377889120258",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939863607296577538",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">已知x=3，y=7，则表达式 (x &lt; y and not x == 3) or (y &gt; 5 and x != 2) 的值为？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">x &lt; y 为 True，x == 3 也为 True，所以 not x == 3 为 False，因此 (x &lt; y and not x == 3) 为 False；y &gt; 5 为 True，x != 2 也为 True，所以 (y &gt; 5 and x != 2) 为 True。整个表达式为 False or True，最终结果为 True。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 09:48:20",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939863607296577538",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">True</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939863607296577538",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">False</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939863607296577538",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939863607296577538",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939863607296577538",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939863607296577538",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939878519477555202",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在IDLE集成开发环境中编辑源代码文件,下列选项描述</span><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>错误</strong></span><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">的是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">打开IDLE，默认进入的是交互模式</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 10:47:35",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939878519477555202",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在交互模式中直接输入代码并立即执行，无需保存</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939878519477555202",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">在脚本模式中输入代码，保存后统一运行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939878519477555202",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">交互模式更加适合测试单行代码或者简单表达式</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939878519477555202",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">打开IDLE，默认进入的是脚本模式，必须保存运行</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939878519477555202",
+                    "knowledgePointId": "647",
+                    "knowledgePoint": "IDEL的两种开发模式"
+                },
+                {
+                    "questionId": "1939878519477555202",
+                    "knowledgePointId": "648",
+                    "knowledgePoint": "在不同模式下进行切换"
+                },
+                {
+                    "questionId": "1939878519477555202",
+                    "knowledgePointId": "641",
+                    "knowledgePoint": "打开IDLE"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939878659023491074",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">以下关于变量赋值，最终变量a为整型变量，且赋值为10的是？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">对于a = 2 + 8，2和8都是整数，它们相加的结果2 + 8 = 10也是整数，所以变量a是整型变量，其值为10，符合题目要求。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 10:48:08",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939878659023491074",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">a=3.5+6.5</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939878659023491074",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>a=\"10\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939878659023491074",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>a=2+8</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939878659023491074",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>a==10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939878659023491074",
+                    "knowledgePointId": "632",
+                    "knowledgePoint": "变量基本概念"
+                },
+                {
+                    "questionId": "1939878659023491074",
+                    "knowledgePointId": "633",
+                    "knowledgePoint": "变量名的命名和保留字"
+                },
+                {
+                    "questionId": "1939878659023491074",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939878659023491074",
+                    "knowledgePointId": "635",
+                    "knowledgePoint": "变量类型转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939880562314760194",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">已知a=1;b=2;以下结果输出为True的是？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">已知 a = 1，b = 2，在表达式 a == 1 or b == 1 中，a == 1 结果为 True，b == 1 结果为 False。根据逻辑或（or）的运算规则，只要有一个操作数为 True，结果就为 True，所以 a == 1 or b == 1 的结果为 True</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 10:55:42",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939880562314760194",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">a==1 and b==1</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939880562314760194",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">a==b==1</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939880562314760194",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">a==1 or b==1</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939880562314760194",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>a&gt;=b</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939880562314760194",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939880562314760194",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939880740224552962",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">下列关于a&gt;=b的说法正确的是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">根据 &gt;= 运算符的定义，a 的值可以等于 b 的值，此时 a &gt;= b 成立，</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 10:56:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939880740224552962",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">只有a的值大于b的值，a&gt;=b成立</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939880740224552962",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>a的值可以等于b的值，a&gt;=b成立</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939880740224552962",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>a和b的值必须为整型，才可以比较大小</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939880740224552962",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">a&gt;=b 也可以写成 a&gt;b and a==b</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939880740224552962",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939933357464801282",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">执行以下指令，观察海龟的运行路径描述正确的是？（ ）<br>import turtle<br>turtle.goto(0,100)<br>turtle.home()</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">海龟方向朝右，向上移动100像素，然后返回原点。这个是正确的。因为移动方向是向上的，但海龟的头部方向仍然是向右。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:25:29",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939933357464801282",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">海龟方向不变，向右移动100像素，然后返回原点</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939933357464801282",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">海龟方向朝右，向上移动100像素，然后返回原点</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939933357464801282",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">海龟方向朝上，向上移动100像素，然后返回原点</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939933357464801282",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>海龟没有移动，方向也没有变化</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939933357464801282",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939933357464801282",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                },
+                {
+                    "questionId": "1939933357464801282",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939933445538619394",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在模拟机器人电量消耗的程序设计中，已知满电电量值a = 15，执行a = a - 5后，a的值是？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在a = a - 5中，先计算右边的a - 5，a的值为 15，a - 5 = 15 - 5 = 10，将计算结果 10 赋值给a，a的值为 10。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:25:50",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939933445538619394",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>15</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "632",
+                    "knowledgePoint": "变量基本概念"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "633",
+                    "knowledgePoint": "变量名的命名和保留字"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "635",
+                    "knowledgePoint": "变量类型转换"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "638",
+                    "knowledgePoint": "顺序结构语句的特点和写法"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "649",
+                    "knowledgePoint": "使用变量"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "650",
+                    "knowledgePoint": "编写带有数值类型变量的程序"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "651",
+                    "knowledgePoint": "解决数学运算基本问题"
+                },
+                {
+                    "questionId": "1939933445538619394",
+                    "knowledgePointId": "652",
+                    "knowledgePoint": "完成简单顺序结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939933588029886465",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">生成式人工智能应用对学习和生活有着积极的影响，某同学为了宣传人工智能，计划使用 turtle 绘图来创作海报，下列代码可以将画笔设置为绿色的是？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">turtle.pencolor(\"green\")用于设置画笔的颜色为绿色。turtle.fillcolor(\"green\")是设置填充颜色为绿色；turtle.color(\"red\", \"green\")中第一个参数 “red” 是画笔颜色，第二个参数 “green” 是填充颜色；turtle.bgcolor(\"green\")是设置背景颜色为绿色 。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:26:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939933588029886465",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">turtle.pencolor(\"green\")</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939933588029886465",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">turtle.fillcolor(\"green\")</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939933588029886465",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">turtle.color(\"red\", \"green\")</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939933588029886465",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">turtle.bgcolor(\"green\")</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939933588029886465",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939933588029886465",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                },
+                {
+                    "questionId": "1939933588029886465",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939934475130818562",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">2025年5月24日-31日是第二十五个全国科技活动周，某学校正在组织科技周活动，老师需要将35名学生分为每组6人的编程小组，用Python计算可分多少组？剩余几人？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">//计算整除结果，%计算余数，故答案选择A选项。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:29:56",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939934475130818562",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">35 // 6 = 5组，剩余35 % 6 = 5人</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>35 / 6 = 5组，剩余5人</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">35 % 6 = 5组，剩余35 // 6 = 5人</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>35 // 6 = 6组，剩余0人</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "631",
+                    "knowledgePoint": "Python的基本格式：缩进、注释、字符串标识"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "632",
+                    "knowledgePoint": "变量基本概念"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "633",
+                    "knowledgePoint": "变量名的命名和保留字"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "635",
+                    "knowledgePoint": "变量类型转换"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "638",
+                    "knowledgePoint": "顺序结构语句的特点和写法"
+                },
+                {
+                    "questionId": "1939934475130818562",
+                    "knowledgePointId": "651",
+                    "knowledgePoint": "解决数学运算基本问题"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939934631540989953",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">以下哪一项不属于常见的Python软件开发环境？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">常见的Python软件开发环境为PyCharm、Jupyter Notebook、Visual Studio Code、IDEL等，因此ABC三个选项都属于，D选项中WPS Office是文字、表格编辑工具，不属于常见的开发环境，故D选项当选。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:30:33",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939934631540989953",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">PyCharm</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939934631540989953",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">Jupyter Notebook</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939934631540989953",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">IDEL</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939934631540989953",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">WPS Office</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939934631540989953",
+                    "knowledgePointId": "628",
+                    "knowledgePoint": "Python常见的几种编程环境：IDLE、Visual Studio Code、JupyterNotebook"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939934756617506817",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">粗心的小明将变量的命名规则忘了，在刚刚写好的程序中出现了以下4个变量，请你帮帮小明，找出以下哪一项不能作为变量名？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在Python中，不能以数字开头作为变量名，故C选项中数字开头的变量名错误。其余选项均符合变量的命名规则。正确答案为C。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:31:03",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939934756617506817",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>name1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939934756617506817",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>naMe_2</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939934756617506817",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>3number</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939934756617506817",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>num4_Ber</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939934756617506817",
+                    "knowledgePointId": "633",
+                    "knowledgePoint": "变量名的命名和保留字"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939934944522326018",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">小明为了画出魔丸哪吒，写了1000行代码，在运行过程中发现画笔移动缓慢，很长时间也画不出来，为了最快地画出哪吒，请问需要在导入turtle库后执行以下哪项命令？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">想要让turtle画笔的绘制速度最快，则需要将速度设置为0为最快，故本题正确答案为C。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:31:48",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939934944522326018",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>turtle.speed(1)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939934944522326018",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>turtle.speed(10)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939934944522326018",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>turtle.speed(0)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939934944522326018",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>turtle.speed(fast)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939934944522326018",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939934944522326018",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939935056025145345",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在Python中运行print(25/5)，输出的结果为？（ ）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">/为除法运算，用25除以5等于5，但需要注意，在Python中，除法运算的结果为浮点数类型，即需要保留小数，故为5.0。正确答案为C。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:32:14",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939935056025145345",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939935056025145345",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939935056025145345",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>5.0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939935056025145345",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>20.0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939935056025145345",
+                    "knowledgePointId": "629",
+                    "knowledgePoint": "Python的版本号和目前最常用的Python版本"
+                },
+                {
+                    "questionId": "1939935056025145345",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                },
+                {
+                    "questionId": "1939935056025145345",
+                    "knowledgePointId": "635",
+                    "knowledgePoint": "变量类型转换"
+                },
+                {
+                    "questionId": "1939935056025145345",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939935369419726849",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">运行print(7&gt;=5 and 'card'=='car')，输出结果为？（ ）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">该式子中，根据优先级，需要先分别计算7&gt;=5和'card'=='car'的真假情况，再做and运算，其中7&gt;=5为True，'card'=='car'两者不同，为False，则最终式子化简为True and False，其结果为False。正确答案为B。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:33:29",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939935369419726849",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">True</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939935369419726849",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>False</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939935369419726849",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939935369419726849",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">报错</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939935369419726849",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939935369419726849",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939936443044110337",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">学校组织春季研学活动，计划从学校（坐标系原点 (0,0)）出发，依次前往钟楼、大雁塔和大唐芙蓉园游览，最后回到学校。小晴想要在Python中画出游玩轨迹，到大唐芙蓉园后，下列哪个函数可以让轨迹回到学校？（ ）</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-07-01-14-33-44/8628276450157617152.jpg\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题考查的知识点是turtle库的坐标控制函数。A选项，turtle.circle(0,0)参数无效。B选项，turtle.home()返回原点(0,0)并重置方向。C选项，turtle.dot()绘制圆点但不移动。D选项，turtle.forward(100)向前移动。因此正确答案为B。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:37:45",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939936443044110337",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>turtle.circle(0,0)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939936443044110337",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>turtle.home()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939936443044110337",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>turtle.dot()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939936443044110337",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">turtle.forward(100)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939936443044110337",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939936443044110337",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                },
+                {
+                    "questionId": "1939936443044110337",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939936539892961282",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">下列关于turtle.hideturtle()和turtle.clear()说法错误的是？（ ）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题考查的知识点是turtle绘图控制函数。A选项，hideturtle()隐藏箭头图标正确。B选项，clear()擦除绘图痕迹正确。C选项，两者均无需参数正确。D选项，clear()会擦除内容，但hideturtle()仅隐藏箭头，不删除绘图。因此正确答案为D。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:38:08",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939936539892961282",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">turtle.hideturtle()可以让箭头图标消失，让画笔隐藏起来</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939936539892961282",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(243, 255, 255);\">turtle.clear()可以擦除所有绘图痕迹，恢复空白画布</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939936539892961282",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">两者都不需要参数</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939936539892961282",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">两者都可以让绘图内容完全消失</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939936539892961282",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939936539892961282",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939936684761468930",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p>下列属于赋值语句的是？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p>本题考查的知识点是赋值语法。A选项，num=num+1是合法赋值。B选项，m==1是比较运算。C选项，m+n=4语法错误。D选项，input()是输入函数。因此正确答案为A。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:38:43",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939936684761468930",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>num=num+1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939936684761468930",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>m==1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939936684761468930",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>m+n=4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939936684761468930",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>input(\"请输入一个数\")</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939936684761468930",
+                    "knowledgePointId": "632",
+                    "knowledgePoint": "变量基本概念"
+                },
+                {
+                    "questionId": "1939936684761468930",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939936760129298434",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">北京时间2025年4月24日17时17分，我国神舟二十号载人飞船奔赴太空，李欣想要和爸爸一起乘坐客车去甘肃酒泉卫星发射中心观礼，车上本来有25人，到站后，下去了13人，又上来了8人，请问车上还剩下多少人？（ ）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题考查的知识点是计算思维。25人下车13人后剩12人，再上车8人，总计20人。因此正确答案为A。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:39:01",
+            "questionsOptionList": [
+                {
+                    "questionId": "1939936760129298434",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1939936760129298434",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>13</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1939936760129298434",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1939936760129298434",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>21</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939936760129298434",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                },
+                {
+                    "questionId": "1939936760129298434",
+                    "knowledgePointId": "651",
+                    "knowledgePoint": "解决数学运算基本问题"
+                },
+                {
+                    "questionId": "1939936760129298434",
+                    "knowledgePointId": "652",
+                    "knowledgePoint": "完成简单顺序结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937133376217089",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p style=\"text-align: start;\">图1是摩尔斯电码表，就是使用“.”和“-”的组合来代表字符，根据电码表，小会编写了下面的程序用来按顺序输出两个数字的电码，他想输出的数字是1和5。（ ）</p><p style=\"text-align: start;\">程序：</p><p style=\"text-align: start;\">print('.----')</p><p style=\"text-align: start;\">print('.....')</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">根据摩尔斯电码表“.----”代表1，“.....”代表5，按顺序输出则先输出表示1的电码，再输出5的电码。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:40:30",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937133376217089",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                },
+                {
+                    "questionId": "1939937133376217089",
+                    "knowledgePointId": "631",
+                    "knowledgePoint": "Python的基本格式：缩进、注释、字符串标识"
+                },
+                {
+                    "questionId": "1939937133376217089",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939937133376217089",
+                    "knowledgePointId": "649",
+                    "knowledgePoint": "使用变量"
+                },
+                {
+                    "questionId": "1939937133376217089",
+                    "knowledgePointId": "652",
+                    "knowledgePoint": "完成简单顺序结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937211738398722",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p style=\"text-align: start;\">小会编写了一个程序，这个程序能画出三角形。（ ）</p><p style=\"text-align: start;\">程序：</p><p style=\"text-align: start;\">import turtle</p><p style=\"text-align: start;\">turtle.pendown()</p><p style=\"text-align: start;\">turtle.goto(0,100)</p><p style=\"text-align: start;\">turtle.goto(100,100)</p><p style=\"text-align: start;\">turtle.home()</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">从(0,0)出发画笔先运动到(0,00)再到(100,100)最后回到(0,0)，恰好是一个三角形。turtle.home()可让画笔回到(0,0)位置。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:40:48",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937211738398722",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939937211738398722",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                },
+                {
+                    "questionId": "1939937211738398722",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937252003336193",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">小明的电脑里安装有Python的两个版本：Python2和Python3，它们能互相听懂对方说的所有\"魔法咒语\"（代码），它们完全兼容。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Python 2和Python 3在语法和库方面存在不兼容的改动，因此不能认为它们完全兼容。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:40:58",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937252003336193",
+                    "knowledgePointId": "629",
+                    "knowledgePoint": "Python的版本号和目前最常用的Python版本"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937293396922370",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">执行语句 a = \"123\" 后，变量 a 的数据类型是字符串。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">用双引号括起来的 \"123\" 是一个字符串，所以变量 a 的数据类型是字符串。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:41:08",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937293396922370",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939937293396922370",
+                    "knowledgePointId": "632",
+                    "knowledgePoint": "变量基本概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937339379077121",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">print(int(\"7.65\")),输出结果是7。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">int虽然是取整，但“7.65”是字符串，所以不会输出7，会报错</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:41:19",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937339379077121",
+                    "knowledgePointId": "635",
+                    "knowledgePoint": "变量类型转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937382813847554",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Turtle库中利用turtle.circle(100)和turtle.circle（-100）指令分别画圆，海龟的初始位置运动路径是完全一样的。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">turtle.circle(100)，表示海龟以当前位置为起始点，以顺时针方向绘制一个半径为100像素的圆。turtle.circle(-100)，表示海龟以当前位置为起始点，以逆时针方向绘制一个半径为100像素的圆。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:41:29",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937382813847554",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939937382813847554",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937440839290881",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">某同学在 IDLE 里编写Python程序，在保存 Python 程序文件时，文件名用什么命名都不会不影响程序运行。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Python 程序文件保存时，文件名不能使用 Python 的保留字，也应避免使用特殊字符，遵循命名规范。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:41:43",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937440839290881",
+                    "knowledgePointId": "643",
+                    "knowledgePoint": "保存文件"
+                },
+                {
+                    "questionId": "1939937440839290881",
+                    "knowledgePointId": "647",
+                    "knowledgePoint": "IDLE的两种开发模式"
+                },
+                {
+                    "questionId": "1939937440839290881",
+                    "knowledgePointId": "644",
+                    "knowledgePoint": "使用IDEL进行编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937478091657217",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在IDLE的交互模式中运行 3+5 &nbsp;与print(\"3+5\")，其运行结果都为8。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在交互模式中运行上述两条指令，3+5 的运行结果为8，print(\"3+5\")的运行结果为字符串，运行结果不同。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:41:52",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937478091657217",
+                    "knowledgePointId": "647",
+                    "knowledgePoint": "IDEL的两种开发模式"
+                },
+                {
+                    "questionId": "1939937478091657217",
+                    "knowledgePointId": "648",
+                    "knowledgePoint": "在不同模式下进行切换"
+                },
+                {
+                    "questionId": "1939937478091657217",
+                    "knowledgePointId": "644",
+                    "knowledgePoint": "使用IDEL进行编程"
+                },
+                {
+                    "questionId": "1939937478091657217",
+                    "knowledgePointId": "646",
+                    "knowledgePoint": "运行文件"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937518088540161",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">小明最近看了电影《哪吒》，想要用Python模拟哪吒和敖丙的对话。运行print(\"哪吒：'你好，敖丙！'\")语句，输出结果为 哪吒：你好，敖丙！。（ ）</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">在这条print(\"哪吒：'你好，敖丙！'\")语句中，需要注意 ' 和 \" 的嵌套，输出的是两个\"之间的内容，因此输出的结果为 哪吒：'你好，敖丙！'，与题目中给出的结果不一致。故本题描述错误。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:42:01",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937518088540161",
+                    "knowledgePointId": "631",
+                    "knowledgePoint": "Python的基本格式：缩进、注释、字符串标识"
+                },
+                {
+                    "questionId": "1939937518088540161",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937562120343553",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">int(3.5)的值是3。（ ）</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">本题考查的知识点是int()函数对浮点数的处理。int(3.5)会截断小数部分，结果为3。因此答案为正确。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:42:12",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937562120343553",
+                    "knowledgePointId": "635",
+                    "knowledgePoint": "变量类型转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1939937649380466689",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 4,
+            "title": "<p>小明去超市买了苹果和香蕉，苹果每斤6.5元，香蕉每斤4.8元。小明买了m斤苹果和n斤香蕉（m和n都是不是0的整数），请写一段程序计算小明一共需要支付多少钱？</p><p><strong>要求：</strong></p><p>（1）程序开始运行后，需要用户输入m和n的值（整数），可以分两次输入；</p><p>（2）用户输入斤数时，要有提示语，提示语分别为：“请输入苹果斤数：”、 “请输入香蕉斤数：”；</p><p>（3）计算公式正确，正确实现总费用的计算逻辑；</p><p>（4）输出格式正确，输出字符串包含提示文本，如“小明一共需要支付：”，“元”；</p><p>（5）代码规范，运行正常。</p><p><br></p><p><span style=\"color: rgb(229, 51, 51);\">友情提示：</span></p><p><span style=\"color: rgb(229, 51, 51);\">由于考试平台暂不支持eval()命令，同学们可以选用其他命令；当然如果您使用了，只要程序是正确的，我们阅卷时依然按照正常处理。</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p>参考程序：</p><p><br></p><p>a = 6.5</p><p>b = 4.8</p><p>m = int(input(\"请输入苹果斤数：\"))</p><p>n = int(input(\"请输入香蕉斤数：\"))</p><p>total_cost = (a * m) + (b * n)</p><p>print(\"小明一共需要支付：\", total_cost, \"元\")</p><p>试题难度：一般</p><p>试题解析：</p><p>评分标准：</p><p><br></p><p>（1）有input()语句；（2分，每个1分）</p><p><br></p><p>（2）有输入时候的提示语；（2分，每个1分，提示语错误不扣分，只要有即可）</p><p><br></p><p>（3）有数据类型转换，并且转换正确；（2分，每个1分）</p><p><br></p><p>（4）有正确的计算表达式；（1分）</p><p><br></p><p>（3）输出格式正确；（1分）</p><p>（4）程序运行结果正确（程序能正常运行，计算正确即可，输入输出格式不在此项要求中）。（2分）</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 15.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:42:33",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "630",
+                    "knowledgePoint": "输入、处理、输出程序编写方法"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "632",
+                    "knowledgePoint": "变量基本概念"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "633",
+                    "knowledgePoint": "变量名的命名和保留字"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "634",
+                    "knowledgePoint": "字符串、数值型变量"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "635",
+                    "knowledgePoint": "变量类型转换"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "636",
+                    "knowledgePoint": "比较表达式、运算符、逻辑运算的基本概念"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "637",
+                    "knowledgePoint": "Python编程基础的逻辑表达式"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "638",
+                    "knowledgePoint": "顺序结构语句的特点和写法"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "649",
+                    "knowledgePoint": "使用变量"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "650",
+                    "knowledgePoint": "编写带有数值类型变量的程序"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "651",
+                    "knowledgePoint": "解决数学运算基本问题"
+                },
+                {
+                    "questionId": "1939937649380466689",
+                    "knowledgePointId": "652",
+                    "knowledgePoint": "完成简单顺序结构的程序"
+                }
+            ],
+            "questionsDetailDTO": {
+                "executionTimeLimit": 0,
+                "executionMemoryLimit": 0,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "<p>3</p><p>2</p>",
+                        "testCaseOutput": "<p>小明一共需要支付：27.10元</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1939939121331884033",
+            "examinationPaperTitle": "202506Python一级真题",
+            "type": 4,
+            "title": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">夏天快到了，又到了吃西瓜的季节。西瓜是夏天的代表，让人在它的色香味中，感受到夏天的魅力。请你用Python，画出如下图所示的西瓜：</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-07-01-14-44-21/8628279122046705664.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p style=\"text-align: start;\"><strong>要求：</strong></p><p style=\"text-align: start;\">（1）西瓜左上角坐标为(0,0)，西瓜红壤左上角坐标为(10,0)；</p><p style=\"text-align: start;\">（2）整个西瓜半径为100，西瓜红壤半径为90；</p><p style=\"text-align: start;\">（3）西瓜绘制完成后，隐藏画笔。</p><p style=\"text-align: start;\"><strong>思路提示：</strong></p><p style=\"text-align: start;\">（1）先画绿色瓜皮，由于西瓜是向上的，所以，在画绿皮之前，需要把画笔<span style=\"color: rgb(229, 51, 51);\">右转90度(right(90))</span>；</p><p style=\"text-align: start;\">（2）右转90度后开始画绿皮，画完后画笔回到(0,0)坐标，以便形成完整的半圆，以便填充绿色；</p><p style=\"text-align: start;\">（3）画笔移动到(10,0)坐标；</p><p style=\"text-align: start;\">（4）将画笔<span style=\"color: rgb(229, 51, 51);\">右转180度(right(180))</span>；</p><p style=\"text-align: start;\">（5）右转180度后开始画红壤，画完后画笔回到(10,0)坐标，以便形成完整的半圆，以便填充红色；</p><p style=\"text-align: start;\">（6）隐藏画笔。</p><p style=\"text-align: start;\"><span style=\"color: rgb(229, 51, 51);\"><br></span></p><p style=\"text-align: start;\"><span style=\"color: rgb(229, 51, 51);\">友情提示：</span></p><p style=\"text-align: start;\"><span style=\"color: rgb(229, 51, 51);\">考试平台暂不支持画笔命名：Pen()命令，同学们可以选用其他命令；当然如果使用了Pen()命令，只要程序是正确的，阅卷时依然按照正确处理。</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">标准答案：</span></p><p style=\"text-align: start;\"><strong>参考程序：</strong></p><p style=\"text-align: start;\">import turtle</p><p style=\"text-align: start;\">#绘制西瓜绿皮</p><p style=\"text-align: start;\">turtle.right(90)</p><p style=\"text-align: start;\">turtle.fillcolor(\"green\")</p><p style=\"text-align: start;\">turtle.begin_fill()</p><p style=\"text-align: start;\">turtle.circle(100,180)</p><p style=\"text-align: start;\">turtle.goto(0,0)</p><p style=\"text-align: start;\">turtle.end_fill()</p><p style=\"text-align: start;\"> </p><p style=\"text-align: start;\">#到红壤左上角坐标</p><p style=\"text-align: start;\">turtle.goto(10,0)</p><p style=\"text-align: start;\"> </p><p style=\"text-align: start;\">#绘制西瓜红壤</p><p style=\"text-align: start;\">turtle.right(180)</p><p style=\"text-align: start;\">turtle.fillcolor(\"red\")</p><p style=\"text-align: start;\">turtle.begin_fill()</p><p style=\"text-align: start;\">turtle.circle(90,180)</p><p style=\"text-align: start;\">turtle.goto(10,0)</p><p style=\"text-align: start;\">turtle.end_fill()</p><p style=\"text-align: start;\"> </p><p style=\"text-align: start;\">#绘制结束，隐藏画笔</p><p style=\"text-align: start;\">turtle.hideturtle()</p><p style=\"text-align: start;\"><strong>评分标准：</strong></p><p style=\"text-align: start;\">（1）正确导入turtle库；（1分）<br>（2）隐藏画笔命令正确；（1分）<br>（3）西瓜绿皮绘制角度正确，即right(90)正确；（1分）<br>（4）西瓜绿皮填充颜色正确，即fillcolor(\"green\")正确，函数名错误不得分；（1分）<br>（5）西瓜绿皮beginfill()和endfill()函数名称正确（各1分，共2分），代码顺序正确（1分）；（注意：颜色写错在这里不扣分）<br>（6）绘制半圆，半径为100，角度为180，即circle(100,180)正确（1分）；<br>（7）回到初始坐标(0,0)正确或采用forward()命令也可但需要注意回到原点；（1分）<br>（8）成功绘制西瓜绿皮部分，颜色错误不得分；（1分）<br>（9）到达红壤左上角坐标(10,0)或采用forward(10)命令也可；（1分）<br>（10）红壤画笔角度正确，即right(180)正确；（1分）<br>（11）红壤填充颜色正确，即fillcolor(\"red\")正确；（1分）<br>（12）西瓜红壤beginfill()和endfill()函数名称正确（各1分，共2分），代码顺序正确（1分）；（注意：颜色写错在这里不扣分）<br>（13）绘制红壤，半径为90，角度为180，即circle(90,180)正确；（1分）<br>（14）回到红壤左上角坐标(10,0)正确或采用forward()命令也可以；（1分）<br>（15）成功绘制红壤部分颜色错误不得分；（1分）<br>（16）绘制的图片符合题意。（1分）</p><p style=\"text-align: start;\"><span style=\"color: rgb(229, 51, 51);\"><strong>评判标准总结：</strong></span></p><p style=\"text-align: start;\">（1）如果按照标准答案来写代码，一行代码1分，少几行扣几分；但如果学生使用别的方法完成，则不按照这个标准扣分；本项共计15分；</p><p style=\"text-align: start;\">（2）beginfill()和endfill()函数使用顺序正确，每次1分（填充绿色和红色），共计2分；</p><p style=\"text-align: start;\">（3）成功绘制红色部分1分，成功绘制绿色部分1分，共计2分；如果颜色不正确，则要扣分；</p><p style=\"text-align: start;\">（4）绘制的图片符合题意得1分；</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1939855108818784257",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 15.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-07-01 14:48:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1939939121331884033",
+                    "knowledgePointId": "639",
+                    "knowledgePoint": "第三方库turtle的功能"
+                },
+                {
+                    "questionId": "1939939121331884033",
+                    "knowledgePointId": "640",
+                    "knowledgePoint": "导入库文件"
+                },
+                {
+                    "questionId": "1939939121331884033",
+                    "knowledgePointId": "653",
+                    "knowledgePoint": "使用turtle库的简单方法：前进、后退、左右转、提落笔、画点、画圆"
+                },
+                {
+                    "questionId": "1939939121331884033",
+                    "knowledgePointId": "652",
+                    "knowledgePoint": "完成简单顺序结构的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

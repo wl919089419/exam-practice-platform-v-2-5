@@ -1,0 +1,1032 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202512GESP C++八级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "2019311891868278786",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>某平台生成“取件码”由6个字符组成：前4位为数字（ 0 – 9 ），后2位为大写字母（ A – Z ），其中字母不能为 I 、 O 。假设数字和字母均可重复使用，要求整个取件码中恰好有2个数字为奇数。共有多少种不同取件码？（ ）</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:27:27",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019311891868278786",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1,440,000</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019311891868278786",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>2,160,000</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019311891868278786",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>2,535,000</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019311891868278786",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>8,640,000</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019312163629817857",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>下列代码实现了归并排序（Merge Sort）的分治部分。为了正确地将数组 a 的 [left, right] 区间进行排序，横线处应该填入的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">void merge_sort(<span class=\"hljs-built_in\">int</span> a[], <span class=\"hljs-built_in\">int</span> <span class=\"hljs-built_in\">left</span>, <span class=\"hljs-built_in\">int</span> <span class=\"hljs-built_in\">right</span>) { \n<span class=\"hljs-built_in\">if</span> (<span class=\"hljs-built_in\">left</span> &gt;= <span class=\"hljs-built_in\">right</span>) return; \n<span class=\"hljs-built_in\">int</span> <span class=\"hljs-built_in\">mid</span> = (<span class=\"hljs-built_in\">left</span> + <span class=\"hljs-built_in\">right</span>) / <span class=\"hljs-number\">2</span>; \nmerge_sort(a, <span class=\"hljs-built_in\">left</span>, <span class=\"hljs-built_in\">mid</span>); \n________; // 在此处填入选项 \nmerge(a, <span class=\"hljs-built_in\">left</span>, <span class=\"hljs-built_in\">mid</span>, <span class=\"hljs-built_in\">right</span>); // 合并操作 \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:28:31",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019312163629817857",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>merge_sort(a, mid, right)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019312163629817857",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>merge_sort(a, mid + 1, right)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019312163629817857",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>merge_sort(a, left, mid + 1)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019312163629817857",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>merge_sort(a, mid - 1, right)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019312646817832961",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>某社团有男生8人、女生7人。现需选出1名队长（性别不限）、1名副队长（性别不限）、2名宣传委员（两人无角色区别，且必须<strong>至少1名女生</strong>）。假如一人不能兼任多职，共有多少种不同选法？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:30:27",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019312646817832961",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>12012</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019312646817832961",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>11844</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019312646817832961",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>12474</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019312646817832961",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>11025</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019312906935984129",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>二项式（2x-y)^2的展开式中 x^5y^3项的系数为（ ）。</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:31:29",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019312906935984129",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>-7168</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019312906935984129",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>7168</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019312906935984129",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>-1792</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019312906935984129",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>1792</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019313343584002049",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>下面是使用邻接矩阵实现的Dijkstra算法的核心片段，用于求单源最短路径。在找到当前距离起点最近的顶点u 后，需要更新其邻接点 j 的距离。横线处应填入的代码是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">for (int j = 1; j &lt;= n; j++) { \n    if (!visited<span class=\"hljs-comment\">[j]</span> &amp;&amp; graph<span class=\"hljs-comment\">[u][j]</span> &lt; INF) { \n      if (________) { // 在此处填入选项 \n        dis<span class=\"hljs-comment\">[j]</span> = dis<span class=\"hljs-comment\">[u]</span> + graph<span class=\"hljs-comment\">[u][j]</span>; \n      } \n    } \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:33:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019313343584002049",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>dis[j] &lt; dis[u] + graph[u][j]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019313343584002049",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>dis[j] &gt; dis[u] + graph[u][j]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019313343584002049",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>graph[u][j] &gt; dis[u] + dis[j]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019313343584002049",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>dis[j] &gt; graph[u][j]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019313616327008258",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>下面程序使用动态规划求两个字符串的最长公共子序列（LCS）长度，横线处应填入的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;algorithm&gt;</span> </span>\n<span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;string&gt;</span> </span>\n<span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;vector&gt;</span> </span>\n<span class=\"hljs-keyword\">using</span> <span class=\"hljs-keyword\">namespace</span> std; \n\n<span class=\"hljs-function\"><span class=\"hljs-type\">int</span> <span class=\"hljs-title\">lcs_len</span><span class=\"hljs-params\">(<span class=\"hljs-type\">const</span> string &amp;a, <span class=\"hljs-type\">const</span> string &amp;b)</span> </span>{ \n  <span class=\"hljs-type\">int</span> n = (<span class=\"hljs-type\">int</span>)a.<span class=\"hljs-built_in\">size</span>(), m = (<span class=\"hljs-type\">int</span>)b.<span class=\"hljs-built_in\">size</span>(); \n  vector&lt;vector&lt;<span class=\"hljs-type\">int</span>&gt;&gt; <span class=\"hljs-built_in\">dp</span>(n + <span class=\"hljs-number\">1</span>, <span class=\"hljs-built_in\">vector</span>&lt;<span class=\"hljs-type\">int</span>&gt;(m + <span class=\"hljs-number\">1</span>, <span class=\"hljs-number\">0</span>)); \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= n; i++) \n    <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> j = <span class=\"hljs-number\">1</span>; j &lt;= m; j++) \n      <span class=\"hljs-keyword\">if</span> (a[i - <span class=\"hljs-number\">1</span>] == b[j - <span class=\"hljs-number\">1</span>]) \n        dp[i][j] = dp[i - <span class=\"hljs-number\">1</span>][j - <span class=\"hljs-number\">1</span>] + <span class=\"hljs-number\">1</span>; \n    <span class=\"hljs-keyword\">else</span> \n    ________; <span class=\"hljs-comment\">// 在此处填入选项 </span>\n  <span class=\"hljs-keyword\">return</span> dp[n][m]; \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:34:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019313616327008258",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>dp[i][j] = dp[i - 1][j] + dp[i][j - 1];</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019313616327008258",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]);</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019313616327008258",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019313616327008258",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]) + 1;</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019313835869462530",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>已知两个点A(x1,y3)和B（x2,y2)在平面直角坐标系中的坐标。下列C++表达式中，能正确计算这两点之间直线距离的是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:35:10",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019313835869462530",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>sqrt((x1 - x2) ^ 2 + (y1 - y2) ^ 2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019313835869462530",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019313835869462530",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>pow(x1 - x2, 2) + pow(y1 - y2, 2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019313835869462530",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>abs(x1 - x2) + abs(y1 - y2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019313934825676802",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>已知 int a = 10; ，执行 int &amp;b = a; b = 20; 后，变量 a 的值是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:35:34",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019313934825676802",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>10</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019313934825676802",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>20</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019313934825676802",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>30</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019313934825676802",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>编译错误</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019314263088685057",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>下列代码的时间复杂度（以 为自变量，忽略常数与低阶项）是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-type\">long</span> <span class=\"hljs-type\">long</span> s = <span class=\"hljs-number\">0</span>; \n<span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= n; i++) { \n    <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> j = <span class=\"hljs-number\">1</span>; j * j &lt;= i; j++) { \n      s += j; \n     } \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:36:52",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019314263088685057",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019314263088685057",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>O(n log n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019314263088685057",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>O(n√n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019314263088685057",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>O(n^2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019314636809560066",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>下列程序实现了线性筛法（欧拉筛），用于在O(n)时间内求出1~n之间的所有质数。为了保证每个合数只被其最小质因子筛掉，横线处应填入的语句是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-keyword\">for</span> (<span class=\"hljs-built_in\">int</span> i = <span class=\"hljs-number\">2</span>; i &lt;= n; i++) { \n  <span class=\"hljs-keyword\">if</span> (!not_prime[i]) primes[++cnt] = i; \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-built_in\">int</span> j = <span class=\"hljs-number\">1</span>; j &lt;= cnt &amp;&amp; i * primes[j] &lt;= n; j++) { \n    not_prime[i * primes[j]] = <span class=\"hljs-literal\">true</span>; \n    <span class=\"hljs-keyword\">if</span> (________) <span class=\"hljs-keyword\">break</span>; <span class=\"hljs-comment\">// 在此处填入选项 </span>\n  } \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:38:21",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019314636809560066",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>i + primes[j] == n</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019314636809560066",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>primes[j] &gt; i</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019314636809560066",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>i % primes[j] == 0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019314636809560066",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>i % primes[j] != 0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019314736692715522",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>在C++语言中，关于类的<strong>继承和访问权限</strong>，下列说法正确的是（ ）。</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:38:45",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019314736692715522",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>派生类可以访问基类的 private 成员。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019314736692715522",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>基类的 protected 成员在私有继承（private inheritance）后，在派生类中变为 public 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019314736692715522",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>派生类对象在创建时，会先调用基类的构造函数，再调用派生类自己的构造函数。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019314736692715522",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>派生类对象在销毁时，会先调用基类的析构函数，再调用派生类自己的析构函数。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019314951373971458",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>当输入 6 时，下列程序的输出结果为（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;iostream&gt;</span> </span>\n<span class=\"hljs-keyword\">using</span> <span class=\"hljs-keyword\">namespace</span> std; \n<span class=\"hljs-function\"><span class=\"hljs-type\">int</span> <span class=\"hljs-title\">f</span><span class=\"hljs-params\">(<span class=\"hljs-type\">int</span> n)</span> </span>{ \n  <span class=\"hljs-keyword\">if</span> (n &lt;= <span class=\"hljs-number\">3</span>) <span class=\"hljs-keyword\">return</span> n; \n  <span class=\"hljs-keyword\">return</span> <span class=\"hljs-built_in\">f</span>(n - <span class=\"hljs-number\">1</span>) + <span class=\"hljs-built_in\">f</span>(n - <span class=\"hljs-number\">2</span>) + <span class=\"hljs-number\">2</span> * <span class=\"hljs-built_in\">f</span>(n - <span class=\"hljs-number\">3</span>); \n} \n<span class=\"hljs-function\"><span class=\"hljs-type\">int</span> <span class=\"hljs-title\">main</span><span class=\"hljs-params\">()</span> </span>{ \n  <span class=\"hljs-type\">int</span> n; \n  cin &gt;&gt; n; \n  cout &lt;&lt; <span class=\"hljs-built_in\">f</span>(n) &lt;&lt; endl; \n  <span class=\"hljs-keyword\">return</span> <span class=\"hljs-number\">0</span>; \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:39:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019314951373971458",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>14</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019314951373971458",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>27</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019314951373971458",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>28</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019314951373971458",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>15</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019315606662668289",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>从1到999这999个正整数中，十进制表示中数字 5 <strong>恰好出现一次</strong>的数有多少个？（ ）</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:42:12",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019315606662668289",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>243</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019315606662668289",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>271</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019315606662668289",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>300</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019315606662668289",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>333</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019315807334948866",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>当输入 2023 时，下列程序的输出结果为（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;iostream&gt;</span> </span>\n<span class=\"hljs-keyword\">using</span> <span class=\"hljs-keyword\">namespace</span> std; \n\n<span class=\"hljs-function\"><span class=\"hljs-type\">int</span> <span class=\"hljs-title\">main</span><span class=\"hljs-params\">()</span> </span>{ \n  <span class=\"hljs-type\">int</span> x, ans = <span class=\"hljs-number\">0</span>; \n  cin &gt;&gt; x; \n  <span class=\"hljs-keyword\">while</span> (x != <span class=\"hljs-number\">0</span>) { \n    x -= x &amp; -x; \n    ans++; \n  } \n  cout &lt;&lt; ans &lt;&lt; endl; \n<span class=\"hljs-keyword\">return</span> <span class=\"hljs-number\">0</span>; \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:43:00",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019315807334948866",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>7</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019315807334948866",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>9</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019315807334948866",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><strong>9</strong></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019315807334948866",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>11</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019317873352630274",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 1,
+            "title": "<p>对连通无向图执行Kruskal算法。已按边权从小到大依次扫描到某条边e=(u,v)。此时在已经构建的部分MST结构中， (u,v)已在同一连通块内。关于边 的处理，下列说法正确的是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:51:13",
+            "questionsOptionList": [
+                {
+                    "questionId": "2019317873352630274",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>必须选入MST，否则可能不连通。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2019317873352630274",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>一定不能选入MST（在此扫描顺序下）。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2019317873352630274",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>若后续出现更大的边权，可以回溯改选 。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2019317873352630274",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>只有当是当前最小边时才能舍弃。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318033398882306",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>若一项任务可用两种互斥方案完成：方案A有m种做法，方案B有n种做法，则总做法数为m+n。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:51:51",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318074473701378",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>在C++语言中，引用一旦被初始化，就不能再改为引用另一个变量。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:52:01",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318245857157121",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>快速排序和归并排序的平均时间复杂度都是O(n log n)，但快速排序是不稳定的排序算法，归并排序是稳定的排序算法。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:52:42",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318279214456834",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>使用 math.h 或 cmath 头文件中的函数，表达式 sqrt(4) 的结果类型为 double 。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:52:50",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318445384392706",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>在杨辉三角形中，第n行（从0开始计数，即第n+1 行有n+1个数）的所有数字之和等于2^n。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:53:29",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318529194975233",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>使用二叉堆优化的Dijkstra最短路算法，在某些特殊情况下时间复杂度不如朴素实现的O(V^2)。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:53:49",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318605657137153",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>n个不同元素依次入栈的出栈序列数与将n个不同元素划分成若干非空子集的方案数相等。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:54:07",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318698535804930",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>快速排序在最坏情况下的时间复杂度为O(n log n)，可以通过随机化选择基准值（pivot）的方法完全避免退化。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:54:30",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318744954167297",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>在C++语言中，一个类可以拥有多个构造函数，也可以拥有多个析构函数。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:54:41",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019318788969193473",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 3,
+            "title": "<p>求两个序列的最长公共子序列（LCS）时，使用滚动数组优化空间后，仍然可以还原出具体的LCS序列。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:54:51",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2019319825473986562",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 4,
+            "title": "<p>编程题 <strong>1</strong></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-05/8707660418124029952.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-05/8707660436956471296.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-05/8707660454362832896.png\"></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;cstdio&gt;</span> </span>\n<span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;algorithm&gt;</span> </span>\n<span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;vector&gt;</span> </span>\n<span class=\"hljs-meta\">#<span class=\"hljs-keyword\">include</span> <span class=\"hljs-string\">&lt;queue&gt;</span> </span>\n\n<span class=\"hljs-keyword\">using</span> <span class=\"hljs-keyword\">namespace</span> std; \n\n<span class=\"hljs-type\">const</span> <span class=\"hljs-type\">int</span> N = <span class=\"hljs-number\">1e5</span> + <span class=\"hljs-number\">5</span>; \n<span class=\"hljs-type\">const</span> <span class=\"hljs-type\">long</span> <span class=\"hljs-type\">long</span> oo = <span class=\"hljs-number\">1e18</span>; \n\n<span class=\"hljs-type\">int</span> n, m; \n<span class=\"hljs-type\">int</span> a, b; \n<span class=\"hljs-type\">int</span> c[N]; \nvector&lt;pair&lt;<span class=\"hljs-type\">int</span>, <span class=\"hljs-type\">int</span>&gt;&gt; e[N]; \n<span class=\"hljs-type\">long</span> <span class=\"hljs-type\">long</span> dis[N]; \npriority_queue&lt;pair&lt;<span class=\"hljs-type\">long</span> <span class=\"hljs-type\">long</span>, <span class=\"hljs-type\">int</span>&gt;&gt; q; \n<span class=\"hljs-type\">long</span> <span class=\"hljs-type\">long</span> ans; \n\n<span class=\"hljs-function\"><span class=\"hljs-type\">int</span> <span class=\"hljs-title\">main</span><span class=\"hljs-params\">()</span> </span>{ \n  <span class=\"hljs-built_in\">scanf</span>(<span class=\"hljs-string\">\"%d%d\"</span>, &amp;n, &amp;m); \n  <span class=\"hljs-built_in\">scanf</span>(<span class=\"hljs-string\">\"%d%d\"</span>, &amp;a, &amp;b); \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= n; i++) \n    <span class=\"hljs-built_in\">scanf</span>(<span class=\"hljs-string\">\"%d\"</span>, &amp;c[i]); \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= m; i++) { \n    <span class=\"hljs-type\">int</span> u, v, w; \n    <span class=\"hljs-built_in\">scanf</span>(<span class=\"hljs-string\">\"%d%d%d\"</span>, &amp;u, &amp;v, &amp;w); \n    e[u].<span class=\"hljs-built_in\">emplace_back</span>(<span class=\"hljs-built_in\">make_pair</span>(v, w)); \n    e[v].<span class=\"hljs-built_in\">emplace_back</span>(<span class=\"hljs-built_in\">make_pair</span>(u, w)); \n  } \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= n; i++) \n    dis[i] = oo; \n  dis[b] = <span class=\"hljs-number\">0</span>; \n  q.<span class=\"hljs-built_in\">push</span>(<span class=\"hljs-built_in\">make_pair</span>(-dis[b], b)); \n  <span class=\"hljs-keyword\">while</span> (!q.<span class=\"hljs-built_in\">empty</span>()) { \n    <span class=\"hljs-keyword\">auto</span> p = q.<span class=\"hljs-built_in\">top</span>(); \n    q.<span class=\"hljs-built_in\">pop</span>(); \n    <span class=\"hljs-keyword\">if</span> (dis[p.second] != -p.first) \n      <span class=\"hljs-keyword\">continue</span>; \n    <span class=\"hljs-type\">int</span> u = p.second; \n    <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-keyword\">auto</span> r : e[u]) { \n      <span class=\"hljs-type\">int</span> v = r.first, w = r.second; \n      <span class=\"hljs-keyword\">if</span> (dis[v] &gt; dis[u] + w) { \n        dis[v] = dis[u] + w; \n        q.<span class=\"hljs-built_in\">push</span>(<span class=\"hljs-built_in\">make_pair</span>(-dis[v], v)); \n      } \n    } \n  } \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= n; i++) \n    <span class=\"hljs-keyword\">if</span> (dis[i] &lt; dis[a]) \n      ans += c[i]; \n  <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">\"%lld\\n\"</span>, ans); \n  <span class=\"hljs-keyword\">return</span> <span class=\"hljs-number\">0</span>; \n}\n</pre>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 15:58:58",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 0,
+                "executionMemoryLimit": 0,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "",
+                        "testCaseOutput": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2019321939214458882",
+            "examinationPaperTitle": "202512GESP C++八级试卷",
+            "type": 4,
+            "title": "<p>编程题2</p><p><strong>试题名称</strong>：宝石项链</p><p><strong>时间限制</strong>：1.0 s</p><p><strong>内存限制</strong>：512.0 MB</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-05/8707661581804331008.png\"></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2026-02-05/8707661612460498944.png\"></p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-meta\">#include &lt;cstdio&gt; </span>\n<span class=\"hljs-meta\">#include &lt;algorithm&gt; </span>\n\n<span class=\"hljs-keyword\">using</span> namespace std; \n\nconst <span class=\"hljs-type\">int</span> L = <span class=\"hljs-number\">20</span>; \nconst <span class=\"hljs-type\">int</span> N = <span class=\"hljs-number\">2e5</span> + <span class=\"hljs-number\">5</span>; \nconst <span class=\"hljs-type\">int</span> oo = <span class=\"hljs-number\">1e9</span>; \n\n<span class=\"hljs-type\">int</span> n, m; \n<span class=\"hljs-type\">int</span> t[N], jump[L][N]; \n<span class=\"hljs-type\">int</span> cnt[N], tot; \n<span class=\"hljs-type\">int</span> ans; \n\n<span class=\"hljs-type\">int</span> go(<span class=\"hljs-type\">int</span> u) { \n  <span class=\"hljs-type\">int</span> cnt = <span class=\"hljs-number\">0</span>, ans = <span class=\"hljs-number\">0</span>; \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = L - <span class=\"hljs-number\">1</span>; i &gt;= <span class=\"hljs-number\">0</span>; i<span class=\"hljs-comment\">--) </span>\n    <span class=\"hljs-keyword\">if</span> (cnt + jump[i][u] &lt;= n) { \n      cnt += jump[i][u]; \n      ans += <span class=\"hljs-number\">1</span> &lt;&lt; i; \n      u = (u + jump[i][u] - <span class=\"hljs-number\">1</span>) % n + <span class=\"hljs-number\">1</span>; \n    } \n  <span class=\"hljs-keyword\">return</span> ans; \n} \n \n<span class=\"hljs-type\">int</span> main() { \n  scanf(\"%d%d\", &amp;n, &amp;m); \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= n; i++) { \n    scanf(\"%d\", &amp;t[i]); \n    t[i + n] = t[i]; \n  } \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>, r = <span class=\"hljs-number\">0</span>; i &lt;= n; i++) { \n    <span class=\"hljs-keyword\">while</span> (tot &lt; m) { \n      r++; \n      <span class=\"hljs-keyword\">if</span> (!cnt[t[r]]++) \n        tot++; \n    } \n    jump[<span class=\"hljs-number\">0</span>][i] = r - i + <span class=\"hljs-number\">1</span>; \n    <span class=\"hljs-keyword\">if</span> (!<span class=\"hljs-comment\">--cnt[t[i]]) </span>\n      tot<span class=\"hljs-comment\">--; </span>\n  } \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt; L; i++) \n    <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> j = <span class=\"hljs-number\">1</span>; j &lt;= n; j++) { \n      <span class=\"hljs-type\">int</span> tar = (j + jump[i - <span class=\"hljs-number\">1</span>][j] - <span class=\"hljs-number\">1</span>) % n + <span class=\"hljs-number\">1</span>; \n        jump[i][j] = min(jump[i - <span class=\"hljs-number\">1</span>][j] + jump[i - <span class=\"hljs-number\">1</span>][tar], oo); \n    } \n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> i = <span class=\"hljs-number\">1</span>; i &lt;= n; i++) \n    ans = max(ans, go(i)); \n  printf(\"%d\\n\", ans); \n  <span class=\"hljs-keyword\">return</span> <span class=\"hljs-number\">0</span>; \n}\n</pre>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2019311724490383362",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-05 16:07:22",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 0,
+                "executionMemoryLimit": 0,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "",
+                        "testCaseOutput": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

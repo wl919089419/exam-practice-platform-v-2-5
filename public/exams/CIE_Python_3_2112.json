@@ -1,0 +1,1830 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202112Python三级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "5464",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>csv文件中读入数据的程序段如下： <br>f=open(\"city.csv\",\"r\")<br>ls=[]<br>for line in f:<br> &nbsp; ls.append(<u>line.strip(\"\\n\")</u>.split(\",\"))<br>f.close()<br>print(ls)<br>与划线处等同功能的语句是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5464",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>line.pop(\"\\n\")</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5464",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>line.del(\"\\n\")</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5464",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>line.remove(\"\\n\")</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5464",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>line.replace(\"\\n\",\"\")</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5464",
+                    "knowledgePointId": "692",
+                    "knowledgePoint": "CSV格式文件的读写方法"
+                },
+                {
+                    "questionId": "5464",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                },
+                {
+                    "questionId": "5464",
+                    "knowledgePointId": "688",
+                    "knowledgePoint": "一维数据的读写方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5485",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>有如下程序段：</p><p>for i in range(5):</p><p> &nbsp; print(i,end=',')</p><p>输出结果是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5485",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>0,1,2,3,4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5485",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>0,1,2,3,4,</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5485",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>1,2,3,4,5</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5485",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>1,2,3,4,5,</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5485",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5484",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>Python文件常用的写入方式有w和w+，它们的相同点是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5484",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>追加读</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5484",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>追加写</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5484",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>可读可写</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5484",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>文件不存在先创建，会覆盖原文件</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5484",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5483",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>以下描述中，错误的选项是？</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5483",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>在Python中，0b100010表示二进制数100010</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5483",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>Python中int('1a32',2)语句执行时将不能得到结果，会出现错误提示</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5483",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>Python中0o、0b、0x依次表示二进制、八进制、十六进制数的前缀</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5483",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>在Python中，运行hex(89)得到的结果是'0x59'</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5483",
+                    "knowledgePointId": "675",
+                    "knowledgePoint": "数制的基本概念"
+                },
+                {
+                    "questionId": "5483",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                },
+                {
+                    "questionId": "5483",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5482",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>在Python中，int('10',2)语句的作用是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5482",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>将十进制数10转化为二进制数1010</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5482",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>将二进制数10转化为十进制整数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5482",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>将字符串“10”转化为二进制整数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5482",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>将字符串“10”转化为十进制整数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5482",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                },
+                {
+                    "questionId": "5482",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5481",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>当发生异常时，下列描述不正确的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5481",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>我们需要捕获异常，然后进行相应的处理</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5481",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>我们需要把可能发生错误的语句放在try模块里</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5481",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>我们需要把处理异常的语句放在except模块里</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5481",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>我们需要为每一个try模块设定且只能设定一个except模块</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5481",
+                    "knowledgePointId": "680",
+                    "knowledgePoint": "程序的异常处理：try-except结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5480",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>关于列表和元组的关系，下列描述不正确的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5480",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>list() 函数可以将元组转换为列表</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5480",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>tuple()函数可以将列表转换为元组</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5480",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>元组和列表是非常类似的，它们可以通过类型转换函数进行互相转换</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5480",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>元组和列表本质上没有区别，只是元组是放在括号中，列表是放于方括号中而已</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5480",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5479",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>运行结果与其他三项不同的是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5479",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>sum([1,2,3],4)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5479",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>sum([0,1,2],[3,2,2])</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5479",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>sum([2,2,2],max(4,3,2))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5479",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>sum([0,3,4],int('3'))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5479",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5478",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>a = max('12345')，下列选项中语法正确的一项是？</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5478",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>print(min(float(a),7,6))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5478",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>print(min(chr(a),7,6))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5478",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>print(min(bin(a),7,6))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5478",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>print(min(hex(a),7,6))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5478",
+                    "knowledgePointId": "674",
+                    "knowledgePoint": "编码的基本概念"
+                },
+                {
+                    "questionId": "5478",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5477",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>下列输出结果为\"1+2+3=？\"的是？</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5477",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>print(1+2+3=?)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5477",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>print(1+2+3,'=?')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5477",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>print(1,2,3,sep='+',end='=?')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5477",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>print(1,2,3,sep='+','=?')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5477",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5476",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>ascii()返回一个表示对象的字符串，则ascii(1)的结果是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5476",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5476",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>'1'</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5476",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>\"'1'\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5476",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>\"'\\\\u4e2d\\\\u6587'\"</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5476",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5475",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>下列函数能创建一个新的元组的是？</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5475",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>tuple()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5475",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>list()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5475",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>dict()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5475",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>set()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5475",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5473",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>排序是计算机内经常进行的一种操作，其目的是将一组“无序”的记录序列调整为“有序”的记录序列。下列排序算法中效率最高的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5473",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>冒泡排序算法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5473",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>选择排序算法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5473",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>插入排序算法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5473",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>快速排序算法</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5473",
+                    "knowledgePointId": "684",
+                    "knowledgePoint": "排序算法的特征"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5474",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>bool()函数根据传入的参数的逻辑值创建一个新的布尔值，下列返回值是False的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5474",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>bool(2*3-0)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5474",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>bool(2*3-2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5474",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>bool(2*3-3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5474",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>bool(2*3-6)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5474",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5463",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>小明在学习计算机时，学习到了一个十六进制数101，这个十六进制数对应的十进制数的数值是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5463",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>65</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5463",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>66</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5463",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>256</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5463",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>257</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5463",
+                    "knowledgePointId": "675",
+                    "knowledgePoint": "数制的基本概念"
+                },
+                {
+                    "questionId": "5463",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5465",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>下列表达式的结果与其他三项不相同的是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5465",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>abs(-4)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5465",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>round(abs(-3.5))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5465",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>abs(round(-3.5))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5465",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>min(round(-3.5),round(3.8))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5465",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5466",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>表达式max([111,22,3],key=str)的值为？</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5466",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5466",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>111</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5466",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>’3’</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5466",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>’111’</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5466",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5467",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>下列不能产生结果为元组(1, 2, 3, 4)的是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5467",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>1, 2, 3, 4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5467",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>tuple({1:2,3:4})</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5467",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>tuple((1,2,3,4))</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5467",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>tuple([1,2,3,4])</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5467",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5468",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>不能实现打开文件的功能的语句是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5468",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>f = open('D:/city.csv', 'w')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5468",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>f = open('D:\\city.csv', 'w-')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5468",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>f = open('D://city.csv ', 'w')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5468",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>f = open('D:\\\\city.csv ', 'w')</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5468",
+                    "knowledgePointId": "692",
+                    "knowledgePoint": "CSV格式文件的读写方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5469",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>关于十进制数，下列说法错误的是？</p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5469",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>十进制数的基数为10，所以从小数点向左数第二位的权值是10的2次幂</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5469",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>十进制数的基数为10，所以里面包括0,1,2……，9这十个数码</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5469",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>十进制数的基本运算规则满足“逢十进一”，所以有时我们可以采用凑十法来进行简便运算</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5469",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>十进制数是有符号的，如-18</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5469",
+                    "knowledgePointId": "675",
+                    "knowledgePoint": "数制的基本概念"
+                },
+                {
+                    "questionId": "5469",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5470",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>关于Python的序列描述，不正确的是？</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5470",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>序列是Python中最基本的数据结构</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5470",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>最常见的序列是列表和元组</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5470",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>序列中表示元素位置的数字叫做索引，索引都是正整数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5470",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>Python内置了求序列长度的函数</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5470",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5471",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>关于元组，描述不正确的是？</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5471",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>元组是用括号把元素括在一起的，元素之间是用逗号分隔的</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5471",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>元组可以为空，写做tup1=()</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5471",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>元组中可以只有一个元素，写做tup1=(3)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5471",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>元组中的元素可以具有不同的类型</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5471",
+                    "knowledgePointId": "656",
+                    "knowledgePoint": "元组类型的概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5472",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>以下程序的输出结果是？<br>x = 2<br>y = 0<br>try:<br> &nbsp; &nbsp;z = x / y<br> &nbsp; &nbsp;print(z)<br>except ZeroDivisionError:<br> &nbsp; &nbsp;print('error')</p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "5472",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>z</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5472",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>2.0</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5472",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>error</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5472",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>没有输出</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5472",
+                    "knowledgePointId": "680",
+                    "knowledgePoint": "程序的异常处理：try-except结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5487",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>有如下列表l=[7,6,3,8,4,1]，采用选择排序进行升序排序，请问第3趟排序之后的结果是？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p>第一趟的结果：[1,6,3,8,4,7]，第二趟的结果：[1,3,6,8,4,7]，第三趟的结果：[1,3,4,8,6,7]</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": [
+                {
+                    "questionId": "5487",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[1,3,4,6,7,8]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5487",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>[1,3,6,8,4,7]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5487",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>[1,6,3,8,4,7]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5487",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[1,3,4,8,6,7]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5487",
+                    "knowledgePointId": "684",
+                    "knowledgePoint": "排序算法的特征"
+                },
+                {
+                    "questionId": "5487",
+                    "knowledgePointId": "693",
+                    "knowledgePoint": "用解析、枚举、排序、查找算法实现简单的Python程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5486",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 1,
+            "title": "<p>有如下列表l=[7,2,9,6,4,5]，采用冒泡排序进行升序排序，请问第3趟排序之后的结果是？</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p>第一趟的结果：[2,7,4,9,6,5]，第二趟的结果：[2,4,7,5,9,6],第三趟的结果：[2,4,5,7,6,9]</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": [
+                {
+                    "questionId": "5486",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>[2,4,5,6,7,9]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "5486",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>[2,4,5,7,6,9]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "5486",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>[2,4,7,5,9,6]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "5486",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>[2,7,4,9,6,5]</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5486",
+                    "knowledgePointId": "684",
+                    "knowledgePoint": "排序算法的特征"
+                },
+                {
+                    "questionId": "5486",
+                    "knowledgePointId": "693",
+                    "knowledgePoint": "用解析、枚举、排序、查找算法实现简单的Python程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5497",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p><span>try...except结构的异常处理机制，当try代码段运行异常时，程序会跳到except代码段执行</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>分析try代码段是否包含可能引发异常的语句；确定except代码段是否存在对应异常类型的捕获声明；验证程序控制流在异常发生时是否从try块转向except块执行；检查异常类型是否在except子句中被定义；确认未被捕获的异常不会被处理而继续向外抛出。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5497",
+                    "knowledgePointId": "680",
+                    "knowledgePoint": "程序的异常处理：try-except结构语句"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5496",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p><span>二维数据可以用二维列表表示，该列表的每一个元素对应二维数据的一行</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span>二维数据的表示</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5496",
+                    "knowledgePointId": "678",
+                    "knowledgePoint": "二维数据的表示"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5495",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p><span>bin函数可以将十进制数转换成二进制数。在Python交互式编程环境下，执行语句bin(15)后，显示的运行结果是'1111'</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span>bin(15)可以将十进制数15转换成二进制数，但二进制数表示为0b1111</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5495",
+                    "knowledgePointId": "676",
+                    "knowledgePoint": "Python中的数制转换函数"
+                },
+                {
+                    "questionId": "5495",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5494",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p><span>在Python中，sorted()函数可以实现对列表中数据的排序，排序后原列表中数据的位置发生变化</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>分析sorted()函数的执行机制，观察其是否直接修改传入的列表对象；检查该函数返回值类型及生成的新序列与原列表的关联性；确认列表在调用前后内存中数据位置的变化情况；对比原列表引用指向的对象内容在函数调用前后的状态一致性。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5494",
+                    "knowledgePointId": "684",
+                    "knowledgePoint": "排序算法的特征"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5493",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p><span>在Python中，chr(ord('a')-32)语句能将小写字母a转换为大写字母A</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>分析chr函数的输入值，ord('a')返回字符'a'的Unicode码点，将该码点减去32后作为chr函数的参数，chr函数将码点转换为对应的字符。整个表达式执行过程依赖于字符编码中大小写字母的码点差值关系。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5493",
+                    "knowledgePointId": "674",
+                    "knowledgePoint": "编码的基本概念"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5492",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p>在Python中，divmod(98,8)的输出结果为(2,12)</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>分析divmod函数的输入参数，提取被除数与除数；执行整除运算得到商；执行取模运算得到余数；将商与余数按元组形式组合输出。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5492",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5491",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p>在Python中，print(abs(8-12)*3)的输出结果为-12</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>计算表达式中的算术运算顺序：先执行括号内的减法运算，得到8与12相减的结果；然后对该结果应用绝对值函数，获取其非负值；最后将绝对值的结果与3进行乘法运算。整个过程遵循Python中算术运算符和内置函数的求值规则。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5491",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                },
+                {
+                    "questionId": "5491",
+                    "knowledgePointId": "651",
+                    "knowledgePoint": "解决数学运算基本问题"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5490",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p><span>在Python中open('name.csv','r')命令的作用是以可写入的方式打开文件名为name的csv格式文件</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p>分析open函数的第二个参数模式：'r'表示只读模式，文件打开后仅允许读取内容，不允许写入或修改。csv为文件扩展名，不影响打开模式的实际行为。模式字符决定操作权限，不同模式对应不同的文件访问方式。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5490",
+                    "knowledgePointId": "692",
+                    "knowledgePoint": "CSV格式文件的读写方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5489",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p>在Python中，可以使用下面代码读取文件中的数据到列表 。</p><p>file = open('score.csv','r')<br>name = file.read().strip('\\n').split(',')<br>file.close()</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>分析代码执行流程：首先调用open函数以只读模式打开名为'score.csv'的文件，返回一个文件对象；接着调用该对象的read方法读取文件全部内容，返回字符串；然后调用strip方法去除字符串末尾的换行符，返回新字符串；再调用split方法以逗号为分隔符将字符串切分为列表；最后调用close方法关闭文件。整个过程涉及文件操作、字符串处理和数据结构转换。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5489",
+                    "knowledgePointId": "692",
+                    "knowledgePoint": "CSV格式文件的读写方法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5488",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 3,
+            "title": "<p><span>在Python中，0x100010表示十六进制数100010</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p>分析Python中数字前缀0x的作用；确认0x后跟随的字符是否符合十六进制表示规则；识别100010是否由合法的十六进制字符组成；验证Python语法中整数如何通过前缀区分进制。</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5488",
+                    "knowledgePointId": "675",
+                    "knowledgePoint": "数制的基本概念"
+                },
+                {
+                    "questionId": "5488",
+                    "knowledgePointId": "687",
+                    "knowledgePoint": "二进制、十进制以及十六进制之间的转换"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5499",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 4,
+            "title": "<p>n个灯排成一排，开始时都是关着的。现进行如下操作： 所有电灯的按钮按动一次；所有编号为2的倍数的电灯按钮按动一次；所有编号为3的倍数的电灯的按钮按动一次； …… 所有编号为n-1的倍数的电灯的按钮按动一次；所有编号为n的倍数的电灯的按钮按动一次。 最后请统计有多少只电灯是亮的。编写程序实现上述功能，或补全代码。</p><p><br></p><p>n=int(input())</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a=[]</p><p>for i in range(<u>&nbsp;<strong><span>&nbsp;①</span></strong>&nbsp;&nbsp;&nbsp;</u>):</p><p>&nbsp;&nbsp;&nbsp;&nbsp; a.append(-1)</p><p>for i in range(1,n+1):</p><p>&nbsp;&nbsp;&nbsp; for j in range(1,n+1):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><strong>②</strong></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>) == 0:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a[j] =<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><span>③</span></strong>&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;* -1</p><p>s=0</p><p>for i in range(1,n+1):</p><p>&nbsp;&nbsp; if (a[i] ==&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;<strong><span>④</span></strong>&nbsp;&nbsp;&nbsp;&nbsp;</u>):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; s=s+1</p><p>print(&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;<strong><span>⑤</span></strong>&nbsp;&nbsp;&nbsp;</u>&nbsp;)</p>",
+            "referenceAnswer": "<p class=\"MsoNormal\"><strong><span>参考程序：</span></strong></p><p class=\"MsoNormal\">n=int(input())<br>a=[]<br>for i in range(n + 1):<br>&nbsp; &nbsp; &nbsp;a.append(-1)<br>for i in range(1,n + 1):<br>&nbsp; &nbsp;for j in range(1,n + 1):<br>&nbsp; &nbsp; &nbsp; if(j % i ) == 0:<br>&nbsp; &nbsp; &nbsp; &nbsp; a[j] =&nbsp; a[j] * -1<br>s=0<br>for i in range(1,n + 1):<br>&nbsp; &nbsp;if (a[i] == 1):<br>&nbsp; &nbsp; &nbsp; s=s + 1<br>print(s)</p>",
+            "analyzeContent": "<p><strong><span>评分标准：</span></strong><br><span>① n + 1 或等效答案；（3分）</span><br><span>② j % i 或等效答案；（4分）</span><br><span>③ a[j] 或等效答案；（3分）</span><br><span>④ 1 或等效答案；（3分）</span><br><span>⑤ s 或等效答案；（3分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5499",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                },
+                {
+                    "questionId": "5499",
+                    "knowledgePointId": "693",
+                    "knowledgePoint": "用解析、枚举、排序、查找算法实现简单的Python程序"
+                },
+                {
+                    "questionId": "5499",
+                    "knowledgePointId": "683",
+                    "knowledgePoint": "枚举算法的特征"
+                },
+                {
+                    "questionId": "5499",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "5498",
+            "examinationPaperTitle": "202112Python三级真题",
+            "type": 4,
+            "title": "<p>小白兔们每天早上都到草坪上做早操。做操前，首先要按照身高由矮到高排个队，下列代码实现了排队的功能。首先读取小白兔的只数，然后读取每只小白兔的身高信息，进行由矮到高的处理，最后输出排好队的每只小白兔的身高，请你补全代码。</p><p class=\"MsoNormal\"><span>n = int(input('</span><span>请输入兔子的总只数：</span><span>'))</span></p><p class=\"MsoNormal\"><span>a = []</span></p><p class=\"MsoNormal\"><span>for i in range(n):</span></p><p class=\"MsoNormal\">&nbsp;&nbsp;&nbsp;&nbsp;<span>x = float(input('</span><span>请输入身高</span><span>'))</span></p><p class=\"MsoNormal\">&nbsp;&nbsp;&nbsp;&nbsp;<span>a.append(</span><u>&nbsp;&nbsp;<strong><span>①</span></strong>&nbsp;&nbsp;</u><span>)</span></p><p class=\"MsoNormal\"><span>a.</span><u>&nbsp;&nbsp;&nbsp;</u><u>&nbsp;</u><u><span><strong>②</strong></span>&nbsp; &nbsp;</u></p><p class=\"MsoNormal\"><span>for i in&nbsp;</span><u>&nbsp;&nbsp;&nbsp;&nbsp;<strong><span>③</span></strong>&nbsp;&nbsp;&nbsp;</u><span>:</span></p><p class=\"MsoNormal\">&nbsp;&nbsp;&nbsp;&nbsp;<span>print(a[i])</span></p>",
+            "referenceAnswer": "<p><strong><span>参考程序：</span></strong></p><p>n = int(input('请输入兔子的总只数：'))</p><p><span>a = []</span><br><span>for i in range(n):</span><br><span>&nbsp; &nbsp; x = eval(input('请输入身高'))</span><br><span>&nbsp; &nbsp; a.append(x)</span><br><span>a.sort()</span><br><span>for i in range(n):</span><br><span>&nbsp; &nbsp; print(a[i])</span></p>",
+            "analyzeContent": "<p><strong><span>评分标准：</span></strong></p><p>① x （3分）</p><p>② sort() 或等效答案（4分）</p><p>③ range(n) 或等效答案（3分）</p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "293",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2024-06-06 11:16:38",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "5498",
+                    "knowledgePointId": "684",
+                    "knowledgePoint": "排序算法的特征"
+                },
+                {
+                    "questionId": "5498",
+                    "knowledgePointId": "677",
+                    "knowledgePoint": "一维数据的表示"
+                },
+                {
+                    "questionId": "5498",
+                    "knowledgePointId": "688",
+                    "knowledgePoint": "一维数据的读写方法"
+                },
+                {
+                    "questionId": "5498",
+                    "knowledgePointId": "689",
+                    "knowledgePoint": "编写程序处理一维数据"
+                },
+                {
+                    "questionId": "5498",
+                    "knowledgePointId": "686",
+                    "knowledgePoint": "常用核心内置函数的功能及用法"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

@@ -1,0 +1,1812 @@
+{
+    "examTime": 60,
+    "examinationPaperTitle": "202303Python六级真题",
+    "paperQuestionsVOS": [
+        {
+            "id": "1955534249763299330",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">有如下程序段： </span></p><p><span style=\"color: rgb(52, 73, 94);\">with open('mistakes.txt', 'w') as f: </span></p><p><span style=\"color: rgb(52, 73, 94);\">words =['believe','memorize'] </span></p><p><span style=\"color: rgb(52, 73, 94);\">f.write('\\n'.join(words)) </span></p><p><span style=\"color: rgb(52, 73, 94);\">执行该代码后，文件mistakes.txt中的内容是？（）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.write()是将字符串写入文本文档，遇到'\\n'需要换行。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:37:52",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955534249763299330",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">一行内容为“believe memorize”</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955534249763299330",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">一行内容为“believe\\n memorize”</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955534249763299330",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">第一行内容为“believe”，第二行内容为“memorize”</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955534249763299330",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">第一行内容为“believe memorize”，第二行内容为“believe memorize”</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955534249763299330",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955534367212199937",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">小红收集了《小王子》中一段文字，存储在“LittlePrince.txt”中，现要读取整段文字内容，返回字符串。程序代码如下： </span></p><p><span style=\"color: rgb(52, 73, 94);\">f = open(\"LittlePrince.txt\", \"r\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">articles = _________ </span></p><p><span style=\"color: rgb(52, 73, 94);\">f.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">画线处应填写的语句是？（）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.read()返回字符串，f.readline()返回一行字符串，f.readlines()返回列表。答案选A。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:38:20",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955534367212199937",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.read(）</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955534367212199937",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.readline()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955534367212199937",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.readlines()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955534367212199937",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">f.write()</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955534367212199937",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955534533457637377",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">下列关于数据的说法，正确的是？（）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">一维数据由对等关系的有序或者无序数据构成，一维数据可由列表表示，也可用集合表示，二维数据由多个一维数据构成，二维数据可由二维列表表达，也可由表格或csv格式的文件表达。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:39:00",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955534533457637377",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">一维数据只能是有序</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955534533457637377",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">二维数据由多个一维数据构成</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955534533457637377",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">二维数据只能由二维列表表达</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955534533457637377",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">一维数据只能一维列表表示</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955534533457637377",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955534679771734017",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">“人口性别年龄结构数据.csv”文件存放了若干年的人口数据，内容如图所示。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643875604871192576.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><span style=\"color: rgb(52, 73, 94);\">小李想要读取每年性别为男的数据，他编写了如下代码： </span></p><p><span style=\"color: rgb(52, 73, 94);\">import csv </span></p><p><span style=\"color: rgb(52, 73, 94);\">with open('人口性别年龄结构数据.csv', 'r') as f: </span></p><p><span style=\"color: rgb(52, 73, 94);\">reader = csv.reader(f) </span></p><p><span style=\"color: rgb(52, 73, 94);\">for i in reader: </span></p><p><span style=\"color: rgb(52, 73, 94);\">print(________) </span></p><p><span style=\"color: rgb(52, 73, 94);\">画线处语句正确的是？（）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:39:34",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955534679771734017",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>i</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955534679771734017",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">i[0]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955534679771734017",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">i[1]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955534679771734017",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">i[2]</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955534679771734017",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955534809837101057",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">下列关于csv 库中有4个常用的对象的说法，正确的是？（）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">csv.reader以列表的形式返回读取的数据，csv.writer以列表的形式写入数据，csv.DictReader以字典的形式返回读取的数据，csv.DictWriter以字典的形式写入数据。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:40:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955534809837101057",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">csv.reader表示以字典的形式写入数据</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955534809837101057",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">csv.writer表示以列表的形式返回读取的数据</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955534809837101057",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">csv.DictReader表示以列表的形式返回读取的数据</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955534809837101057",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">csv.DictWriter表示以字典的形式写入数据</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955534809837101057",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955534939311071234",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">numpy中，下列能产生[1 2 3]的是？（）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">A选项的结果为[1 2 3 4]，B选项的结果为[1 2]，C选项的结果为[1 2 3]，D选项的结果为[1 3]。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:40:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955534939311071234",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">np.array([1, 2, 3, 4])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955534939311071234",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">np.array(range(1, 3))</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955534939311071234",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">np.arange(1, 4) </span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955534939311071234",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">np.arange(1, 5, 2)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955534939311071234",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955535357952946177",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">小李编写程序，制作某道选择题的选择比例图，程序如下，生成的比例图是？（） </span></p><p><span style=\"color: rgb(52, 73, 94);\">import matplotlib.pyplot as plt </span></p><p><span style=\"color: rgb(52, 73, 94);\">plt.rcParams[\"font.sans-serif\"] = \"SimHei\" </span></p><p><span style=\"color: rgb(52, 73, 94);\">opt = [204, 509, 159, 213] </span></p><p><span style=\"color: rgb(52, 73, 94);\">plt.pie(opt, labels=['A', 'B', 'C', 'D'], autopct='%1.2f%%') </span></p><p><span style=\"color: rgb(52, 73, 94);\">plt.title(\"各选项的选答比例\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">plt.show()</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">根据labels=['A', 'B', 'C', 'D']用于显选项标签，autopct='%1.2f%%'用于显示数值格式，plt.title(\"各选项的选答比例\")用于显示标题。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:42:16",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955535357952946177",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643876158351548416.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955535357952946177",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643876179436314624.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955535357952946177",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643876272298205184.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955535357952946177",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643876297585664000.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+                    "questionOptionContentType": 2,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955535357952946177",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955535514824110081",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">有如下程序代码： </span></p><p><span style=\"color: rgb(52, 73, 94);\">class Person(): # ① </span></p><p><span style=\"color: rgb(52, 73, 94);\">def __init__(self, name, age): # ② </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.name = name # ③ </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.age = age </span></p><p><span style=\"color: rgb(52, 73, 94);\">xm = Person(\"小红\", \"10\") # ④ </span></p><p><span style=\"color: rgb(52, 73, 94);\">下列说法正确的是？（）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">②处的self不可以省略，③处self.name为属性，④处参数个数为2</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:42:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955535514824110081",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">①处Person为类名</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955535514824110081",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">②处的self可以省略</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955535514824110081",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">③处self.name为方法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955535514824110081",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">④处可以不加参数</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955535514824110081",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955535514824110081",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955535768189431809",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">有如下程序段： </span></p><p><span style=\"color: rgb(52, 73, 94);\">class Person(): </span></p><p><span style=\"color: rgb(52, 73, 94);\">def __init__(self, name, age): </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.name = name </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.age = age </span></p><p><span style=\"color: rgb(52, 73, 94);\">def fun(self): </span></p><p><span style=\"color: rgb(52, 73, 94);\">print(self.name,end = \",\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">print(self.age) </span></p><p><span style=\"color: rgb(52, 73, 94);\">xm = Person(\"10\", \"小红\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">xm.fun() </span></p><p><span style=\"color: rgb(52, 73, 94);\">执行代码后，输出的结果是？（）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">按参数顺序传参，Person(\"10\", \"小红\")先打印10，再打印小红，根据 print(self.name,end = \",\")可知中间用逗号分隔。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:43:54",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955535768189431809",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">10 小红</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955535768189431809",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">小红 10</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955535768189431809",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">10,小红</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955535768189431809",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">小红,10</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955535768189431809",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955535768189431809",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955535901853511681",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">有下列语句命令： </span></p><p><span style=\"color: rgb(52, 73, 94);\">import sqlite3 </span></p><p><span style=\"color: rgb(52, 73, 94);\">conn = sqlite3.connect(\"db/test.db\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur = conn.cursor( ) </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur.execute(\"SELECT * FROM students\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">data = cur.fetchall() </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">conn.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">可知当前的数据表名是？（）</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">db为存放数据库文件的文件夹名，cur是游标，test.db是数据文件名，data是存放数据记录的变量。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:44:26",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955535901853511681",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>db</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955535901853511681",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>test.db</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955535901853511681",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">students</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955535901853511681",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>data</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955535901853511681",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955536029792362498",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">有如下程序段： </span></p><p><span style=\"color: rgb(52, 73, 94);\">import sqlite3 </span></p><p><span style=\"color: rgb(52, 73, 94);\">conn= sqlite3.connect('test.db') </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur = conn.cursor() </span></p><p><span style=\"color: rgb(52, 73, 94);\">sql = 'SELECT name,grade FROM Grades WHERE grade &gt; 60' </span></p><p><span style=\"color: rgb(52, 73, 94);\">rs = cur.execute(sql) </span></p><p><span style=\"color: rgb(52, 73, 94);\">for x in rs: </span></p><p><span style=\"color: rgb(52, 73, 94);\">print(x) </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">conn.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">程序实现的功能是？（）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">sql用于查询成绩大于60分的包含名字和成绩两个字段的记录，再遍历记录并打印，因此程序功能是查询并输出成绩大于60分的人的名字和成绩。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:44:56",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955536029792362498",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">查询成绩大于60分的人的名字</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955536029792362498",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">查询成绩小于60分的人的名字和成绩</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955536029792362498",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">查询并输出成绩小于60分的人的名字和成绩</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955536029792362498",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">查询并输出成绩大于60分的人的名字和成绩</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955536029792362498",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955536165801058306",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">小明想做一个接弹球游戏，他在窗体上用标签的方式显示文字，代码如下： </span></p><p><span style=\"color: rgb(52, 73, 94);\">import tkinter </span></p><p><span style=\"color: rgb(52, 73, 94);\">from tkinter import * </span></p><p><span style=\"color: rgb(52, 73, 94);\">win = Tk() </span></p><p><span style=\"color: rgb(52, 73, 94);\">txt= ______(win,text=\"接弹球游戏\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">txt.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">cv = Canvas(win, width = 640, height = 480) </span></p><p><span style=\"color: rgb(52, 73, 94);\">cv.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">下划线处应填入的代码是？（）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">Button 是按钮，Text 是文本框，ListBox 是列表框。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:45:29",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955536165801058306",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Label</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955536165801058306",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Button</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955536165801058306",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Text</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955536165801058306",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">ListBox</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955536165801058306",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955537971084025858",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">有如下程序：</span></p><p><span style=\"color: rgb(52, 73, 94);\">import tkinter as tk </span></p><p><span style=\"color: rgb(52, 73, 94);\">window = tk.Tk() </span></p><p><span style=\"color: rgb(52, 73, 94);\">window.geometry('300x150') </span></p><p><span style=\"color: rgb(52, 73, 94);\">window.title('my first window') </span></p><p><span style=\"color: rgb(52, 73, 94);\">var = tk.StringVar() </span></p><p><span style=\"color: rgb(52, 73, 94);\">label = tk.Label(window, textvariable=var) </span></p><p><span style=\"color: rgb(52, 73, 94);\">label.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">on_hit = False </span></p><p><span style=\"color: rgb(52, 73, 94);\">def hit_me(): </span></p><p><span style=\"color: rgb(52, 73, 94);\">global on_hit </span></p><p><span style=\"color: rgb(52, 73, 94);\">if on_hit == False: </span></p><p><span style=\"color: rgb(52, 73, 94);\">var.set('You hit me') </span></p><p><span style=\"color: rgb(52, 73, 94);\">on_hit = True </span></p><p><span style=\"color: rgb(52, 73, 94);\">else: </span></p><p><span style=\"color: rgb(52, 73, 94);\">var.set('') </span></p><p><span style=\"color: rgb(52, 73, 94);\">on_hit = False </span></p><p><span style=\"color: rgb(52, 73, 94);\">button = tk.Button(window, text='hit me', width=15, height=1, command=hit_me) </span></p><p><span style=\"color: rgb(52, 73, 94);\">button.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">window.mainloop() </span></p><p><span style=\"color: rgb(52, 73, 94);\">下列说法不正确的是？（）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">Label文字内容随着按钮的点击在空白和'You hit me'间切换。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:52:39",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955537971084025858",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">程序运行时，窗体上有1个Label和1个Button</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955537971084025858",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Button文字内容在'hit me'和'You hit me'间切换</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955537971084025858",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">hit_me函数是按钮事件</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955537971084025858",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">window.mainloop()省略不影响运行效果</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955537971084025858",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955538490670211074",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python的类定义中，对函数变量的访问形式是？（）</span></p><p><br></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:54:43",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955538490670211074",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">&lt;对象&gt;.&lt;变量&gt;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955538490670211074",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">&lt;对象&gt;.方法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955538490670211074",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">&lt;类名&gt;.&lt;变量&gt;</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955538490670211074",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">&lt;类名&gt;.方法</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955538490670211074",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955538490670211074",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955538585201434625",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">对于用numpy.arange(1,6)函数创建的N维数组a, a*2的结果是？（）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">numpy.arange(1.6)创建了一个从1到5的元素的数组，a*2表示把数组中的每个元素乘以2。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:55:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955538585201434625",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">array([2,12])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955538585201434625",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">array([2,4,6,8,10])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955538585201434625",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">array([2,4,6,8,10,12])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955538585201434625",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">array([2,10])</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955538585201434625",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955538835832074242",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">假设city.csv文件内容如下，那么下面代码的输出结果是？（） </span></p><p><span style=\"color: rgb(52, 73, 94);\">哈密瓜，香瓜，无籽西瓜，水晶葡萄 </span></p><p><span style=\"color: rgb(52, 73, 94);\">奶油富士，火龙果,百香果 </span></p><p><span style=\"color: rgb(52, 73, 94);\">f= open(\"city.csv\", \"r\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">s = f.read().split(\",\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">f.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">print(s)</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中,split()方法通过指定分隔符对字符串进行切片，返回分隔后的字符串列表。以splt(\",\")方法从CSV文件中获得内容时，无法去除换行符。水晶葡萄\\n奶油富士作为一个列表元素出现， 所以本题选A选项。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:56:05",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955538835832074242",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">['哈密瓜','香瓜','无籽西瓜’,'水晶葡萄\\n奶油富士','火龙果','百香果']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955538835832074242",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">['哈密瓜','香瓜','无籽西瓜','水晶葡萄','奶油富士','火龙果','百香果']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955538835832074242",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">['哈密瓜,香瓜,无籽西瓜,水晶葡萄,奶油富士,火龙果,百香果']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955538835832074242",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">['哈密瓜','香瓜','无籽西瓜','水晶葡萄','\\n','奶油富士','火龙果','百香果']</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955538835832074242",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955539000945045506",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">执行以下语句后，文件txt的内容是？（） </span></p><p><span style=\"color: rgb(52, 73, 94);\">fo = open(\"txt\",'w') </span></p><p><span style=\"color: rgb(52, 73, 94);\">x= [\"大学\",\"道德经\",\"易经\"] </span></p><p><span style=\"color: rgb(52, 73, 94);\">fo.write(' '.join(x)) </span></p><p><span style=\"color: rgb(52, 73, 94);\">fo.close()</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">本题考核的是文件的写入及join()方法。通过join()方法将写入的字符串变为\"大学 道德经 易经\",文件的内容也是如此。所以选B选项。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:56:45",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955539000945045506",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">大学道德经易经</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955539000945045506",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">大学 道德经 易经</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955539000945045506",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">'大学,'道德经','易经'</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955539000945045506",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">'大学' </span></p><p><span style=\"color: rgb(52, 73, 94);\">' ' </span></p><p><span style=\"color: rgb(52, 73, 94);\">'道德经' </span></p><p><span style=\"color: rgb(52, 73, 94);\">' ' </span></p><p><span style=\"color: rgb(52, 73, 94);\">'易经'</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955539000945045506",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955539125952081922",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">文件data.csv里的内容如下: </span></p><p><span style=\"color: rgb(52, 73, 94);\">zhang,17,5 </span></p><p><span style=\"color: rgb(52, 73, 94);\">wang,10,2 </span></p><p><span style=\"color: rgb(52, 73, 94);\">li,19,3 </span></p><p><span style=\"color: rgb(52, 73, 94);\">执行以下代码 </span></p><p><span style=\"color: rgb(52, 73, 94);\">f = open('data.csv', 'r') </span></p><p><span style=\"color: rgb(52, 73, 94);\">print(f.readlines()) </span></p><p><span style=\"color: rgb(52, 73, 94);\">f.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">关于执行结果的描述，正确的选项是？（）</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">打开文件并输出文件通过readlines()方法读取的数据，readlines()方法读取文件全部行内容，每行内容形成一个字符串，所有字符串组成一个列表。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:57:14",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955539125952081922",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">输出三行列表，每行列表里面有一个字符串元素</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955539125952081922",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">输出一行字符串，里面包括三个字符串</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955539125952081922",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">输出三行字符串</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955539125952081922",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">输出一行列表，里面包括三个字符串元素</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955539125952081922",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955539375882264577",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">高一(1)班期末4个学科成绩平均分与年级平均分对照图表。用Python程序实现时,①②两行程序代码是？（）</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643880217829646336.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><span style=\"color: rgb(52, 73, 94);\">import numpy as np </span></p><p><span style=\"color: rgb(52, 73, 94);\">import matplotlib.pyplot as plt </span></p><p><span style=\"color: rgb(52, 73, 94);\">import pandas as pd</span></p><p><span style=\"color: rgb(52, 73, 94);\">df=pd.read_csv(\"高一(1)班成绩.csv\",encoding=\"gbk\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">x=np.array([1,2,3,4]) </span></p><p><span style=\"color: rgb(52, 73, 94);\">y=df[\"年级平均\"] </span></p><p><span style=\"color: rgb(52, 73, 94);\">y2=df[\"班级平均\"]</span></p><p><span style=\"color: rgb(52, 73, 94);\">① </span></p><p><span style=\"color: rgb(52, 73, 94);\">② </span></p><p><span style=\"color: rgb(52, 73, 94);\">plt.xticks(x+0.15,[\"Chinese\",\"Math\",\"English\",\"Politlics\"]) </span></p><p><span style=\"color: rgb(52, 73, 94);\">plt.show()</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">本题绘画的是柱形图，使用bar函数，故选择B。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 15:58:14",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955539375882264577",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">①plt.plot(x,y,linewidth=\"3\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">②plt.plot(x,y2,linewidth=”3\")</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955539375882264577",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">①plt.bar(x,y,width=0.3) </span></p><p><span style=\"color: rgb(52, 73, 94);\">②plt.bar(x+0.3,y2,width=0.3)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955539375882264577",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">①plt.plot(x,y) </span></p><p><span style=\"color: rgb(52, 73, 94);\">②plt.plot(x,y2)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955539375882264577",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">①plt.scatter(x,y) </span></p><p><span style=\"color: rgb(52, 73, 94);\">②plt.scatter(x,y2)</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955539375882264577",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955539893505519618",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">执行下列程序,输出的结果是？（） </span></p><p><span style=\"color: rgb(52, 73, 94);\">class Money: </span></p><p><span style=\"color: rgb(52, 73, 94);\">name =\"\" </span></p><p><span style=\"color: rgb(52, 73, 94);\">shoe =0 </span></p><p><span style=\"color: rgb(52, 73, 94);\">satchel =0 </span></p><p><span style=\"color: rgb(52, 73, 94);\">clothes =0 </span></p><p><span style=\"color: rgb(52, 73, 94);\">def __init__(self,n,s1,s2,c): </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.name = n </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.shoe = s1 </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.satchel = s2 </span></p><p><span style=\"color: rgb(52, 73, 94);\">self.clothes =c </span></p><p><span style=\"color: rgb(52, 73, 94);\">def rmb_1(self): </span></p><p><span style=\"color: rgb(52, 73, 94);\">print(\"{}今天去购物，总共花了{}元。\". format(self.name,self.shoe+self.satchel+ self.clothes)) </span></p><p><span style=\"color: rgb(52, 73, 94);\">r= Money('李斌',120,50,280) </span></p><p><span style=\"color: rgb(52, 73, 94);\">r.rmb_1()</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">输出的结果格式为：{}今天去购物，总共花了{}元。故排除BD,根据代码可知，花费为三者之和。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:00:17",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955539893505519618",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">李斌今天去购物,总共花了280元</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955539893505519618",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">今天去购物,总共花了450元</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955539893505519618",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">李斌今天去购物,总共花了450元</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955539893505519618",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">今天去购物,总共花了280元</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955539893505519618",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955539893505519618",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955540161068556289",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">执行下列代码，说法错误的是？（） </span></p><p><span style=\"color: rgb(52, 73, 94);\">import sqlite3 </span></p><p><span style=\"color: rgb(52, 73, 94);\">DATABASE = 'student.db' </span></p><p><span style=\"color: rgb(52, 73, 94);\">db = sqlite3.connect(DATABASE) </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur = db.cursor() </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur.execute(\"CREATE TABLE IF NOT EXISTS list(id INTEGER PRIMARY KEY autoincrement, name </span></p><p><span style=\"color: rgb(52, 73, 94);\">text)\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">db.commit() </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur.execute(\"SELECT COUNT(*) FROM list\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">if cur.fetchall()[0][0] == 0: </span></p><p><span style=\"color: rgb(52, 73, 94);\">cur.execute('INSERT INTO list(id,name) VALUES(1,\"李明\")') </span></p><p><span style=\"color: rgb(52, 73, 94);\">db.commit()</span></p>",
+            "referenceAnswer": "D",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">数据库中有插入1，李明的数据记录，故答案选D</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:01:21",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955540161068556289",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">去掉最后一行的db.commit(),对程序有影响</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955540161068556289",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">list数据表中有两个字段id和name</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955540161068556289",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">student. db文件中有一张名为list的数据表</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955540161068556289",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">list数据表中没有记录</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955540161068556289",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955540270556667905",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">下列关于sqlite数据库说法，不正确的是？（）</span></p>",
+            "referenceAnswer": "B",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">sqlite是一个开源的关系型数据库，具有零配置、自我包含、便于传输等优点。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:01:47",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955540270556667905",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">sqlite是一个跨平台的数据库</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955540270556667905",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">sqlite是非关系型数据库</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955540270556667905",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">sqlite数据库可以进行基本的增删改查操作</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955540270556667905",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">Python可以通过加载sqlite模块来操作sqlite</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955540270556667905",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955540477407162370",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">执行下面代码，说法正确的是？（） </span></p><p><span style=\"color: rgb(52, 73, 94);\">import tkinter as tk </span></p><p><span style=\"color: rgb(52, 73, 94);\">from tkinter import messagebox </span></p><p><span style=\"color: rgb(52, 73, 94);\">root= tk.Tk()</span></p><p><span style=\"color: rgb(52, 73, 94);\">root.title('演示窗口') </span></p><p><span style=\"color: rgb(52, 73, 94);\">root.geometry(\"300x100+630+80\") </span></p><p><span style=\"color: rgb(52, 73, 94);\">btn1 = tk.Button(root) </span></p><p><span style=\"color: rgb(52, 73, 94);\">btn1[\"text\"]= \"点击\" </span></p><p><span style=\"color: rgb(52, 73, 94);\">btn1.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">def call(event): </span></p><p><span style=\"color: rgb(52, 73, 94);\">messagebox.showinfo('窗口名称','点击成功') </span></p><p><span style=\"color: rgb(52, 73, 94);\">btn1.bind('&lt;Button-1&gt;',call)</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">窗口的名称为演示窗口，窗口内按钮只有一个，按钮和call绑定在一起，当被点击时调用函数输出点击成功。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:02:37",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955540477407162370",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">窗口的名称为‘点击’</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955540477407162370",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">窗口内的按钮无法点击</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955540477407162370",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">按钮和call绑定</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955540477407162370",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">窗口中有两个以上的按钮</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955540477407162370",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955540651080704001",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">有如下Python代码，执行该代码，说法不正确的是？（） </span></p><p><span style=\"color: rgb(52, 73, 94);\">import tkinter as tk </span></p><p><span style=\"color: rgb(52, 73, 94);\">window = tk.Tk() </span></p><p><span style=\"color: rgb(52, 73, 94);\">window.title('ListBox') </span></p><p><span style=\"color: rgb(52, 73, 94);\">window.geometry('300x350') </span></p><p><span style=\"color: rgb(52, 73, 94);\">var1 = tk.StringVar() </span></p><p><span style=\"color: rgb(52, 73, 94);\">label = tk.Label(window, bg='yellow', width=4, height=2, textvariable=var1) </span></p><p><span style=\"color: rgb(52, 73, 94);\">label.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">def print_selection(): </span></p><p><span style=\"color: rgb(52, 73, 94);\">value = listbox.get(listbox.curselection()) </span></p><p><span style=\"color: rgb(52, 73, 94);\">var1.set(value) </span></p><p><span style=\"color: rgb(52, 73, 94);\">button = tk.Button(window, text='print selection', command=print_selection) </span></p><p><span style=\"color: rgb(52, 73, 94);\">button.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">var2 = tk.StringVar() </span></p><p><span style=\"color: rgb(52, 73, 94);\">var2.set((11,22,33,44)) </span></p><p><span style=\"color: rgb(52, 73, 94);\">listbox = tk.Listbox(window,listvariable=var2) </span></p><p><span style=\"color: rgb(52, 73, 94);\">listbox.pack() </span></p><p><span style=\"color: rgb(52, 73, 94);\">listitems = [1,2,3,4] </span></p><p><span style=\"color: rgb(52, 73, 94);\">for item in listitems: </span></p><p><span style=\"color: rgb(52, 73, 94);\">listbox.insert('end', item) </span></p><p><span style=\"color: rgb(52, 73, 94);\">listbox.insert(1,'first') </span></p><p><span style=\"color: rgb(52, 73, 94);\">listbox.insert(1,'second') </span></p><p><span style=\"color: rgb(52, 73, 94);\">listbox.delete(1)</span></p><p><span style=\"color: rgb(52, 73, 94);\">window.mainloop(</span></p>",
+            "referenceAnswer": "C",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">window.title('ListBox')可知窗口的名称为ListBox，listbox = tk.Listbox(window,listvariable=var2)， 列表中有四条数据，通过for循环又加入四条数据，最后在1的位置插入first和second。最后删除最后一次1处所指向的值。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:03:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955540651080704001",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">当前窗口的名称为ListBox</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955540651080704001",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">当前窗口有一个按钮，名字为print selection</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955540651080704001",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">当前窗口列表框中有\"second\"数据项</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955540651080704001",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">当前窗口列表框中共有9条数据项</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955540651080704001",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955542898535591938",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 1,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">为统计班级同学假期的阅读情况，王老师通过某 APP 设置打卡任务，记录阅读打卡信息“姓名,打卡日期,阅读开始时间,结束时间”。逐行读取“data.csv”文件中的数据，根据阅读开始时间和结束时间，计算每位同学的阅读总时长代码如下：</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643883776260382720.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p><span style=\"color: rgb(52, 73, 94);\">file = open(\"data.csv\") #打开文件 </span></p><p><span style=\"color: rgb(52, 73, 94);\">line = file.readline() #从文件中读取一行 </span></p><p><span style=\"color: rgb(52, 73, 94);\">stu = {} #存储每位同学的阅读总时长 </span></p><p><span style=\"color: rgb(52, 73, 94);\">while line: </span></p><p><span style=\"color: rgb(52, 73, 94);\">info = line.split(\",\") #将 line 以“,”为分隔符，分割成多个字符串组成的列表 </span></p><p><span style=\"color: rgb(52, 73, 94);\">t = ① </span></p><p><span style=\"color: rgb(52, 73, 94);\">if info[0] in stu: </span></p><p><span style=\"color: rgb(52, 73, 94);\">stu[info[0]] += t </span></p><p><span style=\"color: rgb(52, 73, 94);\">else: </span></p><p><span style=\"color: rgb(52, 73, 94);\">② </span></p><p><span style=\"color: rgb(52, 73, 94);\">line = file.readline() </span></p><p><span style=\"color: rgb(52, 73, 94);\">file.close() </span></p><p><span style=\"color: rgb(52, 73, 94);\">①②二处代码应该填？（）</span></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">读取csv文件数据，默认索引从0开始。t为阅读时长（阅读结束时间-开始时间），然后存入字典当中，如果有重名则进行累加，如果没有则直接计入时长。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:12:14",
+            "questionsOptionList": [
+                {
+                    "questionId": "1955542898535591938",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">① convert(info[3]) - convert(info[2]) ② stu[info[0]] = t</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "1955542898535591938",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">① convert(info[4]) - convert(info[3]) ② stu[info[0]] = t</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "1955542898535591938",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">① convert(info[3]) - convert(info[2]) ② stu[info[1]] = t</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "1955542898535591938",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p><span style=\"color: rgb(52, 73, 94);\">① convert(info[4]) - convert(info[3]) ② stu[info[1]] = t</span></p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955542898535591938",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                },
+                {
+                    "questionId": "1955542898535591938",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955543601500942337",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">CSV文件是一种常见的用来存储一维或者二维的数据文件，实际上是一种txt文件，只能用记事本打开。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">CSV文件可以用记事本打开，也可用Excel和专用软件来打开。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:15:01",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955543601500942337",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955543632312299522",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">利用matplotlib绘制图形时，语句plt.show()可以省略。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">必须使用语句plt.show()才能进行显示图形。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:15:09",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955543632312299522",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955543771554803714",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">Python中可以通过对象名=类名()创建对象。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><br></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:15:42",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955543771554803714",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955543771554803714",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955543801594408961",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p>语句“conn = sqlite3.connect(\"test.db\")”的功能是若数据库文件\"test.db\"存在则打开；若数据库文件不存在，则新建一个名为\"test.db\"的数据库文件。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">connect()函数：用于创建和连接数据库。若指定的数据库文件存在，则打开；若数据库文件不存在，则新建一个数据库文件.</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:15:49",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955543801594408961",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955543927247368193",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">执行下列代码： </span></p><p><span style=\"color: rgb(52, 73, 94);\">import numpy as np </span></p><p><span style=\"color: rgb(52, 73, 94);\">x = [(1,2,3),(4,5,6),(8,9,0)] </span></p><p><span style=\"color: rgb(52, 73, 94);\">a = np.asarray(x) </span></p><p><span style=\"color: rgb(52, 73, 94);\">print (a) </span></p><p><span style=\"color: rgb(52, 73, 94);\">输出的结果为((1, 2, 3) (4, 5, 6) (8, 9, 0))。</span></p>",
+            "referenceAnswer": "0",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">Numpy模块的从已有数组创建新数组的方法，包括返回值为列表。 </span></p><p><span style=\"color: rgb(52, 73, 94);\">该代码返回的结果为：[[1, 2, 3] </span></p><p><span style=\"color: rgb(52, 73, 94);\">[4, 5, 6] </span></p><p><span style=\"color: rgb(52, 73, 94);\">[8, 9, 0]]</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:16:19",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955543927247368193",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955543972004782081",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">二进制文件也可以使用记事本或其他文本编辑器打开，一般来说无法正常查看其中的内容。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">二进制文件也可以使用记事本或其他文本编辑器打开，一般来说无法正常查看其中的内容。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:16:30",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955543972004782081",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955544023724748801",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">在Python中可以实现可视化效果,绘制数学函数图像一般要用到的库是numpy和matplotlib。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">NumPy(Numerical Python)是Python语言的一个扩展程序库,支持大量的维度数组与矩阵运算,此外也针对数组运算提供大量的数学函数库。Matplotlib 可以绘制折线图、散点图、等高线图、条形图、柱状图、3D 图形、甚至是图形动画等等。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:16:42",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955544023724748801",
+                    "knowledgePointId": "732",
+                    "knowledgePoint": "数据可视化操作"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955544075696369666",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">类中的函数称为方法，方法__init__() 是一个特殊的方法，开头和末尾各有两个下划线，这种约定避免Python默认方法与普通方法发生名称冲突。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">方法__init__的目的是为了防止调用冲突。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:16:55",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955544075696369666",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955544075696369666",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955544114099412994",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">使用grid()方法管理布局，可以使用grid(row=0,column=0)将Label标签放入第一行第一列。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">grid的方法中column为指定组件插入的列（0表示第一列），row为指定组件插入的行（0表示第一 行）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:17:04",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955544114099412994",
+                    "knowledgePointId": "736",
+                    "knowledgePoint": "使用tkinter的GUI设计"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955544152011726850",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 3,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">执行语句“f=open('words.txt',\"r\")”，若文件夹中不存在“words.txt”文件，会报错。</span></p>",
+            "referenceAnswer": "1",
+            "analyzeContent": "<p><span style=\"color: rgb(52, 73, 94);\">r模式，如果文件不存在则报错。</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:17:13",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955544152011726850",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955544442718941186",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 4,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">马和骆驼都是哺乳动物，它们都有四只脚，体型也差不多大，我们将在这里为它们编写属于它们各自的类，输出相关语句。 </span></p><p><span style=\"color: rgb(52, 73, 94);\">例如：一匹阿拉伯12岁的公马，在草原上奔跑的速度为50km/h。一匹双峰驼20岁的母骆驼，在沙漠上奔跑的速度为40kmh。</span></p><p><span style=\"color: rgb(0, 164, 219);\">class </span><span style=\"color: rgb(230, 219, 116);\">Horse</span><span style=\"color: rgb(57, 58, 52);\">(): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">__init__</span><span style=\"color: rgb(57, 58, 52);\">(self, category, gender, age): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.category = category </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.gender = gender </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.age = age </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.speed = </span><span style=\"color: rgb(54, 172, 170);\">0 </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">get_descriptive</span><span style=\"color: rgb(57, 58, 52);\">(self): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.info = </span><span style=\"color: rgb(227, 17, 108);\">\"一匹\" </span><span style=\"color: rgb(57, 58, 52);\">+ self.category + </span><span style=\"color: rgb(166, 226, 46);\">str</span><span style=\"color: rgb(57, 58, 52);\">(self.age) + </span><span style=\"color: rgb(227, 17, 108);\">\"岁的\" </span><span style=\"color: rgb(57, 58, 52);\">+ self.gender + </span><span style=\"color: rgb(227, 17, 108);\">\"马 </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">write_speed</span><span style=\"color: rgb(57, 58, 52);\">(self, new_speed): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.speed= new_speed </span></p><p><span style=\"color: rgb(57, 58, 52);\"> addr = </span><span style=\"color: rgb(227, 17, 108);\">\"在草原上奔跑的速度为\" </span><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(self.info + </span><span style=\"color: rgb(227, 17, 108);\">\"，\" </span><span style=\"color: rgb(57, 58, 52);\">+ addr + </span><span style=\"color: rgb(166, 226, 46);\">str</span><span style=\"color: rgb(57, 58, 52);\">(self.speed) + </span><span style=\"color: rgb(227, 17, 108);\">\"km/h。\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(0, 164, 219);\">class </span><span style=\"color: rgb(230, 219, 116);\">Came1</span><span style=\"color: rgb(57, 58, 52);\">( ① ): &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">__init__</span><span style=\"color: rgb(57, 58, 52);\">(self, category, gender, age): &nbsp;</span></p><p><span style=\"color: rgb(166, 226, 46);\">super</span><span style=\"color: rgb(57, 58, 52);\">().__init__(category, gender, age) &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">write_speed</span><span style=\"color: rgb(57, 58, 52);\">(self,new_speed): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> ② </span></p><p><span style=\"color: rgb(57, 58, 52);\"> addr = </span><span style=\"color: rgb(227, 17, 108);\">\"在沙漠上奔跑的速度为\" </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">( ③ (</span><span style=\"color: rgb(227, 17, 108);\">\"马\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(227, 17, 108);\">\"骆驼\"</span><span style=\"color: rgb(57, 58, 52);\">) + </span><span style=\"color: rgb(227, 17, 108);\">\"，\" </span><span style=\"color: rgb(57, 58, 52);\">+ addr + ④ + </span><span style=\"color: rgb(227, 17, 108);\">\"km/h。 </span></p><p><span style=\"color: rgb(57, 58, 52);\">horse = Horse(</span><span style=\"color: rgb(227, 17, 108);\">\"阿拉伯\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(227, 17, 108);\">\"公\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(54, 172, 170);\">12</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\">horse.get_descriptive() </span></p><p><span style=\"color: rgb(57, 58, 52);\">horse.write_speed(</span><span style=\"color: rgb(54, 172, 170);\">50</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\">came1 = Came1(</span><span style=\"color: rgb(227, 17, 108);\">\"双峰驼\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(227, 17, 108);\">\"母\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(54, 172, 170);\">20</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\">came1.get_descriptive() </span></p><p><span style=\"color: rgb(57, 58, 52);\">came1. write_speed(</span><span style=\"color: rgb(54, 172, 170);\">40</span><span style=\"color: rgb(57, 58, 52);\">)</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(0, 164, 219);\">class </span><span style=\"color: rgb(230, 219, 116);\">Horse</span><span style=\"color: rgb(57, 58, 52);\">(): &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">__init__</span><span style=\"color: rgb(57, 58, 52);\">(self, category, gender, age): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.category = category </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.gender = gender </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.age = age </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.speed = </span><span style=\"color: rgb(54, 172, 170);\">0 </span><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">get_descriptive</span><span style=\"color: rgb(57, 58, 52);\">(self): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.info = </span><span style=\"color: rgb(227, 17, 108);\">\"一匹\" </span><span style=\"color: rgb(57, 58, 52);\">+ self.category + </span><span style=\"color: rgb(166, 226, 46);\">str</span><span style=\"color: rgb(57, 58, 52);\">(self.age) + </span><span style=\"color: rgb(227, 17, 108);\">\"岁的\" </span><span style=\"color: rgb(57, 58, 52);\">+ self.ge </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">write_speed</span><span style=\"color: rgb(57, 58, 52);\">(self, new_speed): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.speed= new_speed </span></p><p><span style=\"color: rgb(57, 58, 52);\"> addr = </span><span style=\"color: rgb(227, 17, 108);\">\"在草原上奔跑的速度为\" </span><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(self.info + </span><span style=\"color: rgb(227, 17, 108);\">\"，\" </span><span style=\"color: rgb(57, 58, 52);\">+ addr + </span><span style=\"color: rgb(166, 226, 46);\">str</span><span style=\"color: rgb(57, 58, 52);\">(self.speed) + </span><span style=\"color: rgb(227, 17, 108);\">\"km/h。\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(0, 164, 219);\">class </span><span style=\"color: rgb(230, 219, 116);\">Came1</span><span style=\"color: rgb(57, 58, 52);\">(Horse): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">__init__</span><span style=\"color: rgb(57, 58, 52);\">(self, category, gender, age): &nbsp;</span></p><p><span style=\"color: rgb(166, 226, 46);\">super</span><span style=\"color: rgb(57, 58, 52);\">().__init__(category, gender, age) &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">def </span><span style=\"color: rgb(154, 5, 15);\">write_speed</span><span style=\"color: rgb(57, 58, 52);\">(self,new_speed): </span></p><p><span style=\"color: rgb(57, 58, 52);\"> self.speed= new_speed </span></p><p><span style=\"color: rgb(57, 58, 52);\"> addr = </span><span style=\"color: rgb(227, 17, 108);\">\"在沙漠上奔跑的速度为\" </span><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(self.info.replace(</span><span style=\"color: rgb(227, 17, 108);\">\"马\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(227, 17, 108);\">\"骆驼\"</span><span style=\"color: rgb(57, 58, 52);\">) + </span><span style=\"color: rgb(227, 17, 108);\">\"，\" </span><span style=\"color: rgb(57, 58, 52);\">+ addr + </span><span style=\"color: rgb(166, 226, 46);\">str</span><span style=\"color: rgb(57, 58, 52);\">(self.speed) </span></p><p><span style=\"color: rgb(57, 58, 52);\">horse = Horse(</span><span style=\"color: rgb(227, 17, 108);\">\"阿拉伯\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(227, 17, 108);\">\"公\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(54, 172, 170);\">12</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\">horse.get_descriptive() </span></p><p><span style=\"color: rgb(57, 58, 52);\">horse.write_speed(</span><span style=\"color: rgb(54, 172, 170);\">50</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\">came1 = Came1(</span><span style=\"color: rgb(227, 17, 108);\">\"双峰驼\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(227, 17, 108);\">\"母\"</span><span style=\"color: rgb(57, 58, 52);\">,</span><span style=\"color: rgb(54, 172, 170);\">20</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\">came1.get_descriptive() </span></p><p><span style=\"color: rgb(57, 58, 52);\">came1. write_speed(</span><span style=\"color: rgb(54, 172, 170);\">40</span><span style=\"color: rgb(57, 58, 52);\">)</span></p><p><span style=\"color: rgb(52, 73, 94);\">评分标准： </span></p><p><span style=\"color: rgb(52, 73, 94);\">（1）Horse；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（2）self.speed= new_speed；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（3）self.info.replace；（4分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（4）str(self.speed)。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:18:22",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955544442718941186",
+                    "knowledgePointId": "733",
+                    "knowledgePoint": "类与对象的概念"
+                },
+                {
+                    "questionId": "1955544442718941186",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955544691327918082",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 4,
+            "title": "<p>小李收集了交规扣分情况存储在文件“jgfs.txt”中，他编写了一个交规问答程序，程序实现根据用户输入的答案进行自动判断功能，每题1分，答对1题得1分，答错不得分，答完所有题目后显示个人得分及总得分。文件和程序运行界面如图所示，结合界面，请完成问答程序。</p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643885539369623552.png\" alt=\"\" data-href=\"\" style=\"\"/></p><p>程序代码如下：</p><p>rule_dict = {} </p><p>with open(\"/data/jgfs.txt\") as f: </p><p> data = ① .strip() </p><p> </p><p>while data: </p><p> rule , score = data.split() </p><p> rule_dict[rule] = score </p><p> data = f.readline().strip() </p><p>s = 0 </p><p>for i in rule_dict.keys(): </p><p> num =input(\"题目：\"+i + \"扣几分？\\n请输入答案：\") &nbsp;</p><p>if ② : </p><p> </p><p>print(\"回答正确\") </p><p> ③ &nbsp;</p><p>else: </p><p>print(\"回答错误，正确答案是\" + ④ ) </p><p>print(\"你的成绩是：\" + str(s) + \"满分为：\" + str( ⑤ ))</p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<p>rule_dict = {} </p><p>with open(\"/data/jgfs.txt\") as f: </p><p> data = f.readline().strip() </p><p> </p><p>while data: </p><p> rule , score = data.split() </p><p> rule_dict[rule] = score </p><p> data = f.readline().strip() </p><p>s = 0 </p><p>for i in rule_dict.keys(): </p><p> num =input(\"题目：\"+i + \"扣几分？\\n请输入答案：\") &nbsp;</p><p>if rule_dict[i] == num: &nbsp;</p><p>print(\"回答正确\") </p><p> s += 1 &nbsp;</p><p>else: </p><p>print(\"回答错误，正确答案是\" + rule_dict [i]) </p><p>print(\"你的成绩是：\" + str(s) + \"满分为：\" + str(len(rule_dict)))</p><p><span style=\"color: rgb(52, 73, 94);\">评分标准： </span></p><p><span style=\"color: rgb(52, 73, 94);\">（1）f.readline()；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（2）rule_dict[i] == num；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（3）s += 1；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（4）rule_dict[i]；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（5）len(rule_dict)。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:19:21",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955544691327918082",
+                    "knowledgePointId": "731",
+                    "knowledgePoint": "文件操作及数据格式化"
+                },
+                {
+                    "questionId": "1955544691327918082",
+                    "knowledgePointId": "734",
+                    "knowledgePoint": "类与对象的使用"
+                },
+                {
+                    "questionId": "1955544691327918082",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "1955545234632896513",
+            "examinationPaperTitle": "202303Python六级真题",
+            "type": 4,
+            "title": "<p><span style=\"color: rgb(52, 73, 94);\">小强建立了一个简易的学生成绩管理信息系统，使用SQlite进行数据的插入、查询和删除操作，每位学生的记录存储在data.db文件的数据表STUDENT中，该表包含NAME，NUMBER和GRADE 3个字段。程序运行时，输出操作选择，用户输入1表示插入记录，输入姓名，学号和成绩后，记录将增加到数据库中。用户输入2表示查询记录，输出所有学生的姓名，用户输入姓名后可查询详细的姓名，学号和成绩。用户输入3，再输入要删除的学生的姓名，根据姓名对数据库中的记录进行删除。程序运行界面如图所示。</span></p><p><img src=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643885857985732608.png\" alt=\"图片.png\" data-href=\"https://minio.liankexue.cn/npsc-common-bucket/default/2025-08-13/8643885857985732608.png\" style=\"\"/></p><p><span style=\"color: rgb(52, 73, 94);\">程序代码如下，请在划线处填入合适的代码。（本题无需运行通过，写入完整代码即可）</span></p><p><span style=\"color: rgb(0, 164, 219);\">import</span><span style=\"color: rgb(57, 58, 52);\"> sqlite3 </span></p><p><span style=\"color: rgb(0, 164, 219);\">while </span><span style=\"color: rgb(54, 172, 170);\">True</span><span style=\"color: rgb(57, 58, 52);\">: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> code = </span><span style=\"color: rgb(166, 226, 46);\">input</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">\"1代表插入，2代表查询, 3代表删除,4代表退出\\n请输入操作代号:\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> code == </span><span style=\"color: rgb(227, 17, 108);\">'1'</span><span style=\"color: rgb(57, 58, 52);\">: &nbsp;</span></p><p><span style=\"color: rgb(153, 153, 136);\"># 执行插入操作，代码略 </span><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> ① : &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">'所有学生姓名如下：'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn2 = sqlite3.connect(</span><span style=\"color: rgb(227, 17, 108);\">'data.db'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> c2 = conn2.cursor() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> cursor = c2.execute(</span><span style=\"color: rgb(227, 17, 108);\">\"SELECT NAME from ② \"</span><span style=\"color: rgb(57, 58, 52);\">) &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">for</span><span style=\"color: rgb(57, 58, 52);\"> row </span><span style=\"color: rgb(0, 164, 219);\">in</span><span style=\"color: rgb(57, 58, 52);\"> cursor: </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(row)</span></p><p><span style=\"color: rgb(57, 58, 52);\">conn2.close() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> select_name = </span><span style=\"color: rgb(166, 226, 46);\">input</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">\"请输入需要查询的姓名：\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn3 = sqlite3.connect(</span><span style=\"color: rgb(227, 17, 108);\">'data.db'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> c3 = conn3.cursor() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> cursor = c3.execute(</span><span style=\"color: rgb(227, 17, 108);\">\"SELECT * from STUDENT WHERE NAME =? \"</span><span style=\"color: rgb(57, 58, 52);\">, ③ ) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">for</span><span style=\"color: rgb(57, 58, 52);\"> row </span><span style=\"color: rgb(0, 164, 219);\">in</span><span style=\"color: rgb(57, 58, 52);\"> cursor: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(* row) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">'select successful!'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn3.close() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> code == </span><span style=\"color: rgb(227, 17, 108);\">'3'</span><span style=\"color: rgb(57, 58, 52);\">: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> delete_name = </span><span style=\"color: rgb(166, 226, 46);\">input</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">\"请输入需要删除的姓名：\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn4 = sqlite3.connect(</span><span style=\"color: rgb(227, 17, 108);\">'data.db'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> c4 = conn4.cursor() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> cursor = c4.execute(</span><span style=\"color: rgb(227, 17, 108);\">\"DELETE from STUDENT WHERE NAME =?\"</span><span style=\"color: rgb(57, 58, 52);\">,(delete_name,)) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> ④ </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">'delete successful!'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn4.close() </span></p><p><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> code == </span><span style=\"color: rgb(227, 17, 108);\">'4'</span><span style=\"color: rgb(57, 58, 52);\">: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> ⑤</span></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<p><span style=\"color: rgb(0, 164, 219);\">import</span><span style=\"color: rgb(57, 58, 52);\"> sqlite3 </span></p><p><span style=\"color: rgb(0, 164, 219);\">while </span><span style=\"color: rgb(54, 172, 170);\">True</span><span style=\"color: rgb(57, 58, 52);\">: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> code = </span><span style=\"color: rgb(166, 226, 46);\">input</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">\"1代表插入，2代表查询, 3代表删除,4代表退出\\n请输入操作代号:\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> code == </span><span style=\"color: rgb(227, 17, 108);\">'1'</span><span style=\"color: rgb(57, 58, 52);\">: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(153, 153, 136);\"># 执行插入操作，代码略 </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> code == </span><span style=\"color: rgb(227, 17, 108);\">'2'</span><span style=\"color: rgb(57, 58, 52);\">: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">'所有学生姓名如下：'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn2 = sqlite3.connect(</span><span style=\"color: rgb(227, 17, 108);\">'data.db'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> c2 = conn2.cursor() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> cursor = c2.execute(</span><span style=\"color: rgb(227, 17, 108);\">\"SELECT NAME from STUDENT\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">for</span><span style=\"color: rgb(57, 58, 52);\"> row </span><span style=\"color: rgb(0, 164, 219);\">in</span><span style=\"color: rgb(57, 58, 52);\"> cursor: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(row) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn2.close() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> select_name = </span><span style=\"color: rgb(166, 226, 46);\">input</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">\"请输入需要查询的姓名：\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn3 = sqlite3.connect(</span><span style=\"color: rgb(227, 17, 108);\">'data.db'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> c3 = conn3.cursor() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> cursor = c3.execute(</span><span style=\"color: rgb(227, 17, 108);\">\"SELECT * from STUDENT WHERE NAME =? \"</span><span style=\"color: rgb(57, 58, 52);\">,(select_n </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">for</span><span style=\"color: rgb(57, 58, 52);\"> row </span><span style=\"color: rgb(0, 164, 219);\">in</span><span style=\"color: rgb(57, 58, 52);\"> cursor: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(* row) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">'select successful!'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn3.close() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> </span></p><p><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> code == </span><span style=\"color: rgb(227, 17, 108);\">'3'</span><span style=\"color: rgb(57, 58, 52);\">: </span></p><p><span style=\"color: rgb(57, 58, 52);\"> delete_name = </span><span style=\"color: rgb(166, 226, 46);\">input</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">\"请输入需要删除的姓名：\"</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn4 = sqlite3.connect(</span><span style=\"color: rgb(227, 17, 108);\">'data.db'</span><span style=\"color: rgb(57, 58, 52);\">) </span></p><p><span style=\"color: rgb(57, 58, 52);\"> c4 = conn4.cursor() </span></p><p><span style=\"color: rgb(57, 58, 52);\"> cursor = c4.execute(</span><span style=\"color: rgb(227, 17, 108);\">\"DELETE from STUDENT WHERE NAME =?\"</span><span style=\"color: rgb(57, 58, 52);\">,(delete_name, </span></p><p><span style=\"color: rgb(57, 58, 52);\"> conn4.commit() &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">print</span><span style=\"color: rgb(57, 58, 52);\">(</span><span style=\"color: rgb(227, 17, 108);\">'delete successful!'</span><span style=\"color: rgb(57, 58, 52);\">)</span></p><p><span style=\"color: rgb(57, 58, 52);\">conn4.close() &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">if</span><span style=\"color: rgb(57, 58, 52);\"> code == </span><span style=\"color: rgb(227, 17, 108);\">'4'</span><span style=\"color: rgb(57, 58, 52);\">: &nbsp;</span></p><p><span style=\"color: rgb(0, 164, 219);\">break</span></p><p><span style=\"color: rgb(52, 73, 94);\">评分标准： </span></p><p><span style=\"color: rgb(52, 73, 94);\">（1）code == '2'；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（2）STUDENT；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（3）(select_name,)；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（4）conn4.commit()；（2分） </span></p><p><span style=\"color: rgb(52, 73, 94);\">（5）break。（2分）</span></p>",
+            "analyzeVideo": null,
+            "examinationPaperId": "1955534018279661570",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 10.0,
+            "topSubjectDetailId": "1972938731359236098",
+            "topSubjectDetailName": "python",
+            "scoreCriteria": null,
+            "createTime": "2025-08-13 16:21:31",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "1955545234632896513",
+                    "knowledgePointId": "735",
+                    "knowledgePoint": "SQLite数据库基础编程"
+                },
+                {
+                    "questionId": "1955545234632896513",
+                    "knowledgePointId": "737",
+                    "knowledgePoint": "编写指定功能的正确完整的程序"
+                }
+            ],
+            "questionsDetailDTO": null
+        }
+    ]
+}

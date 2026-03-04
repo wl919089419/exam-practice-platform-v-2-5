@@ -1,0 +1,1038 @@
+{
+    "examTime": 90,
+    "examinationPaperTitle": "202512GESP C++五级试卷",
+    "paperQuestionsVOS": [
+        {
+            "id": "2018617336906899458",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>对如下定义的循环单链表，横线处填写（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">// 循环单链表的结点 \nstruct Node { \nint data; // 数据域 \nNode* next; // 指针域 \nNode(int d) : data(d), next(nullptr) {} \n}; \n// 创建一个只有一个结点的循环单链表 \nNode* createList(int value) { \nNode* head = new Node(value); \nhead-&gt;next = head; \nreturn head; \n} \n// 在循环单链表尾部插入新结点 \nvoid insertTail(Node* head, int value) { \nNode* p = head; \nwhile (p-&gt;next != head) { \np = p-&gt;next; \n} \nNode* node = new Node(value); \nnode-&gt;next = head; \np-&gt;next = node; \n} \n// 遍历并输出循环单链表 \nvoid printList(Node* head) { \nif (head == nullptr) return; \nNode* p = head; \n_______________________ //在此处填入代码 \ncout &lt;&lt; endl; \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:27:32",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018617336906899458",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">while (p != nullptr){ \ncout &lt;&lt; p-&gt;data &lt;&lt; \" \"; \np = p-&gt;next; \n}\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018617336906899458",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">while (p != nullptr){ \ncout &lt;&lt; p-&gt;data &lt;&lt; \" \"; \np = p-&gt;next; \n}\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018617336906899458",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">do { \ncout &lt;&lt; p-&gt;data &lt;&lt; \" \"; \np = p-&gt;next; \n}\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018617336906899458",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">for(; p; p=p-&gt;next){ \ncout &lt;&lt; p-&gt;data &lt;&lt; \" \"; \n}\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018617554117320706",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>区块链技术是比特币的基础。在区块链中，每个区块指向前一个区块，构成链式列表，新区块只能接在链尾，不允许在中间插入或删除。下面代码实现插入区块添加函数，则横线处填写（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-comment\">//区块（节点） </span>\n<span class=\"hljs-keyword\">struct</span> Block { \n<span class=\"hljs-built_in\">int</span> index; <span class=\"hljs-comment\">// 区块编号（高度） </span>\n<span class=\"hljs-built_in\">string</span> data; <span class=\"hljs-comment\">// 区块里保存的数据 </span>\nBlock* prev; <span class=\"hljs-comment\">// 指向前一个区块 </span>\nBlock(<span class=\"hljs-built_in\">int</span> idx, <span class=\"hljs-keyword\">const</span> <span class=\"hljs-built_in\">string</span>&amp; d, Block* p) : index(idx), data(d), prev(p) {} \n}; \n<span class=\"hljs-comment\">// 区块链 </span>\n<span class=\"hljs-keyword\">struct</span> Blockchain { \nBlock* tail; \n<span class=\"hljs-comment\">// 初始化 </span>\n<span class=\"hljs-function\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title\">init</span>()</span> { \ntail = <span class=\"hljs-keyword\">new</span> Block(<span class=\"hljs-number\">0</span>, <span class=\"hljs-string\">\"Genesis Block\"</span>, nullptr); \n} \n<span class=\"hljs-comment\">// 插入新区块 </span>\n<span class=\"hljs-function\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title\">addBlock</span>(<span class=\"hljs-params\"><span class=\"hljs-keyword\">const</span> <span class=\"hljs-built_in\">string</span>&amp; data</span>)</span> { \n_______________________ <span class=\"hljs-comment\">//在此处填入代码 </span>\n} \n<span class=\"hljs-comment\">// 释放内存 </span>\n<span class=\"hljs-function\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title\">clear</span>()</span> { \nBlock* cur = tail; \n<span class=\"hljs-keyword\">while</span> (cur != nullptr) { \nBlock* p = cur-&gt;prev; \ndelete cur; \ncur = p; \n} \ntail = nullptr; \n} \n};\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 1,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-03 17:28:24",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018617554117320706",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">Block* newBlock = new Block(tail-&gt;index + 1, data, tail); \ntail = newBlock-&gt;prev;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018617554117320706",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">Block* newBlock = new Block(tail-&gt;index + 1, data, tail); \ntail = newBlock;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018617554117320706",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">Block* newBlock = new Block(tail-&gt;index + 1, data, tail-&gt;prev); \ntail = newBlock;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018617554117320706",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">Block* newBlock = new Block(tail-&gt;index + 1, data, tail-&gt;prev); \ntail = newBlock-&gt;prev;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": [
+                {
+                    "questionId": "2018617554117320706",
+                    "knowledgePointId": "130",
+                    "knowledgePoint": "单链表"
+                }
+            ],
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018963005433700354",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面关于单链表和双链表的描述中，正确的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">struct DNode { \nint data; \nDNode* prev; \nDNode* next; \n}; \n// 在双链表中删除指定节点 \nvoid deleteNode(DNode* node) { \nif (node-&gt;prev) { \nnode-&gt;prev-&gt;next = node-&gt;next; \n} \nif (node-&gt;next) { \nnode-&gt;next-&gt;prev = node-&gt;prev; \n} \ndelete node; \n} \nstruct SNode { \nint data; \nSNode* next; \n}; \n// 在单链表中删除指定节点 \nvoid deleteSNode(SNode* head, SNode* node) { \nSNode* prev = head; \nwhile (prev-&gt;next != node) { \nprev = prev-&gt;next; \n} \nprev-&gt;next = node-&gt;next; \ndelete node; \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:21:06",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018963005433700354",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>双链表删除指定节点是O(1)，单链表是O(1)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018963005433700354",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>双链表删除指定节点是O(n)，单链表是O(1)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018963005433700354",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>双链表删除指定节点是 O(1)，单链表是O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018963005433700354",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>双链表删除指定节点是O(n)，单链表是O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018963869875560450",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>假设我们有两个数 a=38和b=14，它们对模 同余，即 a=b(mod m)。以下哪个值不可能是 m？</p>",
+            "referenceAnswer": "D",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:24:32",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018963869875560450",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>3</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018963869875560450",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>4</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018963869875560450",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>6</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018963869875560450",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>9</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018964950194053121",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面代码实现了欧几里得算法。下面有关说法，错误的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int gcd1(int a, int b) { \nreturn b == 0 ? a : gcd1(b, a % b); \n} \nint gcd2(int a, int b) { \nwhile (b != 0) { \nint temp = b; \nb = a % b; \na = temp; \n} \nreturn a; \n}\n</pre>",
+            "referenceAnswer": "D",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:28:49",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018964950194053121",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>gcd1() 实现为递归方式。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018964950194053121",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>gcd2() 实现为迭代方式。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018964950194053121",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>当 a较大时， gcd1() 实现会多次调用自身，需要较多额外的辅助空间。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018964950194053121",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>当 a较大时， gcd1() 的实现比 gcd2() 执行效率更高。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018965912954593282",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>唯一分解定理描述的内容是（ ）。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:32:39",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018965912954593282",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>任何正整数都可以表示为两个素数的和。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018965912954593282",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>任何大于1的合数都可以唯一分解为有限个质数的乘积。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018965912954593282",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>两个正整数的最大公约数总是等于它们的最小公倍数除以它们的乘积。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018965912954593282",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>所有素数都是奇数。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018966075269963778",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下述代码实现素数表的线性筛法，筛选出所有小于等于 的素数，则横线上应填的代码是( )。</p><pre class=\"ql-syntax\" spellcheck=\"false\">vector&lt;int&gt; linear_sieve(int n) { \nvector&lt;bool&gt; is_prime(n +1, true); \nvector&lt;int&gt; primes; \nis_prime[0] = is_prime[1] = 0; //0和1两个数特殊处理 \nfor (int i = 2; i &lt;= n; ++i) { \nif (is_prime[i]) { \nprimes.push_back(i); \n} \n________________________________ { // 在此处填入代码 \nis_prime[ i * primes[j] ] = 0; \nif (i % primes[j] == 0) \nbreak; \n} \n} \nreturn primes; \n}\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:33:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018966075269963778",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>for (int j = 0; j &lt; primes.size() &amp;&amp; i * primes[j] &lt;= n; j++)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018966075269963778",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>for(int j = sqrt(n); j &lt;= n &amp;&amp; i * primes[j] &lt;= n; j++)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018966075269963778",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>for (int j = 1; j &lt;= sqrt(n); j++)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018966075269963778",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>for(int j = 1; j &lt; n &amp;&amp; i * primes[j] &lt;= n; j++)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018968377993191425",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下列关于排序的说法，正确的是( )。</p>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:42:27",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018968377993191425",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>快速排序是稳定排序</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018968377993191425",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>归并排序通常是稳定的</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018968377993191425",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>插入排序是不稳定排序</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018968377993191425",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>冒泡排序不是原地排序</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018968720059654146",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面代码实现了归并排序。下述关于归并排序的说法中，不正确的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">void merge(vector&lt;int&gt;&amp; arr, vector&lt;int&gt;&amp; temp, int l, int mid, int r) { \nint i = l, j = mid + 1, k = l; \nwhile (i &lt;= mid &amp;&amp; j &lt;= r) { \nif (arr[i] &lt;= arr[j]) temp[k++] = arr[i++]; \nelse temp[k++] = arr[j++]; \n} \nwhile (i &lt;= mid) temp[k++] = arr[i++]; \nwhile (j &lt;= r) temp[k++] = arr[j++]; \nfor (int p = l; p &lt;= r; p++) arr[p] = temp[p]; \n} \nvoid mergeSort(vector&lt;int&gt;&amp; arr, vector&lt;int&gt;&amp; temp, int l, int r) { \nif (l &gt;= r) return; \nint mid = l + (r - l) / 2; \nmergeSort(arr, temp, l, mid); \nmergeSort(arr, temp, mid + 1, r); \nmerge(arr, temp, l, mid, r); \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 16:43:48",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018968720059654146",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>归并排序的平均复杂度是O(nlogn)。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018968720059654146",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>归并排序需要O(n）的额外空间。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018968720059654146",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>归并排序在最坏情况的时间复杂度是O(n^2)。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018968720059654146",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>归并排序适合大规模数据。</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018975968257368066",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下述C++代码实现了快速排序算法，最坏情况的时间复杂度是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int partition(vector&lt;int&gt;&amp; arr, int low, int high) { \nint i = low, j = high; \nint pivot = arr[low]; // 以首元素为基准 \nwhile (i &lt; j) { \nwhile (i &lt; j &amp;&amp; arr[j] &gt;= pivot) j--; \nwhile (i &lt; j &amp;&amp; arr[i] &lt;= pivot) i++; \nif (i &lt; j) swap(arr[i], arr[j]); \n} \nswap(arr[i], arr[low]); \nreturn i; \n} \nvoid quickSort(vector&lt;int&gt;&amp; arr, int low, int high) { \nif (low &gt;= high) return; \nint p = partition(arr, low, high); \nquickSort(arr, low, p - 1); \nquickSort(arr, p + 1, high); \n}\n</pre>",
+            "referenceAnswer": "C",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:12:36",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018975968257368066",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018975968257368066",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>O(logn)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018975968257368066",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>O(n^2)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018975968257368066",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>O(nlogn)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018976142732025857",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面代码尝试在有序数组中查找第一个大于等于 x 的元素位置。如果没有大于等于 x 的元素，返回arr.size() 。以下说法正确的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int lower_bound(vector&lt;int&gt;&amp; arr, int x) { \nint l = 0, r = arr.size(); \nwhile(l &lt; r) { \nint mid = l + (r - l) / 2; \nif(arr[mid] &gt;= x) r = mid; \nelse l = mid + 1; \n} \nreturn l; \n}\n</pre><p><br></p>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:13:18",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018976142732025857",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>上述代码逻辑正确</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018976142732025857",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>上述代码逻辑错误， while 循环条件应该用 l &lt;= r</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018976142732025857",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>上述代码逻辑错误， mid 计算错误</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018976142732025857",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>上述代码逻辑错误，边界条件不对</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018976360265408514",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>小杨要把一根长度为 L 的木头切成 K 段，使得每段长度小于等于 x 。已知每切一刀只能把一段木头分成两段，他用二分法找到满足条件的最小 x （ x 为正整数），则横线处应填写（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">// 判断：在不超过 K 次切割内，是否能让每段长度 &lt;= x \nbool check(int L, int K, int x) { \nint cuts = (L - 1) / x; \nreturn cuts &lt;= K; \n} \n// 二分查找最小可行的 x \nint binary_cut(int L, int K) { \nint l = 1, r = L; \nwhile (l &lt; r) { \nint mid = l + (r - l) / 2; \n________________________________ // 在此处填入代码 \n} \nreturn l; \n} \nint main() { \nint L = 10; // 木头长度 \nint K = 2; // 最多切 K 刀 \ncout &lt;&lt; binary_cut(L, K) &lt;&lt; endl; \nreturn 0; \n}\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:14:10",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018976360265408514",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if (check(L, K, mid)) \nr = mid; \nelse \nl = mid + 1;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018976360265408514",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if (check(L, K, mid)) \nr = mid+1; \nelse \nl = mid + 1;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018976360265408514",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if (check(L, K, mid)) \nr = mid + 1; \nelse \nl = mid - 1;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018976360265408514",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">if (check(L, K, mid)) \nr = mid + 1; \nelse \nl = mid;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018976649043238913",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面给出了阶乘计算的两种方式。以下说法正确的是（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int factorial1(int n) { \nif (n &lt;= 1) return 1; \nreturn n * factorial1(n - 1); \n} \nint factorial2(int n) { \nint acc = 1; \nwhile (n &gt; 1) { \nacc = n * acc; \nn = n - 1; \n} \nreturn acc; \n}\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:15:19",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018976649043238913",
+                    "questionOption": "A",
+                    "questionOptionContent": "<p>上面两种实现方式的时间复杂度相同，都为O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018976649043238913",
+                    "questionOption": "B",
+                    "questionOptionContent": "<p>上面两种实现方式的空间复杂度相同，都为O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018976649043238913",
+                    "questionOption": "C",
+                    "questionOptionContent": "<p>上面两种实现方式的空间复杂度相同，都为O(1)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018976649043238913",
+                    "questionOption": "D",
+                    "questionOptionContent": "<p>函数 factorial1() 的时间复杂度为O(2^n)，函数 factorial2() 的时间复杂度为O(n)</p>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018976862986297346",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>给定有 个任务，每个任务有截止时间和利润，每个任务耗时 1 个时间单位、必须在截止时间前完成，且每个时间槽最多做 1 个任务。为了在规定时间内获得最大利润，可以采用贪心策略，即按利润从高到低排序，尽量安排，则横线处应填写（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">struct Task { \nint deadline; //截止时间 \nint profit; //利润 \n}; \nvoid sortByProfit(vector&lt;Task&gt;&amp; tasks) { \nsort(tasks.begin(), tasks.end(), \n[](const Task&amp; a, const Task&amp; b) { \nreturn a.profit &gt; b.profit; \n}); \n} \nint maxProfit(vector&lt;Task&gt;&amp; tasks) { \nsortByProfit(tasks); \nint maxTime = 0; \nfor (auto&amp; t : tasks) { \nmaxTime = max(maxTime, t.deadline); \n} \nvector&lt;bool&gt; slot(maxTime + 1, false); \nint totalProfit = 0; \nfor (auto&amp; task : tasks) { \nfor (int t = task.deadline; t &gt;= 1; t--) { \nif (!slot[t]) { \n_______________________ //在此处填入代码 \nbreak; \n} \n} \n} \nreturn totalProfit; \n}\n</pre>",
+            "referenceAnswer": "A",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:16:10",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018976862986297346",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">slot[t] = true; \ntotalProfit += task.profit;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018976862986297346",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">slot[t] = false; \ntotalProfit += task.profit;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018976862986297346",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">slot[t] = true; \ntotalProfit = task.profit;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018976862986297346",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">lot[t] = false; \ntotalProfit = task.profit;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977046935887874",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 1,
+            "title": "<p>下面代码实现了对两个数组表示的正整数的高精度加法（数组低位在前），则横线上应填写（ ）。</p><pre class=\"ql-syntax\" spellcheck=\"false\">vector&lt;int&gt; add(vector&lt;int&gt; a, vector&lt;int&gt; b) { \nvector&lt;int&gt; c; \nint carry = 0; \nfor (int i = 0; i &lt; a.size() || i &lt; b.size(); i++) { \nif (i &lt; a.size()) carry += a[i]; \nif (i &lt; b.size()) carry += b[i]; \n_______________________ //在此处填入代码 \n} \nif (carry) c.push_back(carry); \nreturn c; \n}\n</pre>",
+            "referenceAnswer": "B",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:16:53",
+            "questionsOptionList": [
+                {
+                    "questionId": "2018977046935887874",
+                    "questionOption": "A",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">c.push_back(carry / 10); \ncarry %= 10;\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 1
+                },
+                {
+                    "questionId": "2018977046935887874",
+                    "questionOption": "B",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">c.push_back(carry % 10); \ncarry /<span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">10</span><span class=\"hljs-comment\">;</span>\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 2
+                },
+                {
+                    "questionId": "2018977046935887874",
+                    "questionOption": "C",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">c.push_back(carry % 10);\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 3
+                },
+                {
+                    "questionId": "2018977046935887874",
+                    "questionOption": "D",
+                    "questionOptionContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">c.push_back(carry); \ncarry /= 10\n</pre>",
+                    "questionOptionContentType": 1,
+                    "sortNum": 4
+                }
+            ],
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977081874440193",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>数组和链表都是线性表。链表的优点是插入删除不需要移动元素，并且能随机查找。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:17:02",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977130339622913",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>假设函数 gcd() 函数能正确求两个正整数的最大公约数，则下面的 lcm(a，b) 函数能正确找到两个正整数 a 和 b 的最小公倍数。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int lcm(int a, int b) { \nreturn a / gcd(a, b) * b; \n}\n</pre>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 2.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:17:13",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977246744141825",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>在单链表中，已知指针 p 指向要删除的结点（非尾结点），想在删除 p ，可行做法是用 p-&gt;next 覆盖 p 的值与 next ，然后删除 p-&gt;next 。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:17:41",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977406937194498",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>在求解所有不大于 n 的素数时，线性筛法（欧拉筛）都应当优先于埃氏筛法使用，因为线性筛法的时间复杂度为O(n)，低于埃氏筛法的O(n log log n)。 </p><p>。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:18:19",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977464738897921",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>二分查找仅适用于有序数据。若输入数据无序，当仅进行一次查找时，为了使用二分而排序通常不划算。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:18:33",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977504710615041",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>通过在数组的第一个、最中间和最后一个这3个数据中选择中间值作为枢轴（比较基准），快速排序算法可降低落入最坏情况的概率。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:18:43",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977546985005058",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>贪心算法在每一步都做出当前看来最优的局部选择，并且一旦做出选择就不再回溯；而分治算法将问题分解为若干子问题分别求解，再将子问题的解合并得到原问题的解。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:18:53",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977677402693634",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>以下 fib 函数计算第 n 项斐波那契数（ fib(0)=0 , fib(1)=1 ），其时间复杂度为为O(n)。</p><pre class=\"ql-syntax\" spellcheck=\"false\">int fib(int n) { \nif (n &lt;= 1) return n; \nreturn fib(n-1) + fib(n-2); \n}\n</pre>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:19:24",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977707916255234",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>递归函数一定要有终止条件，否则可能会造成栈溢出。</p>",
+            "referenceAnswer": "1",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:19:31",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018977756045893633",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 3,
+            "title": "<p>使用贪心算法解决问题时，通过对每一步求局部最优解，最终一定能找到全局最优解。</p>",
+            "referenceAnswer": "0",
+            "analyzeContent": null,
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:19:42",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": null
+        },
+        {
+            "id": "2018978132258185217",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 4,
+            "title": "<p>编程题 <strong>1</strong></p><p><strong>试题名称</strong>：数字移动</p><p><strong>时间限制</strong>：1.0 s</p><p><strong>内存限制</strong>：512.0 MB</p><p><strong>3.1.1&nbsp;&nbsp;&nbsp;&nbsp;</strong>题目描述</p><p>\t小 A 有一个包含 N 个正整数的序列A =&nbsp;{A1&nbsp;, A2, … SAN} ，序列 A 恰好包含N/2&nbsp;对不同的正整数&nbsp;。形式化地&nbsp;，对于任意&nbsp;1&nbsp;≤ i&nbsp;≤&nbsp;N&nbsp;，存在<strong>唯一</strong>一个 j 满足&nbsp;1&nbsp;<img src=\"//:0\">&nbsp;j&nbsp;<img src=\"//:0\">&nbsp;N, i&nbsp;头j, Ai&nbsp;=&nbsp;Aj。</p><p>小 A 希望每对相同的数字在序列中相邻&nbsp;，为了实现这一目的&nbsp;，小 A 每次操作会选择任意&nbsp;i&nbsp;(1&nbsp;≤ i&nbsp;≤&nbsp;N)&nbsp;，将当前序列的第 <img src=\"//:0\">&nbsp;个数字移动到任意位置&nbsp;，并花费对应数字的体力&nbsp;。</p><p>例如&nbsp;，假设序列 A&nbsp;=&nbsp;{1&nbsp;, 2, 1&nbsp;, 3, 2, 3} ，小 A&nbsp;可以选择 i&nbsp;=&nbsp;2 ，将 A2&nbsp;=&nbsp;2 移动到 A3&nbsp;<img src=\"//:0\">&nbsp;1&nbsp;的后面&nbsp;，此时序列变为{1&nbsp;, 1&nbsp;, 2, 3, 2, 3} ，耗费 2&nbsp;点体力&nbsp;。小 A 也可以选择 i&nbsp;=&nbsp;3 ，将 A3&nbsp;<img src=\"//:0\">&nbsp;1&nbsp;移动到A2&nbsp;=&nbsp;2&nbsp;的前面&nbsp;，此时序列变为</p><p>{1&nbsp;,&nbsp;1&nbsp;, 2, 3, 2, 3}&nbsp;，花费&nbsp;1&nbsp;点体力&nbsp;。</p><p><br></p><p>小 A 可以执行任意次操作&nbsp;，但他希望自己每次花费的体力尽可能小&nbsp;。小&nbsp;A 希望你能帮他计算出一个<strong>最小</strong>的 <img src=\"//:0\">&nbsp;，使得他能够在每次花费的体力均不超过 <img src=\"//:0\">&nbsp;的情况下令每对相同的数字在序列中相邻。</p><p><strong>3.1.2&nbsp;&nbsp;&nbsp;&nbsp;</strong>输入格式</p><p>第一行一个正整数 N&nbsp;，代表序列长度&nbsp;，保证 N 为偶数。</p><p>第二行包含 N 个正整数 A1&nbsp;, A2&nbsp;, ·&nbsp;&nbsp;…,AN&nbsp;，代表序列 A&nbsp;。且对于任意 1&nbsp;≤ i&nbsp;≤ N&nbsp;，存在唯一一个j&nbsp;满足1&nbsp;≤&nbsp;j ≤ N,&nbsp;i&nbsp;<img src=\"//:0\">&nbsp;j,&nbsp;Ai&nbsp;<img src=\"//:0\">&nbsp;Aj&nbsp;。</p><p>数据保证小 A 至少需要执行一次操作。</p><p><strong>3.1.3&nbsp;&nbsp;&nbsp;&nbsp;</strong>输出格式</p><p>输出一行&nbsp;，代表满足要求的 <img src=\"//:0\">&nbsp;的最小值。</p><p><br></p><p><br></p>",
+            "referenceAnswer": "",
+            "analyzeContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">#include &lt;iostream&gt; \nusing namespace std; \nconst int N = 100010; \nint a[N]; \nint b[N]; \nint pos; \nint main(){ \nint n; \ncin &gt;&gt; n; \nfor(int i = 0; i &lt; n; i++){ \ncin &gt;&gt; a[i]; \n} \nint left = 1, right = 1e6, ans = 1e6; \nwhile(left &lt;= right){ \nint mid = (left + right) / 2; \nbool possible = true; \npos = 0; \nfor(int i = 0; i &lt; n; i++){ \nif(a[i]&gt;mid){ \nb[pos++]=a[i]; \n} \n} \nfor(int i = 0; i &lt; pos; i += 2){ \nif(b[i]!=b[i+1]){ \npossible = false; \nbreak; \n} \n} \nif(possible){ \nans = mid; \nright = mid - 1; \n} else { \nleft = mid + 1; \n} \n} \ncout &lt;&lt; ans &lt;&lt; endl; \nreturn 0; \n}\n</pre>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 25.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:21:12",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 0,
+                "executionMemoryLimit": 0,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "",
+                        "testCaseOutput": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2018980012061351937",
+            "examinationPaperTitle": "202512GESP C++五级试卷",
+            "type": 4,
+            "title": "<p>编程题&nbsp;<strong>2</strong></p><p>.&nbsp;&nbsp;<strong>试题名称</strong>：相等序列</p><p>.&nbsp;&nbsp;<strong>时间限制</strong>：&nbsp;1.0 s</p><p>.&nbsp;&nbsp;<strong>内存限制</strong>：512.0 MB</p><p><strong>3.2.1&nbsp;&nbsp;&nbsp;&nbsp;</strong>题目描述</p><p>小 A 有一个包含 N 个正整数的序列A =&nbsp;{A1&nbsp;, A2&nbsp;, · ·&nbsp;&nbsp;,AN}&nbsp;。小 A 每次可以花费&nbsp;1 个金币执行以下任意一种操作：</p><p>&nbsp;选择序列中一个正整数 Ai&nbsp;（&nbsp;1&nbsp;≤&nbsp;i&nbsp;≤ N）&nbsp;，将 Ai&nbsp;变为 Ai&nbsp;*&nbsp;P&nbsp;，P 为任意质数；</p><p>&nbsp;选择序列中一个正整数 Ai&nbsp;（&nbsp;1≤&nbsp;&nbsp;i&nbsp;≤ N）&nbsp;，将 Ai&nbsp;变为<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAARCAYAAAAG/yacAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADkElEQVQoFQGFA3r8AAAAAAAAAAAAAAAAAAAAAAAAAAAALi4uJzQ0NDsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADMzMwUFBQVr////MwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA+vr6I/////cAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAADMzMwoEBAQw////sP///xMAAAACAAAAAi0tLREAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA/v7+LwMDAy3+/v4i////EDMzMwP7+/sGBAQEIgAAAM0AAAAAAAAAAAIAAAAAAAAAAC4uLgsDAwMg+vr6hv///6ABAQER7e3tAwMDAzMBAQH6AAAAAAAAAAAAAAAABAAAAAAuLi4LAwMDYv7+/gMFBQX6////LQAAAPIQEBAtAQEBFP///wQAAAAAAAAAAAAAAAADAAAAAOnp6f0MDAzX/Pz8ztPT0/cRERHpBQUFte/v7+YJCQklAgIC/+bm5twAAAAAAAAAAAExMTE5AQEBRgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsAAAD7AAAA6gAAAADOzs6BBAEBARkAAAA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACcnJw0FBQUcAAAA+gUFBfz5+fnt1tbW9AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAACQkJGAYGBqIGBgYuAAAAOQgICJEoKCgTAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAADrAAAA7M7Ozq/9/f2zAAAAFAYGBg4AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAP///xYAAADxLCwsFwQEBEoAAADA0tLS5AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAQEOQAAAOoEBAQz/Pz8xtLS0toAAAD/AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAu////q9DQ0MMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAMDAwTgAAADsBAQEiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBViNDORu3MAAAAAElFTkSuQmCC\">，P 为任意质数&nbsp;，要求 Ai&nbsp;能整除 P。</p><p>小 A 想请你帮他计算出令序列中所有整数都相同&nbsp;，最少需要花费多少金币。</p><p><strong>3.2.2&nbsp;&nbsp;&nbsp;&nbsp;</strong>输入格式</p><p>第一行一个正整数N&nbsp;，含义如题面所⽰&nbsp;。</p><p>第二行包含 N 个正整数 A1&nbsp;, A2&nbsp;, ·&nbsp;&nbsp;… ,AN ，代表序列 A。</p><p><strong>3.2.3&nbsp;&nbsp;&nbsp;&nbsp;</strong>输出格式</p><p>输出一行&nbsp;，代表最少需要花费的金币数量。</p><p><strong>3.2.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>样例</p><p><strong>3.2.4.1&nbsp;&nbsp;&nbsp;&nbsp;</strong>输入样例</p><p>5</p><p>10&nbsp;&nbsp;6&nbsp;&nbsp;35&nbsp;&nbsp;105&nbsp;&nbsp;42</p><p><strong>3.2.4.2&nbsp;&nbsp;&nbsp;&nbsp;</strong>输出样例</p><p>8</p><p><strong>3.2.5&nbsp;&nbsp;&nbsp;&nbsp;</strong>数据范围</p><p>对于60%的测试点&nbsp;，保证 1&nbsp;≤ N, Ai&nbsp;≤&nbsp;100&nbsp;。对于所有测试点&nbsp;，保证&nbsp;1&nbsp;≤ N, Ai&nbsp;≤&nbsp;105&nbsp;。</p><p><br></p><p><br></p>",
+            "referenceAnswer": null,
+            "analyzeContent": "<pre class=\"ql-syntax\" spellcheck=\"false\">#include&nbsp;&lt;iostream&gt;&nbsp;using&nbsp;namespace&nbsp;&nbsp;std&nbsp;;\nconst&nbsp;&nbsp;int&nbsp;&nbsp;N&nbsp;&nbsp;=&nbsp;&nbsp;1θθθ1θ&nbsp;;\nint&nbsp;num&nbsp;[N&nbsp;]&nbsp;[2θ]&nbsp;;\nint&nbsp;n&nbsp;,&nbsp;&nbsp;a&nbsp;[N&nbsp;]&nbsp;;\nvoid&nbsp;&nbsp;calc_prime_factor(int&nbsp;&nbsp;x&nbsp;){&nbsp;for(int&nbsp;&nbsp;i=2;i*i&lt;=x;i++){\nif(x%i==θ&nbsp;){\nint&nbsp;&nbsp;cnt=θ&nbsp;;\nwhile(x%i==θ&nbsp;){\nx/=i;\ncnt++;\n}\nnum&nbsp;[i&nbsp;]&nbsp;[cnt]++;\n}\n}\nif(x&gt;1){\n\tnum&nbsp;[x&nbsp;]&nbsp;[1&nbsp;]++;&nbsp;}\n}\nint&nbsp;&nbsp;main(){\nscanf(\"%d&nbsp;\"&nbsp;,&amp;n)&nbsp;;\nfor(int&nbsp;&nbsp;i=1;i&lt;=n;i++){\nscanf(\"%d&nbsp;\"&nbsp;,&amp;a&nbsp;[i&nbsp;])&nbsp;;\n\tcalc_prime_factor(a&nbsp;[i&nbsp;])&nbsp;;&nbsp;}\nlong&nbsp;&nbsp;long&nbsp;ans=θ&nbsp;;\nfor(int&nbsp;&nbsp;i=2;i&lt;1θθθθ1;i++){\nint&nbsp;pos&nbsp;&nbsp;=&nbsp;&nbsp;θ&nbsp;;\nfor(int&nbsp;&nbsp;j=θ;j&lt;2θ;j++){\npos&nbsp;&nbsp;+=&nbsp;num&nbsp;[i&nbsp;]&nbsp;[j]&nbsp;;\n}\nnum&nbsp;[i&nbsp;]&nbsp;[θ&nbsp;]=n-pos&nbsp;;\nint&nbsp;median_exponent=θ&nbsp;;\npos&nbsp;&nbsp;=&nbsp;&nbsp;θ&nbsp;;\nfor(int&nbsp;&nbsp;j=θ;j&lt;2θ;j++){\npos&nbsp;&nbsp;+=&nbsp;num&nbsp;[i&nbsp;]&nbsp;[j]&nbsp;;\nif(pos*2&gt;=n&nbsp;){\nmedian_exponent=j&nbsp;;\nbreak;\n}\n}\nfor(int&nbsp;&nbsp;j=θ;j&lt;2θ;j++){\n\tans+=num&nbsp;[i&nbsp;]&nbsp;[j]*abs(j-median_exponent)&nbsp;;&nbsp;}\n}\nprintf(\"%lld\\n&nbsp;\"&nbsp;,ans)&nbsp;;&nbsp;}\n</pre>",
+            "analyzeVideo": null,
+            "examinationPaperId": "2018617055041282049",
+            "markStatus": 0,
+            "stemId": null,
+            "stemContent": null,
+            "score": 0.0,
+            "topSubjectDetailId": "1972940163378507778",
+            "topSubjectDetailName": "C++",
+            "scoreCriteria": null,
+            "createTime": "2026-02-04 17:28:40",
+            "questionsOptionList": null,
+            "questionsKnowledgePointList": null,
+            "questionsDetailDTO": {
+                "executionTimeLimit": 0,
+                "executionMemoryLimit": 0,
+                "inputFormat": "",
+                "outputFormat": "",
+                "testPointList": [
+                    {
+                        "example": 0,
+                        "testCaseInput": "",
+                        "testCaseOutput": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
