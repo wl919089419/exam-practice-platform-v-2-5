@@ -15,6 +15,12 @@ declare global {
   }
 }
 
+import { loader } from '@monaco-editor/react';
+
+// Configure Monaco loader to use local files if possible, or fallback to a reliable CDN
+// For strict local offline usage, users should copy `node_modules/monaco-editor/min/vs` to `public/monaco/vs`
+loader.config({ paths: { vs: '/monaco/vs' } });
+
 export default function ExamPractice() {
   const { category, subject, level, filename } = useParams();
   const location = useLocation();
@@ -118,7 +124,9 @@ export default function ExamPractice() {
     async function initPyodide() {
       try {
         if (window.loadPyodide && !pyodide) {
-          const py = await window.loadPyodide({ indexURL: '/pyodide' });
+          const py = await window.loadPyodide({
+            indexURL: "/pyodide/"
+          });
           
           // Register input module once
           py.registerJsModule("js_input", {

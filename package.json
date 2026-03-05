@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "postinstall": "node -e \"const fs = require('fs'); const path = require('path'); const src = path.join('node_modules', 'monaco-editor', 'min', 'vs'); const dest = path.join('public', 'monaco', 'vs'); if (fs.existsSync(src)) { fs.mkdirSync(path.dirname(dest), { recursive: true }); fs.cpSync(src, dest, { recursive: true }); console.log('Copied monaco-editor files to public/monaco/vs'); } else { console.warn('monaco-editor not found, skipping copy'); }\""
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
@@ -27,6 +28,7 @@
     "error-stack-parser": "^2.1.4",
     "express": "^4.21.2",
     "lucide-react": "^0.546.0",
+    "monaco-editor": "^0.55.1",
     "motion": "^12.23.24",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
